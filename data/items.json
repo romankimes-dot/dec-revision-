@@ -1,0 +1,232 @@
+{
+ "version": "2026-10-28",
+ "source": "docs/PLAN.md section 2 ; valeurs vérifiées dans docs/VERIF.md (n° de ligne entre crochets)",
+ "items": [
+  {
+   "id": "nomination",
+   "titre": "Nomination du CAC et seuils",
+   "prof": "CAC",
+   "e1": false,
+   "freq": "6/14 + 2024-05, 2025-11, 2026-05",
+   "dire": "CAC obligatoire si 2 seuils sur 3 dépassés à la clôture : 5 M€ de bilan, 10 M€ de CA HT, 50 salariés (D. 221-5, exercices ouverts depuis le 1er janvier 2024 ; avant : 4 / 8 / 50). Petit groupe : la tête désigne un CAC si l'ensemble dépasse ces seuils (L. 821-43, ex L. 823-2-2 ; D. 821-171) ; filiales significatives : 2,5 M€ / 5 M€ / 25 (D. 821-172). Dispense si la tête est contrôlée par une entité dotée d'un CAC. En SARL sous les seuils, des associés représentant 1/10 du capital peuvent demander sa désignation en justice (L. 223-35).",
+   "ou": "V2 brochure CNCC ; Mémento Audit ; tableau des seuils",
+   "verif": [
+    3,
+    35,
+    36,
+    37,
+    40,
+    26
+   ]
+  },
+  {
+   "id": "mandat",
+   "titre": "Durée et fin du mandat",
+   "prof": "CAC",
+   "e1": true,
+   "freq": "6/14",
+   "dire": "Six exercices ; le mandat expire après l'assemblée qui statue sur les comptes du 6e (L. 821-44, ex L. 823-3). Trois exercices si nomination volontaire ou petit groupe (L. 821-46, ex L. 823-3-2), mission ALPE (L. 821-57, NEP 911). Un mandat en cours va à son terme. Suppléant seulement si le titulaire est une personne physique ou une société unipersonnelle (L. 821-40). Récusation par des associés détenant 5 % (L. 821-49).",
+   "ou": "V2 brochure CNCC ; Mémento Audit",
+   "verif": [
+    6,
+    7,
+    8,
+    46,
+    38,
+    28,
+    25
+   ]
+  },
+  {
+   "id": "convocation",
+   "titre": "Convocation du CAC aux assemblées",
+   "prof": "CAC",
+   "e1": false,
+   "freq": "10/14",
+   "dire": "Le CAC est convoqué à toute assemblée et à toute réunion de l'organe qui arrête les comptes, par LRAR (L. 821-65, ex L. 823-17 ; D. 821-185). Défaut de convocation : délit, 2 ans et 30 000 € (L. 821-6, 1°) ; entrave : 5 ans et 75 000 € (L. 821-6, 3°). Pas de nullité automatique des délibérations (Cass. com. 10 févr. 2021, n° 18-24.302). Approbation des comptes dans les 6 mois de la clôture.",
+   "ou": "V2 brochure CNCC ; Mémento Sociétés",
+   "verif": [
+    17,
+    13,
+    67,
+    50
+   ]
+  },
+  {
+   "id": "rapports",
+   "titre": "Les rapports du CAC",
+   "prof": "CAC",
+   "e1": false,
+   "freq": "11/14",
+   "dire": "Rapport sur les comptes (L. 821-53, ex L. 823-9) : opinion sans réserve, avec réserve, refus ou impossibilité, justification des appréciations (NEP 700, 705). Vérifications spécifiques (L. 821-54, NEP 9510). Rapport spécial sur les conventions réglementées. Rapports sur opérations : suppression du DPS, réduction de capital, transformation, acompte sur dividendes. Jamais de rapport complet à rédiger en copie : on en critique un.",
+   "ou": "Fiche 1 page « rapports » ; V1 NEP",
+   "verif": [
+    9,
+    10,
+    19,
+    107
+   ]
+  },
+  {
+   "id": "revelation",
+   "titre": "Irrégularités, révélation, dépôt des comptes",
+   "prof": "CAC",
+   "e1": true,
+   "freq": "7/14 ; dépôt 4/14",
+   "dire": "L. 821-10 (ex L. 823-12) : les irrégularités sont signalées à la plus prochaine assemblée ; les faits délictueux sont révélés au procureur ; obligations LCB-FT. Non-révélation : 5 ans et 75 000 € (L. 821-9). Le non-dépôt des comptes est une contravention (R. 247-3), à signaler, pas à révéler. Dépôt au greffe dans le mois de l'approbation, 2 mois par voie électronique.",
+   "ou": "V2 brochure CNCC ; Mémento Audit",
+   "verif": [
+    11,
+    12,
+    52,
+    53,
+    51
+   ]
+  },
+  {
+   "id": "independance",
+   "titre": "Indépendance et déontologie",
+   "prof": "MIXTE",
+   "e1": true,
+   "freq": "10/14",
+   "dire": "CAC : incompatibilités (L. 821-27), services interdits (L. 821-28), délais de viduité (L. 821-32 et L. 821-33), rotation dans les EIP (L. 821-34). Code de déontologie CAC : art. 3 intégrité, 4 impartialité, 5 indépendance, 9 secret, 18 services interdits. EC : ordonnance de 1945 art. 21 et 22 ; code de déontologie art. 145 (indépendance).",
+   "ou": "V4 déontologie ; V2",
+   "verif": [
+    22,
+    23,
+    24,
+    33,
+    34,
+    102,
+    103,
+    104
+   ]
+  },
+  {
+   "id": "probants",
+   "titre": "Démarche d'audit, assertions, éléments probants",
+   "prof": "CAC",
+   "e1": false,
+   "freq": "7/14 ; démarche 6/14",
+   "dire": "Assertions : existence, droits et obligations, exhaustivité, exactitude, séparation des exercices, classification, évaluation, présentation. Techniques (NEP 500) : inspection, observation physique, confirmation directe (NEP 505), recalcul, réexécution, procédures analytiques (NEP 520), demandes d'information. Risques : NEP 315 et 330 ; seuil : NEP 320 ; groupe et acquisition de filiale : NEP 600.",
+   "ou": "V1 NEP",
+   "verif": [
+    107
+   ]
+  },
+  {
+   "id": "lcbft",
+   "titre": "Lutte anti-blanchiment",
+   "prof": "MIXTE",
+   "e1": true,
+   "freq": "7/14 + mai 2026",
+   "dire": "EC et CAC sont assujettis (CMF L. 561-2). Vigilance allégée, standard ou renforcée ; identifier le client et le bénéficiaire effectif ; examen renforcé ; déclaration de soupçon à Tracfin (L. 561-15), sans en informer le client. Normes : NEP 9605 pour le CAC, NPLAB pour l'EC (arrêté du 7 décembre 2020). Pays de la liste grise du GAFI : vigilance renforcée.",
+   "ou": "V1 NEP 9605 ; V5 NPLAB ; V6 extraits CMF",
+   "verif": [
+    105,
+    106,
+    108
+   ]
+  },
+  {
+   "id": "missions",
+   "titre": "Lettre de mission et autres missions",
+   "prof": "MIXTE",
+   "e1": true,
+   "freq": "7/14 ; SACC 9/14",
+   "dire": "EC : acceptation (code art. 150), lettre de mission (art. 151), devoir de conseil (art. 155). Normes OEC : NP 2300 présentation, 2400 examen limité, 2910 audit PE, 3100 attestations, 3400 prévisionnels, 4410 compilation. CAC : les autres missions sont limitées par les services interdits (L. 821-28) ; un même cabinet ne peut pas tenir la comptabilité et certifier les comptes.",
+   "ou": "V4 ; V5 référentiel OEC ; Mémento Audit",
+   "verif": [
+    103,
+    104,
+    105
+   ]
+  },
+  {
+   "id": "responsabilite",
+   "titre": "Responsabilité",
+   "prof": "MIXTE",
+   "e1": true,
+   "freq": "8/14",
+   "dire": "CAC : responsabilité civile pour faute (obligation de moyens) (L. 821-37), prescription 3 ans à compter du fait dommageable ou, s'il a été dissimulé, de sa révélation (L. 821-38, renvoi à L. 225-254) ; pénale (L. 821-9 et suivants) ; disciplinaire devant la H2A. EC : responsabilité contractuelle, obligation de moyens, devoir de conseil.",
+   "ou": "Mémento Audit ; V4",
+   "verif": [
+    21,
+    30
+   ]
+  },
+  {
+   "id": "conventions",
+   "titre": "Conventions réglementées",
+   "prof": "MIXTE",
+   "e1": false,
+   "freq": "6/14",
+   "dire": "SA : autorisation préalable du conseil, information du CAC, rapport spécial, vote de l'assemblée sans l'intéressé (L. 225-38 et s.). SARL : rapport et vote a posteriori (L. 223-19). SAS : rapport du CAC et approbation (L. 227-10), SASU : simple mention au registre. Conventions courantes conclues à des conditions normales : libres. Conventions interdites : prêts, découverts, cautions au profit des dirigeants personnes physiques (L. 225-43, L. 223-21).",
+   "ou": "Mémento Sociétés ; V1 NEP 9510",
+   "verif": [
+    56
+   ]
+  },
+  {
+   "id": "apports",
+   "titre": "Commissaire aux apports, fusion, transformation",
+   "prof": "CAC",
+   "e1": false,
+   "freq": "7/14 + mai 2026",
+   "dire": "Apport en nature : commissaire aux apports (SA L. 225-8 et L. 225-147, SAS L. 227-1). En SARL, dispense si aucun apport ne dépasse 30 000 € et si leur total n'excède pas la moitié du capital (L. 223-9, D. 223-6-1). Il conclut que la valeur des apports n'est pas surévaluée. Fusion : commissaire à la fusion (L. 236-10), dispense à l'unanimité. Transformation en SA ou SAS : commissaire à la transformation (L. 224-3).",
+   "ou": "Mémento Audit ; Mémento Sociétés",
+   "verif": [
+    59,
+    60,
+    61
+   ]
+  },
+  {
+   "id": "micro",
+   "titre": "Micro-entreprise et revenus professionnels (chiffres 2026)",
+   "prof": "EC",
+   "e1": false,
+   "freq": "5/14 + micro 3/14",
+   "dire": "Seuils 2026-2028 : 203 100 € pour les ventes, 83 600 € pour les services et les BNC (CGI 50-0 et 102 ter). Abattements forfaitaires 71 %, 50 %, 34 %, minimum 305 €. Les plus-values restent en droit commun. Le régime micro-social n'est pas ouvert à l'expert-comptable (CAVEC). IR-PME 2026 : 18 %, 25 % pour les ESUS.",
+   "ou": "Mémento Fiscal ; tableau des seuils",
+   "verif": [
+    72,
+    73,
+    74,
+    78,
+    79
+   ]
+  },
+  {
+   "id": "dividendes",
+   "titre": "Dividendes et acompte",
+   "prof": "MIXTE",
+   "e1": false,
+   "freq": "3/14 + nov. 2025 ; AG 10/14",
+   "dire": "Acompte : bilan en cours ou en fin d'exercice certifié par un CAC, faisant apparaître un bénéfice ; l'acompte ne peut l'excéder (L. 232-12, al. 2). Décision de l'organe de direction (en SAS celui désigné par les statuts), pas de l'assemblée (R. 232-17). Réserve légale : 5 % du bénéfice jusqu'à 10 % du capital (L. 232-10). Dividendes fictifs : 5 ans et 375 000 € (L. 242-6). Fiscalité : PFU 12,8 % + prélèvements sociaux, abattement de 40 % seulement sur option pour le barème.",
+   "ou": "Mémento Sociétés ; Mémento Fiscal",
+   "verif": [
+    47,
+    48,
+    49,
+    80
+   ]
+  },
+  {
+   "id": "plusvalues",
+   "titre": "Plus-values professionnelles : le réflexe « 5 ans »",
+   "prof": "EC",
+   "e1": false,
+   "freq": "7/14 ; cession 8/14",
+   "dire": "Exonérations des plus-values professionnelles : art. 151 septies (recettes ≤ 250 000 € ventes / 90 000 € services, totale ; dégressive jusqu'à 350 000 / 126 000 €), art. 238 quindecies (valeur ≤ 500 000 €, dégressive jusqu'à 1 M€), art. 151 septies A (départ à la retraite dans les 2 ans). Toutes exigent 5 ans d'activité : sans 5 ans, aucune exonération (CE 13 juin 2018, n° 401942).",
+   "ou": "Mémento Fiscal",
+   "verif": [
+    86,
+    87,
+    88,
+    89,
+    90
+   ]
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "DEC Épreuve 2 — Révision légale et contractuelle",
+  "short_name": "DEC UE2",
+  "description": "Préparation de l'épreuve 2 du DEC : parcours, chrono à jalons, index, récitation, statistiques",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#14532d",
+  "theme_color": "#14532d",
+  "lang": "fr",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

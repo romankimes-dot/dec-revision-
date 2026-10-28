@@ -1,0 +1,29 @@
+{
+  "version": "2026-10-28",
+  "source": "docs/PLAN.md sections 0.3 et 6 ; calendrier SIEC 2027",
+  "dates": [
+    {"d": "2026-11-10T14:00", "t": "Épreuve 2 (novembre 2026)"},
+    {"d": "2027-01-08T10:00", "t": "Résultats de novembre : calcul de décision"},
+    {"d": "2027-01-11T09:00", "t": "Ouverture des inscriptions pour mai 2027"},
+    {"d": "2027-02-28T17:00", "t": "Clôture des inscriptions (épreuves 1, 2 et mémoire)"},
+    {"d": "2027-03-01T10:00", "t": "Dépôt des mémoires (jusqu'au 8 mars 16h)"},
+    {"d": "2027-04-15T09:00", "t": "Gel de la documentation"},
+    {"d": "2027-05-04T14:00", "t": "Épreuve 2 (mai 2027)"},
+    {"d": "2027-07-02T10:00", "t": "Résultats de mai 2027"}
+  ],
+  "semaine_type": "10 à 12 h par semaine : lundi et jeudi 1h30 d'épreuve 2 (brique, drills, 2 questions au gabarit) ; 4 h de mémoire (mercredi soir 1h30, dimanche matin 2h30) ; samedi 14h : annale complète les semaines d'annale, sinon mémoire ou brique.",
+  "phases": [
+    {"id": "phase0", "debut": "2026-11-12", "fin": "2026-11-30", "titre": "Phase 0 — Diagnostic", "e2h": 4,
+     "taches": ["Reconstituer la copie de novembre, dégager les 5 causes principales (Outils › Débrief)", "Faire coder les sujets nov. 2024 et mai 2026 pour compléter les statistiques", "30 novembre : recaler la carte des notions sur ton débrief", "Acheter Mémento Comptable, Mémento Associations, ouvrage CNOEC", "Pas d'annale ce mois-ci"]},
+    {"id": "phase1", "debut": "2026-12-01", "fin": "2027-02-28", "titre": "Phase 1 — Les briques", "e2h": 6, "annales": ["2024-05", "2023-11", "2024-11"],
+     "briques": ["Nomination, mandat, seuils, groupes", "Rapports, NEP 700 / 705 / 9510, vérifications spécifiques", "Irrégularités, révélation, alerte, LCB-FT", "Assertions, NEP 315 / 330 / 500 / 600, critique de documents", "AG, dividendes, dépôt, perte de la moitié du capital", "Conventions, capital, apports, transformation, fusion", "Associations", "PCG : immobilisations, provisions, annexe, changements", "Déontologie, responsabilité, normes de l'Ordre"],
+     "taches": ["Chaque brique : 20 lignes d'index, 15 drills, 3 questions au gabarit, 1 critique de document", "Annales : mai 2024 (semaine 2), nov. 2023 (semaine 5), nov. 2024 (semaine 9)", "8 janvier : résultats, écran Décision, question écrite au SIEC", "Inscription avant le 28 février 17h", "Fin janvier : page loi de finances 2027 (seuils, taux, recodification TVA)"]},
+    {"id": "phase2", "debut": "2027-03-01", "fin": "2027-03-31", "titre": "Phase 2 — Formes et fiscalité", "e2h": 7, "annales": ["2022-11", "2021-11"],
+     "briques": ["SCI, LMNP, SCM, SEL", "Groupes, consolidation, NEP 600, intégration fiscale", "Plus-values, cession, enregistrement", "Social, contrôle URSSAF", "Difficultés, continuité d'exploitation", "Durabilité (principes), IFRS de base"],
+     "taches": ["Annales nov. 2022 et nov. 2021", "Mémento Fiscal 2027 : transférer les onglets", "Décision Mémento Sociétés civiles"]},
+    {"id": "phase3", "debut": "2027-04-01", "fin": "2027-04-25", "titre": "Phase 3 — Répétitions générales", "e2h": 8, "annales": ["2021-05", "2025-05"],
+     "taches": ["15 avril : gel de la documentation", "Annale mai 2021 (4 dossiers) puis mai 2025 à l'aveugle (cible auto-notée ≥ 12)", "Si l'épreuve 1 est à repasser : simulation le matin de la seconde annale", "Semaine du 19 : items par cœur 15 → 25, test d'écriture 60 min"]},
+    {"id": "phase4", "debut": "2027-04-26", "fin": "2027-05-04", "titre": "Phase 4 — Affûtage", "e2h": 3,
+     "taches": ["3 séances de 45 min (4 questions chrono)", "Sac fermé le 2 mai", "4 mai : même protocole que le 10 novembre"]}
+  ]
+}

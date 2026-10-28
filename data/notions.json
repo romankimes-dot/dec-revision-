@@ -1,0 +1,600 @@
+{
+ "version": "2026-10-28",
+ "source": "docs/PLAN.md section 2",
+ "notions": [
+  {
+   "id": "01-nomination-cac",
+   "theme": "nomination_CAC + seuils",
+   "star": true,
+   "e1": false,
+   "sessions": 6,
+   "freq": "6 (16) + 2024-05, 2025-11, 2026-05",
+   "niveau": "A",
+   "nov": "A",
+   "mai": "A",
+   "dire": "2 seuils sur 3 à la clôture : 5 M€ bilan / 10 M€ CA / 50 (D. 221-5, exercices ouverts ≥ 1/1/2024 ; avant 4/8/50) ; textes : L. 221-9, L. 223-35, L. 225-218, L. 227-9-1 ; petit groupe L. 821-43 (ex 823-2-2), seuils cumulés (D. 821-171), filiales significatives 2,5 / 5 / 25 (D. 821-172) ; exemption si la tête est contrôlée par une entité dotée d'un CAC ; effectif L. 130-1 CSS ; désignation judiciaire 1/10 du capital ; à défaut, L. 821-47 : « tout membre de l'organe »",
+   "ou": "Brochure CNCC ; Mémento Audit ; tableau des seuils",
+   "verif": [
+    3,
+    25,
+    27,
+    35,
+    36,
+    37,
+    39,
+    40
+   ]
+  },
+  {
+   "id": "02-mandat-duree-cessation",
+   "theme": "mandat_duree_cessation",
+   "star": true,
+   "e1": false,
+   "sessions": 6,
+   "freq": "6 (7)",
+   "niveau": "A",
+   "nov": "A",
+   "mai": "A",
+   "dire": "6 exercices, expire après l'AG sur les comptes du 6e (L. 821-44, ex 823-3) ; 3 exercices si volontaire ou petit groupe (L. 821-46, ex 823-3-2) ; ALPE L. 821-57, NEP 911 ; mandat en cours jusqu'à son terme ; sortie si 2 seuils non dépassés 2 exercices (D. 221-5 al. 3) ; suppléant facultatif sauf personne physique / unipersonnelle (L. 821-40 I) ; récusation ≥ 5 % L. 821-49 ; exercice ouvert avant 2024 = anciens seuils",
+   "ou": "Brochure CNCC ; Mémento Audit",
+   "verif": [
+    6,
+    8,
+    25,
+    28,
+    38,
+    41,
+    46
+   ]
+  },
+  {
+   "id": "03-ag-convocation-approbation",
+   "theme": "AG_convocation_approbation",
+   "star": true,
+   "e1": false,
+   "sessions": 10,
+   "freq": "10 (19)",
+   "niveau": "A",
+   "nov": "A",
+   "mai": "A",
+   "dire": "Convocation du CAC à toute assemblée et réunion arrêtant les comptes (L. 821-65, ex 823-17 ; LRAR D. 821-185) ; délit 2 ans / 30 000 € (L. 821-6 1°), entrave 5 ans / 75 000 € (3°) ; pas de nullité du seul défaut de convocation (Com. 10 févr. 2021, n° 18-24.302) ; nullité à défaut de désignation L. 821-5 ; approbation 6 mois : L. 225-100, L. 223-26, L. 227-9 (SASU seulement) ; convocation 15 jours (R. 225-69 ; R. 223-20) ; ordre du jour L. 225-105",
+   "ou": "Mémento Sociétés ; brochure CNCC",
+   "verif": [
+    13,
+    15,
+    17,
+    50,
+    63,
+    64,
+    67
+   ]
+  },
+  {
+   "id": "04-rapport-cac-opinion",
+   "theme": "rapport_CAC_opinion (liste)",
+   "star": true,
+   "e1": false,
+   "sessions": 11,
+   "freq": "11 (18)",
+   "niveau": "A",
+   "nov": "A",
+   "mai": "A",
+   "dire": "Comptes annuels L. 821-53 (ex 823-9) : sans/avec réserve, refus, impossibilité, justification des appréciations, NEP 700/705 (révisées 2026) ; vérifications spécifiques L. 821-54, NEP 9510 révisée 2026 ; conventions (L. 225-40, L. 223-19, L. 227-10) ; consolidés, 2 CAC L. 821-41 ; opérations : DPS L. 225-135, réduction L. 225-204, transformation L. 224-3, acompte L. 232-12, valeurs mobilières composées (n° [À VÉRIFIER]) ; ALPE L. 821-57 ; communication aux organes L. 821-63 ; aucun rapport complet à rédiger en copie",
+   "ou": "Liste 1 page (J5) ; NEP",
+   "verif": [
+    9,
+    10,
+    19,
+    29,
+    107
+   ]
+  },
+  {
+   "id": "05-revelation-faits-delictueux",
+   "theme": "revelation_faits_delictueux + irrégularités + dépôt des comptes",
+   "star": true,
+   "e1": false,
+   "sessions": 7,
+   "freq": "7 (11) ; 4 (7)",
+   "niveau": "A",
+   "nov": "A",
+   "mai": "A",
+   "dire": "L. 821-10 (ex 823-12) : al. 1 irrégularités à la plus prochaine AG ; al. 2 révélation au procureur (significatif et délibéré, doctrine CNCC) ; al. 3 LCB-FT ; non-révélation 5 ans / 75 000 € (L. 821-9) ; non-dépôt = contravention R. 247-3 (1 500 €, 3 000 € récidive) → signalement, pas révélation ; L. 123-5-1, L. 611-2 II ; dépôt 1 mois / 2 mois électronique (L. 232-21 à 23)",
+   "ou": "Brochure CNCC ; Mémento Audit",
+   "verif": [
+    11,
+    12,
+    51,
+    52,
+    53
+   ]
+  },
+  {
+   "id": "06-independance-incompatibilites",
+   "theme": "independance_incompatibilites + déontologie EC",
+   "star": true,
+   "e1": true,
+   "sessions": 10,
+   "freq": "10 (14)",
+   "niveau": "A",
+   "nov": "A",
+   "mai": "A",
+   "dire": "L. 821-27 (ex 822-10) incompatibilités ; L. 821-28 services interdits (règl. UE 537/2014 art. 5) ; viduité 3 ans L. 821-32, 5 ans L. 821-33 ; rotation L. 821-34 (6 exercices, 7 années, retour après 3 ans) ; code CAC art. 3 / 4 / 5 / 9 / 18 ; EC : ord. 1945 art. 21-22 ; décret 2012-432 art. 145",
+   "ou": "Codes déonto ; brochure CNCC",
+   "verif": [
+    22,
+    24,
+    33,
+    34,
+    102,
+    104
+   ]
+  },
+  {
+   "id": "07-elements-probants",
+   "theme": "elements_probants + demarche_audit_risques + verifications_specifiques",
+   "star": true,
+   "e1": false,
+   "sessions": 7,
+   "freq": "7 (11) ; 6 (10) ; 6 (11)",
+   "niveau": "A",
+   "nov": "A",
+   "mai": "A",
+   "dire": "Assertions (NEP 315/500) : existence, droits et obligations, exhaustivité, exactitude, séparation des exercices, classification, évaluation, présentation ; techniques NEP 500 : inspection, observation physique, confirmation directe (505), recalcul, réexécution, procédures analytiques (520), demandes d'information ; NEP 315 / 330 (révisées), 320, 540, 560, 570, 580, 600 (révisée oct. 2025 ; acquisition de filiale, nov. 2025 Q2.5) ; vérifications spécifiques : rapport de gestion, égalité (L. 821-56)",
+   "ou": "Recueil NEP",
+   "verif": []
+  },
+  {
+   "id": "08-lcbft",
+   "theme": "LCBFT",
+   "star": true,
+   "e1": true,
+   "sessions": 7,
+   "freq": "7 (12) + mai 2026",
+   "niveau": "A",
+   "nov": "A",
+   "mai": "A",
+   "dire": "Assujettis CMF L. 561-2 [À VÉRIFIER n°] ; vigilance allégée / standard / renforcée ; bénéficiaire effectif ; examen renforcé L. 561-10-2 ; déclaration de soupçon L. 561-15 [À VÉRIFIER n°] ; interdiction de divulgation ; NEP 9605 (CAC), NPLAB (EC, arrêté 7 déc. 2020) ; liste grise GAFI",
+   "ou": "NEP 9605 ; NPLAB ; extraits CMF",
+   "verif": [
+    105,
+    108
+   ]
+  },
+  {
+   "id": "09-lettre-mission",
+   "theme": "lettre_mission + SACC (cadre des missions)",
+   "star": true,
+   "e1": true,
+   "sessions": 7,
+   "freq": "7 (9) ; 9 (12)",
+   "niveau": "A",
+   "nov": "A",
+   "mai": "A",
+   "dire": "EC : art. 150 acceptation, 151 lettre de mission, 155 conseil ; NP 2300, 2400, 2910, 3100, 3400, 4400, 4410 ; ord. art. 22 (travaux juridiques accessoires) ; CAC : SACC = attestations/constats ; L. 821-28 ; incompatibilité présentation / certification dans le même cabinet",
+   "ou": "Codes ; référentiel OEC ; Mémento Audit",
+   "verif": [
+    103,
+    104,
+    105
+   ]
+  },
+  {
+   "id": "10-responsabilite",
+   "theme": "responsabilite",
+   "star": true,
+   "e1": false,
+   "sessions": 8,
+   "freq": "8 (13)",
+   "niveau": "A",
+   "nov": "A",
+   "mai": "A",
+   "dire": "CAC : L. 821-37 civile, moyens, prescription 3 ans (10 si crime) L. 821-38 → L. 225-254 ; pénale L. 821-9 ; disciplinaire H2A ; EC : contractuelle, moyens, conseil art. 155, prescription 5 ans [À VÉRIFIER : L. 110-4 / 2224 C. civ.]",
+   "ou": "Mémento Audit ; code EC",
+   "verif": [
+    21,
+    30
+   ]
+  },
+  {
+   "id": "11-conventions-reglementees",
+   "theme": "conventions_reglementees",
+   "star": true,
+   "e1": false,
+   "sessions": 6,
+   "freq": "6 (11)",
+   "niveau": "A",
+   "nov": "A",
+   "mai": "A",
+   "dire": "SA L. 225-38 s. (autorisation préalable, information du CAC, rapport spécial, vote) ; SARL L. 223-19 ; SAS L. 227-10 (SASU : registre, al. 4) ; interdites L. 225-43 / L. 223-21 ; courantes libres ; R. 225-30 [À VÉRIFIER] ; liste de contrôle du rapport spécial",
+   "ou": "Mémento Sociétés ; NEP 9510",
+   "verif": [
+    56,
+    57
+   ]
+  },
+  {
+   "id": "12-apports-commissariat",
+   "theme": "apports_commissariat",
+   "star": true,
+   "e1": false,
+   "sessions": 7,
+   "freq": "7 (20) + mai 2026",
+   "niveau": "A",
+   "nov": "A",
+   "mai": "A",
+   "dire": "L. 225-8 / L. 225-147 (SA), L. 227-1 (SAS), L. 223-9 (SARL : dispense si aucun apport > 30 000 €, D. 223-6-1, et total ≤ ½ capital) ; judiciaire sauf unanimité ; incompatibilités L. 821-31 ; conclusion « non surévaluée », avantages particuliers ; fusion L. 236-10 (dispense unanimité), L. 236-11 ; transformation L. 224-3",
+   "ou": "Mémento Audit ; Mémento Sociétés",
+   "verif": [
+    59,
+    60,
+    61
+   ]
+  },
+  {
+   "id": "13-ir-bic-bnc",
+   "theme": "IR_BIC_BNC + micro (chiffres 2026)",
+   "star": true,
+   "e1": false,
+   "sessions": 5,
+   "freq": "5 (17) ; 3 (6)",
+   "niveau": "A (chiffres)",
+   "nov": "A",
+   "mai": "A",
+   "dire": "Micro 2026-2028 : 203 100 € ventes ; 83 600 € services et BNC (50-0, 102 ter) ; abattements 71 / 50 / 34 %, minimum 305 € ; PV en droit commun (50-0, 1, 6e al.) ; micro-social exclu pour l'EC (CAVEC) ; EI L. 526-22 ; compte dédié L. 613-10 CSS ; IR-PME 18 % (25 % ESUS jusqu'au 31/12/2027 ; JEI 30 %, JEIR 50 %), 50 000 / 100 000 €, 5 ans",
+   "ou": "Mémento Fiscal ; tableau des seuils",
+   "verif": [
+    70,
+    71,
+    72,
+    73,
+    74,
+    78,
+    79
+   ]
+  },
+  {
+   "id": "14-dividendes",
+   "theme": "dividendes + acompte + réserve légale",
+   "star": true,
+   "e1": false,
+   "sessions": 3,
+   "freq": "3 (4) + nov. 2025",
+   "niveau": "A (recalage 30 nov.)",
+   "nov": "A",
+   "mai": "A",
+   "dire": "Acompte : bilan en cours d'exercice certifié par un CAC, bénéfice, acompte ≤ bénéfice (L. 232-12 al. 2) ; décision CA / directoire / gérants, en SAS l'organe désigné par les statuts, pas l'AG (R. 232-17) ; réserve légale 5 % → 10 % (L. 232-10) ; dividendes fictifs 5 ans / 375 000 € (L. 242-6 1°, L. 244-1 ; L. 241-3), répétition L. 232-17 ; PFU 12,8 + 17,2 %, abattement 40 % sur option barème (158, 3-2°)",
+   "ou": "Mémento Sociétés ; Mémento Fiscal",
+   "verif": [
+    47,
+    48,
+    49,
+    80
+   ]
+  },
+  {
+   "id": "15-plus-values",
+   "theme": "plus_values + cession (réflexe « 5 ans »)",
+   "star": true,
+   "e1": false,
+   "sessions": 7,
+   "freq": "7 (13) ; 8 (11)",
+   "niveau": "A réflexe / B chiffres",
+   "nov": "A",
+   "mai": "A",
+   "dire": "151 septies (5 ans ; 250 000 / 90 000 → 350 000 / 126 000), 238 quindecies (5 ans ; 500 000 → 1 M€), 151 septies A (retraite 2 ans, 5 ans), 151 septies B : sans 5 ans, rien (CE 13 juin 2018 n° 401942) ; PFU ; abattements sur option barème, titres < 2018 ; renforcé 150-0 D 1 quater (taux [À VÉRIFIER]) ; fixe 500 000 € 150-0 D ter ; 150-0 B ter ; enregistrement 719 (0 / 3 / 5 % ; 23 000 / 200 000 €), 726 (3 % parts − 23 000 ; 0,1 % actions ; 5 % prépondérance)",
+   "ou": "Mémento Fiscal",
+   "verif": [
+    86,
+    90,
+    92,
+    93,
+    94
+   ]
+  },
+  {
+   "id": "16-immobilisations-amortissements",
+   "theme": "immobilisations_amortissements",
+   "star": false,
+   "e1": false,
+   "sessions": 10,
+   "freq": "10 (23) — 2e thème",
+   "niveau": "B nov. (métier EC, PCG imprimé) / A mai",
+   "nov": "B",
+   "mai": "A",
+   "dire": "PCG 211-1 s., 213-8 composants, 214-x amortissement et dépréciation, 214-3 fonds commercial, 611-x logiciels ; changement d'estimation prospectif (n° PCG lu à l'impression) vs changement de méthode rétrospectif (122-x) ; crédit-bail levé ; contrôle CAC : inventaire, recalcul, confirmation",
+   "ou": "PCG (nov.) ; Mémento Comptable (mai)",
+   "verif": []
+  },
+  {
+   "id": "17-groupe-filiales-conso",
+   "theme": "groupe_filiales_conso",
+   "star": false,
+   "e1": false,
+   "sessions": 7,
+   "freq": "7 (14)",
+   "niveau": "B / A mai",
+   "nov": "B",
+   "mai": "A",
+   "dire": "L. 821-43 ; L. 821-41 ; exemption de comptes consolidés sauf « grand groupe » (L. 233-17 2°, D. 230-2 : 30 M€ / 60 M€ / 250) ; NEP 600 ; 223 A (95 %), 145/216 ; L. 233-3",
+   "ou": "Mémento Audit ; Comptable (mai) ; Fiscal",
+   "verif": [
+    45,
+    82
+   ]
+  },
+  {
+   "id": "18-augmentation-reduction-capital",
+   "theme": "augmentation_reduction_capital",
+   "star": false,
+   "e1": false,
+   "sessions": 6,
+   "freq": "6 (19)",
+   "niveau": "B",
+   "nov": "B",
+   "mai": "B",
+   "dire": "Libération préalable L. 225-131 ; DPS L. 225-132, suppression L. 225-135/138 ; élévation du nominal : pas de DPS (2023-11) ; L. 225-129-6 résolution salariés, obligation triennale supprimée (PACTE) ; compensation de créances ; réduction L. 225-204, opposition 20 jours R. 225-152 ; SA 37 000 €",
+   "ou": "Mémento Sociétés",
+   "verif": [
+    58,
+    62
+   ]
+  },
+  {
+   "id": "19-transformation",
+   "theme": "transformation",
+   "star": false,
+   "e1": false,
+   "sessions": 4,
+   "freq": "4 (16)",
+   "niveau": "B",
+   "nov": "B",
+   "mai": "B",
+   "dire": "L. 224-3 ; SARL → SAS unanimité L. 227-3 ; capitaux propres ≥ capital (2021-11) ; apport en industrie interdit en SA (2022-11)",
+   "ou": "Mémento Sociétés",
+   "verif": []
+  },
+  {
+   "id": "20-fusion-scission-tup",
+   "theme": "fusion_scission_TUP",
+   "star": false,
+   "e1": false,
+   "sessions": 5,
+   "freq": "5 (13)",
+   "niveau": "B",
+   "nov": "B",
+   "mai": "B",
+   "dire": "L. 236-10, 236-11 ; TUP 1844-5 C. civ. (opposition 30 jours) ; ANC 2014-03 titre VII, R. 236-3 ; 210 A ; 209 II",
+   "ou": "Mémento Sociétés ; PCG",
+   "verif": []
+  },
+  {
+   "id": "21-perte-moitie-capital",
+   "theme": "perte_moitie_capital",
+   "star": false,
+   "e1": false,
+   "sessions": 1,
+   "freq": "1 (2) + mai 2026",
+   "niveau": "B",
+   "nov": "B",
+   "mai": "B",
+   "dire": "L. 223-42 / L. 225-248 : 4 mois ; 2 exercices ; ≤ 1 % du bilan (R. 223-37 ; SA max(1 %, 37 000 €) R. 225-166-1) ; 2 exercices ; dissolution par tout intéressé ; NEP 570, alerte",
+   "ou": "Mémento Sociétés",
+   "verif": [
+    54,
+    55
+   ]
+  },
+  {
+   "id": "22-procedure-alerte",
+   "theme": "procedure_alerte",
+   "star": false,
+   "e1": false,
+   "sessions": 3,
+   "freq": "3 (3)",
+   "niveau": "B",
+   "nov": "B",
+   "mai": "B",
+   "dire": "L. 234-1 SA (4 phases), L. 234-2 (3 phases), L. 612-3 ; 15 jours ; reprise 6 mois ; NEP 570",
+   "ou": "Mémento Audit",
+   "verif": [
+    68
+   ]
+  },
+  {
+   "id": "23-is",
+   "theme": "IS",
+   "star": false,
+   "e1": false,
+   "sessions": 9,
+   "freq": "9 (16)",
+   "niveau": "B (métier)",
+   "nov": "B",
+   "mai": "B",
+   "dire": "219 : 25 % ; 15 % ≤ 42 500 € (CA ≤ 10 M€, capital libéré, 75 % PP) ; 209 / 221-5 ; SNC transparente",
+   "ou": "Mémento Fiscal",
+   "verif": [
+    81
+   ]
+  },
+  {
+   "id": "24-tva",
+   "theme": "TVA",
+   "star": false,
+   "e1": false,
+   "sessions": 7,
+   "freq": "7 (13)",
+   "niveau": "B (métier)",
+   "nov": "B",
+   "mai": "B",
+   "dire": "Franchise 293 B : 85 000 / 37 500 € (93 500 / 41 250 ; avocats 50 000 / 35 000) ; seuil unique 25 000 € abandonné (loi 2025-1044), LF 2026 sans changement ; 1er janv. 2027 : recodification CIBS, nouvel article [À VÉRIFIER] ; taux [À VÉRIFIER] ; 260 ; 257/261",
+   "ou": "Mémento Fiscal (2027 en mai)",
+   "verif": [
+    75,
+    76,
+    77
+   ]
+  },
+  {
+   "id": "25-fiscalite-immobiliere-sci-lmnp",
+   "theme": "fiscalite_immobiliere_SCI_LMNP",
+   "star": false,
+   "e1": false,
+   "sessions": 8,
+   "freq": "8 (18)",
+   "niveau": "B (métier)",
+   "nov": "B",
+   "mai": "B",
+   "dire": "SCI IR / option IS 239 révocable 5 exercices ; 206-2 ; LMP 155 IV (> 23 000 € et > autres revenus pro) ; 156 ; 39 C ; 965 ; 726",
+   "ou": "Mémento Fiscal",
+   "verif": [
+    83,
+    85
+   ]
+  },
+  {
+   "id": "26-droits-enregistrement-succession",
+   "theme": "droits_enregistrement_succession, Dutreil, IFI",
+   "star": false,
+   "e1": false,
+   "sessions": 5,
+   "freq": "5 (11)",
+   "niveau": "B / C",
+   "nov": "B",
+   "mai": "C",
+   "dire": "787 B, 1717, 204 : à retrouver",
+   "ou": "Mémento Fiscal",
+   "verif": []
+  },
+  {
+   "id": "27-association-non-lucrativite",
+   "theme": "association_non_lucrativite + mécénat + subventions",
+   "star": false,
+   "e1": false,
+   "sessions": 4,
+   "freq": "4 (10) ; 3 (8) ; 2 (3) + mai 2025 (8 pts), mai 2026 (9 pts)",
+   "niveau": "B nov. / A mai",
+   "nov": "B",
+   "mai": "A",
+   "dire": "CAC si subventions > 153 000 € (L. 612-4, D. 612-5) ou 50 / 3,1 M€ / 1,55 M€ (L. 612-1, R. 612-1) ; L. 612-5 ; L. 612-3 ; publication (décret 2009-540) ; 4 P, sectorisation ; 238 bis 60 %, art. 200 66 % [À VÉRIFIER] ; CER (loi 2021-1109, décret 2021-1947 [À VÉRIFIER]) ; ANC 2018-06",
+   "ou": "Mémento Associations (mai) ; Fiscal",
+   "verif": [
+    42,
+    43,
+    95
+   ]
+  },
+  {
+   "id": "28-contrat-travail",
+   "theme": "contrat_travail, paie, dirigeant, URSSAF",
+   "star": false,
+   "e1": false,
+   "sessions": 6,
+   "freq": "6 (7) ; 6 (6) ; 3 (3) ; 1 (1) + mai 2026",
+   "niveau": "B (métier)",
+   "nov": "B",
+   "mai": "B",
+   "dire": "L. 3121-36 (25 / 50 %) ; L. 3121-58 ; L. 8221-5 ; L. 1221-23 ; L. 1224-1 ; R. 243-59 (avis ≥ 30 j, observations, réponse 30 j → 60)",
+   "ou": "1 page R. 243-59 ; Fiscal",
+   "verif": [
+    97,
+    99,
+    100
+   ]
+  },
+  {
+   "id": "29-provisions",
+   "theme": "provisions, annexe, changements de méthodes, IFC",
+   "star": false,
+   "e1": false,
+   "sessions": 5,
+   "freq": "5 (6) ; 5 (9) ; 1 (4)",
+   "niveau": "B",
+   "nov": "B",
+   "mai": "B",
+   "dire": "PCG 322-x ; 831-x, annexe de base / simplifiée selon D. 123-200 (450 k€ / 900 k€ / 10 ; 7,5 M€ / 15 M€ / 50) ; 122-x ; ANC 2013-02 ; 833-20",
+   "ou": "PCG (nov.) ; Comptable (mai)",
+   "verif": [
+    44
+   ]
+  },
+  {
+   "id": "30-secret-pro",
+   "theme": "secret_pro",
+   "star": false,
+   "e1": false,
+   "sessions": 2,
+   "freq": "2 (8)",
+   "niveau": "B",
+   "nov": "B",
+   "mai": "B",
+   "dire": "L. 821-35 (ex 822-15) ; ord. art. 21 ; décret art. 147",
+   "ou": "Codes déonto",
+   "verif": [
+    20
+   ]
+  },
+  {
+   "id": "31-procedures-collectives",
+   "theme": "procedures_collectives",
+   "star": false,
+   "e1": false,
+   "sessions": 2,
+   "freq": "2 (2)",
+   "niveau": "C / B mai",
+   "nov": "C",
+   "mai": "B",
+   "dire": "L. 631-4 (45 jours) ; L. 611-4 ; L. 651-2",
+   "ou": "Mémento Sociétés",
+   "verif": [
+    69
+   ]
+  },
+  {
+   "id": "32-sel",
+   "theme": "SEL / SCM / SCP / SPFPL (2024-11)",
+   "star": false,
+   "e1": false,
+   "sessions": 0,
+   "freq": "hors STATS",
+   "niveau": "C / B mai",
+   "nov": "C",
+   "mai": "B",
+   "dire": "SEL : BNC depuis revenus 2024 ; SCM 239 quater A ; décision Sociétés civiles en mars",
+   "ou": "Fiscal ; Sociétés civiles (option)",
+   "verif": [
+    84
+   ]
+  },
+  {
+   "id": "33-rapport-gestion",
+   "theme": "rapport_gestion, dirigeants, numérique, évaluation",
+   "star": false,
+   "e1": false,
+   "sessions": 4,
+   "freq": "4 (5) ; 3 (7) ; 4 (6) ; 3 (3)",
+   "niveau": "B (liste de contrôle)",
+   "nov": "B",
+   "mai": "B",
+   "dire": "Rapport de gestion : L. 232-1, L. 225-100-1, L. 233-6, D. 441-6",
+   "ou": "Mémento Sociétés",
+   "verif": []
+  },
+  {
+   "id": "34-international",
+   "theme": "international, IFRS, CSRD, crypto, EIP, conso technique",
+   "star": false,
+   "e1": false,
+   "sessions": 3,
+   "freq": "≤ 3",
+   "niveau": "C / C-B mai",
+   "nov": "C",
+   "mai": "C",
+   "dire": "Mai : CSRD principes (L. 821-6 2°) ; IAS 1 / 19 inapplicables aux comptes sociaux ; IG/IP/MEE sans écritures",
+   "ou": "Comptable (mai)",
+   "verif": [
+    14
+   ]
+  }
+ ]
+}

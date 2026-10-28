@@ -1,0 +1,356 @@
+{
+ "version": "2026-10-28",
+ "source": "docs/PLAN.md section 2 ; à localiser dans TA documentation : la page relevée devient la réponse du drill",
+ "entrees": [
+  {
+   "id": "s01",
+   "motcle": "Seuils de nomination du CAC (D. 221-5)",
+   "volume": "V2 / Mémento Audit"
+  },
+  {
+   "id": "s02",
+   "motcle": "Petit groupe : L. 821-43",
+   "volume": "V2"
+  },
+  {
+   "id": "s03",
+   "motcle": "Filiales significatives D. 821-172",
+   "volume": "V6"
+  },
+  {
+   "id": "s04",
+   "motcle": "Durée du mandat L. 821-44",
+   "volume": "V2"
+  },
+  {
+   "id": "s05",
+   "motcle": "Mandat 3 exercices L. 821-46",
+   "volume": "V2"
+  },
+  {
+   "id": "s06",
+   "motcle": "Mission ALPE, NEP 911",
+   "volume": "V1"
+  },
+  {
+   "id": "s07",
+   "motcle": "Suppléant L. 821-40",
+   "volume": "V2"
+  },
+  {
+   "id": "s08",
+   "motcle": "Récusation L. 821-49",
+   "volume": "V2"
+  },
+  {
+   "id": "s09",
+   "motcle": "Convocation du CAC L. 821-65",
+   "volume": "V2"
+  },
+  {
+   "id": "s10",
+   "motcle": "Délits L. 821-6",
+   "volume": "V2"
+  },
+  {
+   "id": "s11",
+   "motcle": "Nullité L. 821-5",
+   "volume": "V2"
+  },
+  {
+   "id": "s12",
+   "motcle": "Rapport sur les comptes L. 821-53, NEP 700",
+   "volume": "V1"
+  },
+  {
+   "id": "s13",
+   "motcle": "Modifications d'opinion NEP 705",
+   "volume": "V1"
+  },
+  {
+   "id": "s14",
+   "motcle": "Vérifications spécifiques NEP 9510",
+   "volume": "V1"
+  },
+  {
+   "id": "s15",
+   "motcle": "Rapport spécial conventions",
+   "volume": "Mémento Sociétés"
+  },
+  {
+   "id": "s16",
+   "motcle": "Irrégularités et révélation L. 821-10",
+   "volume": "V2"
+  },
+  {
+   "id": "s17",
+   "motcle": "Non-révélation L. 821-9",
+   "volume": "V2"
+  },
+  {
+   "id": "s18",
+   "motcle": "Non-dépôt des comptes R. 247-3",
+   "volume": "Mémento Sociétés"
+  },
+  {
+   "id": "s19",
+   "motcle": "Incompatibilités L. 821-27",
+   "volume": "V2"
+  },
+  {
+   "id": "s20",
+   "motcle": "Services interdits L. 821-28",
+   "volume": "V2"
+  },
+  {
+   "id": "s21",
+   "motcle": "Rotation EIP L. 821-34",
+   "volume": "V2"
+  },
+  {
+   "id": "s22",
+   "motcle": "Code déonto CAC art. 5 indépendance",
+   "volume": "V4"
+  },
+  {
+   "id": "s23",
+   "motcle": "Code déonto EC art. 151 lettre de mission",
+   "volume": "V4"
+  },
+  {
+   "id": "s24",
+   "motcle": "Assertions NEP 315 / 500",
+   "volume": "V1"
+  },
+  {
+   "id": "s25",
+   "motcle": "Confirmations directes NEP 505",
+   "volume": "V1"
+  },
+  {
+   "id": "s26",
+   "motcle": "Procédures analytiques NEP 520",
+   "volume": "V1"
+  },
+  {
+   "id": "s27",
+   "motcle": "Seuil de signification NEP 320",
+   "volume": "V1"
+  },
+  {
+   "id": "s28",
+   "motcle": "Audit de groupe NEP 600",
+   "volume": "V1"
+  },
+  {
+   "id": "s29",
+   "motcle": "Continuité d'exploitation NEP 570",
+   "volume": "V1"
+  },
+  {
+   "id": "s30",
+   "motcle": "LCB-FT NEP 9605",
+   "volume": "V1"
+  },
+  {
+   "id": "s31",
+   "motcle": "NPLAB (EC)",
+   "volume": "V5"
+  },
+  {
+   "id": "s32",
+   "motcle": "Déclaration de soupçon L. 561-15",
+   "volume": "V6"
+  },
+  {
+   "id": "s33",
+   "motcle": "NP 2300 présentation",
+   "volume": "V5"
+  },
+  {
+   "id": "s34",
+   "motcle": "NP 3100 attestations",
+   "volume": "V5"
+  },
+  {
+   "id": "s35",
+   "motcle": "Responsabilité civile du CAC L. 821-37",
+   "volume": "V2"
+  },
+  {
+   "id": "s36",
+   "motcle": "Conventions SA L. 225-38",
+   "volume": "V6"
+  },
+  {
+   "id": "s37",
+   "motcle": "Conventions SAS L. 227-10",
+   "volume": "V6"
+  },
+  {
+   "id": "s38",
+   "motcle": "Conventions SARL L. 223-19",
+   "volume": "V6"
+  },
+  {
+   "id": "s39",
+   "motcle": "Commissaire aux apports SARL L. 223-9",
+   "volume": "Mémento Sociétés"
+  },
+  {
+   "id": "s40",
+   "motcle": "Commissaire à la fusion L. 236-10",
+   "volume": "Mémento Sociétés"
+  },
+  {
+   "id": "s41",
+   "motcle": "Commissaire à la transformation L. 224-3",
+   "volume": "Mémento Sociétés"
+  },
+  {
+   "id": "s42",
+   "motcle": "Acompte sur dividendes L. 232-12 / R. 232-17",
+   "volume": "V6"
+  },
+  {
+   "id": "s43",
+   "motcle": "Réserve légale L. 232-10",
+   "volume": "Mémento Sociétés"
+  },
+  {
+   "id": "s44",
+   "motcle": "Dividendes fictifs L. 242-6",
+   "volume": "Mémento Sociétés"
+  },
+  {
+   "id": "s45",
+   "motcle": "Perte de la moitié du capital L. 225-248 / L. 223-42",
+   "volume": "V6"
+  },
+  {
+   "id": "s46",
+   "motcle": "Procédure d'alerte L. 234-1",
+   "volume": "V6"
+  },
+  {
+   "id": "s47",
+   "motcle": "Approbation des comptes 6 mois",
+   "volume": "Mémento Sociétés"
+  },
+  {
+   "id": "s48",
+   "motcle": "Dépôt des comptes L. 232-21 à 23",
+   "volume": "Mémento Sociétés"
+  },
+  {
+   "id": "s49",
+   "motcle": "Augmentation de capital, DPS L. 225-132",
+   "volume": "Mémento Sociétés"
+  },
+  {
+   "id": "s50",
+   "motcle": "Réduction de capital L. 225-204",
+   "volume": "Mémento Sociétés"
+  },
+  {
+   "id": "s51",
+   "motcle": "Micro-entreprise seuils 50-0 / 102 ter",
+   "volume": "Mémento Fiscal"
+  },
+  {
+   "id": "s52",
+   "motcle": "Franchise en base de TVA 293 B",
+   "volume": "Mémento Fiscal"
+  },
+  {
+   "id": "s53",
+   "motcle": "IS taux réduit 219",
+   "volume": "Mémento Fiscal"
+  },
+  {
+   "id": "s54",
+   "motcle": "Plus-values 151 septies",
+   "volume": "Mémento Fiscal"
+  },
+  {
+   "id": "s55",
+   "motcle": "Départ en retraite 151 septies A",
+   "volume": "Mémento Fiscal"
+  },
+  {
+   "id": "s56",
+   "motcle": "238 quindecies",
+   "volume": "Mémento Fiscal"
+  },
+  {
+   "id": "s57",
+   "motcle": "PFU et abattement 40 %",
+   "volume": "Mémento Fiscal"
+  },
+  {
+   "id": "s58",
+   "motcle": "Droits de cession 726 (parts) / 719 (fonds)",
+   "volume": "Mémento Fiscal"
+  },
+  {
+   "id": "s59",
+   "motcle": "SCI à l'IS, option 239",
+   "volume": "Mémento Fiscal"
+  },
+  {
+   "id": "s60",
+   "motcle": "LMNP / LMP 155 IV",
+   "volume": "Mémento Fiscal"
+  },
+  {
+   "id": "s61",
+   "motcle": "Taxe sur les bureaux 231 quater",
+   "volume": "Mémento Fiscal"
+  },
+  {
+   "id": "s62",
+   "motcle": "Associations : CAC si subventions > 153 000 €",
+   "volume": "V6"
+  },
+  {
+   "id": "s63",
+   "motcle": "Immobilisations : composants PCG 213-8",
+   "volume": "V3"
+  },
+  {
+   "id": "s64",
+   "motcle": "Amortissement et dépréciation PCG 214",
+   "volume": "V3"
+  },
+  {
+   "id": "s65",
+   "motcle": "Provisions PCG 322",
+   "volume": "V3"
+  },
+  {
+   "id": "s66",
+   "motcle": "Changements de méthode PCG 122",
+   "volume": "V3"
+  },
+  {
+   "id": "s67",
+   "motcle": "Annexe PCG 831",
+   "volume": "V3"
+  },
+  {
+   "id": "s68",
+   "motcle": "Contrôle URSSAF R. 243-59",
+   "volume": "V6"
+  },
+  {
+   "id": "s69",
+   "motcle": "Heures supplémentaires L. 3121-36",
+   "volume": "Mémento Fiscal / Social"
+  },
+  {
+   "id": "s70",
+   "motcle": "Transfert des contrats de travail L. 1224-1",
+   "volume": "V6"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+name: Vérifications
+
+# Le site est publié par GitHub Pages depuis la branche choisie dans les réglages du dépôt.
+# Ce workflow vérifie le code, la logique (jalons, décision) et les données (parcours, sources, liste noire).
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verifier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Syntaxe, tests, données à jour
+        run: |
+          for f in js/*.js sw.js; do node --check $f || exit 1; done
+          node --test 'tests/**/*.test.js'
+          python3 -I scripts/build_data.py --check

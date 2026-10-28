@@ -1,0 +1,11 @@
+{
+  "name": "dec-revision-ue2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "for f in js/*.js sw.js; do node --check $f || exit 1; done && node --test 'tests/**/*.test.js'",
+    "build": "python3 -I scripts/build_data.py",
+    "check": "python3 -I scripts/build_data.py --check",
+    "serve": "python3 -m http.server 8080"
+  }
+}
