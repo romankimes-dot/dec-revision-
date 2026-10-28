@@ -1,0 +1,116 @@
+# Stats de récurrence — DEC épreuve 2, 14 sujets officiels (mai 2018 → nov 2025), 260 questions codées
+
+## Domaines (nb de sessions où présent /14, nb questions)
+- SOC: 13/14 sessions, 61 questions
+- FISC: 13/14 sessions, 60 questions
+- EXPRO: 14/14 sessions, 43 questions
+- AUDIT: 13/14 sessions, 43 questions
+- COMPTA: 13/14 sessions, 37 questions
+- ASSO: 3/14 sessions, 8 questions
+- SOCIAL: 6/14 sessions, 6 questions
+- AUTRE: 1/14 sessions, 2 questions
+
+Profession des questions : {'EC': 142, 'CAC': 104, 'MIXTE': 14}
+
+## Thèmes (sessions /14 | questions)
+- rapport_CAC_opinion: 11 | 18
+- immobilisations_amortissements: 10 | 23
+- AG_convocation_approbation: 10 | 19
+- independance_incompatibilites: 10 | 14
+- IS: 9 | 16
+- SACC_autres_missions: 9 | 12
+- fiscalite_immobiliere_SCI_LMNP: 8 | 18
+- responsabilite: 8 | 13
+- cession_titres_fonds: 8 | 11
+- apports_commissariat: 7 | 20
+- groupe_filiales_conso: 7 | 14
+- TVA: 7 | 13
+- plus_values: 7 | 13
+- LCBFT: 7 | 12
+- elements_probants: 7 | 11
+- revelation_faits_delictueux: 7 | 11
+- lettre_mission: 7 | 9
+- augmentation_reduction_capital: 6 | 19
+- nomination_CAC: 6 | 16
+- conventions_reglementees: 6 | 11
+- verifications_specifiques: 6 | 11
+- demarche_audit_risques: 6 | 10
+- mandat_duree_cessation: 6 | 7
+- contrat_travail: 6 | 7
+- paie_charges_sociales: 6 | 6
+- IR_BIC_BNC: 5 | 17
+- fusion_scission_TUP: 5 | 13
+- droits_enregistrement_succession: 5 | 11
+- annexe_comptes_annuels: 5 | 9
+- provisions: 5 | 6
+- transformation: 4 | 16
+- association_non_lucrativite: 4 | 10
+- depot_comptes: 4 | 7
+- numerique_RGPD_FEC_caisse: 4 | 6
+- rapport_gestion_gouvernance: 4 | 5
+- mecenat_fiscalite_asso: 3 | 8
+- dirigeants_gerance: 3 | 7
+- micro_entreprise_regimes: 3 | 6
+- international: 3 | 5
+- dividendes: 3 | 4
+- procedure_alerte: 3 | 3
+- evaluation_entreprise: 3 | 3
+- controle_fiscal_procedures: 3 | 3
+- statut_dirigeant_social: 3 | 3
+- secret_pro: 2 | 8
+- seuils_signification: 2 | 3
+- subventions: 2 | 3
+- controle_interne: 2 | 2
+- procedures_collectives: 2 | 2
+- integration_fiscale: 2 | 2
+- honoraires: 2 | 2
+- RSE_durabilite_CSRD: 1 | 4
+- changements_methodes: 1 | 4
+- liquidation_dissolution: 1 | 3
+- consolidation_technique: 1 | 3
+- perte_moitie_capital: 1 | 2
+- CSE_participation: 1 | 2
+- IFRS: 1 | 2
+- evenements_post_cloture: 1 | 1
+- stocks: 1 | 1
+- URSSAF_controle: 1 | 1
+
+## "autre" (intitulés)
+- 2018-05 La mission de présentation des comptes annuels a-t-elle pour objectif de déceler des fraudes ?
+- 2018-05 Possibilité de conserver les dossiers de travail sous forme d'archives numérisées (forme et durée de conservation)
+- 2018-05 Le CAC non renouvelé peut-il refuser de transmettre ses dossiers de travail à son successeur ?
+- 2018-05 Le prédécesseur peut-il s'opposer à la prise de copie de pièces de son dossier par le successeur ?
+- 2018-11 Missions à proposer aux associées de la SCM et cadre légal/normatif de chacune
+- 2018-11 Conséquences fiscales (impôts directs) de la mise à disposition de la piscine à un professeur d'aquagym contre reversement de CA
+- 2018-11 Le traitement comptable proposé (loyer encaissé en diminution du loyer payé) est-il exact ?
+- 2018-11 Supervision du dossier SCM (balance, CICE, taxe sur les salaires, liasse 2036) : modifications comptables et fiscales
+- 2018-11 Honoraires rétrocédés : formalité déclarative à rappeler (DAS2) en vue de l'examen de cohérence de l'AGA
+- 2018-11 Conseil à une associée réduisant son temps de travail et voulant payer moins de frais de SCM (règlement intérieur, clés de répartition)
+- 2018-11 Vérifier la conformité de la répartition des mandats de CAC dans le groupe au principe de répartition équilibrée (co-commissariat)
+- 2018-11 Anomalies du processus de répartition des travaux entre co-commissaires (annexe 6, avis H3C 2012-01)
+- 2018-11 Prise de connaissance des travaux du co-commissaire en fin de mission : conformité aux NEP (revue croisée)
+- 2019-05 Note stagiaire pt 2 : IFI de l'année du décès et des héritiers (biens immobiliers, SCPI, SCI)
+- 2019-05 L'EARL est-elle tenue d'établir des comptes annuels (L.612-1, seuils) ?
+- 2019-05 Affirmations de la gérante sur le PCGA obsolète / PCG / absence de plan comptable obligatoire : analyse
+- 2019-05 Conséquences comptables de la non-facturation et de l'abandon de créances consentis par un fournisseur (aucune écriture)
+- 2019-05 Justificatifs non fournis : position de l'EC sur la conclusion/attestation de la mission de présentation 2018
+- 2019-05 Comportement du CAC vis-à-vis de l'ancien président et interventions éventuelles (secret, irrégularités, AG)
+- 2020-11 Qualification normative de cette mission (cadre de référence OEC, mission sans assurance / autres prestations)
+- 2020-11 Mise en œuvre possible de la clause de retour à meilleure fortune (annexe 6) au regard des résultats projetés
+- 2021-05 Durée de conservation des livres comptables obligatoires après cessation d'activité
+- 2021-11 Reclassement en fonds propres des dons (particuliers et banque) à la clôture (ANC 2018-06)
+- 2021-11 Fonds de pérennité : le fondateur peut-il continuer à diriger la SA apportée ?
+- 2021-11 Fondateur assuré de diriger le fonds de pérennité ? (gouvernance)
+- 2021-11 Récupération des titres apportés au fonds de pérennité après deux ans (irrévocabilité)
+- 2021-11 Fiscalité de l'apport des titres au fonds de pérennité (plus-value, droits de mutation)
+- 2022-05 Diligences du commissaire aux apports à la suite de l'AGE
+- 2022-05 Parts de la SCI à intégrer dans l'IFI des associés après TUP ?
+- 2022-11 Quote-part de l'apporteur en industrie en cas de distribution de dividendes
+- 2022-11 Quote-part de l'apporteur en industrie en cas de cession de la totalité des titres
+- 2022-11 Transformation en SA et situation capitalistique (apport en industrie interdit en SA)
+- 2023-05 Cadre normatif de la mission de présentation du compte de campagne
+- 2023-05 Dispense de visa de l'EC en l'absence de dépense et de recette
+- 2023-05 Critique du projet de réponse (menues dépenses, concours en nature, banquet, don étranger, reçus-dons, prêt colistier, remboursement)
+- 2023-05 Impact de la modification des amortissements sur l'imposition (régime de taxe au tonnage)
+- 2025-05 Cartes de restauration : traitement comptable des soldes reportés (produits constatés d'avance / dettes envers familles)
+- 2025-11 Taxe sur les locaux à usage de bureaux dans le Var (extension PACA 2023), seuil d'exonération 100 m², montant
