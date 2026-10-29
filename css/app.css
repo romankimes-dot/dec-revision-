@@ -258,3 +258,25 @@ ul.docs .chev { color: var(--faint); } ul.docs .chev svg.i { width: 18px; height
 .composer textarea { flex: 1; border: 0; background: transparent; padding: 8px 0; min-height: 40px; max-height: 160px; resize: none; font: inherit; font-size: 16px; color: var(--text); outline: none; }
 .iconbtn.send { background: var(--primary); color: var(--primary-ink); border-radius: 50%; width: 40px; height: 40px; }
 .iconbtn.send:disabled { opacity: .4; }
+
+/* Lecteur PDF */
+body.reading { overflow: hidden; }
+.reader { position: fixed; inset: 0; z-index: 40; background: var(--bg); display: flex; flex-direction: column; }
+.reader[hidden] { display: none; }
+.rbar { display: grid; grid-template-columns: auto 1fr auto; gap: 8px; align-items: center; padding: calc(8px + var(--top-safe)) 10px 8px; background: var(--card); border-bottom: 1px solid var(--line); }
+.rtitle { font-size: 14px; font-weight: 700; text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rtitle small { display: block; font-size: 11.5px; font-weight: 500; color: var(--muted); }
+.rbtn { border: 0; background: var(--soft); color: var(--text); font: inherit; font-size: 14px; font-weight: 650; padding: 8px 12px; border-radius: 99px; cursor: pointer; white-space: nowrap; }
+.rbtn.primary { background: var(--primary); color: var(--primary-ink); }
+.rbtn:disabled { opacity: .45; }
+.rpages { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 8px; display: flex; flex-direction: column; align-items: center; gap: 8px; padding-bottom: calc(16px + env(safe-area-inset-bottom)); }
+.rpage { width: 100%; max-width: 900px; background: #fff; box-shadow: var(--shadow); }
+.rpage canvas { display: block; }
+.rload { margin: auto; text-align: center; color: var(--muted); padding: 24px; }
+.rprog { width: 220px; height: 6px; border-radius: 99px; background: var(--soft); overflow: hidden; margin: 0 auto 12px; }
+.rprog span { display: block; height: 100%; width: 0; background: var(--primary); }
+ul.docs button.doc { display: grid; grid-template-columns: 22px 1fr 18px; gap: 12px; align-items: center; width: 100%; padding: 12px 0; border: 0; background: none; color: var(--text); font: inherit; text-align: left; cursor: pointer; }
+ul.docs button.doc svg.i { color: var(--primary); }
+ul.docs button.doc b { display: block; font-size: 15px; font-weight: 650; }
+ul.docs button.doc small { display: block; color: var(--muted); font-size: 12.5px; }
+ul.docs button.doc .chev svg.i { width: 18px; height: 18px; color: var(--faint); }

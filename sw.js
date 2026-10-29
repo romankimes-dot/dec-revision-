@@ -2,10 +2,10 @@
 // La page (navigation), le manifeste et les icônes passent par le réseau d'abord : l'iPhone lit ainsi la bonne icône
 // quand on ajoute l'app à l'écran d'accueil (le cache ne sert qu'hors ligne).
 // Les PDF de imprimer/ ne sont jamais précachés. Toute modification du code impose d'incrémenter VERSION.
-const VERSION = 'dec2-v13';
+const VERSION = 'dec2-v14';
 const CORE = [
   './', './index.html', './manifest.webmanifest', './css/app.css',
-  './js/app.js', './js/core.js', './js/store.js', './js/icons.js', './js/claude.js',
+  './js/app.js', './js/core.js', './js/store.js', './js/icons.js', './js/claude.js', './js/reader.js',
   './data/parcours.json', './data/items.json', './data/notions.json', './data/stats.json',
   './data/methode.json', './data/materiel.json', './data/phases.json', './data/index_seed.json', './data/index_prerempli.json',
   './icons/icon-192.png', './icons/icon-512.png', './icons/ue2-touch-180.png',

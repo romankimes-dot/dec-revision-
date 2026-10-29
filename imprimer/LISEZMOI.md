@@ -2,6 +2,23 @@
 
 DEC, épreuve n° 2 du 10 novembre 2026 (documentation papier autorisée). Dossier assemblé le 28/10/2026. **7 PDF à imprimer** (V1 à V7) et un index des corrigés (V8, à ne pas imprimer). Les fichiers sont prêts : ne rien retoucher.
 
+## Lot essentiel : 434 pages au lieu de 1 102 (ajouté le 29/10/2026)
+
+Imprimer seulement ceci pour le 10 novembre. Les pages retirées ne sont citées ni par l'index, ni par les fiches, ni par les sommaires ; chaque page garde son folio d'origine.
+
+| Fichier | Pages | Contenu |
+|---|---|---|
+| K1, K2, K3, K4 | 26 | le kit complet |
+| V2_Livre_VIII_CNCC.pdf | 63 | complet |
+| V4_Deontologie.pdf | 44 | complet |
+| V6_Textes_choisis.pdf | 93 | complet |
+| essentiel/V1_NEP_essentiel.pdf | 111 | les 27 NEP utilisées par le kit (sur 40) |
+| essentiel/V3_PCG_essentiel.pdf | 29 | les articles du PCG cités |
+| essentiel/V5_Referentiel_OEC_essentiel.pdf | 21 | les pages citées des normes de l'Ordre |
+| essentiel/V7_Annales_essentiel.pdf | 47 | les deux annales des 31 octobre (mai 2025) et 7 novembre (nov. 2025), à la maison |
+
+Les volumes complets restent disponibles pour mai 2027.
+
 ## Kit de mise en place : à imprimer en premier (ajouté le 29/10/2026)
 
 | Fichier | Pages | Usage |

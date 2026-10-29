@@ -81,7 +81,10 @@
      "pdf": "imprimer/V1_NEP.pdf",
      "court": "V1 · Normes d'exercice professionnel (NEP)",
      "pages": 141,
-     "onglet": "rouges"
+     "onglet": "rouges",
+     "pdf_ess": "imprimer/essentiel/V1_NEP_essentiel.pdf",
+     "pages_ess": 111,
+     "ess_note": "les 27 NEP utilisées par le kit"
     },
     {
      "id": "v2",
@@ -99,7 +102,10 @@
      "pdf": "imprimer/V3_PCG.pdf",
      "court": "V3 · Plan comptable général",
      "pages": 184,
-     "onglet": "jaunes"
+     "onglet": "jaunes",
+     "pdf_ess": "imprimer/essentiel/V3_PCG_essentiel.pdf",
+     "pages_ess": 29,
+     "ess_note": "les articles cités"
     },
     {
      "id": "v4",
@@ -117,7 +123,10 @@
      "pdf": "imprimer/V5_Referentiel_OEC.pdf",
      "court": "V5 · Normes de l'Ordre des experts-comptables",
      "pages": 241,
-     "onglet": "violets"
+     "onglet": "violets",
+     "pdf_ess": "imprimer/essentiel/V5_Referentiel_OEC_essentiel.pdf",
+     "pages_ess": 21,
+     "ess_note": "les pages citées"
     },
     {
      "id": "v6",
@@ -135,7 +144,10 @@
      "pdf": "imprimer/V7_Annales.pdf",
      "court": "V7 · Les 16 sujets d'annales (pour t'entraîner chez toi)",
      "pages": 310,
-     "onglet": "gris"
+     "onglet": "gris",
+     "pdf_ess": "imprimer/essentiel/V7_Annales_essentiel.pdf",
+     "pages_ess": 47,
+     "ess_note": "les 2 annales des 31 oct. et 7 nov."
     },
     {
      "id": "reprographie",
