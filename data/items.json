@@ -25,7 +25,7 @@
    "prof": "CAC",
    "e1": true,
    "freq": "6/14",
-   "dire": "Six exercices ; le mandat expire après l'assemblée qui statue sur les comptes du 6e (L. 821-44, ex L. 823-3). Trois exercices si nomination volontaire ou petit groupe (L. 821-46, ex L. 823-3-2), mission ALPE (L. 821-57, NEP 911). Un mandat en cours va à son terme. Suppléant seulement si le titulaire est une personne physique ou une société unipersonnelle (L. 821-40). Récusation par des associés détenant 5 % (L. 821-49).",
+   "dire": "Six exercices ; le mandat expire après l'assemblée qui statue sur les comptes du 6e (L. 821-44, ex L. 823-3). Trois exercices si nomination volontaire ou petit groupe (L. 821-46, ex L. 823-3-2), mission ALPE (L. 821-57, NEP 911). Dans une société, un mandat en cours va à son terme même si les seuils ne sont plus dépassés (dans une association, l'organe délibérant y met fin : R. 612-1). Suppléant seulement si le titulaire est une personne physique ou une société unipersonnelle (L. 821-40). Récusation par des associés détenant 5 % (L. 821-49).",
    "ou": "V2 brochure CNCC ; Mémento Audit",
    "verif": [
     6,
@@ -34,7 +34,8 @@
     46,
     38,
     28,
-    25
+    25,
+    43
    ]
   },
   {
