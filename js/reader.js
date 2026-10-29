@@ -13,7 +13,7 @@ async function loadLib() {
 }
 
 async function fetchWithProgress(url, onProgress) {
-  const r = await fetch(url);
+  const r = await fetch(url, { cache: 'no-cache' }); // revalide : un PDF republié s'affiche tout de suite
   if (!r.ok) throw new Error(`document introuvable (${r.status})`);
   const total = +r.headers.get('content-length') || 0;
   if (!r.body || !total) return new Uint8Array(await r.arrayBuffer());
