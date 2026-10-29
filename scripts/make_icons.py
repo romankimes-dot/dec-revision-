@@ -39,5 +39,5 @@ def icon(size: int) -> Image.Image:
 
 for s in (192, 512):
     icon(s).save(OUT / f"icon-{s}.png")
-icon(180).save(OUT / "apple-touch-icon.png")
+icon(180).save(OUT / "ue2-touch-180.png")
 print("icônes générées dans", OUT)
