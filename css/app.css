@@ -284,3 +284,7 @@ ul.docs button.doc .chev svg.i { width: 18px; height: 18px; color: var(--faint);
 details.sec { scroll-margin-top: calc(var(--top-safe) + 70px); }
 
 b.bloc { color: var(--primary); letter-spacing: .01em; }
+/* Badges de famille : forme + picto, lisibles sans la couleur. */
+.famb { display: inline-flex; vertical-align: -0.2em; margin-right: 5px; color: var(--text); }
+.famb svg { display: block; }
+.badge .famb { margin-right: 4px; vertical-align: -0.15em; }

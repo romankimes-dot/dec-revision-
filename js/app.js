@@ -4,11 +4,13 @@ import {
   sameRef, median, priorites, causes, CAUSES,
 } from './core.js';
 import { icon } from './icons.js';
+import { badge, volFam, themeFam } from './familles.js';
 import * as AI from './claude.js';
 import { openReader } from './reader.js';
 
 const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const famB = (f, size = 18) => (f ? `<span class="famb">${badge(f, size)}</span>` : '');
 const nl2br = (s) => esc(s).replace(/\n/g, '<br>');
 // Réponse modèle : les blocs Règle / Application / Conclusion en gras, chacun sur sa ligne.
 const modele = (s) => esc(s).replace(/(^|\n)(Règle|Application|Conclusion)\s*\.?/g, (m, nl, w) => `${nl ? '<br>' : ''}<b class="bloc">${w}.</b>`).replace(/\n/g, '<br>');
@@ -370,7 +372,7 @@ function drillView() {
   if (cur) {
     const first = !cur.ref;
     return `<button class="link" data-back="1">${icon('back')}S'entraîner</button><h2 class="h">${first ? 'Trouve-la dans tes livres' : 'Retrouve-la'}</h2>
-    <section class="card recit"><span class="badge">${esc(cur.volume)}</span><h2>${esc(cur.motcle)}</h2>
+    <section class="card recit"><span class="badge">${famB(volFam(cur.volume), 13)}${esc(cur.volume)}</span><h2>${esc(cur.motcle)}</h2>
       <div class="big" id="drT">0</div>
       <p class="muted">${first ? 'Trouve-la dans ta doc papier, puis note la page ou le numéro de paragraphe.' : 'Retrouve-la dans ta doc papier et note la référence.'}</p>
       <label class="lbl">Référence (page, n° de paragraphe, article)<input id="drRef" type="text" autocomplete="off" placeholder="ex. p. 412 ou n° 41250"></label>
@@ -384,7 +386,7 @@ function drillView() {
   <div class="btnrow"><button class="btn primary" id="drGo" ${due.length && drillsDuJour() < DRILL_PAR_JOUR ? '' : 'disabled'}>Retrouver (${Math.max(0, Math.min(due.length, DRILL_PAR_JOUR - drillsDuJour()))} aujourd'hui)</button><button class="btn" id="drLoc" ${todo.length ? '' : 'disabled'}>Compléter une page (${todo.length})</button></div>
   <div style="height:10px"></div><div class="btnrow"><button class="btn" data-go="imprimer">Imprimer l'index</button><button class="btn" id="drAdd">Ajouter une ligne</button></div></section>
   <section class="card" id="drAddF" hidden><label class="lbl">Notion<input id="drAm" type="text"></label><label class="lbl">Volume<input id="drAv" type="text" placeholder="Mémento Audit, V1…"></label><label class="lbl">Référence<input id="drAr" type="text"></label><button class="btn primary" id="drAs">Ajouter</button></section>
-  ${all.length ? `<section class="card"><h3>Ton index</h3><ul class="plain small">${all.sort((a, b) => a.motcle.localeCompare(b.motcle, 'fr')).map((e) => `<li><b>${esc(e.motcle)}</b> · ${esc(e.volume)} · ${esc(e.ref || 'introuvable')}</li>`).join('')}</ul></section>` : ''}`;
+  ${all.length ? `<section class="card"><h3>Ton index</h3><ul class="plain small">${all.sort((a, b) => a.motcle.localeCompare(b.motcle, 'fr')).map((e) => `<li><b>${esc(e.motcle)}</b> · ${famB(volFam(e.volume), 13)}${esc(e.volume)} · ${esc(e.ref || 'introuvable')}</li>`).join('')}</ul></section>` : ''}`;
 }
 
 function imprimerView() {
@@ -456,13 +458,13 @@ function carte() {
     return `${intro}${chips}
     <section class="card"><h2>${st.n_questions} questions, ${st.n_sessions} sujets officiels</h2><p class="muted">Sessions ${esc(st.sessions[0])} à ${esc(st.sessions[st.sessions.length - 1])}, codées question par question. Questions EC : ${st.profession.EC}, CAC : ${st.profession.CAC}, mixtes : ${st.profession.MIXTE || 0}.</p>
     <h3>Domaines (présents dans N sessions sur ${st.n_sessions})</h3>${st.domaines.map((d) => `<div class="hb"><span>${esc(d.code)}</span>${freqBar(d.sessions, st.n_sessions)}<small>${d.sessions} · ${d.questions} q.</small></div>`).join('')}</section>
-    <section class="card"><h3>Thèmes, du plus récurrent au plus rare</h3>${st.themes.map((t) => `<div class="hb"><span>${esc(t.code.replace(/_/g, ' '))}</span>${freqBar(t.sessions, maxQ > 14 ? maxQ : 14)}<small>${t.sessions} · ${t.questions} q. · ${esc(t.derniere)}</small></div>`).join('')}
+    <section class="card"><h3>Thèmes, du plus récurrent au plus rare</h3>${st.themes.map((t) => `<div class="hb"><span>${famB(themeFam(t.code), 14)}${esc(t.code.replace(/_/g, ' '))}</span>${freqBar(t.sessions, maxQ > 14 ? maxQ : 14)}<small>${t.sessions} · ${t.questions} q. · ${esc(t.derniere)}</small></div>`).join('')}
     <p class="muted">Lecture : un thème présent dans 10 sessions sur 14 tombera probablement. Le nombre de questions ne pèse pas les points (barème par dossier seulement).</p></section>`;
   }
   return `${intro}${chips}
   <input id="cq" type="search" placeholder="Chercher une notion, un article…" value="${esc(carteQ)}">
   <p class="muted">${carteFiltre === 'star' ? 'Les 15 notions à savoir dire de mémoire en 30 secondes. Touche une notion pour l\'ouvrir.' : carteFiltre === 'B' ? 'À savoir retrouver dans tes livres en moins de 90 secondes : ajoute-les à ton index.' : carteFiltre === 'mai' ? 'À apprendre par cœur d\'ici mai 2027.' : ''}</p>
-  ${list.map((n) => `<details class="card notion"><summary><div class="row between"><b>${esc(n.item && D.itemById[n.item] ? D.itemById[n.item].titre : n.theme.replace(/_/g, ' '))}</b>${n.e1 ? '<span class="badge">sert aussi à l\'épreuve 1</span>' : ''}</div><div class="row">${freqBar(freqOf(n).s, freqOf(n).n)}<small class="muted">${freqOf(n).s} sujets sur ${freqOf(n).n} · ${n.nov === 'A' ? 'par cœur' : n.nov === 'B' ? 'à retrouver' : 'secondaire'} en novembre</small></div></summary>
+  ${list.map((n) => `<details class="card notion"><summary><div class="row between"><b>${famB(themeFam(n.theme), 20)}${esc(n.item && D.itemById[n.item] ? D.itemById[n.item].titre : n.theme.replace(/_/g, ' '))}</b>${n.e1 ? '<span class="badge">sert aussi à l\'épreuve 1</span>' : ''}</div><div class="row">${freqBar(freqOf(n).s, freqOf(n).n)}<small class="muted">${freqOf(n).s} sujets sur ${freqOf(n).n} · ${n.nov === 'A' ? 'par cœur' : n.nov === 'B' ? 'à retrouver' : 'secondaire'} en novembre</small></div></summary>
     ${n.item && D.itemById[n.item] ? `<p>${esc(D.itemById[n.item].dire)}</p><details class="tech"><summary>Détail technique (notes du plan)</summary><p>${esc(n.dire)}</p></details>` : `<p>${esc(n.dire)}</p>`}<p class="ref">Où le trouver : ${esc(n.ou)}${n.verif.length ? ` · sources vérifiées (VERIF.md, lignes ${n.verif.join(', ')})` : ''}</p></details>`).join('')}`;
 }
 
@@ -489,7 +491,7 @@ function materiel() {
   const tot = G.flatMap((g) => g.items).length; const ok = G.flatMap((g) => g.items).filter((i) => S.materiel[i.id]).length;
   const docs = G.find((g) => g.id === 'gratuits').items.filter((i) => i.pdf);
   const kit = (G.find((g) => g.id === 'kit')?.items || []).filter((i) => i.pdf);
-  const docLi = (pdf, titre, sousTitre) => `<li><button class="doc" data-pdf="${esc(pdf)}" data-title="${esc(titre)}">${icon('file')}<span><b>${esc(titre)}</b><small>${esc(sousTitre)}</small></span><span class="chev">${icon('chevron')}</span></button></li>`;
+  const docLi = (pdf, titre, sousTitre) => `<li><button class="doc" data-pdf="${esc(pdf)}" data-title="${esc(titre)}">${famB(volFam((String(pdf).match(/(?:^|\/)(V\d)_/) || [])[1]), 22) || icon('file')}<span><b>${esc(titre)}</b><small>${esc(sousTitre)}</small></span><span class="chev">${icon('chevron')}</span></button></li>`;
   const essentiel = [...kit.map((i) => ({ pdf: i.pdf, titre: i.court, sous: `${i.pages} pages · ${i.onglet}`, n: i.pages })),
     ...docs.filter((i) => i.id !== 'v7' || i.pdf_ess).map((i) => i.pdf_ess ? { pdf: i.pdf_ess, titre: i.court.replace(/ \(.*\)$/, '') + ' — sélection', sous: `${i.pages_ess} pages sur ${i.pages} · ${i.ess_note}`, n: i.pages_ess } : { pdf: i.pdf, titre: i.court, sous: `${i.pages} pages · onglets ${i.onglet}`, n: i.pages })];
   const totalEss = essentiel.reduce((s, d) => s + d.n, 0);
