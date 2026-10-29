@@ -1,8 +1,8 @@
 # LISEZMOI — ordre d'impression pour la reprographie
 
-DEC, épreuve n° 2 du 10 novembre 2026 (documentation papier autorisée). Dossier assemblé le 28/10/2026. **7 PDF à imprimer** (V1 à V7) et un index des corrigés (V8, à ne pas imprimer). Les fichiers sont prêts : ne rien retoucher.
+DEC, épreuve n° 2 du 10 novembre 2026 (documentation papier autorisée). Dossier assemblé le 28/10/2026. **8 PDF à imprimer** (V1 à V8) et un index des corrigés (Corriges_index.md, à ne pas imprimer). Les fichiers sont prêts : ne rien retoucher.
 
-## Lot à imprimer : 517 pages au lieu de 1 102 (mis à jour le 29/10/2026)
+## Lot à imprimer : 582 pages au lieu de 1 167 (mis à jour le 29/10/2026)
 
 Imprimer seulement ceci pour le 10 novembre. Les pages retirées ne sont citées ni par l'index, ni par les fiches, ni par les sommaires ; chaque page garde son folio d'origine. Les NEP sont complètes ; le PCG garde tout le livre I et les modèles d'annexe, parce que les immobilisations reviennent dans 12 sujets sur 16.
 
@@ -12,6 +12,7 @@ Imprimer seulement ceci pour le 10 novembre. Les pages retirées ne sont citées
 | V2_Livre_VIII_CNCC.pdf | 63 | complet |
 | V4_Deontologie.pdf | 44 | complet |
 | V6_Textes_choisis.pdf | 93 | complet |
+| V8_Fiscal_choisi.pdf | 65 | complet : 52 articles du CGI et du LPF en vigueur au 29/10/2026 (base LEGI), en attendant le Mémento Fiscal |
 | V1_NEP.pdf | 141 | complet (les 40 NEP) |
 | essentiel/V3_PCG_essentiel.pdf | 82 | Livre I complet (principes, actif, passif, charges et produits), pages 82-83, Livre III (modèles et annexe) |
 | essentiel/V5_Referentiel_OEC_essentiel.pdf | 21 | les pages citées des normes de l'Ordre |
@@ -25,10 +26,10 @@ Les volumes complets restent disponibles pour mai 2027.
 |---|---|---|
 | K1_Plan_de_classement.pdf | 4 | table de salle, sommaires à découper et coller en 2e de couverture de chaque volume, onglets à poser |
 | K2_Fiches_de_synthese.pdf | 12 | 12 fiches (seuils, nomination, rapports, révélation, alerte, déontologie, conventions, commissariats, capital, fiscalité, démarche d'audit), vérifiées ligne par ligne (kit_src/K2_verification.md) |
-| K3_Index_prerempli.pdf | 4 | 250 notions → volume → folio (203 folios contrôlés, 47 pages de Mémentos à compléter) |
+| K3_Index_prerempli.pdf | 4 | 250 notions → volume → folio (230 folios contrôlés, 20 pages de Mémentos à compléter) |
 | K4_Trames_de_reponse.pdf | 6 | trames et réponses modèles par famille de questions |
 
-Recto simple conseillé pour K1 (pages à découper) ; recto-verso pour le reste. **Chaque page des volumes V1 à V7 porte désormais un folio « Vx · n » en haut, côté extérieur : c'est le numéro cité par l'index, les fiches et les sommaires.**
+Recto simple conseillé pour K1 (pages à découper) ; recto-verso pour le reste. **Chaque page des volumes V1 à V8 porte désormais un folio « Vx · n » en haut, côté extérieur : c'est le numéro cité par l'index, les fiches et les sommaires.**
 
 ## Consignes générales à donner à la reprographie
 - Format A4, noir et blanc, papier 80 g, **recto-verso**, **reliure spirale** (une par volume), couverture transparente devant et carton derrière.
@@ -49,7 +50,8 @@ Chaque couleur a aussi sa forme et son picto (lisibles sans la couleur), dessin�
 | 5 | V4_Deontologie.pdf | 44 | 22 | spirale | **violet** · écusson-bouclier (déontologie) | indispensable pour le **31 octobre** | 110 g | 6,60 € |
 | 6 | V5_Referentiel_OEC.pdf | 241 | 121 | spirale | **violet** · écusson-bouclier (déontologie / missions EC) | indispensable pour le **7 novembre** | 605 g | 18,50 € |
 | 7 | V7_Annales.pdf | 310 | 155 | spirale | **gris** · rond pointillé-chrono (hors code PLAN) ; un onglet par session | pour **mai 2027** (voir les extraits à tirer tout de suite ci-dessous) | 775 g | 22,60 € |
-| | **Total** | **1 076** | **540** | 7 spirales | | | **≈ 2,7 kg** | **≈ 93 €** |
+| 8 | V8_Fiscal_choisi.pdf | 65 | 33 | spirale | **vert** · rond-pourcent (fiscal) | indispensable pour le **7 novembre** | 165 g | 7,20 € |
+| | **Total** | **1 141** | **573** | 8 spirales | | | **≈ 2,9 kg** | **≈ 100 €** |
 
 \* Hypothèse de tarif **à confirmer au guichet** : 0,06 € par face A4 noir et blanc et 4 € par reliure spirale. Le poids correspond au papier 80 g seul (5 g la feuille), sans les spirales ni les couvertures.
 
@@ -71,7 +73,7 @@ Les autres sessions se trouvent ici : 2026-05 p. 3-16 ; 2024-11 p. 63-80 ; 2023-
 - **V5 — Référentiel OEC.** Édition de septembre 2022 : préface (tableau des agréments), cadre de référence, NPLAB, NP 2300, 2400, 2910, 3100, 3400, 4400, 4410, NP audit, NP activités commerciales.
 - **V6 — Textes choisis.** 74 articles (CMF L./R. 561-x, CSS L. 130-1 et R. 243-59, 58 articles du C. com.), pages tirées des éditions codes.droit.org. Tous ont été vérifiés présents. La page de garde liste, pour chaque article, son dernier texte modificatif et sa page dans le volume.
 - **V7 — Annales.** Les 16 sujets officiels de mai 2026 à mai 2018. Chaque sujet est précédé d'un intercalaire : session, barème par dossier, entités, source.
-- **V8_Corriges_index.md** (à ne pas imprimer) : liens vers les propositions de corrigé **non officielles** (Compta Online et Drive), session par session.
+- **Corriges_index.md** (à ne pas imprimer) : liens vers les propositions de corrigé **non officielles** (Compta Online et Drive), session par session.
 
 ## Corrections à reporter dans PLAN.md
 1. **NEP 700 :** la version en vigueur est celle de l'arrêté du 28/12/2023 (JO 31/12/2023). La « NEP 700 révisée » et l'**abrogation de la NEP 9505** datent de l'arrêté du **1er octobre 2018** (communiqué H2A), pas d'avril 2026. **Seule la NEP 9510 a été révisée le 20/04/2026** (JO 26/04/2026).
@@ -87,6 +89,6 @@ Les autres sessions se trouvent ici : 2026-05 p. 3-16 ; 2024-11 p. 63-80 ; 2023-
 5. **PCG :** la consolidation au 1/1/2026 n'intègre peut-être pas les règlements ANC **2026-01** (crypto-actifs), **2026-03** (produits des ventes) et **2026-04** (impôt sur les bénéfices). À vérifier.
 6. **Sujets 2024-11 et 2026-05 :** ils sont absents des archives SIEC. Ce sont des **scans photo Compta Online** avec filigrane : lisibles, mais pas les PDF officiels. Dans le scan de 2026-05, les pages 11/12 et 12/12 étaient inversées ; elles ont été remises dans l'ordre. Ces deux sujets ont été codés dans `docs/data/sujets_codes_2024-11_2026-05.jsonl` (38 questions : 2024-11 = 16, 2026-05 = 22).
 7. **Barème par dossier de mai 2018 :** il n'est pas imprimé dans le sujet (« non indiqué »). Le barème par question n'est jamais publié, et **aucun corrigé n'est officiel**.
-8. **Corrigés :** Compta Online ne publie aucun corrigé de **2018-11 dossier 2** (Groupe TOYAH). Le dossier Drive « CORRIGES » n'a pas été parcouru en entier (voir V8). Les corrigés n'ont été ni téléchargés ni imprimés.
+8. **Corrigés :** Compta Online ne publie aucun corrigé de **2018-11 dossier 2** (Groupe TOYAH). Le dossier Drive « CORRIGES » n'a pas été parcouru en entier (voir Corriges_index.md). Les corrigés n'ont été ni téléchargés ni imprimés.
 9. **Outil PAPPERS :** il était sans crédit et n'a pas servi. Les textes de V4 et V6 viennent de la base LEGI/DILA et de codes.droit.org (édition non officielle des données Légifrance ; seul le JO fait foi).
 10. **Reste à faire le 29/10 :** confirmer le tarif et le délai de la reprographie, et vérifier sur Légifrance, à la maison, les dates d'application marquées « à vérifier » dans V1.

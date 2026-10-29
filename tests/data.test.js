@@ -88,13 +88,13 @@ test('service worker : chaque fichier précaché existe, chaque donnée est pré
   for (const f of readdirSync(new URL('js/', root))) assert.ok(core.includes('js/' + f), `non précaché : js/${f}`);
 });
 
-test('index pré-rempli : entrées valides, triées, sans doublon d\'id, folios numériques pour V1-V6', () => {
+test('index pré-rempli : entrées valides, triées, sans doublon d\'id, folios numériques pour V1-V8', () => {
   const idx = J('data/index_prerempli.json').entrees;
   assert.ok(idx.length >= 180, `${idx.length} entrées`);
   assert.equal(new Set(idx.map((e) => e.id)).size, idx.length);
   for (const e of idx) {
     assert.ok(e.motcle && e.volume, e.id);
-    if (/^V[1-6]$/.test(e.volume)) assert.match(String(e.ref), /^\d+$/, `${e.id} : folio attendu`);
+    if (/^V[1-68]$/.test(e.volume)) assert.match(String(e.ref), /^\d+$/, `${e.id} : folio attendu`);
     else assert.equal(e.ref, '', `${e.id} : page Mémento à compléter`);
   }
   const noms = idx.map((e) => e.motcle.toLocaleLowerCase('fr'));

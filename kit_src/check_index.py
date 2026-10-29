@@ -12,7 +12,9 @@ Pour chaque entrée V1-V6, vérifie sur la page imprimée (folio « Vx · n » =
      V4  « Article 151 »    → en-tête « Article 151 » seul en début de ligne ;
          autre texte        → présent dans les 12 premières lignes (titre de la norme) ;
      V5  texte              → présent dans les 15 premières lignes (titre de la norme) ;
-     V6  « L. 225-38 »      → en-tête d'article de l'édition codes.droit.org (« L. 225-38   <texte modificatif> »).
+     V6  « L. 225-38 »      → en-tête d'article de l'édition codes.droit.org (« L. 225-38   <texte modificatif> ») ;
+     V8  « 219 CGI »        → en-tête « CGI Article 219 » sur la page ;
+         « 206, 1 bis CGI » / « 155 IV CGI » → dernier en-tête d'article à cette page = 206 / 155, et « 1 bis. » / « IV. » en début de ligne.
 Vérifie aussi les champs, l'unicité des id, le tri alphabétique, les codes thème (taxonomie.md),
 qu'aucune entrée Mémento / hors kit ne porte de folio et qu'aucune entrée ne cite la NEP 705.
 Sort avec le code 1 s'il y a au moins une anomalie.
@@ -21,7 +23,7 @@ import json, re, subprocess, sys, unicodedata, functools
 
 ROOT = '/home/user/dec-revision-'
 VOL = {'V1': 'V1_NEP', 'V2': 'V2_Livre_VIII_CNCC', 'V3': 'V3_PCG', 'V4': 'V4_Deontologie',
-       'V5': 'V5_Referentiel_OEC', 'V6': 'V6_Textes_choisis'}
+       'V5': 'V5_Referentiel_OEC', 'V6': 'V6_Textes_choisis', 'V8': 'V8_Fiscal_choisi'}
 NOFOLIO = {'Mémento Fiscal', 'Mémento Sociétés', 'Mémento Audit', 'Hors kit'}
 
 
@@ -58,6 +60,8 @@ def check_page(v, ref, texte):
     raw = p[n - 1]
     if not re.search(rf'{v}\s*·\s*{n}(?!\d)', raw):
         return f'folio « {v} · {n} » absent de la page'
+    if v == 'V8':
+        return check_v8(n, texte, raw)
     page = flat(raw)
     para = None
     m = re.fullmatch(r'(.+?) § (\d+)', texte)
@@ -101,6 +105,31 @@ def check_page(v, ref, texte):
     return None
 
 
+def check_v8(n, texte, raw):
+    m = re.fullmatch(r'((?:L\. )?\d[\w\- ]*?)(?:,? (1 bis|IV))? (CGI|LPF)', texte)
+    if not m:
+        return f'texte « {texte} » illisible (attendu « 219 CGI », « 206, 1 bis CGI »)'
+    num, para, code = m.groups()
+    hdr = re.compile(r'^\s*(CGI|LPF) Article (.+?)(?:\s{2,}|\s[A-ZÉ][a-zé]|$)')
+    def heads(r):
+        return [(k, *mm.groups()) for k, l in enumerate(r.splitlines()) if (mm := hdr.match(l))]
+    if not para:
+        if not any((c, x.strip()) == (code, num) for _, c, x in heads(raw)):
+            return f'en-tête « {code} Article {num} » absent (simple citation ?)'
+        return None
+    lines = raw.splitlines()
+    k_para = next((k for k, l in enumerate(lines) if re.match(rf'\s*{re.escape(para)}\.\s', l)), None)
+    if k_para is None:
+        return f'« {para}. » ne commence pas sur la page'
+    avant = [(c, x.strip()) for k, c, x in heads(raw) if k < k_para]
+    i = int(n) - 1
+    while not avant and i > 0:
+        avant = [(c, x.strip()) for _, c, x in heads(pages('V8')[i - 1])]; i -= 1
+    if not avant or avant[-1] != (code, num):
+        return f'« {para}. » n\'appartient pas à l\'article {num} ({avant[-1:] or "aucun en-tête"})'
+    return None
+
+
 def main():
     data = json.load(open(f'{ROOT}/data/index_prerempli.json', encoding='utf-8'))
     E = data['entrees']
@@ -135,7 +164,7 @@ def main():
         else:
             anomalies.append(f'{tag} : volume inconnu {v}')
     n_vol = sum(e['volume'] in VOL for e in E)
-    print(f"{len(E)} entrées ; V1-V6 : {n_vol} (vérifiées OK : {ok}) ; Mémentos / hors kit : {len(E) - n_vol}")
+    print(f"{len(E)} entrées ; V1-V8 : {n_vol} (vérifiées OK : {ok}) ; Mémentos / hors kit : {len(E) - n_vol}")
     for a in anomalies:
         print('ANOMALIE', a)
     print(f'{len(anomalies)} anomalie(s)')

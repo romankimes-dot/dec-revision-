@@ -1,0 +1,36 @@
+/* V8 : ajustements propres (kit.css inchangé) */
+@page { size: A4; margin: 14mm 12mm 11mm; }
+body { font-size: 10pt; line-height: 1.24; }
+.garde { break-after: page; font-size: 8pt; }
+.garde .band { background: #15803d; color: #fff; font-weight: 800; font-size: 13pt; letter-spacing: .12em; padding: 6px 10px; text-align: center; margin-bottom: 8px; }
+.garde .gt { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #15803d; padding-bottom: 5px; }
+.garde .vol { font-size: 30pt; font-weight: 900; color: #15803d; }
+.garde .t1 { font-size: 20pt; font-weight: 800; }
+.garde .t2 { font-size: 9pt; color: #333; }
+.garde .intro { font-size: 8.4pt; margin: 5px 0; }
+.garde .warn { font-size: 7.8pt; padding: 3px 7px; margin: 4px 0; }
+table.toc { font-size: 7.3pt; margin: 4px 0; }
+table.toc th { font-size: 7.2pt; padding: 1.5px 3px; background: #e6f4ea; }
+table.toc td { padding: .5px 3px; line-height: 1.12; }
+table.toc td.n { white-space: nowrap; font-weight: 700; }
+table.toc td.v { white-space: nowrap; }
+table.toc td.m { font-size: 6.8pt; color: #333; }
+table.toc td.pg { text-align: right; font-weight: 700; white-space: nowrap; }
+.mk { font-weight: 400; font-size: 6.6pt; color: #555; }
+p.leg, ul.leg { font-size: 7.2pt; margin: 2px 0; color: #222; }
+ul.leg li { margin: 0; }
+.corps p { margin: 0 0 1.4pt; text-align: justify; hyphens: auto; }
+section.art { margin: 0 0 9pt; }
+h2.ah { font-size: 11.5pt; color: #111; margin: 6pt 0 1pt; padding: 2px 0 2px 6px; border-left: 5px solid #15803d; background: #eef7f0; break-after: avoid; }
+h2.ah .cd { font-size: 8pt; color: #fff; background: #15803d; border-radius: 3px; padding: 0 4px; margin-right: 3px; vertical-align: 1px; }
+h2.ah .tt { font-weight: 400; font-size: 8.6pt; color: #333; margin-left: 8px; }
+p.ver { font-size: 7.8pt; color: #333; margin: 0 0 3pt !important; break-after: avoid; text-align: left !important; }
+p.ver .id { color: #666; }
+p.ext { font-size: 7.8pt; font-style: italic; color: #333; break-after: avoid; }
+p.fut { font-size: 8pt; border-left: 3px solid #b7791f; background: #fdf6e8; padding: 2px 6px; }
+p.gap { color: #555; font-style: italic; font-size: 8.6pt; text-align: center !important; }
+.nota { font-size: 7.6pt; color: #333; border-top: .5pt solid #bbb; margin-top: 3pt; padding-top: 2pt; }
+.tb table { font-size: 8.4pt; }
+.tb td { padding: 2px 4px; }
+.tocw { display: flex; gap: 4mm; align-items: flex-start; }
+.tocw table.toc { width: 50%; }

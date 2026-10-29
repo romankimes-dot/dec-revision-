@@ -135,6 +135,15 @@
      "onglet": "bleus"
     },
     {
+     "id": "v8",
+     "t": "V8 — Fiscal choisi (52 articles CGI et LPF à jour)",
+     "note": "en attendant le Mémento Fiscal, puis à côté de lui",
+     "pdf": "imprimer/V8_Fiscal_choisi.pdf",
+     "court": "V8 · Fiscal choisi (articles du CGI et du LPF)",
+     "pages": 65,
+     "onglet": "verts"
+    },
+    {
      "id": "v7",
      "t": "V7 — Annales officielles (à la maison, pas en salle)",
      "note": "",

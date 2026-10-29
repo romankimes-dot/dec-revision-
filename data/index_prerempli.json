@@ -4,8 +4,8 @@
   {
    "id": "k001",
    "motcle": "Abattement fixe du dirigeant partant à la retraite (150-0 D ter CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "22",
    "texte": "150-0 D ter CGI",
    "theme": "plus_values"
   },
@@ -116,8 +116,8 @@
   {
    "id": "k015",
    "motcle": "Apport-cession de titres : report d'imposition (150-0 B ter CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "18",
    "texte": "150-0 B ter CGI",
    "theme": "plus_values"
   },
@@ -172,9 +172,9 @@
   {
    "id": "k022",
    "motcle": "Associations : non-lucrativité, impôts commerciaux",
-   "volume": "Mémento Fiscal",
-   "ref": "",
-   "texte": "—",
+   "volume": "V8",
+   "ref": "45",
+   "texte": "206, 1 bis CGI",
    "theme": "association_non_lucrativite"
   },
   {
@@ -468,9 +468,9 @@
   {
    "id": "k059",
    "motcle": "Contrôle fiscal : vérification de comptabilité, délais de reprise",
-   "volume": "Mémento Fiscal",
-   "ref": "",
-   "texte": "—",
+   "volume": "V8",
+   "ref": "65",
+   "texte": "L. 169 LPF",
    "theme": "controle_fiscal_procedures"
   },
   {
@@ -652,8 +652,8 @@
   {
    "id": "k082",
    "motcle": "Déficits : report en avant et transfert sur agrément (209 CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "45",
    "texte": "209 CGI",
    "theme": "IS"
   },
@@ -708,8 +708,8 @@
   {
    "id": "k089",
    "motcle": "Départ en retraite : exonération des plus-values (151 septies A CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "34",
    "texte": "151 septies A CGI",
    "theme": "plus_values"
   },
@@ -780,8 +780,8 @@
   {
    "id": "k098",
    "motcle": "Dons des particuliers : réduction d'impôt (200 CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "41",
    "texte": "200 CGI",
    "theme": "mecenat_fiscalite_asso"
   },
@@ -804,16 +804,16 @@
   {
    "id": "k101",
    "motcle": "Droits de cession de fonds de commerce (719 CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "60",
    "texte": "719 CGI",
    "theme": "droits_enregistrement_succession"
   },
   {
    "id": "k102",
    "motcle": "Droits de cession de parts et d'actions (726 CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "61",
    "texte": "726 CGI",
    "theme": "droits_enregistrement_succession"
   },
@@ -980,8 +980,8 @@
   {
    "id": "k123",
    "motcle": "Franchise en base de TVA (293 B CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "59",
    "texte": "293 B CGI",
    "theme": "TVA"
   },
@@ -1004,8 +1004,8 @@
   {
    "id": "k126",
    "motcle": "Fusion : régime fiscal de faveur (210 A CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "46",
    "texte": "210 A CGI",
    "theme": "fusion_scission_TUP"
   },
@@ -1132,8 +1132,8 @@
   {
    "id": "k142",
    "motcle": "Intégration fiscale : 95 % (223 A CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "50",
    "texte": "223 A CGI",
    "theme": "integration_fiscale"
   },
@@ -1148,9 +1148,9 @@
   {
    "id": "k144",
    "motcle": "IR-PME : réduction pour souscription au capital",
-   "volume": "Mémento Fiscal",
-   "ref": "",
-   "texte": "—",
+   "volume": "V8",
+   "ref": "38",
+   "texte": "199 terdecies-0 A CGI",
    "theme": "IR_BIC_BNC"
   },
   {
@@ -1164,8 +1164,8 @@
   {
    "id": "k146",
    "motcle": "IS : taux normal et taux réduit PME (219 CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "48",
    "texte": "219 CGI",
    "theme": "IS"
   },
@@ -1244,8 +1244,8 @@
   {
    "id": "k156",
    "motcle": "LMP / LMNP : critères (155 IV CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "36",
    "texte": "155 IV CGI",
    "theme": "fiscalite_immobiliere_SCI_LMNP"
   },
@@ -1268,24 +1268,24 @@
   {
    "id": "k159",
    "motcle": "Mécénat d'entreprise : réduction de 60 % (238 bis CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "54",
    "texte": "238 bis CGI",
    "theme": "mecenat_fiscalite_asso"
   },
   {
    "id": "k160",
    "motcle": "Micro-BIC : seuils et abattements (50-0 CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "11",
    "texte": "50-0 CGI",
    "theme": "micro_entreprise_regimes"
   },
   {
    "id": "k161",
    "motcle": "Micro-BNC : seuil et abattement (102 ter CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "14",
    "texte": "102 ter CGI",
    "theme": "micro_entreprise_regimes"
   },
@@ -1388,8 +1388,8 @@
   {
    "id": "k174",
    "motcle": "Pacte Dutreil : transmission (787 B CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "62",
    "texte": "787 B CGI",
    "theme": "droits_enregistrement_succession"
   },
@@ -1452,24 +1452,24 @@
   {
    "id": "k182",
    "motcle": "PFU et option pour le barème, abattement de 40 % (200 A et 158 CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
-   "texte": "200 A / 158 CGI",
+   "volume": "V8",
+   "ref": "43",
+   "texte": "200 A CGI",
    "theme": "dividendes"
   },
   {
    "id": "k183",
    "motcle": "Plus-values immobilières professionnelles : abattement (151 septies B CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "36",
    "texte": "151 septies B CGI",
    "theme": "plus_values"
   },
   {
    "id": "k184",
    "motcle": "Plus-values professionnelles : exonération PME (151 septies CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "32",
    "texte": "151 septies CGI",
    "theme": "plus_values"
   },
@@ -1652,9 +1652,9 @@
   {
    "id": "k207",
    "motcle": "Régime mère-fille (145 et 216 CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
-   "texte": "145 / 216 CGI",
+   "volume": "V8",
+   "ref": "15",
+   "texte": "145 CGI",
    "theme": "groupe_filiales_conso"
   },
   {
@@ -1788,16 +1788,16 @@
   {
    "id": "k224",
    "motcle": "SCI : option pour l'IS (239 CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "58",
    "texte": "239 CGI",
    "theme": "fiscalite_immobiliere_SCI_LMNP"
   },
   {
    "id": "k225",
    "motcle": "SCM : régime fiscal (239 quater A CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "59",
    "texte": "239 quater A CGI",
    "theme": "IR_BIC_BNC"
   },
@@ -1924,8 +1924,8 @@
   {
    "id": "k241",
    "motcle": "Taxe sur les bureaux en PACA (231 quater CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "52",
    "texte": "231 quater CGI",
    "theme": "fiscalite_immobiliere_SCI_LMNP"
   },
@@ -1964,8 +1964,8 @@
   {
    "id": "k246",
    "motcle": "Transmission d'entreprise : exonération (238 quindecies CGI)",
-   "volume": "Mémento Fiscal",
-   "ref": "",
+   "volume": "V8",
+   "ref": "56",
    "texte": "238 quindecies CGI",
    "theme": "plus_values"
   },
