@@ -8,7 +8,7 @@ Imprimer seulement ceci pour le 10 novembre. Les pages retirées ne sont citées
 
 | Fichier | Pages | Contenu |
 |---|---|---|
-| K1 à K5 | 32 | le kit complet |
+| K1, K2, K3, K4 | 32 | le kit complet |
 | V2_Livre_VIII_CNCC.pdf | 63 | complet |
 | V4_Deontologie.pdf | 44 | complet |
 | V6_Textes_choisis.pdf | 93 | complet |
@@ -24,13 +24,12 @@ Les volumes complets restent disponibles pour mai 2027.
 
 | Fichier | Pages | Usage |
 |---|---|---|
-| K1_Plan_de_classement.pdf | 2 | table de salle (p. 1), onglets des Mémentos (p. 2) |
+| K1_Plan_de_classement.pdf | 10 | p. 1 : table de salle ; p. 2-9 : une page de garde par volume V1 à V8 (titre en grand, bandeau à la couleur des onglets, sommaire avec folios), à placer en 1re page du volume sous la couverture transparente (volume déjà relié : la coller sur la couverture cartonnée ou l'ancienne page de garde) ; p. 10 : onglets des Mémentos |
 | K2_Fiches_de_synthese.pdf | 12 | 12 fiches (seuils, nomination, rapports, révélation, alerte, déontologie, conventions, commissariats, capital, fiscalité, démarche d'audit), vérifiées ligne par ligne (kit_src/K2_verification.md) |
 | K3_Index_prerempli.pdf | 4 | 250 notions → volume → folio (230 folios contrôlés, 20 pages de Mémentos à compléter) |
 | K4_Trames_de_reponse.pdf | 6 | trames et réponses modèles par famille de questions |
-| K5_Pages_de_garde.pdf | 8 | une page de garde par volume V1 à V8 : titre en grand, bandeau à la couleur des onglets, sommaire lisible avec les folios. **Recto seul, en couleur**, à placer en 1re page du volume, juste sous la couverture transparente (si le volume est déjà relié : la coller sur la couverture cartonnée ou sur l'ancienne page de garde) |
 
-Recto simple pour K5 ; recto-verso pour le reste. **Chaque page des volumes V1 à V8 porte désormais un folio « Vx · n » en haut, côté extérieur : c'est le numéro cité par l'index, les fiches et les sommaires.**
+K1 en recto seul, pages 2 à 9 en couleur ; recto-verso pour le reste. **Chaque page des volumes V1 à V8 porte désormais un folio « Vx · n » en haut, côté extérieur : c'est le numéro cité par l'index, les fiches et les sommaires.**
 
 ## Consignes générales à donner à la reprographie
 - Format A4, noir et blanc, papier 80 g, **recto-verso**, **reliure spirale** (une par volume), couverture transparente devant et carton derrière.
