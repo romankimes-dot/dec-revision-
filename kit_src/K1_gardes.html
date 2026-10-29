@@ -35,5 +35,5 @@ table.som{width:100%;border-collapse:collapse;font-size:1em}
 <div class="ft"><span>Folio = tampon « V8 · n » en haut de chaque page</span><span>Test en 30 s : art. 210 A → V8 · 46</span><span>K1 · vérifié le 29/10/2026</span></div></section>
 <script>
 // Réduit la taille du sommaire jusqu'à ce qu'il tienne sur la page.
-document.querySelectorAll('.fit').forEach(f=>{let s=15,p=2.6;while(f.scrollHeight>f.clientHeight&&s>9){s-=.25;p=Math.max(.8,p-.08);f.style.setProperty('--fs',s+'pt');f.style.setProperty('--pd',p+'mm');}});
+document.querySelectorAll('.fit').forEach(f=>{let s=15,p=2.6;while(f.scrollHeight>f.clientHeight-6&&s>9){s-=.25;p=Math.max(.8,p-.08);f.style.setProperty('--fs',s+'pt');f.style.setProperty('--pd',p+'mm');}});
 </script></body></html>
