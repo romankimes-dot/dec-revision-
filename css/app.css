@@ -245,3 +245,16 @@ ul.docs .chev { color: var(--faint); } ul.docs .chev svg.i { width: 18px; height
 .ptr.ready span { border-color: var(--primary); }
 .ptr.spin span { border-color: var(--line); border-top-color: var(--primary); animation: ptr .7s linear infinite; }
 @keyframes ptr { to { transform: rotate(360deg); } }
+
+/* Claude */
+.chat { display: flex; flex-direction: column; gap: 10px; margin-bottom: 12px; }
+.msg { overflow-wrap: anywhere; max-width: 92%; padding: 11px 14px; border-radius: 18px; font-size: 15.5px; line-height: 1.45; }
+.msg p { margin: 0 0 6px; } .msg p:last-child { margin: 0; } .msg ul { margin: 4px 0 6px; }
+.msg.me { align-self: flex-end; background: var(--primary); color: var(--primary-ink); border-bottom-right-radius: 6px; }
+.msg.ai { align-self: flex-start; background: var(--card); box-shadow: var(--shadow); border-bottom-left-radius: 6px; }
+.msg code { font-size: 13px; background: var(--soft); padding: 1px 5px; border-radius: 6px; }
+.chips.wrap { flex-wrap: wrap; overflow: visible; }
+.composer { position: sticky; bottom: calc(var(--nav-h) + env(safe-area-inset-bottom) + 8px); display: flex; gap: 8px; align-items: flex-end; background: var(--card); box-shadow: var(--shadow); border-radius: 22px; padding: 6px 6px 6px 14px; margin-bottom: 10px; }
+.composer textarea { flex: 1; border: 0; background: transparent; padding: 8px 0; min-height: 40px; max-height: 160px; resize: none; font: inherit; font-size: 16px; color: var(--text); outline: none; }
+.iconbtn.send { background: var(--primary); color: var(--primary-ink); border-radius: 50%; width: 40px; height: 40px; }
+.iconbtn.send:disabled { opacity: .4; }

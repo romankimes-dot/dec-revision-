@@ -4,6 +4,7 @@ import {
   sameRef, median, priorites, causes, CAUSES,
 } from './core.js';
 import { icon } from './icons.js';
+import * as AI from './claude.js';
 
 const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -49,6 +50,8 @@ async function keepAwake(on) {
 async function loadData() {
   const files = ['parcours', 'items', 'notions', 'stats', 'methode', 'materiel', 'phases', 'index_seed'];
   await Promise.all(files.map(async (f) => { D[f] = await (await fetch(`./data/${f}.json`)).json(); }));
+  try { D.prerempli = await (await fetch('./data/index_prerempli.json')).json(); } catch { D.prerempli = { entrees: [] }; }
+  D.preById = Object.fromEntries((D.prerempli.entrees || []).map((e) => [e.id, e]));
   D.notionById = Object.fromEntries(D.notions.notions.map((n) => [n.id, n]));
   D.itemById = Object.fromEntries(D.items.items.map((i) => [i.id, i]));
 }
@@ -78,7 +81,7 @@ function render(keep = false) {
   clearInterval(timer); timer = null;
   document.querySelectorAll('nav.bottom button').forEach((b) => b.classList.toggle('active', b.dataset.tab === tab));
   const m = $('#main');
-  const html = tab === 'home' ? home() : tab === 'outils' ? outils() : tab === 'carte' ? carte() : tab === 'methode' ? methode() : tab === 'materiel' ? materiel() : '';
+  const html = tab === 'home' ? home() : tab === 'outils' ? outils() : tab === 'carte' ? carte() : tab === 'methode' ? methode() : tab === 'materiel' ? materiel() : tab === 'claude' ? claudeView() : '';
   m.innerHTML = html;
   bindCommon(m);
   if (tab === 'outils' && sub === 'chrono' && S.chrono) startTick();
@@ -327,31 +330,55 @@ function recitView() {
 }
 
 // --- Index et drill ---
-function idxEntries() { return Object.entries(S.index).map(([id, e]) => ({ id, ...e })); }
+// Index : entrées pré-remplies (kit K3, pages déjà vérifiées) + tes propres lignes ; S.index garde ta progression.
+function entryById(id) {
+  const pre = D.preById[id]; const st = S.index[id] || {};
+  if (pre) return { id, ...pre, ...st, ref: st.ref || pre.ref, volume: st.volume || pre.volume };
+  if (S.index[id]) return { id, ...st };
+  const seed = D.index_seed.entrees.find((x) => x.id === id);
+  return seed ? { id, ...seed, ref: '' } : null;
+}
+function idxEntries() {
+  const ids = new Set([...Object.keys(D.preById), ...Object.keys(S.index)]);
+  return [...ids].map(entryById).filter(Boolean);
+}
+function aCompleter() {
+  if (D.prerempli.entrees?.length) return D.prerempli.entrees.filter((e) => !e.ref && !S.index[e.id]?.ref).map((e) => e.id);
+  return D.index_seed.entrees.filter((s) => !S.index[s.id]).map((s) => s.id);
+}
+const DRILL_PAR_JOUR = 15;
+function drillsDuJour() { const t0 = new Date(today() + 'T00:00:00').getTime(); return Object.values(S.index).reduce((a, e) => a + (e.hist || []).filter((h) => h.t >= t0 && !h.first).length, 0); }
+function prochaineRecherche() {
+  const d = today();
+  if (drillsDuJour() >= DRILL_PAR_JOUR) return null;
+  const due = idxEntries().filter((e) => e.ref && isDue(e, d));
+  due.sort((a, b) => ((a.box || 0) - (b.box || 0)) || (Math.random() - 0.5));
+  return due[0]?.id || null;
+}
 function drillView() {
   const d = today();
   const all = idxEntries();
   const due = all.filter((e) => e.ref && isDue(e, d));
-  const todo = D.index_seed.entrees.filter((s) => !S.index[s.id]);
+  const todo = aCompleter();
   const lastOk = all.flatMap((e) => (e.hist || []).filter((h) => h.ok).map((h) => h.ms)).slice(-20);
   const allH = all.flatMap((e) => e.hist || []).slice(-30);
   const rate = allH.length ? Math.round((allH.filter((h) => h.ok).length / allH.length) * 100) : null;
-  const cur = runState.item ? (S.index[runState.item] || D.index_seed.entrees.find((x) => x.id === runState.item)) : null;
+  const cur = runState.item ? entryById(runState.item) : null;
   if (cur) {
-    const first = !S.index[runState.item]?.ref;
+    const first = !cur.ref;
     return `<button class="link" data-back="1">${icon('back')}S'entraîner</button><h2 class="h">${first ? 'Trouve-la dans tes livres' : 'Retrouve-la'}</h2>
     <section class="card recit"><span class="badge">${esc(cur.volume)}</span><h2>${esc(cur.motcle)}</h2>
       <div class="big" id="drT">0</div>
       <p class="muted">${first ? 'Trouve-la dans ta doc papier, puis note la page ou le numéro de paragraphe.' : 'Retrouve-la dans ta doc papier et note la référence.'}</p>
       <label class="lbl">Référence (page, n° de paragraphe, article)<input id="drRef" type="text" autocomplete="off" placeholder="ex. p. 412 ou n° 41250"></label>
-      <label class="lbl">Volume réel<input id="drVol" type="text" value="${esc(S.index[runState.item]?.volume || cur.volume)}"></label>
+      <label class="lbl">Volume réel<input id="drVol" type="text" value="${esc(cur.volume)}"></label>
       <div class="btnrow"><button class="btn primary" id="drOk">Valider</button><button class="btn" id="drFail">Introuvable</button></div>
     </section>`;
   }
   return `<button class="link" data-back="1">${icon('back')}S'entraîner</button><h2 class="h">Index de ta documentation</h2><p class="intro">Le jour J, tu perds des points à chercher. Ici, tu notes la page où se trouve chaque notion dans tes livres ; l'app te la refait chercher de temps en temps, chronométré, jusqu'à ce que ce soit rapide. À la fin, tu imprimes ton index et tu l'emportes.</p>
   <section class="card"><div class="grid3"><div class="stat"><div class="n">${all.filter((e) => e.ref).length}</div><div class="l">lignes</div></div><div class="stat"><div class="n">${lastOk.length ? Math.round(median(lastOk) / 1000) + ' s' : '—'}</div><div class="l">médiane</div></div><div class="stat"><div class="n">${rate === null ? '—' : rate + ' %'}</div><div class="l">trouvées</div></div></div>
   <p class="muted">Cibles : 80 lignes le 5 novembre, 100 le 8, 500 le 4 mai ; médiane sous 60 s et plus de 95 % trouvées en avril.</p>
-  <div class="btnrow"><button class="btn primary" id="drGo" ${due.length ? '' : 'disabled'}>Retrouver (${due.length} à revoir)</button><button class="btn" id="drLoc" ${todo.length ? '' : 'disabled'}>Chercher une nouvelle (${todo.length})</button></div>
+  <div class="btnrow"><button class="btn primary" id="drGo" ${due.length && drillsDuJour() < DRILL_PAR_JOUR ? '' : 'disabled'}>Retrouver (${Math.max(0, Math.min(due.length, DRILL_PAR_JOUR - drillsDuJour()))} aujourd'hui)</button><button class="btn" id="drLoc" ${todo.length ? '' : 'disabled'}>Compléter une page (${todo.length})</button></div>
   <div style="height:10px"></div><div class="btnrow"><button class="btn" data-go="imprimer">Imprimer l'index</button><button class="btn" id="drAdd">Ajouter une ligne</button></div></section>
   <section class="card" id="drAddF" hidden><label class="lbl">Notion<input id="drAm" type="text"></label><label class="lbl">Volume<input id="drAv" type="text" placeholder="Mémento Audit, V1…"></label><label class="lbl">Référence<input id="drAr" type="text"></label><button class="btn primary" id="drAs">Ajouter</button></section>
   ${all.length ? `<section class="card"><h3>Ton index</h3><ul class="plain small">${all.sort((a, b) => a.motcle.localeCompare(b.motcle, 'fr')).map((e) => `<li><b>${esc(e.motcle)}</b> · ${esc(e.volume)} · ${esc(e.ref || 'introuvable')}</li>`).join('')}</ul></section>` : ''}`;
@@ -467,6 +494,72 @@ function materiel() {
   <p class="muted">${esc(D.materiel.exclus)}</p>`;
 }
 
+// ---------- Claude ----------
+let conv = AI.loadConv();
+let busy = null; // { txt, status, ctrl }
+function md(s) {
+  const lines = esc(s).split('\n'); let out = ''; let inList = false;
+  for (const l of lines) {
+    const li = /^\s*[-*•]\s+(.*)/.exec(l) || /^\s*\d+[.)]\s+(.*)/.exec(l);
+    if (li) { if (!inList) { out += '<ul class="plain">'; inList = true; } out += `<li>${li[1]}</li>`; continue; }
+    if (inList) { out += '</ul>'; inList = false; }
+    const h = /^#{1,4}\s+(.*)/.exec(l);
+    out += h ? `<p><b>${h[1]}</b></p>` : l.trim() ? `<p>${l}</p>` : '';
+  }
+  if (inList) out += '</ul>';
+  return out.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/`([^`]+)`/g, '<code>$1</code>');
+}
+function contexte() {
+  const d = today(); const j = D.parcours.jours.find((x) => x.date === d);
+  const prio = priorites(S.debriefs, D.notions.notions).slice(0, 6).map((p) => D.itemById[D.notionById[p.id]?.item]?.titre || D.notionById[p.id]?.theme).join(' ; ');
+  const cz = causes(S.debriefs).slice(0, 4).map((c) => `${CAUSES.find((x) => x[0] === c.cause)?.[1]} ${c.part} %`).join(' ; ');
+  const lastE = S.ecriture.filter((e) => !e.heure).slice(-1)[0];
+  return [
+    `Date du jour : ${d}. Phase : ${phaseFor(d, D.phases.phases)}.`,
+    `Heures de préparation cochées : ${heuresFaites()} h sur ${D.parcours.budget_h} h prévues avant le 10 novembre.`,
+    j ? `Programme du jour (« ${j.titre} ») : ${j.taches.join(' / ')}.` : '',
+    `Annales chronométrées faites : ${S.seances.length}. Bilans : ${S.debriefs.map((b) => `${b.session}${b.note ? ` ${b.note}/20` : ''}`).join(', ') || 'aucun'}.`,
+    prio ? `Priorités issues des bilans : ${prio}.` : '',
+    cz ? `Causes de perte de points : ${cz}.` : '',
+    lastE ? `Vitesse d'écriture mesurée : ${(lastE.mots / lastE.minutes).toFixed(1)} mots/min.` : '',
+    `Index de documentation : ${idxEntries().filter((e) => e.ref).length} lignes avec page.`,
+    `Les 15 notions à savoir par cœur : ${D.items.items.map((i) => i.titre).join(' ; ')}.`,
+  ].filter(Boolean).join('\n');
+}
+function claudeView() {
+  const key = AI.getKey();
+  const sugg = ['Que dois-je faire aujourd\'hui, et dans quel ordre ?', 'Explique-moi simplement la nomination du CAC', 'Comment organiser mes Mémentos et mes onglets ?', 'Corrige ma réponse : je la colle ici'];
+  const bubbles = conv.filter((m) => AI.textOf(m)).map((m) => `<div class="msg ${m.role === 'user' ? 'me' : 'ai'}">${m.role === 'user' ? esc(AI.textOf(m)).replace(/\n/g, '<br>') : md(AI.textOf(m))}</div>`).join('');
+  return `<h2 class="h">Claude</h2><p class="intro">Pose tes questions sur l'épreuve, le droit, la méthode ou ton organisation. Claude connaît ton plan et ta progression, et lit le dépôt GitHub (plan, vérifications juridiques, statistiques, kit).</p>
+  ${key ? '' : `<section class="card hero2"><h2>Brancher Claude</h2><p>Il faut une clé API Anthropic (console.anthropic.com › API Keys). Elle reste enregistrée sur ce téléphone uniquement. Chaque question est facturée sur ton compte API (quelques centimes).</p>
+    <label class="lbl">Clé API<input id="aiKey" type="password" autocomplete="off" placeholder="sk-ant-…"></label>
+    <button class="btn primary" id="aiKeySave">Enregistrer</button>
+    <p class="muted" style="margin-top:12px">Sans clé : <a href="https://claude.ai/new" target="_blank" rel="noopener">ouvre l'app Claude</a> et colle ta question (sans le contexte de l'app).</p></section>`}
+  <div class="chat" id="chat">${bubbles}${busy ? `<div class="msg ai" id="aiLive">${busy.txt ? md(busy.txt) : `<span class="muted">${esc(busy.status || 'Claude réfléchit…')}</span>`}</div>` : ''}</div>
+  ${!conv.length && !busy ? `<div class="chips wrap">${sugg.map((q) => `<button class="chip" data-sugg="${esc(q)}">${esc(q)}</button>`).join('')}</div>` : ''}
+  <div class="composer"><textarea id="aiQ" rows="2" placeholder="Ta question…" ${key ? '' : 'disabled'}></textarea><button class="iconbtn send" id="aiSend" aria-label="Envoyer" ${key && !busy ? '' : 'disabled'}>${icon('send')}</button></div>
+  ${conv.length ? `<button class="link" id="aiClear">Nouvelle conversation</button>` : ''}`;
+}
+async function envoyer(q) {
+  if (!q.trim() || busy) return;
+  conv.push({ role: 'user', content: q.trim() });
+  busy = { txt: '', status: '', ctrl: new AbortController() };
+  render(true); scrollChat();
+  const upd = () => { const el = $('#aiLive'); if (el) { el.innerHTML = busy.txt ? md(busy.txt) : `<span class="muted">${esc(busy.status || 'Claude réfléchit…')}</span>`; scrollChat(); } };
+  try {
+    const work = conv.slice();
+    const r = await AI.ask(work, { resume: contexte() }, { onText: (t) => { busy.txt = t; upd(); }, onStatus: (s) => { busy.status = s; busy.txt = ''; upd(); }, signal: busy.ctrl.signal });
+    conv = r.messages;
+    if (r.fin === 'refus') conv.push({ role: 'assistant', content: 'Claude n\'a pas pu répondre à cette demande. Reformule-la.' });
+    if (r.fin === 'coupe') conv.push({ role: 'assistant', content: '(Réponse coupée : demande la suite.)' });
+  } catch (e) {
+    const msg = e?.status === 401 ? 'Clé API refusée : vérifie-la dans Réglages.' : e?.status === 429 ? 'Trop de demandes ou crédit épuisé sur ton compte API : réessaie plus tard.' : e?.status === 400 ? `Demande refusée par l'API : ${e.message}` : /fetch|network|connection/i.test(String(e?.message)) ? 'Pas de connexion : Claude a besoin d\'Internet.' : `Erreur : ${e?.message || e}`;
+    conv.push({ role: 'assistant', content: msg });
+  }
+  busy = null; AI.saveConv(conv); render(true); scrollChat();
+}
+function scrollChat() { const c = $('#chat'); if (c) window.scrollTo(0, document.body.scrollHeight); }
+
 // ---------- réglages ----------
 function applyTheme() {
   const t = S.settings.theme;
@@ -477,6 +570,7 @@ function openSettings() {
   const sh = $('#sheet');
   sh.innerHTML = `<div class="sheetin"><h2>Réglages</h2>
     <label class="lbl">Apparence<select id="stTheme">${[['auto', 'Automatique (comme l\'iPhone)'], ['light', 'Toujours clair'], ['dark', 'Toujours sombre']].map(([v, l]) => `<option value="${v}" ${(S.settings.theme || 'auto') === v ? 'selected' : ''}>${l}</option>`).join('')}</select></label>
+    <label class="lbl">Clé API Claude (reste sur ce téléphone)<input id="stKey" type="password" autocomplete="off" placeholder="sk-ant-…" value="${esc(AI.getKey())}"></label>
     <label class="lbl">Date simulée (pour tester l'après-novembre)<input id="stDate" type="date" value="${esc(S.settings.dateSimulee)}"></label>
     <div class="btnrow"><button class="btn" id="stExp">Exporter ma progression</button><label class="btn">Importer<input id="stImp" type="file" accept="application/json" hidden></label></div>
     <div style="height:10px"></div><button class="btn" id="stReset">Tout effacer</button>
@@ -484,7 +578,7 @@ function openSettings() {
     <p class="muted">Données stockées sur cet iPhone uniquement. Exporte avant de changer de téléphone.</p></div>`;
   sh.hidden = false;
   $('#stTheme').onchange = () => { S.settings.theme = $('#stTheme').value; applyTheme(); persist(); };
-  $('#stClose').onclick = () => { S.settings.dateSimulee = $('#stDate').value; persist(); sh.hidden = true; viewDay = null; render(); };
+  $('#stClose').onclick = () => { AI.setKey($('#stKey').value); S.settings.dateSimulee = $('#stDate').value; persist(); sh.hidden = true; viewDay = null; render(); };
   $('#stExp').onclick = () => {
     const blob = new Blob([exportJSON(S)], { type: 'application/json' });
     const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `dec2-progression-${ymd(new Date())}.json`; a.click();
@@ -521,6 +615,11 @@ function bindCommon(m) {
   m.querySelectorAll('[data-back]').forEach((b) => b.addEventListener('click', () => { sub = null; runState.t0 = 0; runState.item = null; render(); }));
   m.querySelectorAll('[data-day]').forEach((b) => b.addEventListener('click', () => { viewDay = b.dataset.day; tab = 'home'; render(); }));
   m.querySelectorAll('[data-goafter]').forEach((b) => b.addEventListener('click', () => { m.innerHTML = apres(today() < '2026-11-11' ? '2026-11-11' : today(), phaseFor(today() < '2026-11-11' ? '2026-11-12' : today(), D.phases.phases)); bindCommon(m); }));
+  if ($('#aiKeySave', m)) $('#aiKeySave').onclick = () => { AI.setKey($('#aiKey').value); toast(AI.getKey() ? 'Clé enregistrée' : 'Clé vide'); render(); };
+  if ($('#aiSend', m)) $('#aiSend').onclick = () => envoyer($('#aiQ').value);
+  if ($('#aiQ', m)) $('#aiQ').addEventListener('keydown', (e) => { if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) envoyer($('#aiQ').value); });
+  m.querySelectorAll('[data-sugg]').forEach((b) => b.addEventListener('click', () => { if (AI.getKey()) envoyer(b.dataset.sugg); else { const t = $('#aiQ'); if (t) t.value = b.dataset.sugg; } }));
+  if ($('#aiClear', m)) $('#aiClear').onclick = () => { conv = []; AI.clearConv(); render(); };
   m.querySelectorAll('[data-guideok]').forEach((b) => b.addEventListener('click', () => { S.lus.guide = 1; persist(); render(true); }));
   m.querySelectorAll('[data-backsprint]').forEach((b) => b.addEventListener('click', () => render()));
   m.querySelectorAll('[data-task]').forEach((c) => c.addEventListener('change', () => {
@@ -580,8 +679,8 @@ function bindCommon(m) {
     render();
   }));
   // drill
-  if ($('#drGo', m)) $('#drGo').onclick = () => { const d = today(); const due = idxEntries().filter((e) => e.ref && isDue(e, d)).sort((a, b) => (a.box || 0) - (b.box || 0)); runState.item = due[0]?.id; runState.t0 = nowMs(); runState.kind = 'drill'; render(); };
-  if ($('#drLoc', m)) $('#drLoc').onclick = () => { const todo = D.index_seed.entrees.filter((s) => !S.index[s.id]); runState.item = todo[0]?.id; runState.t0 = nowMs(); runState.kind = 'drill'; render(); };
+  if ($('#drGo', m)) $('#drGo').onclick = () => { runState.item = prochaineRecherche(); if (!runState.item) { toast('Séance du jour terminée'); return; } runState.t0 = nowMs(); runState.kind = 'drill'; render(); };
+  if ($('#drLoc', m)) $('#drLoc').onclick = () => { runState.item = aCompleter()[0]; runState.t0 = nowMs(); runState.kind = 'drill'; render(); };
   if ($('#drAdd', m)) $('#drAdd').onclick = () => { $('#drAddF').hidden = false; };
   if ($('#drAs', m)) $('#drAs').onclick = () => {
     const mc = $('#drAm').value.trim(); if (!mc) return;
@@ -589,18 +688,20 @@ function bindCommon(m) {
   };
   const finishDrill = (found) => {
     const id = runState.item; const ms = nowMs() - runState.t0; const ref = $('#drRef').value.trim(); const vol = $('#drVol').value.trim();
-    const seed = D.index_seed.entrees.find((x) => x.id === id);
-    let e = S.index[id];
-    if (!e || !e.ref) {
-      e = S.index[id] = { motcle: (e || seed).motcle, volume: vol || (e || seed).volume, ref: found ? ref : '', box: 0, due: addDays(today(), 1), hist: [{ t: nowMs(), ms, ok: found && !!ref, first: true }] };
-      if (found && !ref) { toast('Note la référence trouvée'); delete S.index[id]; return; }
+    const base = entryById(id);
+    if (!base.ref) {
+      if (found && !ref) { toast('Note la page trouvée'); return; }
+      S.index[id] = { ...(S.index[id] || {}), motcle: base.motcle, volume: vol || base.volume, ref: found ? ref : '', box: 0, due: addDays(today(), 1), hist: [{ t: nowMs(), ms, ok: found && !!ref, first: true }] };
     } else {
-      const ok = found && sameRef(ref, e.ref);
-      e.box = nextBox(e.box, ok); e.due = addDays(today(), ok ? INTERVALS[e.box] : 0); e.hist = [...(e.hist || []).slice(-20), { t: nowMs(), ms, ok }];
-      if (vol) e.volume = vol;
-      toast(ok ? `Trouvé en ${Math.round(ms / 1000)} s` : `Réf. attendue : ${e.ref}`);
+      const st = S.index[id] || (S.index[id] = {});
+      const ok = found && sameRef(ref, base.ref);
+      st.box = nextBox(st.box, ok); st.due = addDays(today(), ok ? INTERVALS[st.box] : 0); st.hist = [...(st.hist || []).slice(-20), { t: nowMs(), ms, ok }];
+      if (vol && vol !== base.volume) st.volume = vol;
+      toast(ok ? `Trouvé en ${Math.round(ms / 1000)} s` : `Page attendue : ${base.volume} · ${base.ref}`);
     }
-    persist(); runState.item = null; runState.t0 = 0; render();
+    persist();
+    runState.item = base.ref ? prochaineRecherche() : aCompleter()[0] || null; // enchaîne sur la suivante
+    runState.t0 = runState.item ? nowMs() : 0; render();
   };
   if ($('#drOk', m)) $('#drOk').onclick = () => finishDrill(true);
   if ($('#drFail', m)) $('#drFail').onclick = () => finishDrill(false);
@@ -660,6 +761,7 @@ async function boot() {
     .map(([id, ic, l]) => `<button data-tab="${id}">${icon(ic)}<span>${l}</span></button>`).join('');
   document.querySelectorAll('nav.bottom button').forEach((b) => b.addEventListener('click', () => { tab = b.dataset.tab; sub = null; viewDay = null; draft = null; runState.t0 = 0; runState.item = null; render(); }));
   $('#settingsBtn').onclick = openSettings;
+  $('#claudeBtn').onclick = () => { tab = 'claude'; sub = null; render(); };
   pullToRefresh();
   if (S.chrono) { tab = 'outils'; sub = 'chrono'; keepAwake(true); }
   document.addEventListener('visibilitychange', () => { if (!document.hidden && (S.chrono || runState.t0)) { keepAwake(true); startTick(); } });
