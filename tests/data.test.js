@@ -51,7 +51,7 @@ const scan = () => {
 };
 
 test('liste noire : aucune valeur périmée dans les données', () => {
-  const noir = ['188 700', '188700', '77 700', '77700', 'NP 2010', '9 / 18 / 50', '9/18/50', 'NEP 9505', 'R. 233-16'];
+  const noir = ['188 700', '188700', '77 700', '77700', 'NP 2010', '9 / 18 / 50', '9/18/50', 'NEP 9505', 'NEP 705', 'R. 233-16', 'L. 821-52 (ex'];
   for (const [nom, txt] of scan()) for (const v of noir) assert.ok(!txt.includes(v), `${nom} contient « ${v} »`);
 });
 

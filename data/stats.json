@@ -14,26 +14,33 @@
   "2023-05",
   "2023-11",
   "2024-05",
+  "2024-11",
   "2025-05",
-  "2025-11"
+  "2025-11",
+  "2026-05"
  ],
- "n_sessions": 14,
- "n_questions": 260,
+ "n_sessions": 16,
+ "n_questions": 298,
  "profession": {
-  "EC": 142,
-  "CAC": 104,
-  "MIXTE": 14
+  "EC": 162,
+  "CAC": 121,
+  "MIXTE": 15
  },
  "domaines": [
   {
-   "code": "SOC",
-   "sessions": 13,
-   "questions": 61
+   "code": "FISC",
+   "sessions": 15,
+   "questions": 72
   },
   {
-   "code": "FISC",
-   "sessions": 13,
-   "questions": 60
+   "code": "SOC",
+   "sessions": 15,
+   "questions": 64
+  },
+  {
+   "code": "AUDIT",
+   "sessions": 15,
+   "questions": 58
   },
   {
    "code": "EXPRO",
@@ -41,24 +48,19 @@
    "questions": 43
   },
   {
-   "code": "AUDIT",
-   "sessions": 13,
-   "questions": 43
-  },
-  {
    "code": "COMPTA",
-   "sessions": 13,
-   "questions": 37
-  },
-  {
-   "code": "ASSO",
-   "sessions": 3,
-   "questions": 8
+   "sessions": 14,
+   "questions": 38
   },
   {
    "code": "SOCIAL",
-   "sessions": 6,
-   "questions": 6
+   "sessions": 8,
+   "questions": 11
+  },
+  {
+   "code": "ASSO",
+   "sessions": 4,
+   "questions": 10
   },
   {
    "code": "AUTRE",
@@ -69,39 +71,63 @@
  "themes": [
   {
    "code": "rapport_CAC_opinion",
-   "sessions": 11,
-   "questions": 18,
-   "derniere": "2025-11"
+   "sessions": 13,
+   "questions": 21,
+   "derniere": "2026-05"
   },
   {
    "code": "immobilisations_amortissements",
-   "sessions": 10,
-   "questions": 23,
-   "derniere": "2025-11"
+   "sessions": 12,
+   "questions": 25,
+   "derniere": "2026-05"
   },
   {
    "code": "AG_convocation_approbation",
-   "sessions": 10,
-   "questions": 19,
-   "derniere": "2025-11"
+   "sessions": 11,
+   "questions": 20,
+   "derniere": "2026-05"
   },
   {
    "code": "independance_incompatibilites",
-   "sessions": 10,
-   "questions": 14,
-   "derniere": "2025-11"
+   "sessions": 11,
+   "questions": 15,
+   "derniere": "2026-05"
   },
   {
    "code": "IS",
-   "sessions": 9,
-   "questions": 16,
+   "sessions": 10,
+   "questions": 17,
    "derniere": "2025-11"
   },
   {
+   "code": "cession_titres_fonds",
+   "sessions": 10,
+   "questions": 16,
+   "derniere": "2026-05"
+  },
+  {
    "code": "SACC_autres_missions",
-   "sessions": 9,
-   "questions": 12,
+   "sessions": 10,
+   "questions": 13,
    "derniere": "2025-05"
+  },
+  {
+   "code": "plus_values",
+   "sessions": 9,
+   "questions": 16,
+   "derniere": "2026-05"
+  },
+  {
+   "code": "apports_commissariat",
+   "sessions": 8,
+   "questions": 21,
+   "derniere": "2026-05"
+  },
+  {
+   "code": "nomination_CAC",
+   "sessions": 8,
+   "questions": 21,
+   "derniere": "2026-05"
   },
   {
    "code": "fiscalite_immobiliere_SCI_LMNP",
@@ -110,49 +136,61 @@
    "derniere": "2025-11"
   },
   {
+   "code": "mandat_duree_cessation",
+   "sessions": 8,
+   "questions": 17,
+   "derniere": "2026-05"
+  },
+  {
+   "code": "groupe_filiales_conso",
+   "sessions": 8,
+   "questions": 16,
+   "derniere": "2025-11"
+  },
+  {
+   "code": "TVA",
+   "sessions": 8,
+   "questions": 14,
+   "derniere": "2026-05"
+  },
+  {
+   "code": "LCBFT",
+   "sessions": 8,
+   "questions": 13,
+   "derniere": "2026-05"
+  },
+  {
    "code": "responsabilite",
    "sessions": 8,
    "questions": 13,
    "derniere": "2025-11"
   },
   {
-   "code": "cession_titres_fonds",
+   "code": "elements_probants",
    "sessions": 8,
-   "questions": 11,
-   "derniere": "2024-05"
-  },
-  {
-   "code": "apports_commissariat",
-   "sessions": 7,
-   "questions": 20,
-   "derniere": "2023-11"
-  },
-  {
-   "code": "groupe_filiales_conso",
-   "sessions": 7,
-   "questions": 14,
-   "derniere": "2025-11"
-  },
-  {
-   "code": "TVA",
-   "sessions": 7,
-   "questions": 13,
-   "derniere": "2025-11"
-  },
-  {
-   "code": "plus_values",
-   "sessions": 7,
-   "questions": 13,
-   "derniere": "2025-05"
-  },
-  {
-   "code": "LCBFT",
-   "sessions": 7,
    "questions": 12,
    "derniere": "2025-11"
   },
   {
-   "code": "elements_probants",
+   "code": "contrat_travail",
+   "sessions": 8,
+   "questions": 10,
+   "derniere": "2026-05"
+  },
+  {
+   "code": "IR_BIC_BNC",
+   "sessions": 7,
+   "questions": 23,
+   "derniere": "2026-05"
+  },
+  {
+   "code": "droits_enregistrement_succession",
+   "sessions": 7,
+   "questions": 13,
+   "derniere": "2026-05"
+  },
+  {
+   "code": "demarche_audit_risques",
    "sessions": 7,
    "questions": 11,
    "derniere": "2025-11"
@@ -170,15 +208,15 @@
    "derniere": "2025-11"
   },
   {
+   "code": "paie_charges_sociales",
+   "sessions": 7,
+   "questions": 7,
+   "derniere": "2026-05"
+  },
+  {
    "code": "augmentation_reduction_capital",
    "sessions": 6,
    "questions": 19,
-   "derniere": "2025-11"
-  },
-  {
-   "code": "nomination_CAC",
-   "sessions": 6,
-   "questions": 16,
    "derniere": "2025-11"
   },
   {
@@ -194,34 +232,10 @@
    "derniere": "2025-11"
   },
   {
-   "code": "demarche_audit_risques",
-   "sessions": 6,
-   "questions": 10,
-   "derniere": "2025-11"
-  },
-  {
-   "code": "contrat_travail",
-   "sessions": 6,
-   "questions": 7,
-   "derniere": "2025-11"
-  },
-  {
-   "code": "mandat_duree_cessation",
-   "sessions": 6,
-   "questions": 7,
-   "derniere": "2025-11"
-  },
-  {
-   "code": "paie_charges_sociales",
-   "sessions": 6,
-   "questions": 6,
-   "derniere": "2025-11"
-  },
-  {
-   "code": "IR_BIC_BNC",
+   "code": "transformation",
    "sessions": 5,
-   "questions": 17,
-   "derniere": "2025-11"
+   "questions": 19,
+   "derniere": "2024-11"
   },
   {
    "code": "fusion_scission_TUP",
@@ -230,10 +244,10 @@
    "derniere": "2023-05"
   },
   {
-   "code": "droits_enregistrement_succession",
+   "code": "association_non_lucrativite",
    "sessions": 5,
-   "questions": 11,
-   "derniere": "2024-05"
+   "questions": 12,
+   "derniere": "2026-05"
   },
   {
    "code": "annexe_comptes_annuels",
@@ -246,18 +260,6 @@
    "sessions": 5,
    "questions": 6,
    "derniere": "2025-11"
-  },
-  {
-   "code": "transformation",
-   "sessions": 4,
-   "questions": 16,
-   "derniere": "2022-11"
-  },
-  {
-   "code": "association_non_lucrativite",
-   "sessions": 4,
-   "questions": 10,
-   "derniere": "2025-05"
   },
   {
    "code": "depot_comptes",
@@ -278,6 +280,18 @@
    "derniere": "2025-11"
   },
   {
+   "code": "statut_dirigeant_social",
+   "sessions": 4,
+   "questions": 5,
+   "derniere": "2025-11"
+  },
+  {
+   "code": "procedure_alerte",
+   "sessions": 4,
+   "questions": 4,
+   "derniere": "2026-05"
+  },
+  {
    "code": "mecenat_fiscalite_asso",
    "sessions": 3,
    "questions": 8,
@@ -288,6 +302,12 @@
    "sessions": 3,
    "questions": 7,
    "derniere": "2025-05"
+  },
+  {
+   "code": "subventions",
+   "sessions": 3,
+   "questions": 7,
+   "derniere": "2026-05"
   },
   {
    "code": "micro_entreprise_regimes",
@@ -320,34 +340,28 @@
    "derniere": "2025-05"
   },
   {
-   "code": "procedure_alerte",
-   "sessions": 3,
-   "questions": 3,
-   "derniere": "2024-05"
-  },
-  {
-   "code": "statut_dirigeant_social",
-   "sessions": 3,
-   "questions": 3,
-   "derniere": "2025-11"
-  },
-  {
    "code": "secret_pro",
    "sessions": 2,
    "questions": 8,
    "derniere": "2019-05"
   },
   {
+   "code": "URSSAF_controle",
+   "sessions": 2,
+   "questions": 4,
+   "derniere": "2026-05"
+  },
+  {
+   "code": "liquidation_dissolution",
+   "sessions": 2,
+   "questions": 4,
+   "derniere": "2026-05"
+  },
+  {
    "code": "seuils_signification",
    "sessions": 2,
    "questions": 3,
    "derniere": "2023-05"
-  },
-  {
-   "code": "subventions",
-   "sessions": 2,
-   "questions": 3,
-   "derniere": "2025-05"
   },
   {
    "code": "controle_interne",
@@ -392,12 +406,6 @@
    "derniere": "2018-11"
   },
   {
-   "code": "liquidation_dissolution",
-   "sessions": 1,
-   "questions": 3,
-   "derniere": "2018-11"
-  },
-  {
    "code": "CSE_participation",
    "sessions": 1,
    "questions": 2,
@@ -413,12 +421,6 @@
    "code": "perte_moitie_capital",
    "sessions": 1,
    "questions": 2,
-   "derniere": "2024-05"
-  },
-  {
-   "code": "URSSAF_controle",
-   "sessions": 1,
-   "questions": 1,
    "derniere": "2024-05"
   },
   {
@@ -522,6 +524,12 @@
    "SOC": 5,
    "AUDIT": 2
   },
+  "2024-11": {
+   "SOCIAL": 1,
+   "SOC": 2,
+   "FISC": 7,
+   "AUDIT": 6
+  },
   "2025-05": {
    "EXPRO": 2,
    "FISC": 5,
@@ -538,6 +546,14 @@
    "SOCIAL": 1,
    "EXPRO": 2,
    "AUDIT": 5
+  },
+  "2026-05": {
+   "SOCIAL": 4,
+   "ASSO": 2,
+   "AUDIT": 9,
+   "SOC": 1,
+   "FISC": 5,
+   "COMPTA": 1
   }
  }
 }

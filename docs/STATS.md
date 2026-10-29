@@ -1,79 +1,81 @@
-# Stats de récurrence — DEC épreuve 2, 14 sujets officiels (mai 2018 → nov 2025), 260 questions codées
+# Stats de récurrence — DEC épreuve 2, 16 sujets officiels (2018-05 → 2026-05), 298 questions codées
 
-## Domaines (nb de sessions où présent /14, nb questions)
-- SOC: 13/14 sessions, 61 questions
-- FISC: 13/14 sessions, 60 questions
-- EXPRO: 14/14 sessions, 43 questions
-- AUDIT: 13/14 sessions, 43 questions
-- COMPTA: 13/14 sessions, 37 questions
-- ASSO: 3/14 sessions, 8 questions
-- SOCIAL: 6/14 sessions, 6 questions
-- AUTRE: 1/14 sessions, 2 questions
+Comptage en questions, pas en points (le barème n'est publié que par dossier). 2024-11 et 2026-05 codés sur les scans Compta Online.
 
-Profession des questions : {'EC': 142, 'CAC': 104, 'MIXTE': 14}
+## Domaines (sessions /16, questions)
+- FISC: 15/16 sessions, 72 questions
+- SOC: 15/16 sessions, 64 questions
+- AUDIT: 15/16 sessions, 58 questions
+- EXPRO: 14/16 sessions, 43 questions
+- COMPTA: 14/16 sessions, 38 questions
+- SOCIAL: 8/16 sessions, 11 questions
+- ASSO: 4/16 sessions, 10 questions
+- AUTRE: 1/16 sessions, 2 questions
 
-## Thèmes (sessions /14 | questions)
-- rapport_CAC_opinion: 11 | 18
-- immobilisations_amortissements: 10 | 23
-- AG_convocation_approbation: 10 | 19
-- independance_incompatibilites: 10 | 14
-- IS: 9 | 16
-- SACC_autres_missions: 9 | 12
+Profession des questions : {'EC': 162, 'CAC': 121, 'MIXTE': 15}
+
+## Thèmes (sessions /16 | questions)
+- rapport_CAC_opinion: 13 | 21
+- immobilisations_amortissements: 12 | 25
+- AG_convocation_approbation: 11 | 20
+- independance_incompatibilites: 11 | 15
+- IS: 10 | 17
+- cession_titres_fonds: 10 | 16
+- SACC_autres_missions: 10 | 13
+- plus_values: 9 | 16
+- nomination_CAC: 8 | 21
+- apports_commissariat: 8 | 21
 - fiscalite_immobiliere_SCI_LMNP: 8 | 18
+- mandat_duree_cessation: 8 | 17
+- groupe_filiales_conso: 8 | 16
+- TVA: 8 | 14
 - responsabilite: 8 | 13
-- cession_titres_fonds: 8 | 11
-- apports_commissariat: 7 | 20
-- groupe_filiales_conso: 7 | 14
-- TVA: 7 | 13
-- plus_values: 7 | 13
-- LCBFT: 7 | 12
-- elements_probants: 7 | 11
+- LCBFT: 8 | 13
+- elements_probants: 8 | 12
+- contrat_travail: 8 | 10
+- IR_BIC_BNC: 7 | 23
+- droits_enregistrement_succession: 7 | 13
+- demarche_audit_risques: 7 | 11
 - revelation_faits_delictueux: 7 | 11
 - lettre_mission: 7 | 9
+- paie_charges_sociales: 7 | 7
 - augmentation_reduction_capital: 6 | 19
-- nomination_CAC: 6 | 16
 - conventions_reglementees: 6 | 11
 - verifications_specifiques: 6 | 11
-- demarche_audit_risques: 6 | 10
-- mandat_duree_cessation: 6 | 7
-- contrat_travail: 6 | 7
-- paie_charges_sociales: 6 | 6
-- IR_BIC_BNC: 5 | 17
+- transformation: 5 | 19
 - fusion_scission_TUP: 5 | 13
-- droits_enregistrement_succession: 5 | 11
+- association_non_lucrativite: 5 | 12
 - annexe_comptes_annuels: 5 | 9
 - provisions: 5 | 6
-- transformation: 4 | 16
-- association_non_lucrativite: 4 | 10
 - depot_comptes: 4 | 7
 - numerique_RGPD_FEC_caisse: 4 | 6
 - rapport_gestion_gouvernance: 4 | 5
+- statut_dirigeant_social: 4 | 5
+- procedure_alerte: 4 | 4
 - mecenat_fiscalite_asso: 3 | 8
 - dirigeants_gerance: 3 | 7
+- subventions: 3 | 7
 - micro_entreprise_regimes: 3 | 6
 - international: 3 | 5
 - dividendes: 3 | 4
-- procedure_alerte: 3 | 3
 - evaluation_entreprise: 3 | 3
 - controle_fiscal_procedures: 3 | 3
-- statut_dirigeant_social: 3 | 3
 - secret_pro: 2 | 8
+- liquidation_dissolution: 2 | 4
+- URSSAF_controle: 2 | 4
 - seuils_signification: 2 | 3
-- subventions: 2 | 3
 - controle_interne: 2 | 2
 - procedures_collectives: 2 | 2
 - integration_fiscale: 2 | 2
 - honoraires: 2 | 2
 - RSE_durabilite_CSRD: 1 | 4
 - changements_methodes: 1 | 4
-- liquidation_dissolution: 1 | 3
 - consolidation_technique: 1 | 3
 - perte_moitie_capital: 1 | 2
 - CSE_participation: 1 | 2
 - IFRS: 1 | 2
 - evenements_post_cloture: 1 | 1
 - stocks: 1 | 1
-- URSSAF_controle: 1 | 1
 
 ## "autre" (intitulés)
 - 2018-05 La mission de présentation des comptes annuels a-t-elle pour objectif de déceler des fraudes ?
@@ -114,3 +116,4 @@ Profession des questions : {'EC': 142, 'CAC': 104, 'MIXTE': 14}
 - 2023-05 Impact de la modification des amortissements sur l'imposition (régime de taxe au tonnage)
 - 2025-05 Cartes de restauration : traitement comptable des soldes reportés (produits constatés d'avance / dettes envers familles)
 - 2025-11 Taxe sur les locaux à usage de bureaux dans le Var (extension PACA 2023), seuil d'exonération 100 m², montant
+- 2024-11 Conséquences de la mise en société sur la SCM dont le praticien est associé à 25 % (clause statutaire réservant le capital aux praticiens exerçant sur place)

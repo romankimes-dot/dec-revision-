@@ -156,7 +156,7 @@ function apres(d, ph) {
     ${cur.annales ? `<p><b>Annales :</b> ${cur.annales.map(esc).join(', ')}</p>` : ''}
   </section>` : `<section class="card"><h2>${ph === 'apres' ? 'Après mai 2027' : 'Calendrier'}</h2><p class="muted">${ph === 'apres' ? 'Résultats le 2 juillet 2027.' : ''}</p></section>`}
   <section class="card"><h2>Tes priorités</h2>
-    ${prio.length ? `<ol>${prio.map((p) => `<li>${esc((D.notionById[p.id]?.theme || p.id).replace(/_/g, ' '))} <span class="muted">(${p.s})</span></li>`).join('')}</ol><p class="muted">Calcul : questions ratées, cherchées en vain ou laissées blanches, pondérées par la fréquence du thème dans les 14 sujets.</p>` : '<p class="muted">Elles apparaîtront après ton premier débrief.</p>'}
+    ${prio.length ? `<ol>${prio.map((p) => `<li>${esc((D.notionById[p.id]?.theme || p.id).replace(/_/g, ' '))} <span class="muted">(${p.s})</span></li>`).join('')}</ol><p class="muted">Calcul : questions ratées, cherchées en vain ou laissées blanches, pondérées par la fréquence du thème dans les sujets officiels.</p>` : '<p class="muted">Elles apparaîtront après ton premier débrief.</p>'}
     ${cz.length ? `<h3>Causes de perte de points</h3><ul class="plain">${cz.map((c) => `<li>${esc(CAUSES.find((x) => x[0] === c.cause)?.[1] || c.cause)} : ${c.part} %${c.part > 25 ? ' <span class="badge warn">drills imposés</span>' : ''}</li>`).join('')}</ul>` : ''}
   </section>
   <section class="card"><h2>Semaine type</h2><p>${esc(D.phases.semaine_type)}</p></section>
@@ -410,7 +410,7 @@ function carte() {
     <section class="card"><h2>${st.n_questions} questions, ${st.n_sessions} sujets officiels</h2><p class="muted">Sessions ${esc(st.sessions[0])} à ${esc(st.sessions[st.sessions.length - 1])}, codées question par question. Questions EC : ${st.profession.EC}, CAC : ${st.profession.CAC}, mixtes : ${st.profession.MIXTE || 0}.</p>
     <h3>Domaines (présents dans N sessions sur ${st.n_sessions})</h3>${st.domaines.map((d) => `<div class="hb"><span>${esc(d.code)}</span>${freqBar(d.sessions, st.n_sessions)}<small>${d.sessions} · ${d.questions} q.</small></div>`).join('')}</section>
     <section class="card"><h3>Thèmes, du plus récurrent au plus rare</h3>${st.themes.map((t) => `<div class="hb"><span>${esc(t.code.replace(/_/g, ' '))}</span>${freqBar(t.sessions, maxQ > 14 ? maxQ : 14)}<small>${t.sessions} · ${t.questions} q. · ${esc(t.derniere)}</small></div>`).join('')}
-    <p class="muted">Lecture : un thème présent dans 10 sessions sur 14 tombera probablement. Le nombre de questions ne pèse pas les points (barème par dossier seulement). Sujets nov. 2024 et mai 2026 à ajouter au codage.</p></section>`;
+    <p class="muted">Lecture : un thème présent dans 10 sessions sur 14 tombera probablement. Le nombre de questions ne pèse pas les points (barème par dossier seulement).</p></section>`;
   }
   return `<div class="chips">${chip('star', '★ Par cœur')}${chip('B', 'À retrouver')}${chip('mai', 'Pour mai')}${chip('all', 'Tout')}${chip('stats', 'Stats')}</div>
   <input id="cq" type="search" placeholder="Chercher une notion, un article…" value="${esc(carteQ)}">
