@@ -485,9 +485,12 @@ function materiel() {
   const G = D.materiel.groupes;
   const tot = G.flatMap((g) => g.items).length; const ok = G.flatMap((g) => g.items).filter((i) => S.materiel[i.id]).length;
   const docs = G.find((g) => g.id === 'gratuits').items.filter((i) => i.pdf);
+  const kit = (G.find((g) => g.id === 'kit')?.items || []).filter((i) => i.pdf);
+  const docLi = (i) => `<li><a href="./${i.pdf}" target="_blank" rel="noopener">${icon('file')}<span><b>${esc(i.court)}</b><small>${i.pages} pages · ${esc(i.onglet)}</small></span><span class="chev">${icon('chevron')}</span></a></li>`;
   return `<h2 class="h">Matériel</h2><p class="intro">Ce qu'il faut imprimer, acheter et emporter le jour J. Coche au fur et à mesure.</p>
   <section class="card"><h2>Documents à imprimer</h2><p class="muted">Touche un document pour l'ouvrir, puis Partager › Imprimer, ou envoie-le à la reprographie (recto-verso, reliure spirale).</p>
-    <ul class="docs">${docs.map((i) => `<li><a href="./${i.pdf}" target="_blank" rel="noopener">${icon('file')}<span><b>${esc(i.court)}</b><small>${i.pages} pages · onglets ${esc(i.onglet)}</small></span><span class="chev">${icon('chevron')}</span></a></li>`).join('')}</ul>
+    ${kit.length ? `<h3>Ton kit de mise en place</h3><ul class="docs">${kit.map(docLi).join('')}</ul><h3>Volumes de documentation</h3>` : ''}
+    <ul class="docs">${docs.map((i) => docLi({ ...i, onglet: 'onglets ' + i.onglet })).join('')}</ul>
     <a class="btn sm" href="${REPO}imprimer/LISEZMOI.md" target="_blank" rel="noopener">Consignes pour la reprographie</a></section>
   <section class="card"><div class="row between"><b>Préparé</b><span class="muted">${ok} / ${tot}</span></div><div class="progress"><span style="width:${Math.round((ok / tot) * 100)}%"></span></div><div class="muted">Rien dans le sac qui n'ait servi dans une annale.</div></section>
   ${G.map((g) => `<section class="card"><h2>${esc(g.titre)}</h2><ul class="checks">${g.items.map((i) => `<li><label><input type="checkbox" data-mat="${i.id}" ${S.materiel[i.id] ? 'checked' : ''}><span>${esc(i.t)}${i.note ? `<small class="muted"> · ${esc(i.note)}</small>` : ''}</span></label></li>`).join('')}</ul></section>`).join('')}

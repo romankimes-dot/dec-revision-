@@ -1,24 +1,24 @@
 # K2 — Traçabilité des fiches de synthèse
 
 Fichier source : `kit_src/K2_fiches.html` → `imprimer/K2_Fiches_de_synthese.pdf` (12 pages A4).
-Vérifié le 29/10/2026. Convention : `vNN` = ligne n° NN de `docs/VERIF.md` (colonne « valeur correcte ») ; `Vx · n` = folio imprimé du volume, contrôlé par lecture du texte (pdftotext) et `kit_src/pages.py`. « À VÉRIFIER » = laissé tel quel dans la fiche, en clair.
+Vérifié le 29/10/2026 ; corrigé le 29/10/2026 après kit_src/K2_verification.md (1.1, 1.5, 1.7, 1.8, 1.11, 2.17, 2.21, 5.5, 7.9, 8.1, 8.4, 10.3, 10.10, 10.19, 12.19). Convention : `vNN` = ligne n° NN de `docs/VERIF.md` (colonne « valeur correcte ») ; `Vx · n` = folio imprimé du volume, contrôlé par lecture du texte (pdftotext) et `kit_src/pages.py`. « À VÉRIFIER » = laissé tel quel dans la fiche, en clair.
 
 ## Fiche 1 — Seuils
 | Valeur | Source |
 |---|---|
-| Sociétés 5 M€ / 10 M€ / 50, 2 sur 3, à la clôture (D. 221-5) | V6 · 75 ; v35 |
+| Sociétés 5 M€ / 10 M€ / 50, 2 sur 3, à la clôture (D. 221-5) ; textes d'obligation | V6 · 75, 46, 52, 29, 22 ; v35 |
 | Textes d'obligation L. 225-218, L. 227-9-1, L. 223-35, L. 221-9 | V6 · 46, 52, 29, 22 ; v3 |
 | Application : exercices ouverts à compter du 1/1/2024 | v35 |
 | Exercices ouverts avant 2024 : 4 / 8 / 50 ; ex. 1/9/2023–31/8/2024 | v35, v41 |
 | Petit groupe : L. 821-43 (ex L. 823-2-2), D. 821-171 → D. 221-5, chiffres cumulés | V2 · 37 ; V6 · 90-91 ; v4, v36 |
 | Filiales significatives 2,5 M€ / 5 M€ / 25 (D. 821-172) ; avant 2 / 4 / 25 | V6 · 91 ; v37 |
-| Associations économiques 1,55 M€ / 3,1 M€ / 50 (CDI, fins de trimestre), CAC + suppléant | V6 · 87 (R. 612-1) ; v43 |
+| Associations économiques 1,55 M€ / 3,1 M€ / 50 (CDI, fins de trimestre), CAC + suppléant | V6 · 70-71 (L. 612-1), 87 (R. 612-1) ; v43 |
 | Associations subventionnées > 153 000 € (L. 612-4, D. 612-5) | V6 · 71-72, 88 ; v42 |
-| Sortie : 2 exercices précédant l'expiration du mandat ; associations : 2 exercices successifs | V6 · 75, 91, 88 ; v38 |
-| Effectif : L. 130-1 I CSS (moyenne mensuelle) | V6 · 74, 17 ; v39 |
+| Sortie : sociétés/groupes/filiales, 2 exercices précédant l'expiration, mandat va à son terme ; associations : 2 exercices successifs, l'organe délibérant met fin au mandat (R. 612-1 dernier al.) | V6 · 75, 91, 88 ; v38, v43 |
+| Effectif : L. 130-1 I CSS (moyenne mensuelle) ; associations : fins de trimestre (R. 612-1) | V6 · 74, 17, 87 ; v39 |
 | Dispense si tête contrôlée par une entité dotée d'un CAC | V2 · 37 ; v40 |
 | D. 123-200 : 450 000 € / 900 000 € / 10 ; 7,5 / 15 M€ / 50 ; 25 / 50 M€ / 250 | V6 · 74 ; v44 |
-| L. 232-25 (confidentialité micro / petite) | V6 · 59 |
+| L. 232-25 (confidentialité micro / petite, sauf sociétés d'un groupe) | V6 · 59 |
 | D. 230-2 : petit groupe 9 / 18 / 50 ; moyen-grand 30 / 60 / 250 ; L. 233-17 2° « grand groupe » | V6 · 82, 60 ; v45 |
 | Micro-BIC 203 100 € (71 %), services et BNC 83 600 € (50 % / 34 %), 2026-2028, meublé non classé 15 000 € (30 %), minimum 305 € | v72, v73 |
 | Franchise TVA 85 000 / 37 500 €, majorés 93 500 / 41 250 € ; 25 000 € abandonné (loi 2025-1044) ; CIBS au 1/1/2027 (article À VÉRIFIER) | v75, v76 |
@@ -44,11 +44,11 @@ Vérifié le 29/10/2026. Convention : `vNN` = ligne n° NN de `docs/VERIF.md` (c
 | 3 exercices (L. 821-46, ex L. 823-3-2) | V2 · 40 ; v7 |
 | ALPE L. 821-57 (ex L. 823-12-1) ; dispense de rapports ; NEP 911 arrêté 24/07/2026 | V2 · 44 ; V1 · 99 ; v8, v46 |
 | NEP 912 | V1 · 107 |
-| EIP : 10 ans, 24 ans, viduité 4 ans (L. 821-45) | V2 · 38 |
+| EIP : 10 ans ; nouveau mandat de 6 exercices après procédure de sélection ; 24 ans ; + 2 ans H2A ; viduité 4 ans (L. 821-45 I-IV) | V2 · 38 |
 | Récusation 5 %, CSE, MP, AMF ; divergence comptable ; 30 jours (L. 821-49 ex L. 823-6 ; R. 821-176) | V2 · 41 ; V6 · 91 ; v25 |
 | Relèvement L. 821-50 (ex L. 823-7) | V2 · 41 |
 | Non-renouvellement : audition, L. 821-51 | V2 · 41 |
-| Sortie D. 221-5 al. 2, mandat va à son terme | V6 · 75 ; v38 |
+| Sortie D. 221-5 (sans numéro d'alinéa), mandat va à son terme | V6 · 75 ; v38 |
 | Encadré anciens / nouveaux seuils | v35, v41 |
 
 ## Fiche 3 — Rapports du CAC
@@ -103,9 +103,9 @@ Vérifié le 29/10/2026. Convention : `vNN` = ligne n° NN de `docs/VERIF.md` (c
 | Critères doctrinaux CNCC de la révélation | À VÉRIFIER (Mémento Audit) |
 | L. 821-10 al. 3 ; CMF L. 561-15 (écrit, tentatives, fraude fiscale + critère) ; L. 561-18 confidentialité | V2 · 19 ; V6 · 12, 13 |
 | L. 561-10-2 examen renforcé ; L. 561-15 III | V6 · 10, 12 |
-| Dépôt 1 mois / 2 mois (L. 232-21 à 23) | V6 · 57-58 ; v51 |
+| Dépôt 1 mois / 2 mois (L. 232-21 à 23) ; SNC seulement si tous les associés indéfiniment responsables sont SARL ou sociétés par actions | V6 · 57-58 ; v51 |
 | R. 247-3 contravention 5e classe ; 1 500 € / 3 000 € | V6 · 85 ; v52 |
-| Révélation d'une contravention : position CNCC | À VÉRIFIER (Mémento Audit) |
+| Non-dépôt : à signaler, pas à révéler (formulation alignée sur PLAN §2 et data/items.json, qui citent v52-53) | v52, v53 |
 | L. 232-24 ; L. 123-5-1 ; L. 611-2 II | V6 · 59 ; v53 |
 | Alerte L. 234-1, L. 234-2, L. 612-3 ; NEP 570 | V6 · 62-63, 71 ; V1 · 66 ; v68 |
 | L. 225-42 convention non autorisée | V6 · 36 |
@@ -144,7 +144,7 @@ Vérifié le 29/10/2026. Convention : `vNN` = ligne n° NN de `docs/VERIF.md` (c
 | L. 821-32 (ex L. 822-12) : 3 ans ; 1 an | V2 · 32 ; v22 |
 | L. 821-33 (ex L. 822-13) : 5 ans ; 10 % | V2 · 32 ; v22 |
 | L. 821-34 (ex L. 822-14) : 6 exercices, 7 années, 3 ans | V2 · 32 ; v24 |
-| L. 821-45 : 10 / 24 ans, 4 ans | V2 · 38 |
+| L. 821-45 : 10 ans, + 6 exercices après appel d'offres, 24 ans, + 2 ans H2A, 4 ans | V2 · 38 |
 | L. 821-4 II | V2 · 18 |
 | Code CAC version décret 2026-176 | V4 · 1-2 ; v32 |
 | Art. 3, 4, 5, 6 | V4 · 3 ; v33, v34 |
@@ -171,6 +171,8 @@ Vérifié le 29/10/2026. Convention : `vNN` = ligne n° NN de `docs/VERIF.md` (c
 | Interdites SA (L. 225-43) | V6 · 36-37 ; v56 |
 | SAS : L. 227-10, L. 227-11, L. 227-12 ; SASU : registre (al. 4) | V6 · 53 ; v56 |
 | SAS : information du CAC ; vote de l'intéressé | À VÉRIFIER (Mémento Sociétés) |
+| SARL : délai d'information du CAC (R. 223-17, non reproduit) | À VÉRIFIER |
+| EURL : mention au registre (L. 223-19 al. 3) | V6 · 25 |
 | SARL : L. 223-19 (rapport, vote, quorum, sans CAC : gérant non associé, EURL registre, sociétés liées), L. 223-20, L. 223-21, L. 223-23 (3 ans) | V6 · 25-27 ; v56 |
 | Associations L. 612-5 | V6 · 72 |
 | ALPE : dispense (L. 821-57) | V2 · 44 |
@@ -201,21 +203,21 @@ Vérifié le 29/10/2026. Convention : `vNN` = ligne n° NN de `docs/VERIF.md` (c
 |---|---|
 | 6 mois : L. 225-100, L. 223-26, L. 221-7, L. 227-9 (SASU), R. 612-2 ; SAS pluripersonnelle : statuts | V6 · 38, 27, 22, 52, 88 ; v50 |
 | Convocation 15 jours (10 jours 2e convocation) R. 225-69 ; R. 223-20 | v63 |
-| Dépôt 1 mois / 2 mois ; refus d'approbation | V6 · 57-58 ; v51 |
+| Dépôt 1 mois / 2 mois ; refus d'approbation ; SNC seulement si associés indéfiniment responsables SARL ou sociétés par actions | V6 · 57-58 ; v51 |
 | R. 247-3 ; 1 500 € / 3 000 € ; L. 232-24 | V6 · 85, 59 ; v52 |
 | L. 232-25 | V6 · 59 |
 | Réserve légale 1/20 → 1/10 (L. 232-10) | V6 · 54-55 ; v49 |
 | L. 232-11 | V6 · 55 |
 | 9 mois (L. 232-13 ; R. 232-18) | V6 · 55, 84 |
 | Acompte L. 232-12 al. 2 ; R. 232-17 ; SAS : président (L. 227-1 al. 3) | V6 · 55, 84, 50 ; v47 |
-| Dividende fictif 5 ans + 375 000 € ; L. 244-1 (SAS) | V6 · 55, 69, 67 ; v48 |
+| Dividende fictif ; délit seulement si absence d'inventaire ou inventaires frauduleux : 5 ans + 375 000 € ; L. 244-1 (SAS) | V6 · 55, 69, 67 ; v48 |
 | Répétition L. 232-17 ; SARL 3 ans L. 223-40 | V6 · 56, 30 |
 | Moitié du capital : 4 mois, 2e exercice, 2 exercices, publicité, 6 mois, sauvegarde | V6 · 47, 30, 81, 77 ; v54 |
 | Seuil 1 % du bilan ; SA max(1 %, 37 000 €) | V6 · 77, 81, 31 ; v55 |
 | Capital minimum 37 000 € (L. 224-2) | V6 · 31 |
 | Libération ½ (L. 225-3), ¼ + prime, 5 ans (L. 225-144) | V6 · 33, 43 |
 | DPS (L. 225-135) | V6 · 42 |
-| L. 225-129-6 : obligation triennale supprimée | V6 · 40 ; v58 |
+| L. 225-129-6 : règle triennale supprimée ; résolution obligatoire à toute augmentation en numéraire (al. 1) | V6 · 40 ; v58 |
 | Opposition : SA 20 jours (R. 225-152) ; SARL 1 mois (R. 223-35) ; L. 225-204 | v62 ; V6 · 77, 45 |
 
 ## Fiche 11 — Fiscalité
@@ -260,13 +262,14 @@ Vérifié le 29/10/2026. Convention : `vNN` = ligne n° NN de `docs/VERIF.md` (c
 | NEP 9605 ; NEP 9505 abrogée (arrêté 1/10/2018) | V1 · 129, 3 ; LISEZMOI |
 | Assertions (3 groupes) et 8 techniques | V1 · 43 (NEP 500 §09-10) |
 | Opinions : sans réserve, réserve, refus, impossibilité ; observation (changement de méthode) | V1 · 87-88 (NEP 700 §06-14) |
-| Liste de contrôle « critique de document » | docs/PLAN.md §3.4 (méthode) |
+| Liste de contrôle « critique de document » ; CAC ALPE nommé par l'AGO, rapport sur les risques aux dirigeants | docs/PLAN.md §3.4 (méthode) ; V2 · 44 ; V6 · 92 |
 
 ## Restés « à vérifier » (écrits en clair dans les fiches)
 1. Article du CIBS reprenant la franchise TVA au 1/1/2027 (fiches 1 et 11) ; taux de TVA (fiche 11, v77).
 2. Numéro d'article du rapport sur les valeurs mobilières donnant accès au capital (fiche 3).
-3. Critères de la doctrine CNCC pour la révélation, et révélation d'une contravention comme le non-dépôt (fiche 5).
+3. Critères de la doctrine CNCC pour la révélation (fiche 5). Le non-dépôt est désormais formulé « à signaler, pas à révéler » (PLAN/items.json, v52-53).
 4. Durée du délai de réponse dans l'alerte des associations, fixée par décret (fiche 6).
 5. SAS : information du CAC et vote de l'intéressé sur les conventions ; obligation du CAC de rechercher les conventions (fiche 8).
-6. Désignation du commissaire aux apports en SA sans offre au public (L. 225-14) et en SAS (fiche 9).
-7. Taux de l'abattement renforcé 150-0 D 1 quater (fiche 11).
+6. Délai d'information du CAC sur les conventions en SARL (R. 223-17, non reproduit) (fiche 8).
+7. Désignation du commissaire aux apports en SA sans offre au public (L. 225-14) et en SAS (fiche 9).
+8. Taux de l'abattement renforcé 150-0 D 1 quater (fiche 11).

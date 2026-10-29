@@ -3,6 +3,48 @@
  "source": "docs/PLAN.md section 1",
  "groupes": [
   {
+   "id": "kit",
+   "titre": "Kit de mise en place (à imprimer en premier)",
+   "items": [
+    {
+     "id": "k1",
+     "t": "K1 — Plan de classement : table de salle, sommaires à coller, onglets à poser",
+     "pdf": "imprimer/K1_Plan_de_classement.pdf",
+     "court": "K1 · Plan de classement de ta documentation",
+     "pages": 4,
+     "onglet": "à mettre en tête du classeur",
+     "note": ""
+    },
+    {
+     "id": "k2",
+     "t": "K2 — 12 fiches de synthèse, vérifiées ligne par ligne",
+     "pdf": "imprimer/K2_Fiches_de_synthese.pdf",
+     "court": "K2 · Fiches de synthèse (seuils, rapports, délais…)",
+     "pages": 12,
+     "onglet": "à glisser en tête de doc",
+     "note": ""
+    },
+    {
+     "id": "k3",
+     "t": "K3 — Index pré-rempli : 250 notions avec leur page",
+     "pdf": "imprimer/K3_Index_prerempli.pdf",
+     "court": "K3 · Index pré-rempli",
+     "pages": 4,
+     "onglet": "sur la table, à portée de main",
+     "note": ""
+    },
+    {
+     "id": "k4",
+     "t": "K4 — Trames de réponse par type de question",
+     "pdf": "imprimer/K4_Trames_de_reponse.pdf",
+     "court": "K4 · Trames de réponse par type de question",
+     "pages": 6,
+     "onglet": "à relire avant chaque annale",
+     "note": ""
+    }
+   ]
+  },
+  {
    "id": "commande",
    "titre": "À commander le 29 octobre (≈ 450-550 €)",
    "items": [

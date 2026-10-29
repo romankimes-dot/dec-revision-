@@ -1,52 +1,297 @@
 {
-  "version": "2026-10-28",
-  "source": "docs/PLAN.md section 5",
-  "budget_h": 40,
-  "jours": [
-    {"date": "2026-10-28", "titre": "Assembler la doc gratuite", "h": 1,
-     "taches": ["Ouvrir Matériel › Documents à imprimer : les 7 PDF", "Les envoyer à la reprographie (recto-verso, spirale ; retrait le 30)", "Vérifier la date d'expiration de la pièce d'identité", "Lire dans l'app : Méthode › Le squelette (10 min)"],
-     "livrables": ["Volumes prêts", "Tableau des versions NEP (page de garde du V1)"], "outils": ["materiel", "methode"]},
-    {"date": "2026-10-29", "titre": "Commander, outiller, premier bloc CAC", "h": 3,
-     "taches": ["Commander en ligne les 3 Mémentos (Audit & CAC, Sociétés commerciales, Fiscal 2026), livraison express", "Appeler la librairie pour un retrait en magasin éventuel", "Acheter onglets 6 couleurs, Casio fx-92 Collège, 4 stylos noirs identiques, minuteur", "Bloc CAC 1 sur la brochure CNCC (V2) : seuils, mandat, convocation, L. 821-10 (2 h)", "Réciter les 15 notions (S'entraîner › Réciter)"],
-     "livrables": ["Commandes passées", "Table de concordance relue", "Index : 15 lignes localisées"], "outils": ["recitation", "drill"]},
-    {"date": "2026-10-30", "titre": "Onglets, vitesse d'écriture, lecture d'un sujet", "h": 3,
-     "taches": ["Retirer la reprographie, poser les onglets (rouge CAC, bleu sociétés, vert fiscal, jaune PCG, orange social, violet déonto)", "Test d'écriture 10 min (S'entraîner › Écriture) : vitesse mesurée", "Lire le sujet mai 2024, dossier 2 (CAC), sans composer (1 h)", "10 recherches chronométrées dans les volumes imprimés (S'entraîner › Index)", "Préparer le poste de l'annale de demain : minuteur, Post-it, Légifrance fermé"],
-     "livrables": ["Vitesse en mots/min enregistrée", "Volumes onglettés"], "outils": ["ecriture", "drill"]},
-    {"date": "2026-10-31", "titre": "Annale n° 1 : mai 2025 (8 + 6 + 6)", "h": 6, "annale": "2025-05",
-     "taches": ["14h00-18h30 : composer à la main, chrono d'épreuve (S'entraîner › Chrono, barème 8 + 6 + 6)", "Doc : volumes gratuits imprimés + Légifrance à la maison ; noter « doc absente » quand un Mémento aurait servi", "Relever l'heure de début et de fin de chaque question (bouton « question suivante »)", "19h00-20h30 : bilan à chaud (S'entraîner › Bilan)"],
-     "livrables": ["Copie 1", "Tableau temps / question / doc"], "outils": ["chrono", "debrief"]},
-    {"date": "2026-11-01", "titre": "Corriger l'annale 1, fixer ta longueur", "h": 3.5,
-     "taches": ["Corriger contre la proposition de corrigé (source notée) : texte cité, faits, conclusion, piège, temps", "Index : +40 lignes (chaque recherche ratée devient une ligne)", "Journal des causes rempli dans le débrief", "Fixer ta norme de mots par point d'après ta vitesse (S'entraîner › Écriture)"],
-     "livrables": ["Note auto-attribuée", "Index : 55 lignes", "Norme de longueur fixée"], "outils": ["debrief", "drill", "ecriture"]},
-    {"date": "2026-11-02", "titre": "Bloc CAC 2 : rapports, conventions, indépendance", "h": 3,
-     "taches": ["Fiche 1 page : liste des rapports du CAC", "Conventions réglementées, SACC, indépendance", "10 recherches chronométrées (Mémentos s'ils sont livrés, sinon volumes imprimés)", "2 questions de mai 2024 dossier 2 rédigées selon le modèle (Méthode), 12 min chacune, mots comptés"],
-     "livrables": ["Liste des rapports", "2 réponses dans ta norme"], "outils": ["drill", "methode"]},
-    {"date": "2026-11-03", "titre": "Bloc CAC 3 : NEP, assertions, critique de document", "h": 3,
-     "taches": ["Assertions et techniques (NEP 500, 505, 520), NEP 315, 330, 320, 600", "Onglets du recueil NEP (V1)", "Critique de document : nov. 2019, annexe 2, 45 min, avec la liste de contrôle (Méthode)"],
-     "livrables": ["Anomalies comparées au corrigé", "Index : +15 lignes"], "outils": ["methode", "drill"]},
-    {"date": "2026-11-04", "titre": "Mémentos reçus : onglets et chiffres EC 2026", "h": 3,
-     "taches": ["Onglets rouges, bleus, verts sur les Mémentos ; sommaire des 15 renvois en 2e de couverture", "Chiffres EC 2026 : micro, franchise TVA, PV « 5 ans », PFU, IS 15 %, IR-PME", "10 recherches chronométrées dans le Mémento Fiscal", "2 questions de nov. 2025 dossier 1 rédigées selon le modèle (Méthode)"],
-     "livrables": ["Tableau des seuils daté (1 page)", "2 réponses"], "outils": ["drill", "recitation"]},
-    {"date": "2026-11-05", "titre": "Bloc sociétés", "h": 3,
-     "taches": ["AG, dépôt des comptes, acompte sur dividendes, capital, perte de la moitié du capital, commissaire aux apports", "10 recherches chronométrées dans le Mémento Sociétés", "Réciter les 15 notions"],
-     "livrables": ["Index : 80 lignes"], "outils": ["drill", "recitation"]},
-    {"date": "2026-11-06", "titre": "Déontologie EC, LCB-FT, responsabilité", "h": 2,
-     "taches": ["Déontologie EC, LCB-FT, responsabilité (notions de déontologie)", "Imprimer l'index v1 (S'entraîner › Index › Imprimer)", "Préparer un sujet d'épreuve 1 en QRC pour demain matin"],
-     "livrables": ["Index v1 imprimé"], "outils": ["drill", "recitation"]},
-    {"date": "2026-11-07", "titre": "Répétition générale : E1 puis annale n° 2 (nov. 2025)", "h": 6, "annale": "2025-11",
-     "taches": ["10h00 réciter les notions de déontologie", "10h30-11h30 simulation de l'épreuve 1 en QRC manuscrites", "Repas apporté, comme le jour J", "14h00-18h30 annale nov. 2025 (10 + 10), doc de salle définitive, montre + Post-it", "19h00 bilan à chaud (S'entraîner › Bilan)"],
-     "livrables": ["Copie 2", "Tableau temps / question", "Mots en 1re heure vs 4e heure"], "outils": ["chrono", "debrief", "ecriture"]},
-    {"date": "2026-11-08", "titre": "Corriger, figer la doc, faire le sac", "h": 2.5,
-     "taches": ["Corriger l'annale 2 (proposition de corrigé + docs/VERIF.md)", "Index v2 (≥ 100 lignes) imprimé", "Ajuster les onglets", "Liste définitive du sac (Matériel › Sac du jour J), sac fermé"],
-     "livrables": ["Index v2", "Sac fermé"], "outils": ["debrief", "drill", "materiel"]},
-    {"date": "2026-11-09", "titre": "Veille : léger", "h": 1,
-     "taches": ["Réciter les 15 notions", "Relire le tableau des seuils et la liste des rapports", "Trajet + trajet de secours repérés", "Rien après 20h"],
-     "livrables": ["Check-list de la veille cochée"], "outils": ["recitation", "materiel"]},
-    {"date": "2026-11-10", "titre": "Jour J", "h": 0, "jourJ": true,
-     "taches": ["9h45 arrivée ; valise fermée pendant l'épreuve 1 (doc interdite)", "10h30-11h30 épreuve 1 : composer ou copie blanche (ta décision)", "Repas apporté, marche 20 min, eau avant 13h", "Toilettes 13h15, en salle 13h30", "14h00-18h30 épreuve 2 : lecture 30 min, jalons sur Post-it, zéro blanc", "19h00 bilan court : su, pas su, cherché en vain"],
-     "livrables": ["Fiche courte"], "outils": ["methode", "debrief"]},
-    {"date": "2026-11-11", "titre": "Bilan de l'examen (férié, hors budget)", "h": 0, "horsBudget": 2,
-     "taches": ["Reconstituer la copie question par question (S'entraîner › Bilan, « Réel nov. 2026 »)", "Fiche longue : causes, thèmes ratés", "L'écran Aujourd'hui affiche alors la suite, recalée sur ton bilan"],
-     "livrables": ["Diagnostic de novembre"], "outils": ["debrief"]}
-  ]
+ "version": "2026-10-28",
+ "source": "docs/PLAN.md section 5",
+ "budget_h": 40,
+ "jours": [
+  {
+   "date": "2026-10-28",
+   "titre": "Assembler la doc gratuite",
+   "h": 1,
+   "taches": [
+    "Ouvrir Matériel › Documents à imprimer : le kit K1 à K4 et les 7 volumes",
+    "Les envoyer à la reprographie (recto-verso, spirale ; le kit en premier, retrait le 30)",
+    "Vérifier la date d'expiration de la pièce d'identité",
+    "Lire K1 page 1 : comment ta table d'examen sera organisée (10 min)"
+   ],
+   "livrables": [
+    "Volumes prêts",
+    "Tableau des versions NEP (page de garde du V1)"
+   ],
+   "outils": [
+    "materiel",
+    "methode"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "titre": "Commander, outiller, premier bloc CAC",
+   "h": 3,
+   "taches": [
+    "Commander en ligne les 3 Mémentos (Audit & CAC, Sociétés commerciales, Fiscal 2026), livraison express",
+    "Appeler la librairie pour un retrait en magasin éventuel",
+    "Acheter onglets 6 couleurs, Casio fx-92 Collège, 4 stylos noirs identiques, minuteur",
+    "Bloc CAC 1 sur la brochure CNCC (V2) : seuils, mandat, convocation, L. 821-10 (2 h)",
+    "Réciter les 15 notions (S'entraîner › Réciter)"
+   ],
+   "livrables": [
+    "Commandes passées",
+    "Table de concordance relue",
+    "Index : 15 lignes localisées"
+   ],
+   "outils": [
+    "recitation",
+    "drill"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "titre": "Onglets, vitesse d'écriture, lecture d'un sujet",
+   "h": 3,
+   "taches": [
+    "Retirer la reprographie, coller les sommaires de K1 dans chaque volume et poser les onglets (rouge CAC, bleu sociétés, vert fiscal, jaune PCG, orange social, violet déonto)",
+    "Test d'écriture 10 min (S'entraîner › Écriture) : vitesse mesurée",
+    "Lire le sujet mai 2024, dossier 2 (CAC), sans composer (1 h)",
+    "10 recherches chronométrées dans les volumes imprimés (S'entraîner › Index)",
+    "Préparer le poste de l'annale de demain : minuteur, Post-it, Légifrance fermé"
+   ],
+   "livrables": [
+    "Vitesse en mots/min enregistrée",
+    "Volumes onglettés"
+   ],
+   "outils": [
+    "ecriture",
+    "drill"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "titre": "Annale n° 1 : mai 2025 (8 + 6 + 6)",
+   "h": 6,
+   "annale": "2025-05",
+   "taches": [
+    "14h00-18h30 : composer à la main, chrono d'épreuve (S'entraîner › Chrono, barème 8 + 6 + 6)",
+    "Doc : volumes gratuits imprimés + Légifrance à la maison ; noter « doc absente » quand un Mémento aurait servi",
+    "Relever l'heure de début et de fin de chaque question (bouton « question suivante »)",
+    "19h00-20h30 : bilan à chaud (S'entraîner › Bilan)"
+   ],
+   "livrables": [
+    "Copie 1",
+    "Tableau temps / question / doc"
+   ],
+   "outils": [
+    "chrono",
+    "debrief"
+   ]
+  },
+  {
+   "date": "2026-11-01",
+   "titre": "Corriger l'annale 1, fixer ta longueur",
+   "h": 3.5,
+   "taches": [
+    "Corriger contre la proposition de corrigé (source notée) : texte cité, faits, conclusion, piège, temps",
+    "Index : +40 lignes (chaque recherche ratée devient une ligne)",
+    "Journal des causes rempli dans le débrief",
+    "Fixer ta norme de mots par point d'après ta vitesse (S'entraîner › Écriture)"
+   ],
+   "livrables": [
+    "Note auto-attribuée",
+    "Index : 55 lignes",
+    "Norme de longueur fixée"
+   ],
+   "outils": [
+    "debrief",
+    "drill",
+    "ecriture"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "titre": "Bloc CAC 2 : rapports, conventions, indépendance",
+   "h": 3,
+   "taches": [
+    "Fiche 1 page : liste des rapports du CAC",
+    "Conventions réglementées, SACC, indépendance",
+    "10 recherches chronométrées (Mémentos s'ils sont livrés, sinon volumes imprimés)",
+    "2 questions de mai 2024 dossier 2 rédigées selon le modèle (Méthode), 12 min chacune, mots comptés"
+   ],
+   "livrables": [
+    "Liste des rapports",
+    "2 réponses dans ta norme"
+   ],
+   "outils": [
+    "drill",
+    "methode"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "titre": "Bloc CAC 3 : NEP, assertions, critique de document",
+   "h": 3,
+   "taches": [
+    "Assertions et techniques (NEP 500, 505, 520), NEP 315, 330, 320, 600",
+    "Onglets du recueil NEP (V1)",
+    "Critique de document : nov. 2019, annexe 2, 45 min, avec la liste de contrôle (Méthode)"
+   ],
+   "livrables": [
+    "Anomalies comparées au corrigé",
+    "Index : +15 lignes"
+   ],
+   "outils": [
+    "methode",
+    "drill"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "titre": "Mémentos reçus : onglets et chiffres EC 2026",
+   "h": 3,
+   "taches": [
+    "Onglets rouges, bleus, verts sur les Mémentos ; sommaire des 15 renvois en 2e de couverture",
+    "Chiffres EC 2026 : micro, franchise TVA, PV « 5 ans », PFU, IS 15 %, IR-PME",
+    "10 recherches chronométrées dans le Mémento Fiscal",
+    "2 questions de nov. 2025 dossier 1 rédigées selon le modèle (Méthode)"
+   ],
+   "livrables": [
+    "Tableau des seuils daté (1 page)",
+    "2 réponses"
+   ],
+   "outils": [
+    "drill",
+    "recitation"
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "titre": "Bloc sociétés",
+   "h": 3,
+   "taches": [
+    "AG, dépôt des comptes, acompte sur dividendes, capital, perte de la moitié du capital, commissaire aux apports",
+    "10 recherches chronométrées dans le Mémento Sociétés",
+    "Réciter les 15 notions"
+   ],
+   "livrables": [
+    "Index : 80 lignes"
+   ],
+   "outils": [
+    "drill",
+    "recitation"
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "titre": "Déontologie EC, LCB-FT, responsabilité",
+   "h": 2,
+   "taches": [
+    "Déontologie EC, LCB-FT, responsabilité (notions de déontologie)",
+    "Imprimer l'index v1 (S'entraîner › Index › Imprimer)",
+    "Préparer un sujet d'épreuve 1 en QRC pour demain matin"
+   ],
+   "livrables": [
+    "Index v1 imprimé"
+   ],
+   "outils": [
+    "drill",
+    "recitation"
+   ]
+  },
+  {
+   "date": "2026-11-07",
+   "titre": "Répétition générale : E1 puis annale n° 2 (nov. 2025)",
+   "h": 6,
+   "annale": "2025-11",
+   "taches": [
+    "10h00 réciter les notions de déontologie",
+    "10h30-11h30 simulation de l'épreuve 1 en QRC manuscrites",
+    "Repas apporté, comme le jour J",
+    "14h00-18h30 annale nov. 2025 (10 + 10), doc de salle définitive, montre + Post-it",
+    "19h00 bilan à chaud (S'entraîner › Bilan)"
+   ],
+   "livrables": [
+    "Copie 2",
+    "Tableau temps / question",
+    "Mots en 1re heure vs 4e heure"
+   ],
+   "outils": [
+    "chrono",
+    "debrief",
+    "ecriture"
+   ]
+  },
+  {
+   "date": "2026-11-08",
+   "titre": "Corriger, figer la doc, faire le sac",
+   "h": 2.5,
+   "taches": [
+    "Corriger l'annale 2 (proposition de corrigé + docs/VERIF.md)",
+    "Index v2 (≥ 100 lignes) imprimé",
+    "Ajuster les onglets",
+    "Liste définitive du sac (Matériel › Sac du jour J), sac fermé"
+   ],
+   "livrables": [
+    "Index v2",
+    "Sac fermé"
+   ],
+   "outils": [
+    "debrief",
+    "drill",
+    "materiel"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "titre": "Veille : léger",
+   "h": 1,
+   "taches": [
+    "Réciter les 15 notions",
+    "Relire le tableau des seuils et la liste des rapports",
+    "Trajet + trajet de secours repérés",
+    "Rien après 20h"
+   ],
+   "livrables": [
+    "Check-list de la veille cochée"
+   ],
+   "outils": [
+    "recitation",
+    "materiel"
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "titre": "Jour J",
+   "h": 0,
+   "jourJ": true,
+   "taches": [
+    "9h45 arrivée ; valise fermée pendant l'épreuve 1 (doc interdite)",
+    "10h30-11h30 épreuve 1 : composer ou copie blanche (ta décision)",
+    "Repas apporté, marche 20 min, eau avant 13h",
+    "Toilettes 13h15, en salle 13h30",
+    "14h00-18h30 épreuve 2 : lecture 30 min, jalons sur Post-it, zéro blanc",
+    "19h00 bilan court : su, pas su, cherché en vain"
+   ],
+   "livrables": [
+    "Fiche courte"
+   ],
+   "outils": [
+    "methode",
+    "debrief"
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "titre": "Bilan de l'examen (férié, hors budget)",
+   "h": 0,
+   "horsBudget": 2,
+   "taches": [
+    "Reconstituer la copie question par question (S'entraîner › Bilan, « Réel nov. 2026 »)",
+    "Fiche longue : causes, thèmes ratés",
+    "L'écran Aujourd'hui affiche alors la suite, recalée sur ton bilan"
+   ],
+   "livrables": [
+    "Diagnostic de novembre"
+   ],
+   "outils": [
+    "debrief"
+   ]
+  }
+ ]
 }

@@ -2,6 +2,17 @@
 
 DEC, épreuve n° 2 du 10 novembre 2026 (documentation papier autorisée). Dossier assemblé le 28/10/2026. **7 PDF à imprimer** (V1 à V7) et un index des corrigés (V8, à ne pas imprimer). Les fichiers sont prêts : ne rien retoucher.
 
+## Kit de mise en place : à imprimer en premier (ajouté le 29/10/2026)
+
+| Fichier | Pages | Usage |
+|---|---|---|
+| K1_Plan_de_classement.pdf | 4 | table de salle, sommaires à découper et coller en 2e de couverture de chaque volume, onglets à poser |
+| K2_Fiches_de_synthese.pdf | 12 | 12 fiches (seuils, nomination, rapports, révélation, alerte, déontologie, conventions, commissariats, capital, fiscalité, démarche d'audit), vérifiées ligne par ligne (kit_src/K2_verification.md) |
+| K3_Index_prerempli.pdf | 4 | 250 notions → volume → folio (203 folios contrôlés, 47 pages de Mémentos à compléter) |
+| K4_Trames_de_reponse.pdf | 6 | trames et réponses modèles par famille de questions |
+
+Recto simple conseillé pour K1 (pages à découper) ; recto-verso pour le reste. **Chaque page des volumes V1 à V7 porte désormais un folio « Vx · n » en haut, côté extérieur : c'est le numéro cité par l'index, les fiches et les sommaires.**
+
 ## Consignes générales à donner à la reprographie
 - Format A4, noir et blanc, papier 80 g, **recto-verso**, **reliure spirale** (une par volume), couverture transparente devant et carton derrière.
 - La page 1 de chaque volume est sa page de garde. Elle porte la couleur d'onglet dans un bandeau. **Ce bandeau peut être imprimé en couleur** : c'est le seul élément en couleur.

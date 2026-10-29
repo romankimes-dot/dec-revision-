@@ -103,14 +103,15 @@
    "niveau": "A",
    "nov": "A",
    "mai": "A",
-   "dire": "L. 821-10 (ex 823-12) : al. 1 irrégularités à la plus prochaine AG ; al. 2 révélation au procureur (significatif et délibéré, doctrine CNCC) ; al. 3 LCB-FT ; non-révélation 5 ans / 75 000 € (L. 821-9) ; non-dépôt = contravention R. 247-3 (1 500 €, 3 000 € récidive) → signalement, pas révélation ; L. 123-5-1, L. 611-2 II ; dépôt 1 mois / 2 mois électronique (L. 232-21 à 23)",
+   "dire": "L. 821-10 (ex 823-12) : al. 1 irrégularités à la plus prochaine AG ; al. 2 révélation au procureur (significatif et délibéré, doctrine CNCC) ; al. 3 LCB-FT ; non-révélation 5 ans / 75 000 € (L. 821-9) ; non-dépôt = contravention R. 247-3 (1 500 €, 3 000 € récidive) → signalement à l'AG et révélation au procureur, sauf irrégularité manifestement non intentionnelle (isolée, régularisée) : la CNCC range les contraventions, dont le non-dépôt, dans les faits délictueux ; L. 123-5-1, L. 611-2 II ; dépôt 1 mois / 2 mois électronique (L. 232-21 à 23)",
    "ou": "Brochure CNCC ; Mémento Audit",
    "verif": [
     11,
     12,
     51,
     52,
-    53
+    53,
+    122
    ],
    "item": "revelation"
   },

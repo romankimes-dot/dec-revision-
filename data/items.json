@@ -74,14 +74,15 @@
    "prof": "CAC",
    "e1": true,
    "freq": "7/14 ; dépôt 4/14",
-   "dire": "L. 821-10 (ex L. 823-12) : les irrégularités sont signalées à la plus prochaine assemblée ; les faits délictueux sont révélés au procureur ; obligations LCB-FT. Non-révélation : 5 ans et 75 000 € (L. 821-9). Le non-dépôt des comptes est une contravention (R. 247-3), à signaler, pas à révéler. Dépôt au greffe dans le mois de l'approbation, 2 mois par voie électronique.",
+   "dire": "L. 821-10 (ex L. 823-12) : les irrégularités sont signalées à la plus prochaine assemblée ; les faits délictueux sont révélés au procureur ; obligations LCB-FT. Non-révélation : 5 ans et 75 000 € (L. 821-9). Le non-dépôt des comptes est une contravention (R. 247-3) : le CAC le signale à l'assemblée et le révèle au procureur, sauf irrégularité manifestement non intentionnelle (isolée, régularisée spontanément) ; pour la CNCC, les faits délictueux couvrent aussi les contraventions. Dépôt au greffe dans le mois de l'approbation, 2 mois par voie électronique.",
    "ou": "V2 brochure CNCC ; Mémento Audit",
    "verif": [
     11,
     12,
     52,
     53,
-    51
+    51,
+    122
    ]
   },
   {
