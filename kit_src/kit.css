@@ -1,0 +1,27 @@
+/* Gabarit commun du kit (A4 imprimé, noir et blanc lisible, accent émeraude facultatif) */
+@page { size: A4; margin: 14mm 13mm 16mm; }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 9.6pt; line-height: 1.35; color: #111; margin: 0; }
+.page { break-after: page; }
+.page:last-child { break-after: auto; }
+header.k { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid #047857; padding-bottom: 4px; margin-bottom: 10px; }
+header.k .t { font-size: 15pt; font-weight: 800; letter-spacing: -.01em; }
+header.k .s { font-size: 8.5pt; color: #555; text-align: right; }
+.code { display: inline-block; font-weight: 800; color: #fff; background: #047857; border-radius: 4px; padding: 1px 6px; margin-right: 6px; font-size: 10pt; }
+h2 { font-size: 11.5pt; margin: 12px 0 5px; color: #047857; }
+h3 { font-size: 10pt; margin: 9px 0 4px; }
+p { margin: 4px 0; }
+table { width: 100%; border-collapse: collapse; margin: 4px 0 8px; break-inside: auto; }
+th { background: #e7f3ee; text-align: left; font-size: 8.6pt; padding: 4px 5px; border: .6pt solid #9ab; }
+td { padding: 4px 5px; border: .6pt solid #bbb; vertical-align: top; }
+tr { break-inside: avoid; }
+.src { font-size: 7.6pt; color: #555; }
+.where { font-size: 7.8pt; color: #047857; font-weight: 700; white-space: nowrap; }
+.note { border-left: 3px solid #047857; background: #f2f7f4; padding: 5px 8px; margin: 6px 0; font-size: 9pt; }
+.warn { border-left: 3px solid #b7791f; background: #fdf6e8; padding: 5px 8px; margin: 6px 0; font-size: 9pt; }
+.cols2 { columns: 2; column-gap: 8mm; }
+.cols2 > * { break-inside: avoid; }
+.blank { display: inline-block; min-width: 18mm; border-bottom: .6pt solid #333; }
+footer.k { position: fixed; bottom: -10mm; left: 0; right: 0; font-size: 7.4pt; color: #666; display: flex; justify-content: space-between; }
+ul, ol { margin: 3px 0 6px; padding-left: 16px; } li { margin: 1.5px 0; }
