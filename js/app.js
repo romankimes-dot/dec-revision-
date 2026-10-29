@@ -631,6 +631,12 @@ function bindCommon(m) {
   m.querySelectorAll('[data-pdf]').forEach((b) => b.addEventListener('click', () => {
     const pdf = b.dataset.pdf; openReader({ url: './' + pdf, title: b.dataset.title, fileName: pdf.split('/').pop(), githubUrl: REPO + pdf, onToast: toast });
   }));
+  // Accordéon : ouvrir une section referme les autres, et la section ouverte vient en haut de l'écran.
+  m.querySelectorAll('details.sec').forEach((d) => d.addEventListener('toggle', () => {
+    if (!d.open) return;
+    m.querySelectorAll('details.sec').forEach((o) => { if (o !== d) o.open = false; });
+    requestAnimationFrame(() => d.scrollIntoView({ block: 'start', behavior: 'smooth' }));
+  }));
   m.querySelectorAll('[data-guideok]').forEach((b) => b.addEventListener('click', () => { S.lus.guide = 1; persist(); render(true); }));
   m.querySelectorAll('[data-backsprint]').forEach((b) => b.addEventListener('click', () => render()));
   m.querySelectorAll('[data-task]').forEach((c) => c.addEventListener('change', () => {
