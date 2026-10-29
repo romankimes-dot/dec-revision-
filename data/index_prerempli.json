@@ -1,0 +1,2005 @@
+{
+ "version": "2026-10-29",
+ "entrees": [
+  {
+   "id": "k001",
+   "motcle": "Abattement fixe du dirigeant partant à la retraite (150-0 D ter CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "150-0 D ter CGI",
+   "theme": "plus_values"
+  },
+  {
+   "id": "k002",
+   "motcle": "Abus de biens sociaux en SARL, surévaluation d'apport (L. 241-3)",
+   "volume": "V6",
+   "ref": "67",
+   "texte": "L. 241-3",
+   "theme": "responsabilite"
+  },
+  {
+   "id": "k003",
+   "motcle": "Acceptation d'une mission de certification (code déonto. CAC art. 21)",
+   "volume": "V4",
+   "ref": "7",
+   "texte": "Article 21",
+   "theme": "lettre_mission"
+  },
+  {
+   "id": "k004",
+   "motcle": "Acceptation d'une mission par l'EC (décret 2012-432 art. 150)",
+   "volume": "V4",
+   "ref": "27",
+   "texte": "Article 150",
+   "theme": "lettre_mission"
+  },
+  {
+   "id": "k005",
+   "motcle": "Acompte sur dividendes : conditions (L. 232-12)",
+   "volume": "V6",
+   "ref": "55",
+   "texte": "L. 232-12",
+   "theme": "dividendes"
+  },
+  {
+   "id": "k006",
+   "motcle": "Acompte sur dividendes : organe compétent (R. 232-17)",
+   "volume": "V6",
+   "ref": "84",
+   "texte": "R. 232-17",
+   "theme": "dividendes"
+  },
+  {
+   "id": "k007",
+   "motcle": "ALPE, mandat de 3 exercices : diligences (NEP 911)",
+   "volume": "V1",
+   "ref": "99",
+   "texte": "NEP 911",
+   "theme": "mandat_duree_cessation"
+  },
+  {
+   "id": "k008",
+   "motcle": "ALPE, mandat de 3 exercices : rapport sur les risques (L. 821-57, ex L. 823-12-1)",
+   "volume": "V2",
+   "ref": "44",
+   "texte": "L. 821-57",
+   "theme": "mandat_duree_cessation"
+  },
+  {
+   "id": "k009",
+   "motcle": "Amortissement : actif à durée limitée (art. 214-1)",
+   "volume": "V3",
+   "ref": "23",
+   "texte": "214-1",
+   "theme": "immobilisations_amortissements"
+  },
+  {
+   "id": "k010",
+   "motcle": "Amortissement : plan, durée d'usage pour les petites entreprises (art. 214-13)",
+   "volume": "V3",
+   "ref": "25",
+   "texte": "214-13",
+   "theme": "immobilisations_amortissements"
+  },
+  {
+   "id": "k011",
+   "motcle": "Annexe : changements de méthode (art. 831-2)",
+   "volume": "V3",
+   "ref": "105",
+   "texte": "831-2",
+   "theme": "changements_methodes"
+  },
+  {
+   "id": "k012",
+   "motcle": "Annexe : engagements financiers hors bilan (art. 836-1)",
+   "volume": "V3",
+   "ref": "119",
+   "texte": "836-1",
+   "theme": "annexe_comptes_annuels"
+  },
+  {
+   "id": "k013",
+   "motcle": "Annexe : règles et méthodes comptables (art. 831-1)",
+   "volume": "V3",
+   "ref": "105",
+   "texte": "831-1",
+   "theme": "annexe_comptes_annuels"
+  },
+  {
+   "id": "k014",
+   "motcle": "Annexe : transactions avec les parties liées (art. 834-1)",
+   "volume": "V3",
+   "ref": "118",
+   "texte": "834-1",
+   "theme": "annexe_comptes_annuels"
+  },
+  {
+   "id": "k015",
+   "motcle": "Apport-cession de titres : report d'imposition (150-0 B ter CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "150-0 B ter CGI",
+   "theme": "plus_values"
+  },
+  {
+   "id": "k016",
+   "motcle": "Apport en industrie : SARL, SAS (interdit en SA)",
+   "volume": "Mémento Sociétés",
+   "ref": "",
+   "texte": "—",
+   "theme": "apports_commissariat"
+  },
+  {
+   "id": "k017",
+   "motcle": "Apport en nature en SARL : dispense si ≤ 30 000 € (D. 223-6-1)",
+   "volume": "V6",
+   "ref": "76",
+   "texte": "D. 223-6-1",
+   "theme": "apports_commissariat"
+  },
+  {
+   "id": "k018",
+   "motcle": "Approbation des comptes en SA : AGO dans les 6 mois (L. 225-100)",
+   "volume": "V6",
+   "ref": "38",
+   "texte": "L. 225-100",
+   "theme": "AG_convocation_approbation"
+  },
+  {
+   "id": "k019",
+   "motcle": "Approbation des comptes en SARL : 6 mois (L. 223-26)",
+   "volume": "V6",
+   "ref": "27",
+   "texte": "L. 223-26",
+   "theme": "AG_convocation_approbation"
+  },
+  {
+   "id": "k020",
+   "motcle": "Assertions d'audit : liste (NEP 500 § 09)",
+   "volume": "V1",
+   "ref": "42",
+   "texte": "NEP 500 § 09",
+   "theme": "elements_probants"
+  },
+  {
+   "id": "k021",
+   "motcle": "Associations et personnes morales de droit privé : CAC, seuils (L. 612-1)",
+   "volume": "V6",
+   "ref": "70",
+   "texte": "L. 612-1",
+   "theme": "association_non_lucrativite"
+  },
+  {
+   "id": "k022",
+   "motcle": "Associations : non-lucrativité, impôts commerciaux",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "—",
+   "theme": "association_non_lucrativite"
+  },
+  {
+   "id": "k023",
+   "motcle": "Associations subventionnées : CAC au-delà de 153 000 € (L. 612-4)",
+   "volume": "V6",
+   "ref": "71",
+   "texte": "L. 612-4",
+   "theme": "association_non_lucrativite"
+  },
+  {
+   "id": "k024",
+   "motcle": "Assujettis LCB-FT (CMF L. 561-2)",
+   "volume": "V6",
+   "ref": "3",
+   "texte": "L. 561-2",
+   "theme": "LCBFT"
+  },
+  {
+   "id": "k025",
+   "motcle": "Attestations particulières de l'EC (NP 3100)",
+   "volume": "V5",
+   "ref": "152",
+   "texte": "NP 3100",
+   "theme": "SACC_autres_missions"
+  },
+  {
+   "id": "k026",
+   "motcle": "Audit d'états financiers dans une petite entité (NP 2910)",
+   "volume": "V5",
+   "ref": "100",
+   "texte": "NP 2910",
+   "theme": "SACC_autres_missions"
+  },
+  {
+   "id": "k027",
+   "motcle": "Audit des comptes de groupe (NEP 600)",
+   "volume": "V1",
+   "ref": "70",
+   "texte": "NEP 600",
+   "theme": "groupe_filiales_conso"
+  },
+  {
+   "id": "k028",
+   "motcle": "Augmentation de capital réservée aux salariés : résolution (L. 225-129-6)",
+   "volume": "V6",
+   "ref": "40",
+   "texte": "L. 225-129-6",
+   "theme": "augmentation_reduction_capital"
+  },
+  {
+   "id": "k029",
+   "motcle": "Bénéficiaire effectif (CMF L. 561-2-2)",
+   "volume": "V6",
+   "ref": "6",
+   "texte": "L. 561-2-2",
+   "theme": "LCBFT"
+  },
+  {
+   "id": "k030",
+   "motcle": "Bilan d'ouverture : premier exercice certifié (NEP 510)",
+   "volume": "V1",
+   "ref": "48",
+   "texte": "NEP 510",
+   "theme": "elements_probants"
+  },
+  {
+   "id": "k031",
+   "motcle": "Cadre de référence des missions de l'expert-comptable",
+   "volume": "V5",
+   "ref": "10",
+   "texte": "CADRE DE RÉFÉRENCE",
+   "theme": "SACC_autres_missions"
+  },
+  {
+   "id": "k032",
+   "motcle": "Caractère significatif, seuils (NEP 320)",
+   "volume": "V1",
+   "ref": "31",
+   "texte": "NEP 320",
+   "theme": "seuils_signification"
+  },
+  {
+   "id": "k033",
+   "motcle": "Certification des comptes, justification des appréciations (L. 821-53, ex L. 823-9)",
+   "volume": "V2",
+   "ref": "42",
+   "texte": "L. 821-53",
+   "theme": "rapport_CAC_opinion"
+  },
+  {
+   "id": "k034",
+   "motcle": "Cessation des paiements : déclaration sous 45 jours (L. 631-4)",
+   "volume": "Mémento Sociétés",
+   "ref": "",
+   "texte": "L. 631-4",
+   "theme": "procedures_collectives"
+  },
+  {
+   "id": "k035",
+   "motcle": "Cession de parts de SARL : agrément (L. 223-14)",
+   "volume": "Mémento Sociétés",
+   "ref": "",
+   "texte": "L. 223-14",
+   "theme": "cession_titres_fonds"
+  },
+  {
+   "id": "k036",
+   "motcle": "Changement d'estimation : effet prospectif (art. 122-5)",
+   "volume": "V3",
+   "ref": "13",
+   "texte": "122-5",
+   "theme": "changements_methodes"
+  },
+  {
+   "id": "k037",
+   "motcle": "Changement de méthode à l'initiative de l'entité : conditions (art. 122-2)",
+   "volume": "V3",
+   "ref": "12",
+   "texte": "122-2",
+   "theme": "changements_methodes"
+  },
+  {
+   "id": "k038",
+   "motcle": "Changement de méthode comptable (art. 122-1)",
+   "volume": "V3",
+   "ref": "12",
+   "texte": "122-1",
+   "theme": "changements_methodes"
+  },
+  {
+   "id": "k039",
+   "motcle": "Changement de méthode : effet rétrospectif, report à nouveau (art. 122-3)",
+   "volume": "V3",
+   "ref": "12",
+   "texte": "122-3",
+   "theme": "changements_methodes"
+  },
+  {
+   "id": "k040",
+   "motcle": "Changements comptables : diligences du CAC (NEP 730)",
+   "volume": "V1",
+   "ref": "98",
+   "texte": "NEP 730",
+   "theme": "changements_methodes"
+  },
+  {
+   "id": "k041",
+   "motcle": "Co-commissariat : examen contradictoire (L. 821-62)",
+   "volume": "V2",
+   "ref": "46",
+   "texte": "L. 821-62",
+   "theme": "groupe_filiales_conso"
+  },
+  {
+   "id": "k042",
+   "motcle": "Co-commissariat : répartition des travaux entre CAC (NEP 100)",
+   "volume": "V1",
+   "ref": "4",
+   "texte": "NEP 100",
+   "theme": "groupe_filiales_conso"
+  },
+  {
+   "id": "k043",
+   "motcle": "Commissaire à la fusion (L. 236-10)",
+   "volume": "V6",
+   "ref": "65",
+   "texte": "L. 236-10",
+   "theme": "fusion_scission_TUP"
+  },
+  {
+   "id": "k044",
+   "motcle": "Commissaire à la transformation (L. 224-3)",
+   "volume": "V6",
+   "ref": "32",
+   "texte": "L. 224-3",
+   "theme": "transformation"
+  },
+  {
+   "id": "k045",
+   "motcle": "Commissaire aux apports à la constitution de la SA (L. 225-8)",
+   "volume": "V6",
+   "ref": "33",
+   "texte": "L. 225-8",
+   "theme": "apports_commissariat"
+  },
+  {
+   "id": "k046",
+   "motcle": "Commissaire aux apports : diligences et rapport",
+   "volume": "Mémento Audit",
+   "ref": "",
+   "texte": "—",
+   "theme": "apports_commissariat"
+  },
+  {
+   "id": "k047",
+   "motcle": "Commissaire aux apports en augmentation de capital (L. 225-147)",
+   "volume": "V6",
+   "ref": "43",
+   "texte": "L. 225-147",
+   "theme": "apports_commissariat"
+  },
+  {
+   "id": "k048",
+   "motcle": "Commissaire aux apports en SARL (L. 223-9)",
+   "volume": "V6",
+   "ref": "24",
+   "texte": "L. 223-9",
+   "theme": "apports_commissariat"
+  },
+  {
+   "id": "k049",
+   "motcle": "Communication avec les organes L. 821-63 / comité d'audit (NEP 260)",
+   "volume": "V1",
+   "ref": "18",
+   "texte": "NEP 260",
+   "theme": "rapport_CAC_opinion"
+  },
+  {
+   "id": "k050",
+   "motcle": "Communications du CAC aux organes de direction (L. 821-63, ex L. 823-16)",
+   "volume": "V2",
+   "ref": "46",
+   "texte": "L. 821-63",
+   "theme": "rapport_CAC_opinion"
+  },
+  {
+   "id": "k051",
+   "motcle": "Compétence, indépendance d'esprit de l'EC (décret 2012-432 art. 145)",
+   "volume": "V4",
+   "ref": "26",
+   "texte": "Article 145",
+   "theme": "independance_incompatibilites"
+  },
+  {
+   "id": "k052",
+   "motcle": "Compilation des comptes (NP 4410)",
+   "volume": "V5",
+   "ref": "220",
+   "texte": "NP 4410",
+   "theme": "SACC_autres_missions"
+  },
+  {
+   "id": "k053",
+   "motcle": "Composants : approche par composants (art. 214-9)",
+   "volume": "V3",
+   "ref": "25",
+   "texte": "214-9",
+   "theme": "immobilisations_amortissements"
+  },
+  {
+   "id": "k054",
+   "motcle": "Comptes consolidés : deux CAC (L. 821-41, ex L. 823-1)",
+   "volume": "V2",
+   "ref": "37",
+   "texte": "L. 821-41",
+   "theme": "groupe_filiales_conso"
+  },
+  {
+   "id": "k055",
+   "motcle": "Comptes consolidés : exemptions (L. 233-17)",
+   "volume": "V6",
+   "ref": "60",
+   "texte": "L. 233-17",
+   "theme": "groupe_filiales_conso"
+  },
+  {
+   "id": "k056",
+   "motcle": "Confirmations directes, circularisation (NEP 505)",
+   "volume": "V1",
+   "ref": "46",
+   "texte": "NEP 505",
+   "theme": "elements_probants"
+  },
+  {
+   "id": "k057",
+   "motcle": "Continuité d'exploitation inappropriée : refus de certifier (NEP 570 § 15)",
+   "volume": "V1",
+   "ref": "67",
+   "texte": "NEP 570 § 15",
+   "theme": "rapport_CAC_opinion"
+  },
+  {
+   "id": "k058",
+   "motcle": "Continuité d'exploitation (NEP 570)",
+   "volume": "V1",
+   "ref": "66",
+   "texte": "NEP 570",
+   "theme": "procedure_alerte"
+  },
+  {
+   "id": "k059",
+   "motcle": "Contrôle fiscal : vérification de comptabilité, délais de reprise",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "—",
+   "theme": "controle_fiscal_procedures"
+  },
+  {
+   "id": "k060",
+   "motcle": "Contrôle interne : prise de connaissance (NEP 315)",
+   "volume": "V1",
+   "ref": "23",
+   "texte": "NEP 315",
+   "theme": "controle_interne"
+  },
+  {
+   "id": "k061",
+   "motcle": "Contrôle URSSAF : avis préalable, procédure (CSS R. 243-59)",
+   "volume": "V6",
+   "ref": "19",
+   "texte": "R. 243-59",
+   "theme": "URSSAF_controle"
+  },
+  {
+   "id": "k062",
+   "motcle": "Conventions : avis au CAC dans le mois (R. 225-30)",
+   "volume": "V6",
+   "ref": "79",
+   "texte": "R. 225-30",
+   "theme": "conventions_reglementees"
+  },
+  {
+   "id": "k063",
+   "motcle": "Conventions courantes conclues à des conditions normales (L. 225-39)",
+   "volume": "V6",
+   "ref": "35",
+   "texte": "L. 225-39",
+   "theme": "conventions_reglementees"
+  },
+  {
+   "id": "k064",
+   "motcle": "Conventions interdites en SA (L. 225-43)",
+   "volume": "V6",
+   "ref": "36",
+   "texte": "L. 225-43",
+   "theme": "conventions_reglementees"
+  },
+  {
+   "id": "k065",
+   "motcle": "Conventions réglementées dans les associations (L. 612-5)",
+   "volume": "V6",
+   "ref": "72",
+   "texte": "L. 612-5",
+   "theme": "conventions_reglementees"
+  },
+  {
+   "id": "k066",
+   "motcle": "Conventions réglementées en SA : autorisation préalable (L. 225-38)",
+   "volume": "V6",
+   "ref": "35",
+   "texte": "L. 225-38",
+   "theme": "conventions_reglementees"
+  },
+  {
+   "id": "k067",
+   "motcle": "Conventions réglementées en SARL (L. 223-19)",
+   "volume": "V6",
+   "ref": "25",
+   "texte": "L. 223-19",
+   "theme": "conventions_reglementees"
+  },
+  {
+   "id": "k068",
+   "motcle": "Conventions réglementées en SAS (L. 227-10)",
+   "volume": "V6",
+   "ref": "53",
+   "texte": "L. 227-10",
+   "theme": "conventions_reglementees"
+  },
+  {
+   "id": "k069",
+   "motcle": "Conventions réglementées : liste de contrôle du rapport spécial",
+   "volume": "Mémento Audit",
+   "ref": "",
+   "texte": "—",
+   "theme": "conventions_reglementees"
+  },
+  {
+   "id": "k070",
+   "motcle": "Conventions SA : information du CAC, rapport spécial, vote (L. 225-40)",
+   "volume": "V6",
+   "ref": "35",
+   "texte": "L. 225-40",
+   "theme": "conventions_reglementees"
+  },
+  {
+   "id": "k071",
+   "motcle": "Convocation de l'AG de SA : 15 jours (R. 225-69)",
+   "volume": "Mémento Sociétés",
+   "ref": "",
+   "texte": "R. 225-69",
+   "theme": "AG_convocation_approbation"
+  },
+  {
+   "id": "k072",
+   "motcle": "Convocation de l'AG de SARL : 15 jours (R. 223-20)",
+   "volume": "Mémento Sociétés",
+   "ref": "",
+   "texte": "R. 223-20",
+   "theme": "AG_convocation_approbation"
+  },
+  {
+   "id": "k073",
+   "motcle": "Convocation du CAC à l'AG et au conseil arrêtant les comptes (L. 821-65, ex L. 823-17)",
+   "volume": "V2",
+   "ref": "49",
+   "texte": "L. 821-65",
+   "theme": "AG_convocation_approbation"
+  },
+  {
+   "id": "k074",
+   "motcle": "Convocation du CAC : délai et forme (D. 821-185)",
+   "volume": "V6",
+   "ref": "92",
+   "texte": "D. 821-185",
+   "theme": "AG_convocation_approbation"
+  },
+  {
+   "id": "k075",
+   "motcle": "Correction d'erreur (art. 122-6)",
+   "volume": "V3",
+   "ref": "13",
+   "texte": "122-6",
+   "theme": "changements_methodes"
+  },
+  {
+   "id": "k076",
+   "motcle": "Coût d'acquisition d'une immobilisation corporelle (art. 213-8)",
+   "volume": "V3",
+   "ref": "18",
+   "texte": "213-8",
+   "theme": "immobilisations_amortissements"
+  },
+  {
+   "id": "k077",
+   "motcle": "Décisions collectives en SAS, approbation des comptes (L. 227-9)",
+   "volume": "V6",
+   "ref": "52",
+   "texte": "L. 227-9",
+   "theme": "AG_convocation_approbation"
+  },
+  {
+   "id": "k078",
+   "motcle": "Déclaration à TRACFIN par le CAC (NEP 9605 § 60)",
+   "volume": "V1",
+   "ref": "138",
+   "texte": "NEP 9605 § 60",
+   "theme": "LCBFT"
+  },
+  {
+   "id": "k079",
+   "motcle": "Déclaration de soupçon à TRACFIN (CMF L. 561-15)",
+   "volume": "V6",
+   "ref": "12",
+   "texte": "L. 561-15",
+   "theme": "LCBFT"
+  },
+  {
+   "id": "k080",
+   "motcle": "Défaut de convocation ou de désignation du CAC : délit (L. 821-6)",
+   "volume": "V2",
+   "ref": "18",
+   "texte": "L. 821-6",
+   "theme": "AG_convocation_approbation"
+  },
+  {
+   "id": "k081",
+   "motcle": "Défaut de désignation du CAC : désignation en justice (L. 821-47)",
+   "volume": "V2",
+   "ref": "40",
+   "texte": "L. 821-47",
+   "theme": "nomination_CAC"
+  },
+  {
+   "id": "k082",
+   "motcle": "Déficits : report en avant et transfert sur agrément (209 CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "209 CGI",
+   "theme": "IS"
+  },
+  {
+   "id": "k083",
+   "motcle": "Définition de la profession de CAC (L. 821-3)",
+   "volume": "V2",
+   "ref": "17",
+   "texte": "L. 821-3",
+   "theme": "SACC_autres_missions"
+  },
+  {
+   "id": "k084",
+   "motcle": "Délai de viduité : CAC devenant dirigeant (L. 821-32)",
+   "volume": "V2",
+   "ref": "32",
+   "texte": "L. 821-32",
+   "theme": "independance_incompatibilites"
+  },
+  {
+   "id": "k085",
+   "motcle": "Délai de viduité : dirigeant ou salarié devenant CAC (L. 821-33)",
+   "volume": "V2",
+   "ref": "32",
+   "texte": "L. 821-33",
+   "theme": "independance_incompatibilites"
+  },
+  {
+   "id": "k086",
+   "motcle": "Délais de paiement : informations du rapport de gestion (D. 441-6)",
+   "volume": "Mémento Sociétés",
+   "ref": "",
+   "texte": "D. 441-6",
+   "theme": "rapport_gestion_gouvernance"
+  },
+  {
+   "id": "k087",
+   "motcle": "Délits : défaut de convocation, entrave (L. 821-6, ex L. 820-4 ; version 2024)",
+   "volume": "V2",
+   "ref": "18",
+   "texte": "L. 821-6",
+   "theme": "responsabilite"
+  },
+  {
+   "id": "k088",
+   "motcle": "Démission du CAC (code déonto. CAC art. 28)",
+   "volume": "V4",
+   "ref": "9",
+   "texte": "Article 28",
+   "theme": "mandat_duree_cessation"
+  },
+  {
+   "id": "k089",
+   "motcle": "Départ en retraite : exonération des plus-values (151 septies A CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "151 septies A CGI",
+   "theme": "plus_values"
+  },
+  {
+   "id": "k090",
+   "motcle": "Dépôt au greffe par le CAC des rapports et documents (L. 821-52, ex L. 823-8-1)",
+   "volume": "V2",
+   "ref": "42",
+   "texte": "L. 821-52",
+   "theme": "depot_comptes"
+  },
+  {
+   "id": "k091",
+   "motcle": "Dépôt des comptes : SARL (L. 232-22)",
+   "volume": "V6",
+   "ref": "58",
+   "texte": "L. 232-22",
+   "theme": "depot_comptes"
+  },
+  {
+   "id": "k092",
+   "motcle": "Dépôt des comptes : sociétés par actions (L. 232-23)",
+   "volume": "V6",
+   "ref": "58",
+   "texte": "L. 232-23",
+   "theme": "depot_comptes"
+  },
+  {
+   "id": "k093",
+   "motcle": "Dépréciation d'un actif : définition (art. 214-5)",
+   "volume": "V3",
+   "ref": "24",
+   "texte": "214-5",
+   "theme": "immobilisations_amortissements"
+  },
+  {
+   "id": "k094",
+   "motcle": "Devoir de conseil et d'information de l'EC (décret 2012-432 art. 155)",
+   "volume": "V4",
+   "ref": "29",
+   "texte": "Article 155",
+   "theme": "responsabilite"
+  },
+  {
+   "id": "k095",
+   "motcle": "Devoir de discrétion de l'EC (décret 2012-432 art. 147)",
+   "volume": "V4",
+   "ref": "27",
+   "texte": "Article 147",
+   "theme": "secret_pro"
+  },
+  {
+   "id": "k096",
+   "motcle": "Dissolution et liquidation des sociétés",
+   "volume": "Mémento Sociétés",
+   "ref": "",
+   "texte": "—",
+   "theme": "liquidation_dissolution"
+  },
+  {
+   "id": "k097",
+   "motcle": "Dividendes fictifs, abus de biens sociaux en SA (L. 242-6)",
+   "volume": "V6",
+   "ref": "69",
+   "texte": "L. 242-6",
+   "theme": "dividendes"
+  },
+  {
+   "id": "k098",
+   "motcle": "Dons des particuliers : réduction d'impôt (200 CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "200 CGI",
+   "theme": "mecenat_fiscalite_asso"
+  },
+  {
+   "id": "k099",
+   "motcle": "Dossiers de travail : conservation, transmission au successeur",
+   "volume": "Mémento Audit",
+   "ref": "",
+   "texte": "—",
+   "theme": "secret_pro"
+  },
+  {
+   "id": "k100",
+   "motcle": "Droit préférentiel de souscription (DPS) (L. 225-132)",
+   "volume": "V6",
+   "ref": "41",
+   "texte": "L. 225-132",
+   "theme": "augmentation_reduction_capital"
+  },
+  {
+   "id": "k101",
+   "motcle": "Droits de cession de fonds de commerce (719 CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "719 CGI",
+   "theme": "droits_enregistrement_succession"
+  },
+  {
+   "id": "k102",
+   "motcle": "Droits de cession de parts et d'actions (726 CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "726 CGI",
+   "theme": "droits_enregistrement_succession"
+  },
+  {
+   "id": "k103",
+   "motcle": "Durée du mandat du CAC : 6 exercices (L. 821-44, ex L. 823-3)",
+   "volume": "V2",
+   "ref": "37",
+   "texte": "L. 821-44",
+   "theme": "mandat_duree_cessation"
+  },
+  {
+   "id": "k104",
+   "motcle": "Effectif salarié : calcul (CSS L. 130-1)",
+   "volume": "V6",
+   "ref": "17",
+   "texte": "L. 130-1",
+   "theme": "nomination_CAC"
+  },
+  {
+   "id": "k105",
+   "motcle": "Égalité entre actionnaires ou associés (L. 821-56, ex L. 823-11)",
+   "volume": "V2",
+   "ref": "44",
+   "texte": "L. 821-56",
+   "theme": "verifications_specifiques"
+  },
+  {
+   "id": "k106",
+   "motcle": "EIP : durée maximale des mandats, rotation des cabinets (L. 821-45)",
+   "volume": "V2",
+   "ref": "38",
+   "texte": "L. 821-45",
+   "theme": "EIP"
+  },
+  {
+   "id": "k107",
+   "motcle": "EIP : nomination d'au moins un CAC (L. 821-42)",
+   "volume": "V2",
+   "ref": "37",
+   "texte": "L. 821-42",
+   "theme": "EIP"
+  },
+  {
+   "id": "k108",
+   "motcle": "Éléments probants : caractère probant (NEP 500)",
+   "volume": "V1",
+   "ref": "42",
+   "texte": "NEP 500",
+   "theme": "elements_probants"
+  },
+  {
+   "id": "k109",
+   "motcle": "Engagements de retraite : provisionnement (art. 324-1)",
+   "volume": "V3",
+   "ref": "38",
+   "texte": "324-1",
+   "theme": "provisions"
+  },
+  {
+   "id": "k110",
+   "motcle": "Entrave à la mission du CAC : délit (L. 821-6)",
+   "volume": "V2",
+   "ref": "18",
+   "texte": "L. 821-6",
+   "theme": "responsabilite"
+  },
+  {
+   "id": "k111",
+   "motcle": "Événements postérieurs à la clôture : diligences du CAC (NEP 560)",
+   "volume": "V1",
+   "ref": "63",
+   "texte": "NEP 560",
+   "theme": "evenements_post_cloture"
+  },
+  {
+   "id": "k112",
+   "motcle": "Événements postérieurs à la clôture : traitement comptable (art. 513-4)",
+   "volume": "V3",
+   "ref": "43",
+   "texte": "513-4",
+   "theme": "evenements_post_cloture"
+  },
+  {
+   "id": "k113",
+   "motcle": "Examen limité de comptes intermédiaires (NEP 2410)",
+   "volume": "V1",
+   "ref": "116",
+   "texte": "NEP 2410",
+   "theme": "SACC_autres_missions"
+  },
+  {
+   "id": "k114",
+   "motcle": "Examen limité des comptes par l'EC (NP 2400)",
+   "volume": "V5",
+   "ref": "78",
+   "texte": "NP 2400",
+   "theme": "SACC_autres_missions"
+  },
+  {
+   "id": "k115",
+   "motcle": "Examen renforcé d'une opération complexe (CMF L. 561-10-2)",
+   "volume": "V6",
+   "ref": "10",
+   "texte": "L. 561-10-2",
+   "theme": "LCBFT"
+  },
+  {
+   "id": "k116",
+   "motcle": "Exercice malgré une incompatibilité : délit (L. 821-8)",
+   "volume": "V2",
+   "ref": "19",
+   "texte": "L. 821-8",
+   "theme": "independance_incompatibilites"
+  },
+  {
+   "id": "k117",
+   "motcle": "Expiration du mandat : AG statuant sur le 6e exercice (L. 821-44)",
+   "volume": "V2",
+   "ref": "37",
+   "texte": "L. 821-44",
+   "theme": "mandat_duree_cessation"
+  },
+  {
+   "id": "k118",
+   "motcle": "Faiblesses du contrôle interne : communication (NEP 265)",
+   "volume": "V1",
+   "ref": "20",
+   "texte": "NEP 265",
+   "theme": "controle_interne"
+  },
+  {
+   "id": "k119",
+   "motcle": "FEC : fichier des écritures comptables",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "—",
+   "theme": "numerique_RGPD_FEC_caisse"
+  },
+  {
+   "id": "k120",
+   "motcle": "Filiales significatives : 2,5 M€ / 5 M€ / 25 (D. 821-172)",
+   "volume": "V6",
+   "ref": "91",
+   "texte": "D. 821-172",
+   "theme": "groupe_filiales_conso"
+  },
+  {
+   "id": "k121",
+   "motcle": "Fonds commercial, frais de développement : amortissement (art. 214-3)",
+   "volume": "V3",
+   "ref": "23",
+   "texte": "214-3",
+   "theme": "immobilisations_amortissements"
+  },
+  {
+   "id": "k122",
+   "motcle": "Frais de développement : activation (art. 212-3)",
+   "volume": "V3",
+   "ref": "15",
+   "texte": "212-3",
+   "theme": "immobilisations_amortissements"
+  },
+  {
+   "id": "k123",
+   "motcle": "Franchise en base de TVA (293 B CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "293 B CGI",
+   "theme": "TVA"
+  },
+  {
+   "id": "k124",
+   "motcle": "Fraude : prise en considération dans l'audit (NEP 240)",
+   "volume": "V1",
+   "ref": "12",
+   "texte": "NEP 240",
+   "theme": "demarche_audit_risques"
+  },
+  {
+   "id": "k125",
+   "motcle": "Fraude : révélation au procureur (NEP 240 § 31)",
+   "volume": "V1",
+   "ref": "15",
+   "texte": "NEP 240 § 31",
+   "theme": "revelation_faits_delictueux"
+  },
+  {
+   "id": "k126",
+   "motcle": "Fusion : régime fiscal de faveur (210 A CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "210 A CGI",
+   "theme": "fusion_scission_TUP"
+  },
+  {
+   "id": "k127",
+   "motcle": "Fusion simplifiée : absorption d'une filiale à 100 % (L. 236-11)",
+   "volume": "V6",
+   "ref": "66",
+   "texte": "L. 236-11",
+   "theme": "fusion_scission_TUP"
+  },
+  {
+   "id": "k128",
+   "motcle": "Fusions et opérations assimilées : comptabilisation (art. 710-1)",
+   "volume": "V3",
+   "ref": "82",
+   "texte": "710-1",
+   "theme": "fusion_scission_TUP"
+  },
+  {
+   "id": "k129",
+   "motcle": "Groupes : seuils petits, moyens, grands (D. 230-2)",
+   "volume": "V6",
+   "ref": "82",
+   "texte": "D. 230-2",
+   "theme": "groupe_filiales_conso"
+  },
+  {
+   "id": "k130",
+   "motcle": "Heures supplémentaires : majorations (L. 3121-36 C. trav.)",
+   "volume": "Hors kit",
+   "ref": "",
+   "texte": "L. 3121-36 C. trav.",
+   "theme": "contrat_travail"
+  },
+  {
+   "id": "k131",
+   "motcle": "Honoraires de l'expert-comptable (décret 2012-432 art. 158)",
+   "volume": "V4",
+   "ref": "30",
+   "texte": "Article 158",
+   "theme": "honoraires"
+  },
+  {
+   "id": "k132",
+   "motcle": "Honoraires du CAC (L. 821-66)",
+   "volume": "V2",
+   "ref": "49",
+   "texte": "L. 821-66",
+   "theme": "honoraires"
+  },
+  {
+   "id": "k133",
+   "motcle": "Honoraires du CAC : principe général (code déonto. CAC art. 12)",
+   "volume": "V4",
+   "ref": "4",
+   "texte": "Article 12",
+   "theme": "honoraires"
+  },
+  {
+   "id": "k134",
+   "motcle": "Impartialité du CAC (code déonto. CAC art. 4)",
+   "volume": "V4",
+   "ref": "3",
+   "texte": "Article 4",
+   "theme": "independance_incompatibilites"
+  },
+  {
+   "id": "k135",
+   "motcle": "Impossibilité de certifier (NEP 700 § 14)",
+   "volume": "V1",
+   "ref": "88",
+   "texte": "NEP 700 § 14",
+   "theme": "rapport_CAC_opinion"
+  },
+  {
+   "id": "k136",
+   "motcle": "Incompatibilités générales du CAC (L. 821-27, ex L. 822-10)",
+   "volume": "V2",
+   "ref": "29",
+   "texte": "L. 821-27",
+   "theme": "independance_incompatibilites"
+  },
+  {
+   "id": "k137",
+   "motcle": "Indépendance de l'expert-comptable (décret 2012-432 art. 146)",
+   "volume": "V4",
+   "ref": "27",
+   "texte": "Article 146",
+   "theme": "independance_incompatibilites"
+  },
+  {
+   "id": "k138",
+   "motcle": "Indépendance et conflits d'intérêts du CAC (code déonto. CAC art. 5)",
+   "volume": "V4",
+   "ref": "3",
+   "texte": "Article 5",
+   "theme": "independance_incompatibilites"
+  },
+  {
+   "id": "k139",
+   "motcle": "Indices de perte de valeur, test de dépréciation (art. 214-15)",
+   "volume": "V3",
+   "ref": "26",
+   "texte": "214-15",
+   "theme": "immobilisations_amortissements"
+  },
+  {
+   "id": "k140",
+   "motcle": "Informations financières prévisionnelles : examen (NP 3400)",
+   "volume": "V5",
+   "ref": "186",
+   "texte": "NP 3400",
+   "theme": "comptes_previsionnels"
+  },
+  {
+   "id": "k141",
+   "motcle": "Informations mensongères, non-révélation : délit du CAC (L. 821-9, ex L. 820-7)",
+   "volume": "V2",
+   "ref": "19",
+   "texte": "L. 821-9",
+   "theme": "revelation_faits_delictueux"
+  },
+  {
+   "id": "k142",
+   "motcle": "Intégration fiscale : 95 % (223 A CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "223 A CGI",
+   "theme": "integration_fiscale"
+  },
+  {
+   "id": "k143",
+   "motcle": "Intégrité du CAC (code déonto. CAC art. 3)",
+   "volume": "V4",
+   "ref": "3",
+   "texte": "Article 3",
+   "theme": "independance_incompatibilites"
+  },
+  {
+   "id": "k144",
+   "motcle": "IR-PME : réduction pour souscription au capital",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "—",
+   "theme": "IR_BIC_BNC"
+  },
+  {
+   "id": "k145",
+   "motcle": "Irrégularités : signalement à la plus prochaine AG (L. 821-10)",
+   "volume": "V2",
+   "ref": "19",
+   "texte": "L. 821-10",
+   "theme": "revelation_faits_delictueux"
+  },
+  {
+   "id": "k146",
+   "motcle": "IS : taux normal et taux réduit PME (219 CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "219 CGI",
+   "theme": "IS"
+  },
+  {
+   "id": "k147",
+   "motcle": "Justification des appréciations : EIP, points clés de l'audit (NEP 701)",
+   "volume": "V1",
+   "ref": "91",
+   "texte": "NEP 701",
+   "theme": "rapport_CAC_opinion"
+  },
+  {
+   "id": "k148",
+   "motcle": "Justification des appréciations : non-EIP (NEP 702)",
+   "volume": "V1",
+   "ref": "94",
+   "texte": "NEP 702",
+   "theme": "rapport_CAC_opinion"
+  },
+  {
+   "id": "k149",
+   "motcle": "LCB-FT : obligations du CAC (NEP 9605)",
+   "volume": "V1",
+   "ref": "129",
+   "texte": "NEP 9605",
+   "theme": "LCBFT"
+  },
+  {
+   "id": "k150",
+   "motcle": "Lettre d'affirmation (NEP 580 § 09)",
+   "volume": "V1",
+   "ref": "69",
+   "texte": "NEP 580 § 09",
+   "theme": "elements_probants"
+  },
+  {
+   "id": "k151",
+   "motcle": "Lettre de mission de l'expert-comptable (décret 2012-432 art. 151)",
+   "volume": "V4",
+   "ref": "27",
+   "texte": "Article 151",
+   "theme": "lettre_mission"
+  },
+  {
+   "id": "k152",
+   "motcle": "Lettre de mission du CAC (NEP 210)",
+   "volume": "V1",
+   "ref": "8",
+   "texte": "NEP 210",
+   "theme": "lettre_mission"
+  },
+  {
+   "id": "k153",
+   "motcle": "Liens financiers incompatibles (code déonto. CAC art. 33)",
+   "volume": "V4",
+   "ref": "11",
+   "texte": "Article 33",
+   "theme": "independance_incompatibilites"
+  },
+  {
+   "id": "k154",
+   "motcle": "Liens personnels incompatibles (code déonto. CAC art. 32)",
+   "volume": "V4",
+   "ref": "11",
+   "texte": "Article 32",
+   "theme": "independance_incompatibilites"
+  },
+  {
+   "id": "k155",
+   "motcle": "Liens professionnels incompatibles (code déonto. CAC art. 34)",
+   "volume": "V4",
+   "ref": "12",
+   "texte": "Article 34",
+   "theme": "independance_incompatibilites"
+  },
+  {
+   "id": "k156",
+   "motcle": "LMP / LMNP : critères (155 IV CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "155 IV CGI",
+   "theme": "fiscalite_immobiliere_SCI_LMNP"
+  },
+  {
+   "id": "k157",
+   "motcle": "Mandat de 3 exercices (L. 821-46, ex L. 823-3-2)",
+   "volume": "V2",
+   "ref": "40",
+   "texte": "L. 821-46",
+   "theme": "mandat_duree_cessation"
+  },
+  {
+   "id": "k158",
+   "motcle": "Mandat de 6 exercices en petite entreprise (NEP 912)",
+   "volume": "V1",
+   "ref": "107",
+   "texte": "NEP 912",
+   "theme": "mandat_duree_cessation"
+  },
+  {
+   "id": "k159",
+   "motcle": "Mécénat d'entreprise : réduction de 60 % (238 bis CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "238 bis CGI",
+   "theme": "mecenat_fiscalite_asso"
+  },
+  {
+   "id": "k160",
+   "motcle": "Micro-BIC : seuils et abattements (50-0 CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "50-0 CGI",
+   "theme": "micro_entreprise_regimes"
+  },
+  {
+   "id": "k161",
+   "motcle": "Micro-BNC : seuil et abattement (102 ter CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "102 ter CGI",
+   "theme": "micro_entreprise_regimes"
+  },
+  {
+   "id": "k162",
+   "motcle": "Micro et petites entreprises : seuils comptables (D. 123-200)",
+   "volume": "V6",
+   "ref": "74",
+   "texte": "D. 123-200",
+   "theme": "annexe_comptes_annuels"
+  },
+  {
+   "id": "k163",
+   "motcle": "Mission de l'expert-comptable, monopole (ord. 45-2138 art. 2)",
+   "volume": "V4",
+   "ref": "33",
+   "texte": "Article 2",
+   "theme": "SACC_autres_missions"
+  },
+  {
+   "id": "k164",
+   "motcle": "Nomination du CAC : titulaire et suppléant (L. 821-40, ex L. 823-1)",
+   "volume": "V2",
+   "ref": "35",
+   "texte": "L. 821-40",
+   "theme": "nomination_CAC"
+  },
+  {
+   "id": "k165",
+   "motcle": "Non-dépôt des comptes : contravention (R. 247-3)",
+   "volume": "V6",
+   "ref": "85",
+   "texte": "R. 247-3",
+   "theme": "depot_comptes"
+  },
+  {
+   "id": "k166",
+   "motcle": "Norme H2A : approche risques et sauvegardes",
+   "volume": "V4",
+   "ref": "21",
+   "texte": "A. 822-28-12",
+   "theme": "independance_incompatibilites"
+  },
+  {
+   "id": "k167",
+   "motcle": "Norme H2A : principes fondamentaux de comportement",
+   "volume": "V4",
+   "ref": "14",
+   "texte": "A. 821-54",
+   "theme": "independance_incompatibilites"
+  },
+  {
+   "id": "k168",
+   "motcle": "Normes OEC : tableau des agréments et dates d'application",
+   "volume": "V5",
+   "ref": "6",
+   "texte": "PRÉFACE",
+   "theme": "lettre_mission"
+  },
+  {
+   "id": "k169",
+   "motcle": "NPLAB : LCB-FT de l'expert-comptable",
+   "volume": "V5",
+   "ref": "20",
+   "texte": "NPLAB",
+   "theme": "LCBFT"
+  },
+  {
+   "id": "k170",
+   "motcle": "Nullité des délibérations à défaut de CAC (L. 821-5, ex L. 820-3-1)",
+   "volume": "V2",
+   "ref": "18",
+   "texte": "L. 821-5",
+   "theme": "AG_convocation_approbation"
+  },
+  {
+   "id": "k171",
+   "motcle": "Observation dans le rapport du CAC (NEP 700 § 07)",
+   "volume": "V1",
+   "ref": "87",
+   "texte": "NEP 700 § 07",
+   "theme": "rapport_CAC_opinion"
+  },
+  {
+   "id": "k172",
+   "motcle": "Opinion : certifier, avec réserve, refuser (NEP 700 § 06)",
+   "volume": "V1",
+   "ref": "87",
+   "texte": "NEP 700 § 06",
+   "theme": "rapport_CAC_opinion"
+  },
+  {
+   "id": "k173",
+   "motcle": "Ordre du jour de l'AG (L. 225-105)",
+   "volume": "Mémento Sociétés",
+   "ref": "",
+   "texte": "L. 225-105",
+   "theme": "AG_convocation_approbation"
+  },
+  {
+   "id": "k174",
+   "motcle": "Pacte Dutreil : transmission (787 B CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "787 B CGI",
+   "theme": "droits_enregistrement_succession"
+  },
+  {
+   "id": "k175",
+   "motcle": "Permanence des méthodes (art. 121-5)",
+   "volume": "V3",
+   "ref": "11",
+   "texte": "121-5",
+   "theme": "changements_methodes"
+  },
+  {
+   "id": "k176",
+   "motcle": "Perte de la moitié du capital en SA (L. 225-248)",
+   "volume": "V6",
+   "ref": "47",
+   "texte": "L. 225-248",
+   "theme": "perte_moitie_capital"
+  },
+  {
+   "id": "k177",
+   "motcle": "Perte de la moitié du capital en SARL (L. 223-42)",
+   "volume": "V6",
+   "ref": "30",
+   "texte": "L. 223-42",
+   "theme": "perte_moitie_capital"
+  },
+  {
+   "id": "k178",
+   "motcle": "Perte de la moitié en SA : seuil (R. 225-166-1)",
+   "volume": "V6",
+   "ref": "81",
+   "texte": "R. 225-166-1",
+   "theme": "perte_moitie_capital"
+  },
+  {
+   "id": "k179",
+   "motcle": "Perte de la moitié en SARL : seuil de 1 % du bilan (R. 223-37)",
+   "volume": "V6",
+   "ref": "77",
+   "texte": "R. 223-37",
+   "theme": "perte_moitie_capital"
+  },
+  {
+   "id": "k180",
+   "motcle": "Petit groupe : désignation d'un CAC (L. 821-43, ex L. 823-2-2)",
+   "volume": "V2",
+   "ref": "37",
+   "texte": "L. 821-43",
+   "theme": "groupe_filiales_conso"
+  },
+  {
+   "id": "k181",
+   "motcle": "Petit groupe : seuils cumulés (D. 821-171)",
+   "volume": "V6",
+   "ref": "90",
+   "texte": "D. 821-171",
+   "theme": "groupe_filiales_conso"
+  },
+  {
+   "id": "k182",
+   "motcle": "PFU et option pour le barème, abattement de 40 % (200 A et 158 CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "200 A / 158 CGI",
+   "theme": "dividendes"
+  },
+  {
+   "id": "k183",
+   "motcle": "Plus-values immobilières professionnelles : abattement (151 septies B CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "151 septies B CGI",
+   "theme": "plus_values"
+  },
+  {
+   "id": "k184",
+   "motcle": "Plus-values professionnelles : exonération PME (151 septies CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "151 septies CGI",
+   "theme": "plus_values"
+  },
+  {
+   "id": "k185",
+   "motcle": "Pouvoirs d'investigation du CAC (L. 821-60, ex L. 823-13)",
+   "volume": "V2",
+   "ref": "46",
+   "texte": "L. 821-60",
+   "theme": "demarche_audit_risques"
+  },
+  {
+   "id": "k186",
+   "motcle": "Prescription de l'action en responsabilité contre le CAC (L. 821-38)",
+   "volume": "V2",
+   "ref": "34",
+   "texte": "L. 821-38",
+   "theme": "responsabilite"
+  },
+  {
+   "id": "k187",
+   "motcle": "Présentation des comptes (NP 2300)",
+   "volume": "V5",
+   "ref": "60",
+   "texte": "NP 2300",
+   "theme": "SACC_autres_missions"
+  },
+  {
+   "id": "k188",
+   "motcle": "Principes comptables : régularité, sincérité, prudence (art. 121-1 s.)",
+   "volume": "V3",
+   "ref": "11",
+   "texte": "121-1",
+   "theme": "annexe_comptes_annuels"
+  },
+  {
+   "id": "k189",
+   "motcle": "Prise de connaissance de l'entité, évaluation du risque (NEP 315)",
+   "volume": "V1",
+   "ref": "23",
+   "texte": "NEP 315",
+   "theme": "demarche_audit_risques"
+  },
+  {
+   "id": "k190",
+   "motcle": "Procédure d'alerte : déclenchement par le CAC (NEP 570 § 16)",
+   "volume": "V1",
+   "ref": "67",
+   "texte": "NEP 570 § 16",
+   "theme": "procedure_alerte"
+  },
+  {
+   "id": "k191",
+   "motcle": "Procédure d'alerte du CAC en SA (L. 234-1)",
+   "volume": "V6",
+   "ref": "62",
+   "texte": "L. 234-1",
+   "theme": "procedure_alerte"
+  },
+  {
+   "id": "k192",
+   "motcle": "Procédure d'alerte du CAC hors SA (L. 234-2)",
+   "volume": "V6",
+   "ref": "63",
+   "texte": "L. 234-2",
+   "theme": "procedure_alerte"
+  },
+  {
+   "id": "k193",
+   "motcle": "Procédures analytiques (NEP 520)",
+   "volume": "V1",
+   "ref": "50",
+   "texte": "NEP 520",
+   "theme": "elements_probants"
+  },
+  {
+   "id": "k194",
+   "motcle": "Procédures convenues (NP 4400)",
+   "volume": "V5",
+   "ref": "206",
+   "texte": "NP 4400",
+   "theme": "SACC_autres_missions"
+  },
+  {
+   "id": "k195",
+   "motcle": "Provision pour risques et charges (art. 322-8)",
+   "volume": "V3",
+   "ref": "36",
+   "texte": "322-8",
+   "theme": "provisions"
+  },
+  {
+   "id": "k196",
+   "motcle": "Provisions : conditions de comptabilisation (art. 322-1)",
+   "volume": "V3",
+   "ref": "36",
+   "texte": "322-1",
+   "theme": "provisions"
+  },
+  {
+   "id": "k197",
+   "motcle": "Rapport de gestion : contenu (L. 232-1)",
+   "volume": "Mémento Sociétés",
+   "ref": "",
+   "texte": "L. 232-1",
+   "theme": "rapport_gestion_gouvernance"
+  },
+  {
+   "id": "k198",
+   "motcle": "Rapport du CAC sur les comptes annuels et consolidés (NEP 700)",
+   "volume": "V1",
+   "ref": "87",
+   "texte": "NEP 700",
+   "theme": "rapport_CAC_opinion"
+  },
+  {
+   "id": "k199",
+   "motcle": "Rapport spécial du CAC sur les conventions : contenu (R. 225-31)",
+   "volume": "V6",
+   "ref": "80",
+   "texte": "R. 225-31",
+   "theme": "conventions_reglementees"
+  },
+  {
+   "id": "k200",
+   "motcle": "Rapport sur le gouvernement d'entreprise : diligences du CAC (NEP 9510 § 12)",
+   "volume": "V1",
+   "ref": "122",
+   "texte": "NEP 9510 § 12",
+   "theme": "verifications_specifiques"
+  },
+  {
+   "id": "k201",
+   "motcle": "Rapport sur les risques financiers, comptables et de gestion (NEP 911 § 34)",
+   "volume": "V1",
+   "ref": "104",
+   "texte": "NEP 911 § 34",
+   "theme": "mandat_duree_cessation"
+  },
+  {
+   "id": "k202",
+   "motcle": "Rapports du CAC sur les opérations (capital, transformation, acompte)",
+   "volume": "Mémento Audit",
+   "ref": "",
+   "texte": "—",
+   "theme": "rapport_CAC_opinion"
+  },
+  {
+   "id": "k203",
+   "motcle": "Récusation du CAC (L. 821-49, ex L. 823-6)",
+   "volume": "V2",
+   "ref": "41",
+   "texte": "L. 821-49",
+   "theme": "mandat_duree_cessation"
+  },
+  {
+   "id": "k204",
+   "motcle": "Réduction de capital (L. 225-204)",
+   "volume": "V6",
+   "ref": "45",
+   "texte": "L. 225-204",
+   "theme": "augmentation_reduction_capital"
+  },
+  {
+   "id": "k205",
+   "motcle": "Réduction de capital : opposition des créanciers (R. 225-152)",
+   "volume": "Mémento Sociétés",
+   "ref": "",
+   "texte": "R. 225-152",
+   "theme": "augmentation_reduction_capital"
+  },
+  {
+   "id": "k206",
+   "motcle": "Refus de certifier pour désaccord (NEP 700 § 12)",
+   "volume": "V1",
+   "ref": "88",
+   "texte": "NEP 700 § 12",
+   "theme": "rapport_CAC_opinion"
+  },
+  {
+   "id": "k207",
+   "motcle": "Régime mère-fille (145 et 216 CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "145 / 216 CGI",
+   "theme": "groupe_filiales_conso"
+  },
+  {
+   "id": "k208",
+   "motcle": "Relèvement du CAC : faute ou empêchement (L. 821-50)",
+   "volume": "V2",
+   "ref": "41",
+   "texte": "L. 821-50",
+   "theme": "mandat_duree_cessation"
+  },
+  {
+   "id": "k209",
+   "motcle": "Répétition des dividendes (L. 232-17)",
+   "volume": "V6",
+   "ref": "56",
+   "texte": "L. 232-17",
+   "theme": "dividendes"
+  },
+  {
+   "id": "k210",
+   "motcle": "Réserve légale : 5 % jusqu'au dixième du capital (L. 232-10)",
+   "volume": "V6",
+   "ref": "54",
+   "texte": "L. 232-10",
+   "theme": "dividendes"
+  },
+  {
+   "id": "k211",
+   "motcle": "Réserve pour désaccord (NEP 700 § 09)",
+   "volume": "V1",
+   "ref": "88",
+   "texte": "NEP 700 § 09",
+   "theme": "rapport_CAC_opinion"
+  },
+  {
+   "id": "k212",
+   "motcle": "Réserve pour limitation (NEP 700 § 11)",
+   "volume": "V1",
+   "ref": "88",
+   "texte": "NEP 700 § 11",
+   "theme": "rapport_CAC_opinion"
+  },
+  {
+   "id": "k213",
+   "motcle": "Responsabilité civile du CAC (L. 821-37, ex L. 822-17)",
+   "volume": "V2",
+   "ref": "34",
+   "texte": "L. 821-37",
+   "theme": "responsabilite"
+  },
+  {
+   "id": "k214",
+   "motcle": "Responsabilité pénale du CAC",
+   "volume": "Mémento Audit",
+   "ref": "",
+   "texte": "—",
+   "theme": "responsabilite"
+  },
+  {
+   "id": "k215",
+   "motcle": "Révélation des faits délictueux au procureur (L. 821-10, ex L. 823-12)",
+   "volume": "V2",
+   "ref": "19",
+   "texte": "L. 821-10",
+   "theme": "revelation_faits_delictueux"
+  },
+  {
+   "id": "k216",
+   "motcle": "Risques pour l'indépendance : identification, sauvegardes (code déonto. CAC art. 19)",
+   "volume": "V4",
+   "ref": "7",
+   "texte": "Article 19",
+   "theme": "independance_incompatibilites"
+  },
+  {
+   "id": "k217",
+   "motcle": "Rotation des associés signataires (L. 821-34, ex L. 822-14)",
+   "volume": "V2",
+   "ref": "32",
+   "texte": "L. 821-34",
+   "theme": "independance_incompatibilites"
+  },
+  {
+   "id": "k218",
+   "motcle": "SA : nomination d'un CAC (L. 225-218)",
+   "volume": "V6",
+   "ref": "46",
+   "texte": "L. 225-218",
+   "theme": "nomination_CAC"
+  },
+  {
+   "id": "k219",
+   "motcle": "SACC : services autres que la certification (L. 821-28)",
+   "volume": "V2",
+   "ref": "29",
+   "texte": "L. 821-28",
+   "theme": "SACC_autres_missions"
+  },
+  {
+   "id": "k220",
+   "motcle": "Sanctions disciplinaires du CAC : avertissement, blâme, interdiction (L. 821-71)",
+   "volume": "V2",
+   "ref": "54",
+   "texte": "L. 821-71",
+   "theme": "responsabilite"
+  },
+  {
+   "id": "k221",
+   "motcle": "SARL : nomination d'un CAC (L. 223-35)",
+   "volume": "V6",
+   "ref": "29",
+   "texte": "L. 223-35",
+   "theme": "nomination_CAC"
+  },
+  {
+   "id": "k222",
+   "motcle": "SAS : constitution, apports (L. 227-1)",
+   "volume": "V6",
+   "ref": "49",
+   "texte": "L. 227-1",
+   "theme": "apports_commissariat"
+  },
+  {
+   "id": "k223",
+   "motcle": "SAS : nomination d'un CAC (L. 227-9-1)",
+   "volume": "V6",
+   "ref": "52",
+   "texte": "L. 227-9-1",
+   "theme": "nomination_CAC"
+  },
+  {
+   "id": "k224",
+   "motcle": "SCI : option pour l'IS (239 CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "239 CGI",
+   "theme": "fiscalite_immobiliere_SCI_LMNP"
+  },
+  {
+   "id": "k225",
+   "motcle": "SCM : régime fiscal (239 quater A CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "239 quater A CGI",
+   "theme": "IR_BIC_BNC"
+  },
+  {
+   "id": "k226",
+   "motcle": "Secret professionnel de l'expert-comptable (ord. 45-2138 art. 21)",
+   "volume": "V4",
+   "ref": "40",
+   "texte": "Article 21",
+   "theme": "secret_pro"
+  },
+  {
+   "id": "k227",
+   "motcle": "Secret professionnel du CAC (L. 821-35, ex L. 822-15)",
+   "volume": "V2",
+   "ref": "33",
+   "texte": "L. 821-35",
+   "theme": "secret_pro"
+  },
+  {
+   "id": "k228",
+   "motcle": "Secret professionnel et discrétion du CAC (code déonto. CAC art. 9)",
+   "volume": "V4",
+   "ref": "4",
+   "texte": "Article 9",
+   "theme": "secret_pro"
+  },
+  {
+   "id": "k229",
+   "motcle": "Services interdits au CAC d'une EIP (code déonto. CAC art. 18)",
+   "volume": "V4",
+   "ref": "6",
+   "texte": "Article 18",
+   "theme": "independance_incompatibilites"
+  },
+  {
+   "id": "k230",
+   "motcle": "Services interdits au CAC et à son réseau (L. 821-28, ex L. 822-11)",
+   "volume": "V2",
+   "ref": "29",
+   "texte": "L. 821-28",
+   "theme": "independance_incompatibilites"
+  },
+  {
+   "id": "k231",
+   "motcle": "Seuil de signification : définition (NEP 320 § 06)",
+   "volume": "V1",
+   "ref": "31",
+   "texte": "NEP 320 § 06",
+   "theme": "seuils_signification"
+  },
+  {
+   "id": "k232",
+   "motcle": "Seuils de nomination du CAC : 5 M€ / 10 M€ / 50 (D. 221-5)",
+   "volume": "V6",
+   "ref": "75",
+   "texte": "D. 221-5",
+   "theme": "nomination_CAC"
+  },
+  {
+   "id": "k233",
+   "motcle": "SNC : nomination d'un CAC (L. 221-9)",
+   "volume": "V6",
+   "ref": "22",
+   "texte": "L. 221-9",
+   "theme": "nomination_CAC"
+  },
+  {
+   "id": "k234",
+   "motcle": "Statut du dirigeant : cumul mandat social et contrat de travail",
+   "volume": "Mémento Sociétés",
+   "ref": "",
+   "texte": "—",
+   "theme": "statut_dirigeant_social"
+  },
+  {
+   "id": "k235",
+   "motcle": "Subventions aux associations : seuil de 153 000 € (D. 612-5)",
+   "volume": "V6",
+   "ref": "88",
+   "texte": "D. 612-5",
+   "theme": "subventions"
+  },
+  {
+   "id": "k236",
+   "motcle": "Subventions d'investissement : reprise (art. 312-1)",
+   "volume": "V3",
+   "ref": "33",
+   "texte": "312-1",
+   "theme": "subventions"
+  },
+  {
+   "id": "k237",
+   "motcle": "Succession entre confrères (code déonto. CAC art. 26)",
+   "volume": "V4",
+   "ref": "9",
+   "texte": "Article 26",
+   "theme": "mandat_duree_cessation"
+  },
+  {
+   "id": "k238",
+   "motcle": "Suppléant du CAC (L. 821-40 I)",
+   "volume": "V2",
+   "ref": "35",
+   "texte": "L. 821-40",
+   "theme": "nomination_CAC"
+  },
+  {
+   "id": "k239",
+   "motcle": "Suppression du DPS : rapport du CAC (L. 225-135)",
+   "volume": "V6",
+   "ref": "42",
+   "texte": "L. 225-135",
+   "theme": "augmentation_reduction_capital"
+  },
+  {
+   "id": "k240",
+   "motcle": "Table de concordance ancien → nouveau numéro (Livre VIII)",
+   "volume": "V2",
+   "ref": "2",
+   "texte": "Table de concordance",
+   "theme": "autre"
+  },
+  {
+   "id": "k241",
+   "motcle": "Taxe sur les bureaux en PACA (231 quater CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "231 quater CGI",
+   "theme": "fiscalite_immobiliere_SCI_LMNP"
+  },
+  {
+   "id": "k242",
+   "motcle": "Techniques de contrôle : inspection, observation, confirmation (NEP 500 § 10)",
+   "volume": "V1",
+   "ref": "43",
+   "texte": "NEP 500 § 10",
+   "theme": "elements_probants"
+  },
+  {
+   "id": "k243",
+   "motcle": "Transfert des contrats de travail (L. 1224-1 C. trav.)",
+   "volume": "Hors kit",
+   "ref": "",
+   "texte": "L. 1224-1 C. trav.",
+   "theme": "contrat_travail"
+  },
+  {
+   "id": "k244",
+   "motcle": "Transformation d'une SARL (L. 223-43)",
+   "volume": "V6",
+   "ref": "31",
+   "texte": "L. 223-43",
+   "theme": "transformation"
+  },
+  {
+   "id": "k245",
+   "motcle": "Transformation en SAS : unanimité (L. 227-3)",
+   "volume": "V6",
+   "ref": "51",
+   "texte": "L. 227-3",
+   "theme": "transformation"
+  },
+  {
+   "id": "k246",
+   "motcle": "Transmission d'entreprise : exonération (238 quindecies CGI)",
+   "volume": "Mémento Fiscal",
+   "ref": "",
+   "texte": "238 quindecies CGI",
+   "theme": "plus_values"
+  },
+  {
+   "id": "k247",
+   "motcle": "Transmission universelle de patrimoine, TUP (1844-5 C. civ.)",
+   "volume": "Mémento Sociétés",
+   "ref": "",
+   "texte": "1844-5 C. civ.",
+   "theme": "fusion_scission_TUP"
+  },
+  {
+   "id": "k248",
+   "motcle": "Vérifications spécifiques, mission permanente (L. 821-54, ex L. 823-10)",
+   "volume": "V2",
+   "ref": "43",
+   "texte": "L. 821-54",
+   "theme": "verifications_specifiques"
+  },
+  {
+   "id": "k249",
+   "motcle": "Vérifications spécifiques : rapport de gestion (NEP 9510)",
+   "volume": "V1",
+   "ref": "121",
+   "texte": "NEP 9510",
+   "theme": "verifications_specifiques"
+  },
+  {
+   "id": "k250",
+   "motcle": "Vigilance complémentaire, PPE (CMF L. 561-10)",
+   "volume": "V6",
+   "ref": "10",
+   "texte": "L. 561-10",
+   "theme": "LCBFT"
+  }
+ ]
+}
