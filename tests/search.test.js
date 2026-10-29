@@ -37,3 +37,12 @@ test('questions en langage courant, filtre par famille, entrées d\'index, passa
   assert.equal(p.length, 2); assert.ok(p[0].texte.includes('225-38'));
   assert.equal(surligner('La révélation au procureur', 'revelation'), 'La <mark>révélation</mark> au procureur');
 });
+
+test('guillemets : occurrence exacte obligatoire, surlignée en bloc', () => {
+  const r = search(idx, '« faits délictueux » procureur', { limit: 50 });
+  assert.ok(r.length > 0);
+  for (const x of r) assert.ok(idx.pages.find((p) => p.v === x.v && p.n === x.n).nt.includes(' faits delictueux '));
+  assert.equal(search(idx, '« prix de transfert »').length, 0);
+  assert.ok(search(idx, 'prix de transfert').length > 0);
+  assert.equal(surligner('de l&#39;assemblée générale', '« l\'assemblée générale »'), 'de <mark>l&#39;assemblée générale</mark>');
+});

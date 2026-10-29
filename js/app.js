@@ -516,9 +516,9 @@ function loadSearch() {
 }
 AI.setRecherche(async (q) => SR.passages(await loadSearch(), q));
 const FAM_COURT = { cac: 'CAC', soc: 'Sociétés', compta: 'Comptable', deonto: 'Déonto', fisc: 'Fiscal', annales: 'Annales' };
-const EXEMPLES = ['convocation du CAC à l\'assemblée', 'L. 225-38', 'NEP 570', 'perte de la moitié du capital', 'franchise en base TVA', 'commissaire à la transformation'];
+const EXEMPLES = ['convocation du CAC à l\'assemblée', '« faits délictueux »', 'L. 225-38', 'NEP 570', 'perte de la moitié du capital', 'franchise en base TVA', 'commissaire à la transformation'];
 function trouverView() {
-  return `<h2 class="h">Trouver</h2><p class="intro">Cherche un mot, une notion ou un numéro d'article dans tes volumes V1 à V8, tes fiches et ton index. Touche un résultat : le PDF s'ouvre à la bonne page.</p>
+  return `<h2 class="h">Trouver</h2><p class="intro">Cherche un mot, une notion ou un numéro d'article dans tes volumes V1 à V8, tes fiches et ton index. Touche un résultat : le PDF s'ouvre à la bonne page. Entre guillemets (« prix de transfert »), seule l'expression exacte est cherchée.</p>
   <input id="trQ" class="searchbox" type="search" enterkeyhint="search" autocomplete="off" placeholder="Ex. convocation du CAC, L. 225-38, NEP 570" value="${esc(trQ)}">
   <div class="chips famchips"><button class="chip ${trFam ? '' : 'sel'}" data-trfam="">Tout</button>${Object.entries(FAM_COURT).map(([f, l]) => `<button class="chip ${trFam === f ? 'sel' : ''}" data-trfam="${f}">${famB(f, 16)}${l}</button>`).join('')}</div>
   <div id="trRes">${trouverResultats()}</div>`;
@@ -538,7 +538,7 @@ function trouverResultats() {
   };
   const hitLi = (h) => `<li><button class="hit" data-open="${h.v}|${h.n}">${famB(volFam(h.v), 20) || icon('file')}<span><b>${h.v} · ${h.n}</b> <small class="inl">${esc(vols[h.v]?.titre || '')}</small><span class="ex">${SR.surligner(esc(h.extrait), trQ)}</span></span><span class="chev">${icon('chevron')}</span></button></li>`;
   return `${ents.length ? `<section class="card"><h3>Dans ton index</h3><ul class="hits">${ents.map(entLi).join('')}</ul></section>` : ''}
-    <section class="card"><h3>Dans tes volumes</h3>${hits.length ? `<ul class="hits">${hits.map(hitLi).join('')}</ul>` : '<p class="muted">Aucun résultat. Essaie un synonyme ou un numéro d\'article.</p>'}</section>
+    <section class="card"><h3>Dans tes volumes</h3>${hits.length ? `<ul class="hits">${hits.map(hitLi).join('')}</ul>` : (/[«"“]/.test(trQ) ? '<p class="muted">Aucune page ne contient exactement cette expression. Retire les guillemets pour une recherche plus large.</p>' : '<p class="muted">Aucun résultat. Essaie un synonyme ou un numéro d\'article.</p>')}</section>
     <button class="btn primary block" data-askc="1">${icon('chat')}Demander à Claude, à partir de tes volumes</button>`;
 }
 function majTrouver() { const el = $('#trRes'); if (!el) return; el.innerHTML = trouverResultats(); bindCommon(el); }

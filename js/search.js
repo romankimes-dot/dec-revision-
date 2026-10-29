@@ -46,7 +46,9 @@ function parse(q) {
   const toks = core.split(' ').map((t) => [...t].map((ch) => (/[a-z]/.test(ch) ? `[${ch}${ch.toUpperCase()}]` : ch)).join('')).join('[\\s.\\-–‐]+');
   const tete = num ? new RegExp(`(?<![’'\\p{L}])(?:Art\\.|Article|CGI Article|NEP)\\s+(?:[LRDA]\\.\\s*)?${toks}(?![\\d\\-–])\\s*\\.?\\s*[-–—(«]?\\s*[\\p{Lu}«(]`
     + `|(?<![\\p{L}])[LRD]\\.\\s*${toks}\\s+(?:ORDONNANCE|LOI|DÉCRET|Modifié|Créé)`, 'u') : null;
-  return { qn, core, w, num, tete, main: [...w].filter(([, x]) => x === 1).map(([t]) => t) };
+  // Occurrence exacte entre guillemets (« prix de transfert », "…", “…”) : la page doit la contenir telle quelle (accents et casse ignorés).
+  const phrases = [...String(q || '').matchAll(/[«"“]\s*([^»"”]+?)\s*[»"”]/g)].map((m) => norm(m[1])).filter(Boolean);
+  return { qn, core, w, num, tete, phrases, main: [...w].filter(([, x]) => x === 1).map(([t]) => t) };
 }
 
 // Pages classées. opts : { fam, famOf, limit }
@@ -59,6 +61,7 @@ export function search(idx, q, { fam = null, famOf = () => null, limit = 20 } = 
   for (const p of idx.pages) {
     if (fam && famOf(p.v) !== fam) continue;
     if (strict && !p.nt.includes(exact)) continue;
+    if (P.phrases.some((ph) => !p.nt.includes(' ' + ph + ' '))) continue;
     let s = 0; let hit = 0;
     for (const [t, wt] of P.w) {
       const f = p.tf.get(t); if (!f) continue;
@@ -72,6 +75,7 @@ export function search(idx, q, { fam = null, famOf = () => null, limit = 20 } = 
     s *= Math.pow(hit / nMain, 1.5);
     if (phrase) s += 6 + (P.qn !== P.core && p.nt.includes(' ' + P.qn + ' ') ? 3 : 0);
     if (P.tete && P.tete.test(p.text)) s += 12;
+    for (const ph of P.phrases) s += 4 + Math.min(p.nt.split(' ' + ph + ' ').length - 1, 5);
     if (p.v === 'V7') s *= 0.75; // annales : utiles, mais après les textes
     if (s > 0) out.push({ v: p.v, n: p.n, score: s, p });
   }
@@ -88,10 +92,11 @@ function extrait(text, P, max = 260) {
     let sc = 0; for (const [t, wt] of P.w) if (ns.includes(' ' + t)) sc += wt;
     if (P.core.includes(' ') && ns.includes(' ' + P.core + ' ')) sc += 3;
     if (P.tete && P.tete.test(s)) sc += 5;
+    for (const ph of P.phrases) if (ns.includes(' ' + ph + ' ')) sc += 6;
     if (sc > bs) { bs = sc; best = s; }
   }
   if (best.length <= max) return best;
-  const ns = norm(best); const first = Math.min(...[...P.w.keys()].map((t) => { const i = ns.indexOf(t); return i < 0 ? Infinity : i; }));
+  const ns = norm(best); const first = Math.min(...[...P.phrases, ...P.w.keys()].map((t) => { const i = ns.indexOf(t); return i < 0 ? Infinity : i; }));
   const start = Number.isFinite(first) ? Math.max(0, Math.round(first * best.length / Math.max(ns.length, 1)) - 60) : 0;
   return (start ? '… ' : '') + best.slice(start, start + max).trim() + ' …';
 }
@@ -112,6 +117,7 @@ export function searchEntries(entries, q, limit = 6) {
   const nMain = Math.max(P.main.length, 1);
   return entries.map((e) => {
     const ns = ' ' + norm(e.motcle + ' ' + (e.texte || '')) + ' ';
+    if (P.phrases.some((ph) => !ns.includes(' ' + ph + ' '))) return { e, s: 0 };
     let s = 0, hit = 0;
     for (const [t, wt] of P.w) if (ns.includes(' ' + t)) { s += wt; if (wt === 1) hit++; }
     if (P.core.includes(' ') && ns.includes(' ' + P.core + ' ')) s += 3;
@@ -122,8 +128,12 @@ export function searchEntries(entries, q, limit = 6) {
 // Surlignage insensible aux accents (texte déjà échappé en HTML).
 const CL = { a: '[aàâä]', e: '[eéèêë]', i: '[iîï]', o: '[oôö]', u: '[uùûü]', c: '[cç]', y: '[yÿ]' };
 export function surligner(html, q) {
-  const ts = [...parse(q).w.keys()].filter((t) => t.length > 1).sort((a, b) => b.length - a.length);
-  if (!ts.length) return html;
-  const rx = new RegExp(`(?<![\\p{L}\\p{N}])(${ts.map((t) => [...t].map((c) => CL[c] || c).join('')).join('|')})[\\p{L}]*`, 'giu');
+  const P = parse(q);
+  const motif = (t) => [...t].map((c) => CL[c] || c).join('');
+  const sep = '(?:[^\\p{L}\\p{N}&]|&#39;|&amp;|&quot;)+';
+  const phr = P.phrases.map((ph) => ph.split(' ').map(motif).join(sep) + '(?![\\p{L}\\p{N}])');
+  const ts = [...P.w.keys()].filter((t) => t.length > 1).sort((a, b) => b.length - a.length).map((t) => motif(t) + '[\\p{L}]*');
+  if (!ts.length && !phr.length) return html;
+  const rx = new RegExp(`(?<![\\p{L}\\p{N}])(?:${[...phr, ...ts].join('|')})`, 'giu');
   return html.replace(/(<[^>]*>)|([^<]+)/g, (m, tag, txt) => tag || txt.replace(rx, '<mark>$&</mark>'));
 }
