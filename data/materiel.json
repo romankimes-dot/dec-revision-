@@ -44,10 +44,10 @@
     },
     {
      "id": "k5",
-     "t": "K5 — Pages de garde V1 à V6 : titre en grand, couleur des onglets, sommaire avec folios",
+     "t": "K5 — Pages de garde V1 à V8 : titre en grand, couleur des onglets, sommaire avec folios",
      "pdf": "imprimer/K5_Pages_de_garde.pdf",
      "court": "K5 · Pages de garde des volumes",
-     "pages": 6,
+     "pages": 8,
      "onglet": "recto seul, en couleur, en 1re page de chaque volume",
      "note": ""
     }
