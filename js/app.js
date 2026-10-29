@@ -10,6 +10,8 @@ import { openReader } from './reader.js';
 const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const nl2br = (s) => esc(s).replace(/\n/g, '<br>');
+// Réponse modèle : les blocs Règle / Application / Conclusion en gras, chacun sur sa ligne.
+const modele = (s) => esc(s).replace(/(^|\n)(Règle|Application|Conclusion)\s*\.?/g, (m, nl, w) => `${nl ? '<br>' : ''}<b class="bloc">${w}.</b>`).replace(/\n/g, '<br>');
 const REPO = 'https://github.com/romankimes-dot/dec-revision-/blob/claude/plan-ue2/';
 
 let S = load();
@@ -289,7 +291,7 @@ function ecritureView() {
   <section class="card">
     <p>Recopie à la main, à ta vitesse d'examen et lisiblement, le modèle ci-dessous pendant 10 minutes. Puis compte les mots écrits. Tu apprends le gabarit en même temps.</p>
     <div class="row">${D.methode.modeles.map((m, i) => `<button class="btn sm ${i === (S.lus.modeleEcriture || 0) ? 'primary' : ''}" data-modele="${i}">Modèle ${i + 1}</button>`).join('')}</div>
-    <div class="modele"><b>${esc(mod.titre)}</b><p>${nl2br(mod.texte)}</p></div>
+    <div class="modele"><b>${esc(mod.titre)}</b><p>${modele(mod.texte)}</p></div>
     ${running ? '<div class="big" id="ecrT"></div>' : '<button class="btn primary" id="ecrGo">Lancer 10 minutes</button>'}
     <label class="lbl">Mots écrits en 10 minutes<input id="ecrMots" type="number" inputmode="numeric" min="0" placeholder="ex. 180"></label>
     <button class="btn" id="ecrSave">Enregistrer la mesure</button>
@@ -475,7 +477,7 @@ function methode() {
   ${sec('gr', 'Heures de fin par dossier (11 min par point)', `<table class="tbl"><thead><tr><th>Structure</th><th>Minutes</th><th>Fins</th></tr></thead><tbody>${grilles}</tbody></table><p class="muted">Dossiers pris par points décroissants, sauf un petit dossier facile à prendre en premier (mai 2026 : le 3 points).</p>`)}
   ${sec('rg', 'Règles de gestion', `<ul class="plain">${M.regles.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>`)}
   ${sec('cr', 'Critique de document (format le plus fréquent)', `<ol class="plain">${M.critique.map((x) => `<li>${esc(x)}</li>`).join('')}</ol><p><b>${esc(M.critique_regle)}</b></p>`)}
-  ${sec('ga', 'Format de réponse et modèles', `<pre class="gabarit">${esc(M.gabarit)}</pre><p>${esc(M.longueur)}</p>${M.modeles.map((m) => `<div class="modele"><b>${esc(m.titre)}</b><div class="muted">${esc(m.meta)}</div><p>${nl2br(m.texte)}</p></div>`).join('')}`)}
+  ${sec('ga', 'Format de réponse et modèles', `<pre class="gabarit">${esc(M.gabarit)}</pre><p>${esc(M.longueur)}</p>${M.modeles.map((m) => `<div class="modele"><b>${esc(m.titre)}</b><div class="muted">${esc(m.meta)}</div><p>${modele(m.texte)}</p></div>`).join('')}`)}
   ${sec('jj', 'Journée du 10 novembre', `<ul class="plain">${M.journee.map((x) => `<li><b>${esc(x.h)}</b> ${esc(x.a)}</li>`).join('')}</ul>`)}
   ${sec('er', 'Sept erreurs fatales', `<ol class="plain">${M.erreurs.map((x) => `<li><b>${esc(x.e)}.</b> ${esc(x.r)}</li>`).join('')}</ol><p class="warnline">${esc(M.pieges_chiffres)}</p>`)}
   <section class="card"><h2>Pour aller au fond</h2><ul class="plain"><li><a href="${REPO}docs/PLAN.md" target="_blank" rel="noopener">Le plan complet</a></li><li><a href="${REPO}docs/VERIF.md" target="_blank" rel="noopener">Les 121 vérifications juridiques sourcées</a></li><li><a href="${REPO}docs/STATS.md" target="_blank" rel="noopener">Les statistiques de récurrence</a></li><li><a href="${REPO}docs/college/" target="_blank" rel="noopener">Le débat du collège (stratèges, contradicteurs)</a></li></ul></section>`;
