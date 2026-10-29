@@ -8,10 +8,10 @@
    "items": [
     {
      "id": "k1",
-     "t": "K1 — Plan de classement : table de salle, sommaires à coller, onglets à poser",
+     "t": "K1 — Plan de classement : table de salle, onglets des Mémentos",
      "pdf": "imprimer/K1_Plan_de_classement.pdf",
      "court": "K1 · Plan de classement de ta documentation",
-     "pages": 4,
+     "pages": 2,
      "onglet": "à mettre en tête du classeur",
      "note": ""
     },
@@ -40,6 +40,15 @@
      "court": "K4 · Trames de réponse par type de question",
      "pages": 6,
      "onglet": "à relire avant chaque annale",
+     "note": ""
+    },
+    {
+     "id": "k5",
+     "t": "K5 — Pages de garde V1 à V6 : titre en grand, couleur des onglets, sommaire avec folios",
+     "pdf": "imprimer/K5_Pages_de_garde.pdf",
+     "court": "K5 · Pages de garde des volumes",
+     "pages": 6,
+     "onglet": "recto seul, en couleur, en 1re page de chaque volume",
      "note": ""
     }
    ]
