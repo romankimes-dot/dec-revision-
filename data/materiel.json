@@ -1,49 +1,225 @@
 {
-  "version": "2026-10-28",
-  "source": "docs/PLAN.md section 1",
-  "groupes": [
-    {"id": "commande", "titre": "À commander le 29 octobre (≈ 450-550 €)", "items": [
-      {"id": "memaudit", "t": "Mémento Audit et commissariat aux comptes (Lefebvre Dalloz), édition 2025-2026 (ISBN 978-2-36893-660-3), ou 2026-2027 si disponible", "note": "Bloc CAC"},
-      {"id": "memsoc", "t": "Mémento Sociétés commerciales 2026 (ISBN 978-2-36893-737-2)", "note": "Droit des sociétés : 1er domaine du corpus"},
-      {"id": "memfisc", "t": "Mémento Fiscal 2026", "note": "À racheter en édition 2027 en février-mars"},
-      {"id": "librairie", "t": "Appeler la librairie pour un retrait en magasin (plan de secours au délai postal)", "note": ""}
-    ]},
-    {"id": "gratuits", "titre": "Volumes gratuits à imprimer et relier (dossier imprimer/)", "items": [
-      {"id": "v1", "t": "V1 — Recueil des NEP, versions en vigueur, page de garde datée", "note": "Onglets rouges"},
-      {"id": "v2", "t": "V2 — Brochure CNCC livre VIII (sept. 2024) + concordance ancien / nouveau numéro", "note": "Onglets rouges"},
-      {"id": "v3", "t": "V3 — PCG (règlement ANC 2014-03)", "note": "Onglets jaunes ; remplace le Mémento Comptable en novembre"},
-      {"id": "v4", "t": "V4 — Codes de déontologie CAC et EC, ordonnance de 1945", "note": "Onglets violets"},
-      {"id": "v5", "t": "V5 — Référentiel normatif de l'Ordre (NP, NPLAB)", "note": "Onglets violets"},
-      {"id": "v6", "t": "V6 — Textes choisis (CMF, CSS, Code de commerce)", "note": ""},
-      {"id": "v7", "t": "V7 — Annales officielles (à la maison, pas en salle)", "note": ""},
-      {"id": "reprographie", "t": "Dépôt en reprographie (recto-verso, spirale), retrait sous 24-48 h", "note": ""}
-    ]},
-    {"id": "outillage", "titre": "Outillage", "items": [
-      {"id": "onglets", "t": "Onglets repositionnables 6 couleurs : rouge CAC, bleu sociétés, vert fiscal, jaune PCG, orange social, violet déontologie (40 par volume au plus)", "note": ""},
-      {"id": "casio", "t": "Casio fx-92 Collège (sans mémoire, conforme circulaire 2015-178)", "note": "Prêt interdit le jour J"},
-      {"id": "stylos", "t": "4 stylos bille noirs identiques, testés 2 h", "note": ""},
-      {"id": "fournitures", "t": "Correcteur ruban, surligneurs (sur le sujet seulement), règle, crayon, gomme", "note": ""},
-      {"id": "postit", "t": "Post-it 38 × 51 (sur le sujet seulement, jamais dans la copie)", "note": ""},
-      {"id": "montre", "t": "Montre à aiguilles non connectée", "note": ""},
-      {"id": "minuteur", "t": "Minuteur silencieux pour les annales à la maison", "note": ""},
-      {"id": "valise", "t": "Valise cabine pour transporter la doc", "note": ""}
-    ]},
-    {"id": "sac", "titre": "Sac du jour J (fermé le 8 novembre)", "items": [
-      {"id": "cni", "t": "Pièce d'identité récente, valide", "note": "Sur la table"},
-      {"id": "convoc", "t": "Convocation", "note": "Sur la table"},
-      {"id": "doc", "t": "Les 3 Mémentos + volumes V1 à V6 + index personnel imprimé + tableau des seuils + liste des rapports", "note": "Rien qui n'ait servi dans une annale"},
-      {"id": "calc", "t": "Calculatrice, stylos, Post-it, montre", "note": ""},
-      {"id": "eau", "t": "Eau 33 cl, repas, en-cas sucré silencieux", "note": ""},
-      {"id": "trajet", "t": "Trajet et trajet de secours notés sur papier", "note": ""}
-    ]},
-    {"id": "mai", "titre": "Pour mai 2027", "items": [
-      {"id": "memcompta", "t": "Mémento Comptable 2026 (ISBN 978-2-36893-739-6), à acheter en novembre", "note": ""},
-      {"id": "memasso", "t": "Mémento Associations 2026-2027", "note": "Associations : 9 points en mai 2026, 8 en mai 2025"},
-      {"id": "cnoec", "t": "CNOEC, Exercice professionnel et déontologie", "note": ""},
-      {"id": "memfisc27", "t": "Mémento Fiscal 2027 (février-mars 2027)", "note": ""},
-      {"id": "memsci", "t": "Décision en mars : Mémento Sociétés civiles (SCI, SCM, SEL)", "note": ""},
-      {"id": "gel", "t": "Gel de la documentation le 15 avril 2027", "note": ""}
-    ]}
-  ],
-  "exclus": "Exclus en novembre : Mémento Comptable (PCG imprimé à la place), Mémento Social, Code de commerce et CGI intégraux, Mémento IFRS, classeurs d'autrui, fiches thématiques par dizaines. Plus de doc = plus de temps de recherche."
+ "version": "2026-10-28",
+ "source": "docs/PLAN.md section 1",
+ "groupes": [
+  {
+   "id": "commande",
+   "titre": "À commander le 29 octobre (≈ 450-550 €)",
+   "items": [
+    {
+     "id": "memaudit",
+     "t": "Mémento Audit et commissariat aux comptes (Lefebvre Dalloz), édition 2025-2026 (ISBN 978-2-36893-660-3), ou 2026-2027 si disponible",
+     "note": "Bloc CAC"
+    },
+    {
+     "id": "memsoc",
+     "t": "Mémento Sociétés commerciales 2026 (ISBN 978-2-36893-737-2)",
+     "note": "Droit des sociétés : 1er domaine du corpus"
+    },
+    {
+     "id": "memfisc",
+     "t": "Mémento Fiscal 2026",
+     "note": "À racheter en édition 2027 en février-mars"
+    },
+    {
+     "id": "librairie",
+     "t": "Appeler la librairie pour un retrait en magasin (plan de secours au délai postal)",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "gratuits",
+   "titre": "Documents gratuits à imprimer et relier",
+   "items": [
+    {
+     "id": "v1",
+     "t": "V1 — Recueil des NEP, versions en vigueur, page de garde datée",
+     "note": "Onglets rouges",
+     "pdf": "imprimer/V1_NEP.pdf",
+     "court": "V1 · Normes d'exercice professionnel (NEP)",
+     "pages": 141,
+     "onglet": "rouges"
+    },
+    {
+     "id": "v2",
+     "t": "V2 — Brochure CNCC livre VIII (sept. 2024) + concordance ancien / nouveau numéro",
+     "note": "Onglets rouges",
+     "pdf": "imprimer/V2_Livre_VIII_CNCC.pdf",
+     "court": "V2 · Code de commerce, livre VIII (brochure CNCC)",
+     "pages": 63,
+     "onglet": "rouges"
+    },
+    {
+     "id": "v3",
+     "t": "V3 — PCG (règlement ANC 2014-03)",
+     "note": "Onglets jaunes ; remplace le Mémento Comptable en novembre",
+     "pdf": "imprimer/V3_PCG.pdf",
+     "court": "V3 · Plan comptable général",
+     "pages": 184,
+     "onglet": "jaunes"
+    },
+    {
+     "id": "v4",
+     "t": "V4 — Codes de déontologie CAC et EC, ordonnance de 1945",
+     "note": "Onglets violets",
+     "pdf": "imprimer/V4_Deontologie.pdf",
+     "court": "V4 · Codes de déontologie CAC et EC",
+     "pages": 44,
+     "onglet": "violets"
+    },
+    {
+     "id": "v5",
+     "t": "V5 — Référentiel normatif de l'Ordre (NP, NPLAB)",
+     "note": "Onglets violets",
+     "pdf": "imprimer/V5_Referentiel_OEC.pdf",
+     "court": "V5 · Normes de l'Ordre des experts-comptables",
+     "pages": 241,
+     "onglet": "violets"
+    },
+    {
+     "id": "v6",
+     "t": "V6 — Textes choisis (CMF, CSS, Code de commerce)",
+     "note": "",
+     "pdf": "imprimer/V6_Textes_choisis.pdf",
+     "court": "V6 · Textes choisis (anti-blanchiment, URSSAF, sociétés)",
+     "pages": 93,
+     "onglet": "bleus"
+    },
+    {
+     "id": "v7",
+     "t": "V7 — Annales officielles (à la maison, pas en salle)",
+     "note": "",
+     "pdf": "imprimer/V7_Annales.pdf",
+     "court": "V7 · Les 16 sujets d'annales (pour t'entraîner chez toi)",
+     "pages": 310,
+     "onglet": "gris"
+    },
+    {
+     "id": "reprographie",
+     "t": "Dépôt en reprographie (recto-verso, spirale), retrait sous 24-48 h",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "outillage",
+   "titre": "Outillage",
+   "items": [
+    {
+     "id": "onglets",
+     "t": "Onglets repositionnables 6 couleurs : rouge CAC, bleu sociétés, vert fiscal, jaune PCG, orange social, violet déontologie (40 par volume au plus)",
+     "note": ""
+    },
+    {
+     "id": "casio",
+     "t": "Casio fx-92 Collège (sans mémoire, conforme circulaire 2015-178)",
+     "note": "Prêt interdit le jour J"
+    },
+    {
+     "id": "stylos",
+     "t": "4 stylos bille noirs identiques, testés 2 h",
+     "note": ""
+    },
+    {
+     "id": "fournitures",
+     "t": "Correcteur ruban, surligneurs (sur le sujet seulement), règle, crayon, gomme",
+     "note": ""
+    },
+    {
+     "id": "postit",
+     "t": "Post-it 38 × 51 (sur le sujet seulement, jamais dans la copie)",
+     "note": ""
+    },
+    {
+     "id": "montre",
+     "t": "Montre à aiguilles non connectée",
+     "note": ""
+    },
+    {
+     "id": "minuteur",
+     "t": "Minuteur silencieux pour les annales à la maison",
+     "note": ""
+    },
+    {
+     "id": "valise",
+     "t": "Valise cabine pour transporter la doc",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "sac",
+   "titre": "Sac du jour J (fermé le 8 novembre)",
+   "items": [
+    {
+     "id": "cni",
+     "t": "Pièce d'identité récente, valide",
+     "note": "Sur la table"
+    },
+    {
+     "id": "convoc",
+     "t": "Convocation",
+     "note": "Sur la table"
+    },
+    {
+     "id": "doc",
+     "t": "Les 3 Mémentos + volumes V1 à V6 + index personnel imprimé + tableau des seuils + liste des rapports",
+     "note": "Rien qui n'ait servi dans une annale"
+    },
+    {
+     "id": "calc",
+     "t": "Calculatrice, stylos, Post-it, montre",
+     "note": ""
+    },
+    {
+     "id": "eau",
+     "t": "Eau 33 cl, repas, en-cas sucré silencieux",
+     "note": ""
+    },
+    {
+     "id": "trajet",
+     "t": "Trajet et trajet de secours notés sur papier",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "mai",
+   "titre": "Pour mai 2027",
+   "items": [
+    {
+     "id": "memcompta",
+     "t": "Mémento Comptable 2026 (ISBN 978-2-36893-739-6), à acheter en novembre",
+     "note": ""
+    },
+    {
+     "id": "memasso",
+     "t": "Mémento Associations 2026-2027",
+     "note": "Associations : 9 points en mai 2026, 8 en mai 2025"
+    },
+    {
+     "id": "cnoec",
+     "t": "CNOEC, Exercice professionnel et déontologie",
+     "note": ""
+    },
+    {
+     "id": "memfisc27",
+     "t": "Mémento Fiscal 2027 (février-mars 2027)",
+     "note": ""
+    },
+    {
+     "id": "memsci",
+     "t": "Décision en mars : Mémento Sociétés civiles (SCI, SCM, SEL)",
+     "note": ""
+    },
+    {
+     "id": "gel",
+     "t": "Gel de la documentation le 15 avril 2027",
+     "note": ""
+    }
+   ]
+  }
+ ],
+ "exclus": "Exclus en novembre : Mémento Comptable (PCG imprimé à la place), Mémento Social, Code de commerce et CGI intégraux, Mémento IFRS, classeurs d'autrui, fiches thématiques par dizaines. Plus de doc = plus de temps de recherche."
 }

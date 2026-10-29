@@ -33,6 +33,12 @@ def notions():
         out.append({'id': f'{len(out)+1:02d}-{slug}', 'theme': name, 'star': star, 'e1': e1, 'sessions': sessions,
                     'freq': freq.replace('**', ''), 'niveau': nv, 'nov': nov, 'mai': mai, 'dire': clean,
                     'ou': ou.replace('**', ''), 'verif': verif})
+    items = json.loads((ROOT / 'data/items.json').read_text(encoding='utf-8'))['items']
+    stars = [n for n in out if n['star']]
+    if len(stars) != len(items):
+        raise SystemExit('15 étoiles attendues, alignées sur data/items.json')
+    for n, it in zip(stars, items):
+        n['item'] = it['id']
     return {'version': '2026-10-28', 'source': 'docs/PLAN.md section 2', 'notions': out}
 
 def stats():

@@ -23,7 +23,8 @@
     37,
     39,
     40
-   ]
+   ],
+   "item": "nomination"
   },
   {
    "id": "02-mandat-duree-cessation",
@@ -45,7 +46,8 @@
     38,
     41,
     46
-   ]
+   ],
+   "item": "mandat"
   },
   {
    "id": "03-ag-convocation-approbation",
@@ -67,7 +69,8 @@
     63,
     64,
     67
-   ]
+   ],
+   "item": "convocation"
   },
   {
    "id": "04-rapport-cac-opinion",
@@ -87,7 +90,8 @@
     19,
     29,
     107
-   ]
+   ],
+   "item": "rapports"
   },
   {
    "id": "05-revelation-faits-delictueux",
@@ -107,7 +111,8 @@
     51,
     52,
     53
-   ]
+   ],
+   "item": "revelation"
   },
   {
    "id": "06-independance-incompatibilites",
@@ -128,7 +133,8 @@
     34,
     102,
     104
-   ]
+   ],
+   "item": "independance"
   },
   {
    "id": "07-elements-probants",
@@ -142,7 +148,8 @@
    "mai": "A",
    "dire": "Assertions (NEP 315/500) : existence, droits et obligations, exhaustivité, exactitude, séparation des exercices, classification, évaluation, présentation ; techniques NEP 500 : inspection, observation physique, confirmation directe (505), recalcul, réexécution, procédures analytiques (520), demandes d'information ; NEP 315 / 330 (révisées), 320, 540, 560, 570, 580, 600 (révisée oct. 2025 ; acquisition de filiale, nov. 2025 Q2.5) ; vérifications spécifiques : rapport de gestion, égalité (L. 821-56)",
    "ou": "Recueil NEP",
-   "verif": []
+   "verif": [],
+   "item": "probants"
   },
   {
    "id": "08-lcbft",
@@ -159,7 +166,8 @@
    "verif": [
     105,
     108
-   ]
+   ],
+   "item": "lcbft"
   },
   {
    "id": "09-lettre-mission",
@@ -177,7 +185,8 @@
     103,
     104,
     105
-   ]
+   ],
+   "item": "missions"
   },
   {
    "id": "10-responsabilite",
@@ -194,7 +203,8 @@
    "verif": [
     21,
     30
-   ]
+   ],
+   "item": "responsabilite"
   },
   {
    "id": "11-conventions-reglementees",
@@ -211,7 +221,8 @@
    "verif": [
     56,
     57
-   ]
+   ],
+   "item": "conventions"
   },
   {
    "id": "12-apports-commissariat",
@@ -229,7 +240,8 @@
     59,
     60,
     61
-   ]
+   ],
+   "item": "apports"
   },
   {
    "id": "13-ir-bic-bnc",
@@ -251,7 +263,8 @@
     74,
     78,
     79
-   ]
+   ],
+   "item": "micro"
   },
   {
    "id": "14-dividendes",
@@ -270,7 +283,8 @@
     48,
     49,
     80
-   ]
+   ],
+   "item": "dividendes"
   },
   {
    "id": "15-plus-values",
@@ -290,7 +304,8 @@
     92,
     93,
     94
-   ]
+   ],
+   "item": "plusvalues"
   },
   {
    "id": "16-immobilisations-amortissements",

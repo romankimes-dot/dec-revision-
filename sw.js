@@ -2,7 +2,7 @@
 // La page (navigation), le manifeste et les icônes passent par le réseau d'abord : l'iPhone lit ainsi la bonne icône
 // quand on ajoute l'app à l'écran d'accueil (le cache ne sert qu'hors ligne).
 // Les PDF de imprimer/ ne sont jamais précachés. Toute modification du code impose d'incrémenter VERSION.
-const VERSION = 'dec2-v5';
+const VERSION = 'dec2-v7';
 const CORE = [
   './', './index.html', './manifest.webmanifest', './css/app.css',
   './js/app.js', './js/core.js', './js/store.js',

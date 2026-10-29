@@ -18,7 +18,7 @@
   ],
   "regles": [
     "Au jalon, changer de dossier même si une question reste : 4 lignes (la règle de mémoire et une conclusion), puis on passe.",
-    "Stop-loss : 5 minutes de recherche au maximum, conclues sur-le-champ par la règle de mémoire.",
+    "Limite de recherche : 5 minutes au maximum ; ensuite on écrit ce qu'on sait et on passe.",
     "Zéro blanc : une réponse incomplète mais sourcée rapporte, une absence jamais.",
     "Toute affirmation d'un personnage du cas est une hypothèse à vérifier, souvent le piège.",
     "« Que doit faire le CAC ? » : qualifier les faits, dire l'obligation, citer le texte et la NEP, finir par la déontologie.",
@@ -36,7 +36,7 @@
   ],
   "critique_regle": "Une anomalie s'écrit : constat → texte → conséquence.",
   "gabarit": "N° — [problème en une ligne]\nRègle : textes (article nouveau, ancien entre parenthèses), NEP, code de déontologie — 2 à 4 lignes\nApplication : faits du cas qualifiés, dates et montants de l'annexe — 2 à 5 lignes\nConclusion : réponse nette et ce que doit faire le CAC ou l'EC — 1 à 2 lignes",
-  "longueur": "Forme impersonnelle, pas d'introduction. Norme de départ : 100 à 140 mots par point (1 point par question par défaut, 1,5 pour une question lourde). Ta norme réelle se règle sur ta vitesse mesurée (Outils › Écriture).",
+  "longueur": "Forme impersonnelle, pas d'introduction. Norme de départ : 100 à 140 mots par point (1 point par question par défaut, 1,5 pour une question lourde). Ta norme réelle se règle sur ta vitesse mesurée (S'entraîner › Écriture).",
   "modeles": [
     {"titre": "Nov. 2025, Q2.2 — Conséquences de l'absence de convocation du commissaire aux comptes", "meta": "1,5 pt estimé · 12 min · ≈ 170 mots",
      "texte": "Règle. Le commissaire est convoqué à toute assemblée et à toute réunion arrêtant les comptes (C. com. L. 821-65, ex L. 823-17 ; LRAR, D. 821-185). Le défaut de convocation est un délit : deux ans et 30 000 € (L. 821-6, 1°, ex L. 820-4) ; il n'entraîne pas en soi la nullité des délibérations (L. 821-5 ; Com. 10 févr. 2021). Le commissaire signale les irrégularités à la plus prochaine assemblée et révèle les faits délictueux au procureur (L. 821-10, ex L. 823-12).\nApplication. Le PV (annexe 5) mentionne le commissaire « absent » ; aucun rapport n'a été présenté ; le renouvellement figurait à l'ordre du jour sans résolution, alors que le mandat de six exercices (statuts art. 14 ; L. 821-44) expirait à cette assemblée.\nConclusion. Délit à la charge du président ; société depuis sans commissaire régulièrement désigné (délibérations ultérieures exposées à la nullité). M. CHRONO émet ses rapports, signale l'irrégularité à la prochaine assemblée, apprécie la révélation et fait régulariser la désignation."},
@@ -52,10 +52,10 @@
     {"h": "11h30-13h15", "a": "Repas apporté (rien de salé, pas de gazeux), marche 20 min, pas de café après 12h, eau avant 13h."},
     {"h": "13h15", "a": "Toilettes. 13h30 : en salle (pas de sortie pendant 4h30)."},
     {"h": "14h00-18h30", "a": "Épreuve 2 : squelette, jalons sur Post-it, 33 cl d'eau, en-cas à 16h30."},
-    {"h": "19h00", "a": "Fiche courte su / pas su / cherché en vain (Outils › Débrief). Le 11 novembre : 2 h de reconstitution."}
+    {"h": "19h00", "a": "Bilan court : su, pas su, cherché en vain (S'entraîner › Bilan). Le 11 novembre : 2 h de reconstitution."}
   ],
   "erreurs": [
-    {"e": "Composer dans l'ordre et s'enliser", "r": "30 min de lecture, jalons écrits, changement de dossier à l'heure, stop-loss conclu. En mai 2025, 32,8 % d'éliminés : le dossier 3, le plus facile, à peine abordé."},
+    {"e": "Composer dans l'ordre et s'enliser", "r": "30 min de lecture, jalons écrits, changement de dossier à l'heure, limite de recherche de 5 min. En mai 2025, 32,8 % d'éliminés : le dossier 3, le plus facile, à peine abordé."},
     {"e": "Répondre juste sans texte", "r": "Le gabarit, un numéro d'article par règle (rapport du jury, novembre 2025)."},
     {"e": "Écrire 600 à 800 mots par question", "r": "100 à 140 mots par point, vitesse mesurée, mots comptés à l'entraînement."},
     {"e": "Chiffres et numéros périmés", "r": "Seuils micro 2026, seuils CAC 2024 datés, numéros du livre VIII depuis 2024, NEP révisées datées en page de garde."},
