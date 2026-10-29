@@ -1,6 +1,6 @@
 // Page « Claude » : questions posées à Claude (API Anthropic) depuis le navigateur, avec la clé de l'utilisateur
 // enregistrée uniquement sur cet appareil. Claude reçoit le contexte de l'app (plan, notions, méthode, ta progression)
-// et peut lire les fichiers du dépôt GitHub public grâce à deux outils exécutés ici, dans le navigateur.
+// et dispose de trois outils exécutés ici, dans le navigateur : recherche dans les volumes imprimés, liste et lecture du dépôt.
 const SDK_URL = 'https://cdn.jsdelivr.net/npm/@anthropic-ai/sdk@0.133.0/+esm';
 export const MODEL = 'claude-opus-5-5';
 const REPO = 'romankimes-dot/dec-revision-';
@@ -18,8 +18,18 @@ export function loadConv() { try { return JSON.parse(get(CONV_KEY) || '[]'); } c
 export function saveConv(m) { set(CONV_KEY, JSON.stringify(m.slice(-40))); }
 export function clearConv() { set(CONV_KEY, null); }
 
+// Recherche plein texte dans les volumes (fournie par l'app : search.js + data/search.json).
+let recherche = null;
+export const setRecherche = (fn) => { recherche = fn; };
+
 // Outils lus dans le navigateur (dépôt public, sans jeton).
 export const TOOLS = [
+  {
+    name: 'chercher_volumes',
+    description: "Recherche plein texte dans la documentation papier du candidat : V1 NEP, V2 Livre VIII du Code de commerce (CAC), V3 PCG, V4 déontologie, V5 référentiel OEC, V6 textes choisis (sociétés, CMF, CSS), V7 annales, V8 articles du CGI et du LPF, K2 fiches, K4 trames. Renvoie les passages les plus pertinents avec leur folio « Vx · n » (page imprimée). Requête courte : mots-clés ou numéro de texte (« convocation commissaire assemblée SAS », « L. 225-38 », « NEP 570 »). Appelle-la plusieurs fois si besoin.",
+    input_schema: { type: 'object', properties: { requete: { type: 'string', description: 'Mots-clés ou numéro de texte' } }, required: ['requete'], additionalProperties: false },
+    strict: true, eager_input_streaming: true,
+  },
   {
     name: 'lister_fichiers_depot',
     description: "Liste les fichiers du dépôt GitHub de préparation (plan, vérifications juridiques, statistiques des annales, débat du collège, kit, données de l'app). À appeler avant lire_fichier_depot si tu ne connais pas le chemin exact.",
@@ -36,6 +46,12 @@ export const TOOLS = [
 
 let treeCache = null;
 async function runTool(name, input) {
+  if (name === 'chercher_volumes') {
+    if (typeof input?.requete !== 'string' || !input.requete.trim()) throw new Error('entrée invalide : « requete » attendue');
+    if (!recherche) throw new Error('recherche indisponible');
+    const ps = await recherche(input.requete);
+    return ps.length ? ps.map((x) => `[${x.v} · ${x.n}] (${x.titre})\n${x.texte}`).join('\n\n---\n\n') : 'Aucun passage trouvé : reformule avec d\'autres mots-clés.';
+  }
   if (name === 'lister_fichiers_depot') {
     if (typeof input?.dossier !== 'string') throw new Error('entrée invalide : « dossier » attendu');
     if (!treeCache) {
@@ -67,7 +83,7 @@ Comment répondre :
 - En français, clairement, phrases courtes, sans jargon inutile. Va droit au but.
 - Pour toute règle de droit, cite l'article (numérotation du livre VIII du Code de commerce en vigueur depuis le 1er janvier 2024), la NEP ou le texte, puis applique au cas, puis conclus (règle, application, conclusion), comme à l'épreuve.
 - Les valeurs chiffrées (seuils, délais, sanctions) qui font foi sont dans docs/VERIF.md : lis-le avec l'outil avant d'affirmer un chiffre dont tu n'es pas sûr. Si une information n'est pas vérifiable, dis-le.
-- Quand c'est utile, indique où trouver l'information dans sa documentation papier : volumes V1 à V7 (folio « Vx · n » en haut de chaque page), Mémentos Audit, Sociétés commerciales, Fiscal.
+- Pour une question de fond (règle, délai, seuil, procédure), cherche d'abord dans ses volumes avec chercher_volumes et appuie-toi sur les passages trouvés. Cite chaque fois la page sous la forme exacte « V2 · 37 » (l'app la rend cliquable et ouvre la page). Si les passages ne suffisent pas, dis-le et indique le Mémento à consulter (Audit, Sociétés commerciales, Fiscal).
 - Pour l'organisation et le planning, appuie-toi sur docs/PLAN.md et sur sa progression ci-dessous.
 - Tu ne peux pas modifier le dépôt ni l'application ; tu peux seulement les lire.
 
@@ -108,7 +124,7 @@ export async function ask(messages, ctx, { onText, onStatus, signal } = {}) {
     if (msg.stop_reason !== 'tool_use') return { messages, fin: 'ok' };
     const uses = msg.content.filter((b) => b.type === 'tool_use');
     const results = await Promise.all(uses.map(async (u) => {
-      onStatus && onStatus(u.name === 'lire_fichier_depot' ? `Lecture de ${u.input?.chemin || 'un fichier'}…` : 'Consultation du dépôt…');
+      onStatus && onStatus(u.name === 'chercher_volumes' ? `Recherche dans tes volumes : ${u.input?.requete || ''}…` : u.name === 'lire_fichier_depot' ? `Lecture de ${u.input?.chemin || 'un fichier'}…` : 'Consultation du dépôt…');
       try { return { type: 'tool_result', tool_use_id: u.id, content: await runTool(u.name, u.input) }; }
       catch (e) { return { type: 'tool_result', tool_use_id: u.id, content: String(e.message || e), is_error: true }; }
     }));

@@ -44,7 +44,7 @@ export async function share(fileName) {
   return { ok: true, msg: 'Téléchargé : ouvre-le depuis Fichiers pour l\'imprimer' };
 }
 
-export async function openReader({ url, title, fileName, githubUrl, onToast }) {
+export async function openReader({ url, title, fileName, githubUrl, onToast, page = 0 }) {
   const el = document.getElementById('reader');
   el.hidden = false; document.body.classList.add('reading');
   history.pushState({ reader: 1 }, '');
@@ -78,9 +78,15 @@ export async function openReader({ url, title, fileName, githubUrl, onToast }) {
       await page.render({ canvasContext: c.getContext('2d'), viewport: vp }).promise;
     };
     me.obs = new IntersectionObserver((entries) => {
-      for (const e of entries) if (e.isIntersecting) { render(e.target); info.textContent = `page ${e.target.dataset.n} / ${doc.numPages}`; }
+      for (const e of entries) if (e.isIntersecting) render(e.target);
     }, { root: pages, rootMargin: '600px 0px' });
     pages.querySelectorAll('.rpage').forEach((p) => me.obs.observe(p));
+    const boxes = [...pages.querySelectorAll('.rpage')];
+    const courante = () => { const y = pages.scrollTop + pages.clientHeight / 3; let n = 1; for (const b of boxes) { if (b.offsetTop - pages.offsetTop <= y) n = +b.dataset.n; else break; } info.textContent = `page ${n} / ${doc.numPages}`; };
+    pages.addEventListener('scroll', courante, { passive: true });
+    const cible = page && pages.querySelector(`.rpage[data-n="${page}"]`);
+    if (cible) cible.scrollIntoView({ block: 'start' });
+    courante();
   } catch (e) {
     const pages = document.getElementById('rPages');
     if (pages) pages.innerHTML = `<div class="rload"><p>Impossible d'afficher le document ici (${esc(e.message || e)}).</p><p><a href="${esc(githubUrl)}" target="_blank" rel="noopener">L'ouvrir dans Safari</a></p></div>`;

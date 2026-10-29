@@ -4,7 +4,8 @@ import {
   sameRef, median, priorites, causes, CAUSES,
 } from './core.js';
 import { icon } from './icons.js';
-import { badge, volFam, themeFam } from './familles.js';
+import { badge, volFam, themeFam, FAMILLES } from './familles.js';
+import * as SR from './search.js';
 import * as AI from './claude.js';
 import { openReader } from './reader.js';
 
@@ -86,7 +87,7 @@ function render(keep = false) {
   clearInterval(timer); timer = null;
   document.querySelectorAll('nav.bottom button').forEach((b) => b.classList.toggle('active', b.dataset.tab === tab));
   const m = $('#main');
-  const html = tab === 'home' ? home() : tab === 'outils' ? outils() : tab === 'carte' ? carte() : tab === 'methode' ? methode() : tab === 'materiel' ? materiel() : tab === 'claude' ? claudeView() : '';
+  const html = tab === 'home' ? home() : tab === 'outils' ? outils() : tab === 'carte' ? carte() : tab === 'methode' ? methode() : tab === 'materiel' ? materiel() : tab === 'claude' ? claudeView() : tab === 'trouver' ? trouverView() : '';
   m.innerHTML = html;
   bindCommon(m);
   if (tab === 'outils' && sub === 'chrono' && S.chrono) startTick();
@@ -506,6 +507,46 @@ function materiel() {
   <p class="muted">${esc(D.materiel.exclus)}</p>`;
 }
 
+// ---------- Trouver ----------
+// Recherche hors ligne dans le texte des volumes (data/search.json, ≈ 0,7 Mo compressé) et dans l'index.
+let SIDX = null; let sidxPret = null; let trQ = ''; let trFam = null;
+function loadSearch() {
+  if (!SIDX) SIDX = fetch('./data/search.json').then((r) => r.json()).then((d) => (sidxPret = SR.createIndex(d)));
+  return SIDX;
+}
+AI.setRecherche(async (q) => SR.passages(await loadSearch(), q));
+const FAM_COURT = { cac: 'CAC', soc: 'Sociétés', compta: 'Comptable', deonto: 'Déonto', fisc: 'Fiscal', annales: 'Annales' };
+const EXEMPLES = ['convocation du CAC à l\'assemblée', 'L. 225-38', 'NEP 570', 'perte de la moitié du capital', 'franchise en base TVA', 'commissaire à la transformation'];
+function trouverView() {
+  return `<h2 class="h">Trouver</h2><p class="intro">Cherche un mot, une notion ou un numéro d'article dans tes volumes V1 à V8, tes fiches et ton index. Touche un résultat : le PDF s'ouvre à la bonne page.</p>
+  <input id="trQ" class="searchbox" type="search" enterkeyhint="search" autocomplete="off" placeholder="Ex. convocation du CAC, L. 225-38, NEP 570" value="${esc(trQ)}">
+  <div class="chips famchips"><button class="chip ${trFam ? '' : 'sel'}" data-trfam="">Tout</button>${Object.entries(FAM_COURT).map(([f, l]) => `<button class="chip ${trFam === f ? 'sel' : ''}" data-trfam="${f}">${famB(f, 16)}${l}</button>`).join('')}</div>
+  <div id="trRes">${trouverResultats()}</div>`;
+}
+function trouverResultats() {
+  if (!trQ.trim()) return `<p class="muted">Exemples :</p><div class="chips wrap">${EXEMPLES.map((q) => `<button class="chip" data-trq="${esc(q)}">${esc(q)}</button>`).join('')}</div>
+    <p class="muted">Les Mémentos papier ne sont pas numérisés : ils apparaissent seulement par ton index.</p>`;
+  if (!sidxPret) { loadSearch().then(majTrouver); return '<p class="muted">Chargement de tes volumes…</p>'; }
+  const famOf = (v) => volFam(v);
+  const ents = SR.searchEntries(idxEntries().filter((e) => !trFam || volFam(e.volume) === trFam), trQ, 5);
+  const hits = SR.search(sidxPret, trQ, { fam: trFam, famOf, limit: 25 });
+  const vols = sidxPret.vols;
+  const entLi = (e) => {
+    const ok = vols[e.volume] && /^\d+$/.test(String(e.ref || ''));
+    const inner = `${famB(volFam(e.volume), 20) || icon('file')}<span><b>${esc(e.motcle)}</b><small>${esc(e.volume)}${e.ref ? ' · ' + esc(e.ref) : ' · page à compléter'}</small></span>`;
+    return ok ? `<li><button class="hit" data-open="${esc(e.volume)}|${esc(e.ref)}">${inner}<span class="chev">${icon('chevron')}</span></button></li>` : `<li><div class="hit">${inner}</div></li>`;
+  };
+  const hitLi = (h) => `<li><button class="hit" data-open="${h.v}|${h.n}">${famB(volFam(h.v), 20) || icon('file')}<span><b>${h.v} · ${h.n}</b> <small class="inl">${esc(vols[h.v]?.titre || '')}</small><span class="ex">${SR.surligner(esc(h.extrait), trQ)}</span></span><span class="chev">${icon('chevron')}</span></button></li>`;
+  return `${ents.length ? `<section class="card"><h3>Dans ton index</h3><ul class="hits">${ents.map(entLi).join('')}</ul></section>` : ''}
+    <section class="card"><h3>Dans tes volumes</h3>${hits.length ? `<ul class="hits">${hits.map(hitLi).join('')}</ul>` : '<p class="muted">Aucun résultat. Essaie un synonyme ou un numéro d\'article.</p>'}</section>
+    <button class="btn primary block" data-askc="1">${icon('chat')}Demander à Claude, à partir de tes volumes</button>`;
+}
+function majTrouver() { const el = $('#trRes'); if (!el) return; el.innerHTML = trouverResultats(); bindCommon(el); }
+async function ouvrirFolio(v, n) {
+  const idx = sidxPret || await loadSearch(); const vol = idx.vols[v]; if (!vol) return;
+  openReader({ url: './' + vol.pdf, title: `${v} · ${vol.titre}`, fileName: vol.pdf.split('/').pop(), githubUrl: REPO + vol.pdf, onToast: toast, page: +n });
+}
+
 // ---------- Claude ----------
 let conv = AI.loadConv();
 let busy = null; // { txt, status, ctrl }
@@ -519,7 +560,8 @@ function md(s) {
     out += h ? `<p><b>${h[1]}</b></p>` : l.trim() ? `<p>${l}</p>` : '';
   }
   if (inList) out += '</ul>';
-  return out.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/`([^`]+)`/g, '<code>$1</code>');
+  return out.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/`([^`]+)`/g, '<code>$1</code>')
+    .replace(/\b(V[1-8]|K[24]) · (\d{1,3})\b/g, '<button class="folio" data-open="$1|$2">$1 · $2</button>');
 }
 function contexte() {
   const d = today(); const j = D.parcours.jours.find((x) => x.date === d);
@@ -632,6 +674,19 @@ function bindCommon(m) {
   if ($('#aiQ', m)) $('#aiQ').addEventListener('keydown', (e) => { if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) envoyer($('#aiQ').value); });
   m.querySelectorAll('[data-sugg]').forEach((b) => b.addEventListener('click', () => { if (AI.getKey()) envoyer(b.dataset.sugg); else { const t = $('#aiQ'); if (t) t.value = b.dataset.sugg; } }));
   if ($('#aiClear', m)) $('#aiClear').onclick = () => { conv = []; AI.clearConv(); render(); };
+  m.querySelectorAll('[data-open]').forEach((b) => b.addEventListener('click', () => { const [v, n] = b.dataset.open.split('|'); ouvrirFolio(v, n); }));
+  const tq = $('#trQ', m);
+  if (tq) {
+    let deb = null;
+    tq.addEventListener('input', () => { clearTimeout(deb); deb = setTimeout(() => { trQ = tq.value; majTrouver(); }, 150); });
+    tq.addEventListener('keydown', (e) => { if (e.key === 'Enter') tq.blur(); });
+    if (!trQ) setTimeout(() => tq.focus(), 50);
+  }
+  m.querySelectorAll('[data-trq]').forEach((b) => b.addEventListener('click', () => { trQ = b.dataset.trq; const t = $('#trQ'); if (t) t.value = trQ; majTrouver(); }));
+  m.querySelectorAll('[data-trfam]').forEach((b) => b.addEventListener('click', () => {
+    trFam = b.dataset.trfam || null; document.querySelectorAll('[data-trfam]').forEach((x) => x.classList.toggle('sel', (x.dataset.trfam || null) === trFam)); majTrouver();
+  }));
+  m.querySelectorAll('[data-askc]').forEach((b) => b.addEventListener('click', () => { const q = trQ.trim(); tab = 'claude'; sub = null; render(); if (AI.getKey()) envoyer(`Cherche dans mes volumes et explique : ${q}`); else { const t = $('#aiQ'); if (t) t.value = q; } }));
   m.querySelectorAll('[data-pdf]').forEach((b) => b.addEventListener('click', () => {
     const pdf = b.dataset.pdf; openReader({ url: './' + pdf, title: b.dataset.title, fileName: pdf.split('/').pop(), githubUrl: REPO + pdf, onToast: toast });
   }));
@@ -783,6 +838,8 @@ async function boot() {
   document.querySelectorAll('nav.bottom button').forEach((b) => b.addEventListener('click', () => { tab = b.dataset.tab; sub = null; viewDay = null; draft = null; runState.t0 = 0; runState.item = null; render(); }));
   $('#settingsBtn').onclick = openSettings;
   $('#claudeBtn').onclick = () => { tab = 'claude'; sub = null; render(); };
+  $('#findBtn').onclick = () => { tab = 'trouver'; sub = null; render(); };
+  setTimeout(() => { if ('requestIdleCallback' in window) requestIdleCallback(() => loadSearch()); }, 4000);
   pullToRefresh();
   if (S.chrono) { tab = 'outils'; sub = 'chrono'; keepAwake(true); }
   document.addEventListener('visibilitychange', () => { if (!document.hidden && (S.chrono || runState.t0)) { keepAwake(true); startTick(); } });

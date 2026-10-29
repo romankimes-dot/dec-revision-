@@ -288,3 +288,21 @@ b.bloc { color: var(--primary); letter-spacing: .01em; }
 .famb { display: inline-flex; vertical-align: -0.2em; margin-right: 5px; color: var(--text); }
 .famb svg { display: block; }
 .badge .famb { margin-right: 4px; vertical-align: -0.15em; }
+/* Trouver */
+.searchbox { display: block; width: 100%; box-sizing: border-box; font: inherit; font-size: 17px; padding: 13px 16px; border-radius: 14px; border: 1px solid var(--line); background: var(--card); color: var(--text); box-shadow: var(--shadow); margin: 4px 0 12px; -webkit-appearance: none; appearance: none; }
+.searchbox:focus { outline: 2px solid var(--primary); outline-offset: 1px; }
+.famchips .chip { display: inline-flex; align-items: center; }
+.chip.sel .famb { color: var(--bg); }
+ul.hits { list-style: none; margin: 0; padding: 0; }
+ul.hits li + li { border-top: 1px solid var(--line); }
+.hit { display: grid; grid-template-columns: 22px 1fr 18px; gap: 12px; align-items: start; width: 100%; padding: 12px 0; border: 0; background: none; color: var(--text); font: inherit; text-align: left; cursor: pointer; }
+div.hit { grid-template-columns: 22px 1fr; cursor: default; }
+.hit .famb { margin: 2px 0 0; }
+.hit b { font-size: 15px; font-weight: 650; }
+.hit small { display: block; color: var(--muted); font-size: 12.5px; }
+.hit small.inl { display: inline; }
+.hit .ex { display: block; color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-top: 3px; }
+.hit .chev svg.i { width: 18px; height: 18px; color: var(--faint); margin-top: 2px; }
+mark { background: color-mix(in srgb, var(--primary) 22%, transparent); color: var(--text); border-radius: 3px; padding: 0 1px; }
+.btn.block { display: flex; width: 100%; justify-content: center; align-items: center; gap: 8px; margin: 4px 0 20px; }
+button.folio { border: 0; background: color-mix(in srgb, var(--primary) 14%, transparent); color: var(--primary); font: inherit; font-weight: 650; padding: 0 5px; border-radius: 6px; cursor: pointer; }
