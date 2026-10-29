@@ -446,15 +446,22 @@ function materiel() {
 }
 
 // ---------- réglages ----------
+function applyTheme() {
+  const t = S.settings.theme;
+  if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; else delete document.documentElement.dataset.theme;
+  try { localStorage.setItem('dec2.theme', t || 'auto'); } catch { /* */ }
+}
 function openSettings() {
   const sh = $('#sheet');
   sh.innerHTML = `<div class="sheetin"><h2>Réglages</h2>
+    <label class="lbl">Apparence<select id="stTheme">${[['auto', 'Automatique (comme l\'iPhone)'], ['light', 'Toujours clair'], ['dark', 'Toujours sombre']].map(([v, l]) => `<option value="${v}" ${(S.settings.theme || 'auto') === v ? 'selected' : ''}>${l}</option>`).join('')}</select></label>
     <label class="lbl">Date simulée (pour tester l'après-novembre)<input id="stDate" type="date" value="${esc(S.settings.dateSimulee)}"></label>
     <div class="btnrow"><button class="btn" id="stExp">Exporter ma progression</button><label class="btn">Importer<input id="stImp" type="file" accept="application/json" hidden></label></div>
     <div style="height:10px"></div><button class="btn" id="stReset">Tout effacer</button>
     <div style="height:10px"></div><button class="btn primary" id="stClose">Fermer</button>
     <p class="muted">Données stockées sur cet iPhone uniquement. Exporte avant de changer de téléphone.</p></div>`;
   sh.hidden = false;
+  $('#stTheme').onchange = () => { S.settings.theme = $('#stTheme').value; applyTheme(); persist(); };
   $('#stClose').onclick = () => { S.settings.dateSimulee = $('#stDate').value; persist(); sh.hidden = true; viewDay = null; render(); };
   $('#stExp').onclick = () => {
     const blob = new Blob([exportJSON(S)], { type: 'application/json' });
@@ -602,6 +609,7 @@ function bindCommon(m) {
 
 // ---------- démarrage ----------
 async function boot() {
+  applyTheme();
   await loadData();
   $('nav.bottom').innerHTML = [['home', '🏠', 'Aujourd\'hui'], ['outils', '🛠', 'Outils'], ['carte', '🗺', 'Carte'], ['methode', '📐', 'Méthode'], ['materiel', '🎒', 'Matériel']]
     .map(([id, ico, l]) => `<button data-tab="${id}"><span class="ico" aria-hidden="true">${ico}</span>${l}</button>`).join('');

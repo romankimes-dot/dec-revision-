@@ -6,10 +6,16 @@
   --top-safe: calc(env(safe-area-inset-top, 0px) + min(env(safe-area-inset-top, 0px), 28px));
 }
 @media (prefers-color-scheme: dark) {
-  :root { --bg: #08130c; --card: #0f1f16; --text: #e5e7eb; --muted: #94a3b8; --line: #1d3326;
+  :root:not([data-theme="light"]) { --bg: #08130c; --card: #0f1f16; --text: #e5e7eb; --muted: #94a3b8; --line: #1d3326;
     --primary: #22c55e; --primary-ink: #052e16; --ok-bg: #052e16; --ko-bg: #450a0a; --warn-bg: #451a03;
     --ok: #4ade80; --ko: #f87171; --warn: #fbbf24; --ec: #22d3ee; --cac: #c4b5fd; --accent: #facc15; }
 }
+:root[data-theme="dark"] { --bg: #08130c; --card: #0f1f16; --text: #e5e7eb; --muted: #94a3b8; --line: #1d3326;
+    --primary: #22c55e; --primary-ink: #052e16; --ok-bg: #052e16; --ko-bg: #450a0a; --warn-bg: #451a03;
+    --ok: #4ade80; --ko: #f87171; --warn: #fbbf24; --ec: #22d3ee; --cac: #c4b5fd; --accent: #facc15; }
+:root { color-scheme: light dark; }
+:root[data-theme="light"] { color-scheme: light; }
+:root[data-theme="dark"] { color-scheme: dark; }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 :focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }

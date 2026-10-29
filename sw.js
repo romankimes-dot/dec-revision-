@@ -1,6 +1,6 @@
 // Service worker : hors ligne. Code et données précachés à l'installation ; données en « cache d'abord, rafraîchi en arrière-plan ».
 // Les PDF de imprimer/ ne sont jamais précachés. Toute modification du code impose d'incrémenter VERSION.
-const VERSION = 'dec2-v3';
+const VERSION = 'dec2-v4';
 const CORE = [
   './', './index.html', './manifest.webmanifest', './css/app.css',
   './js/app.js', './js/core.js', './js/store.js',

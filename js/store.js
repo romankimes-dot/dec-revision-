@@ -5,7 +5,7 @@ const PREV_KEY = 'dec2.state.prev';
 
 export const defaultState = () => ({
   version: 1,
-  settings: { dateSimulee: '', e1Option: 'composer' },
+  settings: { dateSimulee: '', e1Option: 'composer', theme: 'auto' }, // theme : 'auto' | 'light' | 'dark'
   jours: {},        // date -> { taches: {i: true}, fait: timestamp }
   recit: {},        // id item -> { box, due, hist: [{t, s}] }
   index: {},        // id -> { motcle, volume, ref, box, due, hist: [{t, ms, ok}] }
