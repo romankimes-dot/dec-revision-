@@ -486,9 +486,9 @@ function materiel() {
   const tot = G.flatMap((g) => g.items).length; const ok = G.flatMap((g) => g.items).filter((i) => S.materiel[i.id]).length;
   const docs = G.find((g) => g.id === 'gratuits').items.filter((i) => i.pdf);
   const kit = (G.find((g) => g.id === 'kit')?.items || []).filter((i) => i.pdf);
-  const docLi = (i) => `<li><a href="./${i.pdf}" target="_blank" rel="noopener">${icon('file')}<span><b>${esc(i.court)}</b><small>${i.pages} pages · ${esc(i.onglet)}</small></span><span class="chev">${icon('chevron')}</span></a></li>`;
+  const docLi = (i) => `<li><a href="${REPO}${i.pdf}" target="_blank" rel="noopener">${icon('file')}<span><b>${esc(i.court)}</b><small>${i.pages} pages · ${esc(i.onglet)}</small></span><span class="chev">${icon('chevron')}</span></a></li>`;
   return `<h2 class="h">Matériel</h2><p class="intro">Ce qu'il faut imprimer, acheter et emporter le jour J. Coche au fur et à mesure.</p>
-  <section class="card"><h2>Documents à imprimer</h2><p class="muted">Touche un document pour l'ouvrir, puis Partager › Imprimer, ou envoie-le à la reprographie (recto-verso, reliure spirale).</p>
+  <section class="card"><h2>Documents à imprimer</h2><p class="muted">Touche un document : il s'ouvre dans une fenêtre Safari, que tu fermes avec « OK » pour revenir ici. Pour imprimer ou l'envoyer, utilise le bouton de téléchargement puis Partager.</p>
     ${kit.length ? `<h3>Ton kit de mise en place</h3><ul class="docs">${kit.map(docLi).join('')}</ul><h3>Volumes de documentation</h3>` : ''}
     <ul class="docs">${docs.map((i) => docLi({ ...i, onglet: 'onglets ' + i.onglet })).join('')}</ul>
     <a class="btn sm" href="${REPO}imprimer/LISEZMOI.md" target="_blank" rel="noopener">Consignes pour la reprographie</a></section>
