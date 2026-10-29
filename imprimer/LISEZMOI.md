@@ -2,13 +2,13 @@
 
 DEC, épreuve n° 2 du 10 novembre 2026 (documentation papier autorisée). Dossier assemblé le 28/10/2026. **8 PDF à imprimer** (V1 à V8) et un index des corrigés (Corriges_index.md, à ne pas imprimer). Les fichiers sont prêts : ne rien retoucher.
 
-## Lot à imprimer : 582 pages au lieu de 1 167 (mis à jour le 29/10/2026)
+## Lot à imprimer : 588 pages au lieu de 1 167 (mis à jour le 29/10/2026)
 
 Imprimer seulement ceci pour le 10 novembre. Les pages retirées ne sont citées ni par l'index, ni par les fiches, ni par les sommaires ; chaque page garde son folio d'origine. Les NEP sont complètes ; le PCG garde tout le livre I et les modèles d'annexe, parce que les immobilisations reviennent dans 12 sujets sur 16.
 
 | Fichier | Pages | Contenu |
 |---|---|---|
-| K1, K2, K3, K4 | 26 | le kit complet |
+| K1, K2, K3, K4 | 32 | le kit complet |
 | V2_Livre_VIII_CNCC.pdf | 63 | complet |
 | V4_Deontologie.pdf | 44 | complet |
 | V6_Textes_choisis.pdf | 93 | complet |
@@ -24,12 +24,12 @@ Les volumes complets restent disponibles pour mai 2027.
 
 | Fichier | Pages | Usage |
 |---|---|---|
-| K1_Plan_de_classement.pdf | 4 | table de salle, sommaires à découper et coller en 2e de couverture de chaque volume, onglets à poser |
+| K1_Plan_de_classement.pdf | 10 | p. 1 : table de salle ; p. 2-9 : une page de garde par volume V1 à V8 (titre en grand, bandeau à la couleur des onglets, sommaire avec folios), à placer en 1re page du volume sous la couverture transparente (volume déjà relié : la coller sur la couverture cartonnée ou l'ancienne page de garde) ; p. 10 : onglets des Mémentos |
 | K2_Fiches_de_synthese.pdf | 12 | 12 fiches (seuils, nomination, rapports, révélation, alerte, déontologie, conventions, commissariats, capital, fiscalité, démarche d'audit), vérifiées ligne par ligne (kit_src/K2_verification.md) |
 | K3_Index_prerempli.pdf | 4 | 250 notions → volume → folio (230 folios contrôlés, 20 pages de Mémentos à compléter) |
 | K4_Trames_de_reponse.pdf | 6 | trames et réponses modèles par famille de questions |
 
-Recto simple conseillé pour K1 (pages à découper) ; recto-verso pour le reste. **Chaque page des volumes V1 à V8 porte désormais un folio « Vx · n » en haut, côté extérieur : c'est le numéro cité par l'index, les fiches et les sommaires.**
+K1 en recto seul, pages 2 à 9 en couleur ; recto-verso pour le reste. **Chaque page des volumes V1 à V8 porte désormais un folio « Vx · n » en haut, côté extérieur : c'est le numéro cité par l'index, les fiches et les sommaires.**
 
 ## Consignes générales à donner à la reprographie
 - Format A4, noir et blanc, papier 80 g, **recto-verso**, **reliure spirale** (une par volume), couverture transparente devant et carton derrière.
