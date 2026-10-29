@@ -3,6 +3,7 @@ import {
   ymd, hm, jalons, STRUCTURES, normeMots, phaseFor, decision, nextBox, isDue, addDays, INTERVALS,
   sameRef, median, priorites, causes, CAUSES,
 } from './core.js';
+import { icon } from './icons.js';
 
 const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -117,31 +118,30 @@ function sprint(d) {
     <li><b>Méthode</b> : déroulé des 4h30 et façon de rédiger une réponse.</li>
     <li><b>Matériel</b> : les PDF à imprimer, les livres à acheter, le sac du jour J.</li></ul>
     <button class="btn sm" data-guideok="1">Compris</button></section>`}
-  <section class="card hero">
-    ${ring(h / D.parcours.budget_h, `${h} h`, `sur ${D.parcours.budget_h} h`)}
-    <div>
-      <h2>Sprint vers le 10 novembre</h2>
-      <p class="muted">Objectif réaliste en novembre : répondre à toutes les questions, chacune avec un article de loi et une conclusion. À partir de 6, la note peut être gardée ; 8 est utile ; 10 est acquise.</p>
-    </div>
+  <section class="card summary">
+    <div class="big-j">${Math.max(0, daysBetween(d, '2026-11-10'))}<small>jours avant<br>le 10 novembre</small></div>
+    <div><div class="row between"><b>Préparation</b><span class="muted">${h} h / ${D.parcours.budget_h} h</span></div>
+      <div class="progress"><span style="width:${Math.round((h / D.parcours.budget_h) * 100)}%"></span></div>
+      <div class="muted">Objectif : répondre à toutes les questions, chacune avec un article et une conclusion.</div></div>
   </section>
-  ${retard.length ? `<div class="card warnbox"><b>Jours non bouclés :</b> ${retard.map((x) => `<button class="link" data-day="${x.date}">${esc(x.date.slice(8))}/${esc(x.date.slice(5, 7))} ${esc(x.titre)}</button>`).join(' · ')}<div class="muted">Reporte-les sur les jours légers (6, 8, 9 novembre) plutôt que de sauter l'annale.</div></div>` : ''}
+  ${retard.length ? `<div class="notice"><span>À rattraper : ${retard.map((x) => `<button class="link" data-day="${x.date}">${+x.date.slice(8)}/${+x.date.slice(5, 7)}</button>`).join(', ')}. Reporte sur les jours légers (6, 8, 9 novembre), jamais à la place d'une annale.</span></div>` : ''}
   <div class="days">${jours.map((x) => `<button class="day ${x.date === j.date ? 'sel' : ''} ${jourFait(x) ? 'done' : ''} ${x.date === d ? 'today' : ''} ${x.annale || x.jourJ ? 'key' : ''}" data-day="${x.date}"><small>${new Date(x.date + 'T12:00:00').toLocaleDateString('fr-FR', { weekday: 'short' }).slice(0, 3)}</small>${+x.date.slice(8)}</button>`).join('')}</div>
   <section class="card">
     <div class="row between"><h2 style="text-transform:capitalize">${esc(titreDate)}</h2><span class="badge">${j.h ? `${j.h} h` : j.horsBudget ? `${j.horsBudget} h hors budget` : 'jour J'}</span></div>
     <h3>${esc(j.titre)}</h3>
     <ul class="checks">${j.taches.map((t, i) => `<li><label><input type="checkbox" data-task="${j.date}|${i}" ${st.taches && st.taches[i] ? 'checked' : ''}><span>${esc(t)}</span></label></li>`).join('')}</ul>
-    <div class="muted"><b>À la fin de la journée :</b> ${j.livrables.map(esc).join(' · ')}</div>
+    <div class="meta"><b>À la fin de la journée :</b> ${j.livrables.map(esc).join(' · ')}</div>
     <div class="row" style="margin-top:10px">${(j.outils || []).map(toolBtn).join('')}</div>
   </section>
-  <section class="card">
-    <h2>Ta stratégie, en clair</h2>
+  <details class="card sec">
+    <summary><h2>Ta stratégie, en clair</h2></summary>
     <ul class="plain">
       <li><b>Épreuve 1 :</b> la performer pour prendre des points d'avance (≥ 10 conservé 8 sessions), ou copie blanche si tu n'es pas prêt (0, à repasser en mai).</li>
       <li><b>Épreuve 2 :</b> novembre est un vrai essai, pas un galop. 8 est déjà utile, 10 est la cible de mai : avec 10 à l'épreuve 2, un 10 au mémoire suffit pour le diplôme.</li>
       <li><b>Mémoire :</b> 12-13 visés ; le calcul se fait avec 11, la ligne réaliste.</li>
     </ul>
     <button class="btn sm" data-goafter="1">Voir l'après-novembre</button>
-  </section>`;
+  </details>`;
 }
 
 function apres(d, ph) {
@@ -189,14 +189,14 @@ function outils() {
   const med = median(Object.values(S.index).flatMap((e) => (e.hist || []).slice(-3).filter((h) => h.ok).map((h) => h.ms)));
   const lastE = S.ecriture.filter((e) => !e.heure).slice(-1)[0];
   const maitrise = Object.values(S.recit).filter((r) => (r.box || 0) >= 3).length;
-  const card = (id, ico, t, d, m) => `<button class="tool" data-go="${id}"><span><b>${t}</b><small>${d}</small></span><span class="m">${m || ''}</span></button>`;
+  const card = (id, ico, t, d, m) => `<button class="tool" data-go="${id}"><span class="ico">${icon(ico)}</span><span><b>${t}</b><small>${d}</small></span><span class="m">${m || ''}</span><span class="chev">${icon('chevron')}</span></button>`;
   return `<h2 class="h">S'entraîner</h2><p class="intro">Chaque exercice entraîne un geste de l'épreuve : tenir le temps, trouver vite dans tes livres, savoir dire l'essentiel, écrire assez vite, comprendre tes erreurs. Le téléphone sert à chronométrer et à noter ; le travail se fait sur papier.</p>
-  ${card('chrono', '', 'Chrono d\'épreuve', 'Pour faire une annale en 4h30 : il te dit quand changer de dossier', S.chrono ? 'en cours' : `${S.seances.length} séance(s)`)}
-  ${card('drill', '', 'Index de ta documentation', 'Note où se trouve chaque notion dans tes livres, puis entraîne-toi à la retrouver vite', `${nIdx} lignes${med ? ` · ${Math.round(med / 1000)} s` : ''}`)}
-  ${card('recitation', '', 'Réciter en 30 s', 'Les 15 notions à savoir dire de mémoire, à voix haute', `${maitrise}/15 solides`)}
-  ${card('ecriture', '', 'Vitesse d\'écriture', 'Recopier 10 min à la main : tu sauras quelle longueur viser par réponse', lastE ? `${(lastE.mots / lastE.minutes).toFixed(1)} mots/min` : 'à mesurer')}
-  ${card('debrief', '', 'Bilan d\'une annale', 'Question par question : su ou pas, et pourquoi. Il fixe tes priorités', `${S.debriefs.length}`)}
-  ${card('decision', '', 'Décision de janvier', 'Avec tes notes de novembre : garder ou repasser l\'épreuve', '')}`;
+  ${card('chrono', 'timer', 'Chrono d\'épreuve', 'Pour faire une annale en 4h30 : il te dit quand changer de dossier', S.chrono ? 'en cours' : `${S.seances.length} séance(s)`)}
+  ${card('drill', 'search', 'Index de ta documentation', 'Note où se trouve chaque notion dans tes livres, puis entraîne-toi à la retrouver vite', `${nIdx} lignes${med ? ` · ${Math.round(med / 1000)} s` : ''}`)}
+  ${card('recitation', 'mic', 'Réciter en 30 s', 'Les 15 notions à savoir dire de mémoire, à voix haute', `${maitrise}/15 solides`)}
+  ${card('ecriture', 'pen', 'Vitesse d\'écriture', 'Recopier 10 min à la main : tu sauras quelle longueur viser par réponse', lastE ? `${(lastE.mots / lastE.minutes).toFixed(1)} mots/min` : 'à mesurer')}
+  ${card('debrief', 'clip', 'Bilan d\'une annale', 'Question par question : su ou pas, et pourquoi. Il fixe tes priorités', `${S.debriefs.length}`)}
+  ${card('decision', 'scale', 'Décision de janvier', 'Avec tes notes de novembre : garder ou repasser l\'épreuve', '')}`;
 }
 
 // --- Chrono ---
@@ -205,7 +205,7 @@ function chronoView() {
   const c = S.chrono;
   if (!c) {
     const last = S.seances.slice(-5).reverse();
-    return `<button class="link" data-back="1">‹ Outils</button><h2 class="h">Chrono d'épreuve</h2>
+    return `<button class="link" data-back="1">${icon('back')}S'entraîner</button><h2 class="h">Chrono d'épreuve</h2>
     <section class="card">
       <label class="lbl">Session travaillée<select id="cSess">${SESSIONS.map((s) => `<option>${s}</option>`).join('')}<option>Réel nov. 2026</option><option>Réel mai 2027</option><option>Exercice libre</option></select></label>
       <label class="lbl">Structure (barème imprimé sur le sujet)<select id="cStruct">${STRUCTURES.map((s) => `<option value="${s.id}">${esc(s.label)}</option>`).join('')}<option value="custom">Autre…</option></select></label>
@@ -216,7 +216,7 @@ function chronoView() {
     </section>
     ${last.length ? `<section class="card"><h3>Dernières séances</h3><ul class="plain">${last.map((s) => `<li>${esc(new Date(s.t).toLocaleDateString('fr-FR'))} · ${esc(s.session)} · ${s.questions.length} questions · médiane ${median(s.questions.map((q) => q.min))?.toFixed(0) ?? '—'} min/question</li>`).join('')}</ul></section>` : ''}`;
   }
-  return `<button class="link" data-back="1">‹ Outils</button><h2 class="h">${esc(c.session)} <span class="muted">${esc(c.points.join(' + '))}</span></h2>
+  return `<button class="link" data-back="1">${icon('back')}S'entraîner</button><h2 class="h">${esc(c.session)} <span class="muted">${esc(c.points.join(' + '))}</span></h2>
   <section class="card chrono" id="chronoLive"></section>
   <div class="btnrow"><button class="btn primary" id="cNext">Question suivante</button><button class="btn" id="cStop">Je cherche : 5 min max</button></div>
   <div style="height:10px"></div>
@@ -281,7 +281,7 @@ function ecritureView() {
   const mod = D.methode.modeles[S.lus.modeleEcriture || 0];
   const annale = S.ecriture.filter((e) => e.heure);
   const h1 = annale.filter((e) => e.heure === 1).slice(-1)[0]; const h4 = annale.filter((e) => e.heure === 4).slice(-1)[0];
-  return `<button class="link" data-back="1">‹ Outils</button><h2 class="h">Vitesse d'écriture</h2>
+  return `<button class="link" data-back="1">${icon('back')}S'entraîner</button><h2 class="h">Vitesse d'écriture</h2>
   <section class="card">
     <p>Recopie à la main, à ta vitesse d'examen et lisiblement, le modèle ci-dessous pendant 10 minutes. Puis compte les mots écrits. Tu apprends le gabarit en même temps.</p>
     <div class="row">${D.methode.modeles.map((m, i) => `<button class="btn sm ${i === (S.lus.modeleEcriture || 0) ? 'primary' : ''}" data-modele="${i}">Modèle ${i + 1}</button>`).join('')}</div>
@@ -311,7 +311,7 @@ function recitView() {
   const it = runState.item ? D.items.items.find((x) => x.id === runState.item) : null;
   if (it) {
     const revealed = runState.revealed;
-    return `<button class="link" data-back="1">‹ Outils</button><h2 class="h">Récitation 30 s</h2>
+    return `<button class="link" data-back="1">${icon('back')}S'entraîner</button><h2 class="h">Récitation 30 s</h2>
     <section class="card recit"><div class="row between"><span class="badge ${it.prof === 'CAC' ? 'cac' : it.prof === 'EC' ? 'ec' : ''}">${esc(it.prof)}</span><span class="muted">fréquence ${esc(it.freq)}</span></div>
       <h2>${esc(it.titre)}</h2>
       ${revealed ? `<div class="answer">${esc(it.dire)}</div><p class="ref">Où le trouver : ${esc(it.ou)} · sources vérifiées (VERIF.md, lignes ${it.verif.join(', ')})</p>
@@ -320,7 +320,7 @@ function recitView() {
       : `<p>Dis-le à voix haute, sans regarder : règle, textes, chiffres, conséquence.</p><div class="big" id="recT">30</div><button class="btn primary" id="recShow">Révéler</button>`}
     </section>`;
   }
-  return `<button class="link" data-back="1">‹ Outils</button><h2 class="h">Réciter en 30 s</h2>
+  return `<button class="link" data-back="1">${icon('back')}S'entraîner</button><h2 class="h">Réciter en 30 s</h2>
   <section class="card"><p>${q.length} notion(s) à réciter aujourd'hui sur 15. Les ratées reviennent demain, les sues s'espacent (1, 3, 7, 14, 30 jours).</p>
   <button class="btn primary" id="recGo" ${q.length ? '' : 'disabled'}>${q.length ? 'Commencer' : 'Rien à réciter aujourd\'hui'}</button></section>
   <section class="card"><h3>Les 15 notions</h3><ul class="plain">${D.items.items.map((it) => { const r = S.recit[it.id]; return `<li><span class="dots">${'●'.repeat(Math.min(5, r?.box || 0))}${'○'.repeat(5 - Math.min(5, r?.box || 0))}</span> ${esc(it.titre)} ${it.e1 ? '<span class="badge">aussi épreuve 1</span>' : ''}</li>`; }).join('')}</ul></section>`;
@@ -339,7 +339,7 @@ function drillView() {
   const cur = runState.item ? (S.index[runState.item] || D.index_seed.entrees.find((x) => x.id === runState.item)) : null;
   if (cur) {
     const first = !S.index[runState.item]?.ref;
-    return `<button class="link" data-back="1">‹ Outils</button><h2 class="h">${first ? 'Trouve-la dans tes livres' : 'Retrouve-la'}</h2>
+    return `<button class="link" data-back="1">${icon('back')}S'entraîner</button><h2 class="h">${first ? 'Trouve-la dans tes livres' : 'Retrouve-la'}</h2>
     <section class="card recit"><span class="badge">${esc(cur.volume)}</span><h2>${esc(cur.motcle)}</h2>
       <div class="big" id="drT">0</div>
       <p class="muted">${first ? 'Trouve-la dans ta doc papier, puis note la page ou le numéro de paragraphe.' : 'Retrouve-la dans ta doc papier et note la référence.'}</p>
@@ -348,7 +348,7 @@ function drillView() {
       <div class="btnrow"><button class="btn primary" id="drOk">Valider</button><button class="btn" id="drFail">Introuvable</button></div>
     </section>`;
   }
-  return `<button class="link" data-back="1">‹ Outils</button><h2 class="h">Index de ta documentation</h2><p class="intro">Le jour J, tu perds des points à chercher. Ici, tu notes la page où se trouve chaque notion dans tes livres ; l'app te la refait chercher de temps en temps, chronométré, jusqu'à ce que ce soit rapide. À la fin, tu imprimes ton index et tu l'emportes.</p>
+  return `<button class="link" data-back="1">${icon('back')}S'entraîner</button><h2 class="h">Index de ta documentation</h2><p class="intro">Le jour J, tu perds des points à chercher. Ici, tu notes la page où se trouve chaque notion dans tes livres ; l'app te la refait chercher de temps en temps, chronométré, jusqu'à ce que ce soit rapide. À la fin, tu imprimes ton index et tu l'emportes.</p>
   <section class="card"><div class="grid3"><div class="stat"><div class="n">${all.filter((e) => e.ref).length}</div><div class="l">lignes</div></div><div class="stat"><div class="n">${lastOk.length ? Math.round(median(lastOk) / 1000) + ' s' : '—'}</div><div class="l">médiane</div></div><div class="stat"><div class="n">${rate === null ? '—' : rate + ' %'}</div><div class="l">trouvées</div></div></div>
   <p class="muted">Cibles : 80 lignes le 5 novembre, 100 le 8, 500 le 4 mai ; médiane sous 60 s et plus de 95 % trouvées en avril.</p>
   <div class="btnrow"><button class="btn primary" id="drGo" ${due.length ? '' : 'disabled'}>Retrouver (${due.length} à revoir)</button><button class="btn" id="drLoc" ${todo.length ? '' : 'disabled'}>Chercher une nouvelle (${todo.length})</button></div>
@@ -359,7 +359,7 @@ function drillView() {
 
 function imprimerView() {
   const all = idxEntries().filter((e) => e.ref).sort((a, b) => a.motcle.localeCompare(b.motcle, 'fr'));
-  return `<button class="link noprint" data-back="1">‹ Outils</button><div class="noprint"><h2 class="h">Index imprimable</h2><p class="muted">${all.length} lignes, triées. Partager › Imprimer (ou Enregistrer en PDF).</p><div class="btnrow"><button class="btn primary" id="prGo">Imprimer</button><button class="btn" id="prCsv">Exporter CSV</button></div></div>
+  return `<button class="link noprint" data-back="1">${icon('back')}S'entraîner</button><div class="noprint"><h2 class="h">Index imprimable</h2><p class="muted">${all.length} lignes, triées. Partager › Imprimer (ou Enregistrer en PDF).</p><div class="btnrow"><button class="btn primary" id="prGo">Imprimer</button><button class="btn" id="prCsv">Exporter CSV</button></div></div>
   <table class="print"><thead><tr><th>Notion</th><th>Volume</th><th>Réf.</th></tr></thead><tbody>${all.map((e) => `<tr><td>${esc(e.motcle)}</td><td>${esc(e.volume)}</td><td>${esc(e.ref)}</td></tr>`).join('')}</tbody></table>`;
 }
 
@@ -368,7 +368,7 @@ let draft = null;
 function debriefView() {
   if (draft) {
     const opts = D.notions.notions.map((n) => `<option value="${n.id}">${esc((D.itemById[n.item]?.titre || n.theme.replace(/_/g, ' ')).slice(0, 48))}</option>`).join('');
-    return `<button class="link" data-back="1">‹ Outils</button><h2 class="h">Débrief : ${esc(draft.session)}</h2>
+    return `<button class="link" data-back="1">${icon('back')}S'entraîner</button><h2 class="h">Débrief : ${esc(draft.session)}</h2>
     <section class="card"><p class="muted">Une ligne par question. Thème = la notion principale ; statut = ce qui s'est passé ; cause = pourquoi des points ont été perdus.</p>
     ${draft.questions.map((q, i) => `<div class="qrow" data-qi="${i}"><b>Q${esc(q.n)}</b>
       <select data-f="theme"><option value="">Thème…</option>${opts.replace(`value="${q.theme}"`, `value="${q.theme}" selected`)}</select>
@@ -378,7 +378,7 @@ function debriefView() {
     <div class="btnrow"><button class="btn primary" id="dbSave">Enregistrer</button><button class="btn" id="dbCancel">Annuler</button></div></section>`;
   }
   const cz = causes(S.debriefs);
-  return `<button class="link" data-back="1">‹ Outils</button><h2 class="h">Bilan d'une annale</h2><p class="intro">Après chaque annale (et après le vrai examen), une ligne par question : ce que tu as su, ce que tu as cherché en vain, ce que tu as laissé blanc, et pourquoi. L'écran Aujourd'hui en déduit tes priorités.</p>
+  return `<button class="link" data-back="1">${icon('back')}S'entraîner</button><h2 class="h">Bilan d'une annale</h2><p class="intro">Après chaque annale (et après le vrai examen), une ligne par question : ce que tu as su, ce que tu as cherché en vain, ce que tu as laissé blanc, et pourquoi. L'écran Aujourd'hui en déduit tes priorités.</p>
   <section class="card"><label class="lbl">Session<select id="dbSess"><option>Réel nov. 2026</option>${SESSIONS.map((s) => `<option>${s}</option>`).join('')}<option>Réel mai 2027</option></select></label>
   <label class="lbl">Nombre de questions<input id="dbN" type="number" min="1" max="30" value="${S.seances.slice(-1)[0]?.questions.length || 18}"></label>
   <button class="btn primary" id="dbNew">Nouveau débrief</button></section>
@@ -392,7 +392,7 @@ function decisionView() {
   const has = v.e2 !== '' && v.e2 != null;
   const r = has ? decision(v.e1 === 'blanche' ? 'blanche' : (v.e1 === '' ? 'blanche' : Number(v.e1)), Number(v.e2), Number(v.e3)) : null;
   const rows = [[12, 11], [10, 11], [12, 12], [10, 12], [12, 13], [14, 12]].map(([e1, e3]) => `<tr><td>${e1}</td><td>${e3}</td><td><b>${Math.max(6, Math.ceil(((80 - e1 - 4 * e3) / 3) * 2) / 2)}</b></td></tr>`).join('');
-  return `<button class="link" data-back="1">‹ Outils</button><h2 class="h">Décision de janvier</h2>
+  return `<button class="link" data-back="1">${icon('back')}S'entraîner</button><h2 class="h">Décision de janvier</h2>
   <section class="card"><p class="intro">Le diplôme s'obtient avec : épreuve 1 + 3 × épreuve 2 + 4 × mémoire ≥ 80 points, sans note éliminatoire (moins de 6 aux écrits, moins de 10 au mémoire). Entre tes notes de novembre et ce calcul.</p>
     <label class="lbl">Épreuve 1 (novembre)<input id="deE1" type="text" inputmode="decimal" placeholder="note, ou « blanche »" value="${esc(v.e1)}"></label>
     <label class="lbl">Épreuve 2 (novembre)<input id="deE2" type="number" step="0.25" min="0" max="20" value="${esc(v.e2)}"></label>
@@ -439,7 +439,7 @@ function carte() {
 // ---------- méthode ----------
 function methode() {
   const M = D.methode;
-  const sec = (id, t, body, open) => `<details class="card" ${open ? 'open' : ''}><summary><h2>${t}</h2></summary>${body}</details>`;
+  const sec = (id, t, body, open) => `<details class="card sec" ${open ? 'open' : ''}><summary><h2>${t}</h2></summary>${body}</details>`;
   const grilles = STRUCTURES.map((s) => { const j = jalons(s.points); return `<tr><td>${esc(s.label)}</td><td>${j.budgets.join(' / ')}</td><td>${j.fins.map(hm).join(' · ')}</td></tr>`; }).join('');
   return `<h2 class="h">Méthode</h2><p class="intro">Comment se déroule l'épreuve, comment gérer les 4h30 et comment rédiger une réponse. À relire avant chaque annale.</p>
   ${sec('ep', "L'épreuve, officiellement", `<ul class="plain">${M.epreuve.map((x) => `<li>${esc(x)}</li>`).join('')}</ul><p class="ref">Note du jury du 6 juillet 2026 ; arrêté du 13 février 2019 ; arrêté du 23 avril 2026.</p>`)}
@@ -459,10 +459,10 @@ function materiel() {
   const tot = G.flatMap((g) => g.items).length; const ok = G.flatMap((g) => g.items).filter((i) => S.materiel[i.id]).length;
   const docs = G.find((g) => g.id === 'gratuits').items.filter((i) => i.pdf);
   return `<h2 class="h">Matériel</h2><p class="intro">Ce qu'il faut imprimer, acheter et emporter le jour J. Coche au fur et à mesure.</p>
-  <section class="card hero2"><h2>Documents à imprimer</h2><p class="muted">Touche un document pour l'ouvrir, puis Partager › Imprimer, ou envoie-le à la reprographie (recto-verso, reliure spirale).</p>
-    <ul class="docs">${docs.map((i) => `<li><a href="./${i.pdf}" target="_blank" rel="noopener"><b>${esc(i.court)}</b><small>${i.pages} pages · onglets ${esc(i.onglet)}</small></a></li>`).join('')}</ul>
+  <section class="card"><h2>Documents à imprimer</h2><p class="muted">Touche un document pour l'ouvrir, puis Partager › Imprimer, ou envoie-le à la reprographie (recto-verso, reliure spirale).</p>
+    <ul class="docs">${docs.map((i) => `<li><a href="./${i.pdf}" target="_blank" rel="noopener">${icon('file')}<span><b>${esc(i.court)}</b><small>${i.pages} pages · onglets ${esc(i.onglet)}</small></span><span class="chev">${icon('chevron')}</span></a></li>`).join('')}</ul>
     <a class="btn sm" href="${REPO}imprimer/LISEZMOI.md" target="_blank" rel="noopener">Consignes pour la reprographie</a></section>
-  <section class="card hero">${ring(ok / tot, `${ok}`, `sur ${tot}`)}<div><p>Rien dans le sac qui n'ait servi dans une annale.</p></div></section>
+  <section class="card"><div class="row between"><b>Préparé</b><span class="muted">${ok} / ${tot}</span></div><div class="progress"><span style="width:${Math.round((ok / tot) * 100)}%"></span></div><div class="muted">Rien dans le sac qui n'ait servi dans une annale.</div></section>
   ${G.map((g) => `<section class="card"><h2>${esc(g.titre)}</h2><ul class="checks">${g.items.map((i) => `<li><label><input type="checkbox" data-mat="${i.id}" ${S.materiel[i.id] ? 'checked' : ''}><span>${esc(i.t)}${i.note ? `<small class="muted"> · ${esc(i.note)}</small>` : ''}</span></label></li>`).join('')}</ul></section>`).join('')}
   <p class="muted">${esc(D.materiel.exclus)}</p>`;
 }
@@ -630,14 +630,37 @@ function bindCommon(m) {
   };
 }
 
+// ---------- glisser vers le bas pour recharger ----------
+function pullToRefresh() {
+  const ptr = $('#ptr'); let y0 = null; let dy = 0;
+  const can = () => window.scrollY <= 0 && $('#sheet').hidden;
+  window.addEventListener('touchstart', (e) => { y0 = can() && e.touches.length === 1 ? e.touches[0].clientY : null; dy = 0; }, { passive: true });
+  window.addEventListener('touchmove', (e) => {
+    if (y0 === null) return;
+    dy = Math.max(0, e.touches[0].clientY - y0);
+    if (dy > 0 && window.scrollY > 0) { y0 = null; return; }
+    const p = Math.min(1, dy / 90);
+    ptr.style.transform = `translateY(${Math.min(dy * 0.5, 60)}px)`; ptr.style.opacity = p; ptr.classList.toggle('ready', p >= 1);
+  }, { passive: true });
+  window.addEventListener('touchend', async () => {
+    if (y0 === null) return;
+    const go = dy >= 90; y0 = null;
+    if (!go) { ptr.style.transform = ''; ptr.style.opacity = 0; ptr.classList.remove('ready'); return; }
+    ptr.classList.add('spin');
+    try { const r = await navigator.serviceWorker?.getRegistration(); await r?.update(); } catch { /* hors ligne */ }
+    location.reload();
+  });
+}
+
 // ---------- démarrage ----------
 async function boot() {
   applyTheme();
   await loadData();
-  $('nav.bottom').innerHTML = [['home', 'Aujourd\'hui'], ['outils', 'S\'entraîner'], ['carte', 'À savoir'], ['methode', 'Méthode'], ['materiel', 'Matériel']]
-    .map(([id, l]) => `<button data-tab="${id}">${l}</button>`).join('');
+  $('nav.bottom').innerHTML = [['home', 'home', 'Aujourd\'hui'], ['outils', 'train', 'S\'entraîner'], ['carte', 'book', 'À savoir'], ['methode', 'method', 'Méthode'], ['materiel', 'bag', 'Matériel']]
+    .map(([id, ic, l]) => `<button data-tab="${id}">${icon(ic)}<span>${l}</span></button>`).join('');
   document.querySelectorAll('nav.bottom button').forEach((b) => b.addEventListener('click', () => { tab = b.dataset.tab; sub = null; viewDay = null; draft = null; runState.t0 = 0; runState.item = null; render(); }));
   $('#settingsBtn').onclick = openSettings;
+  pullToRefresh();
   if (S.chrono) { tab = 'outils'; sub = 'chrono'; keepAwake(true); }
   document.addEventListener('visibilitychange', () => { if (!document.hidden && (S.chrono || runState.t0)) { keepAwake(true); startTick(); } });
   render();

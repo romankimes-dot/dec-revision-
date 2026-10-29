@@ -9,7 +9,7 @@ const { chromium } = require('playwright');
   p.on('pageerror', (e) => errs.push('pageerror ' + e.message));
   p.on('console', (m) => { if (m.type() === 'error') errs.push('console ' + m.text()); });
   await p.addInitScript(() => { if (!localStorage.getItem('dec2.state.v1')) localStorage.setItem('dec2.state.v1', JSON.stringify({ settings: { dateSimulee: '2026-10-29' } })); });
-  await p.goto(url); await p.waitForSelector('.hero');
+  await p.goto(url); await p.waitForSelector('.summary');
   await p.screenshot({ path: out + '/1-home.png', fullPage: true });
   await p.check('[data-task="2026-10-29|0"]'); await p.waitForTimeout(400);
   for (const t of ['outils', 'carte', 'methode', 'materiel']) { await p.click(`nav [data-tab="${t}"]`); await p.waitForTimeout(150); await p.screenshot({ path: `${out}/2-${t}.png`, fullPage: true }); }
