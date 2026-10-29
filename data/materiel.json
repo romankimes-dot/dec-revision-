@@ -81,10 +81,7 @@
      "pdf": "imprimer/V1_NEP.pdf",
      "court": "V1 · Normes d'exercice professionnel (NEP)",
      "pages": 141,
-     "onglet": "rouges",
-     "pdf_ess": "imprimer/essentiel/V1_NEP_essentiel.pdf",
-     "pages_ess": 111,
-     "ess_note": "les 27 NEP utilisées par le kit"
+     "onglet": "rouges"
     },
     {
      "id": "v2",
@@ -104,8 +101,8 @@
      "pages": 184,
      "onglet": "jaunes",
      "pdf_ess": "imprimer/essentiel/V3_PCG_essentiel.pdf",
-     "pages_ess": 29,
-     "ess_note": "les articles cités"
+     "pages_ess": 82,
+     "ess_note": "Livre I complet (principes, actif, passif, charges et produits) et modèles d'annexe"
     },
     {
      "id": "v4",
