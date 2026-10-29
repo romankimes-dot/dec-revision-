@@ -471,7 +471,7 @@ function methode() {
   const grilles = STRUCTURES.map((s) => { const j = jalons(s.points); return `<tr><td>${esc(s.label)}</td><td>${j.budgets.join(' / ')}</td><td>${j.fins.map(hm).join(' · ')}</td></tr>`; }).join('');
   return `<h2 class="h">Méthode</h2><p class="intro">Comment se déroule l'épreuve, comment gérer les 4h30 et comment rédiger une réponse. À relire avant chaque annale.</p>
   ${sec('ep', "L'épreuve, officiellement", `<ul class="plain">${M.epreuve.map((x) => `<li>${esc(x)}</li>`).join('')}</ul><p class="ref">Note du jury du 6 juillet 2026 ; arrêté du 13 février 2019 ; arrêté du 23 avril 2026.</p>`)}
-  ${sec('sq', 'Le squelette, minute par minute', `<ol class="plain">${M.squelette.map((x) => `<li><b>${esc(x.h)}</b> ${esc(x.a)}</li>`).join('')}</ol>`, true)}
+  ${sec('sq', 'Le squelette, minute par minute', `<ol class="plain">${M.squelette.map((x) => `<li><b>${esc(x.h)}</b> ${esc(x.a)}</li>`).join('')}</ol>`)}
   ${sec('gr', 'Heures de fin par dossier (11 min par point)', `<table class="tbl"><thead><tr><th>Structure</th><th>Minutes</th><th>Fins</th></tr></thead><tbody>${grilles}</tbody></table><p class="muted">Dossiers pris par points décroissants, sauf un petit dossier facile à prendre en premier (mai 2026 : le 3 points).</p>`)}
   ${sec('rg', 'Règles de gestion', `<ul class="plain">${M.regles.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>`)}
   ${sec('cr', 'Critique de document (format le plus fréquent)', `<ol class="plain">${M.critique.map((x) => `<li>${esc(x)}</li>`).join('')}</ol><p><b>${esc(M.critique_regle)}</b></p>`)}
