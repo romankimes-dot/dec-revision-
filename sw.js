@@ -1,12 +1,12 @@
 // Service worker : hors ligne. Code et données précachés à l'installation ; données en « cache d'abord, rafraîchi en arrière-plan ».
 // Les PDF de imprimer/ ne sont jamais précachés. Toute modification du code impose d'incrémenter VERSION.
-const VERSION = 'dec2-v2';
+const VERSION = 'dec2-v3';
 const CORE = [
   './', './index.html', './manifest.webmanifest', './css/app.css',
   './js/app.js', './js/core.js', './js/store.js',
   './data/parcours.json', './data/items.json', './data/notions.json', './data/stats.json',
   './data/methode.json', './data/materiel.json', './data/phases.json', './data/index_seed.json',
-  './icons/icon-192.png', './icons/icon-512.png',
+  './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png',
 ];
 const FRESH = (u) => new Request(u, { cache: 'reload' });
 
