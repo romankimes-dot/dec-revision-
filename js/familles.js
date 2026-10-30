@@ -3,9 +3,9 @@ export const FAMILLES = [
   { id: 'cac', nom: 'Commissariat aux comptes', couleur: '#c0392b', forme: 'triangle', picto: 'loupe' },
   { id: 'soc', nom: 'Sociétés', couleur: '#1f5fbf', forme: 'carre', picto: 'immeuble' },
   { id: 'fisc', nom: 'Fiscal', couleur: '#1e8449', forme: 'rond', picto: 'pourcent' },
-  { id: 'compta', nom: 'Comptable (PCG)', couleur: '#b7950b', forme: 'losange', picto: 'barres' },
+  { id: 'compta', nom: 'Comptable (PCG)', couleur: '#f2c200', forme: 'losange', picto: 'barres' },
   { id: 'social', nom: 'Social', couleur: '#d35400', forme: 'hexagone', picto: 'personne' },
-  { id: 'deonto', nom: 'Déontologie', couleur: '#7d3c98', forme: 'ecusson', picto: 'bouclier' },
+  { id: 'deonto', nom: 'Déontologie', couleur: '#d6337f', forme: 'ecusson', picto: 'bouclier' },
   { id: 'annales', nom: 'Annales', couleur: '#7f8c8d', forme: 'rondpointille', picto: 'horloge' },
 ];
 const FORMES = {

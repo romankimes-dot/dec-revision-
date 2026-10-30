@@ -107,20 +107,20 @@
     {
      "id": "v4",
      "t": "V4 — Codes de déontologie CAC et EC, ordonnance de 1945",
-     "note": "Onglets violets",
+     "note": "Onglets roses",
      "pdf": "imprimer/V4_Deontologie.pdf",
      "court": "V4 · Codes de déontologie CAC et EC",
      "pages": 44,
-     "onglet": "violets"
+     "onglet": "roses"
     },
     {
      "id": "v5",
      "t": "V5 — Référentiel normatif de l'Ordre (NP, NPLAB)",
-     "note": "Onglets violets",
+     "note": "Onglets roses",
      "pdf": "imprimer/V5_Referentiel_OEC.pdf",
      "court": "V5 · Normes de l'Ordre des experts-comptables",
      "pages": 241,
-     "onglet": "violets",
+     "onglet": "roses",
      "pdf_ess": "imprimer/essentiel/V5_Referentiel_OEC_essentiel.pdf",
      "pages_ess": 21,
      "ess_note": "les pages citées"
@@ -168,7 +168,7 @@
    "items": [
     {
      "id": "onglets",
-     "t": "Onglets repositionnables 6 couleurs : rouge CAC, bleu sociétés, vert fiscal, jaune PCG, orange social, violet déontologie (40 par volume au plus)",
+     "t": "Onglets repositionnables 6 couleurs : rouge CAC, bleu sociétés, vert fiscal, jaune PCG, orange social, rose déontologie (40 par volume au plus)",
      "note": ""
     },
     {

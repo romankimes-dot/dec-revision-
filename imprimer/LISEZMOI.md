@@ -39,16 +39,16 @@ K1 en recto seul, pages 2 à 9 en couleur ; recto-verso pour le reste. **Chaque 
 
 ## Ordre d'impression
 
-Chaque couleur a aussi sa forme et son picto (lisibles sans la couleur), dessinés sur le K1, le K3 et dans l'app : rouge = triangle-loupe, bleu = carré-immeuble, vert = rond-pourcent, jaune = losange-barres, orange = hexagone-personne, violet = écusson-bouclier, gris = rond pointillé-chrono. Reporte le picto au feutre sur chaque onglet.
+Chaque couleur a aussi sa forme et son picto (lisibles sans la couleur), dessinés sur le K1, le K3 et dans l'app : rouge = triangle-loupe, bleu = carré-immeuble, vert = rond-pourcent, jaune = losange-barres, orange = hexagone-personne, rose = écusson-bouclier, gris = rond pointillé-chrono. Reporte le picto au feutre sur chaque onglet.
 
 | Ordre | Fichier | Pages | Feuilles R/V | Reliure | Onglet (code PLAN §1.3) | Priorité | Poids papier | Coût estimé* |
 |---|---|---|---|---|---|---|---|---|
 | 1 | V1_NEP.pdf | 141 | 71 | spirale | **rouge** · triangle-loupe (CAC) | indispensable pour le **31 octobre** | 355 g | 12,50 € |
 | 2 | V2_Livre_VIII_CNCC.pdf | 63 | 32 | spirale | **rouge** · triangle-loupe (CAC) | indispensable pour le **31 octobre** | 160 g | 7,80 € |
-| 3 | V6_Textes_choisis.pdf | 93 | 47 | spirale | **bleu** · carré-immeuble (sociétés) ; onglets internes conseillés : violet sur le CMF (LCB-FT, p. 3 s.), orange sur le CSS (R. 243-59) | indispensable pour le **31 octobre** | 235 g | 9,60 € |
+| 3 | V6_Textes_choisis.pdf | 93 | 47 | spirale | **bleu** · carré-immeuble (sociétés) ; onglets internes conseillés : rose sur le CMF (LCB-FT, p. 3 s.), orange sur le CSS (R. 243-59) | indispensable pour le **31 octobre** | 235 g | 9,60 € |
 | 4 | V3_PCG.pdf | 184 | 92 | spirale | **jaune** · losange-barres (comptable) | indispensable pour le **31 octobre** | 460 g | 15,00 € |
-| 5 | V4_Deontologie.pdf | 44 | 22 | spirale | **violet** · écusson-bouclier (déontologie) | indispensable pour le **31 octobre** | 110 g | 6,60 € |
-| 6 | V5_Referentiel_OEC.pdf | 241 | 121 | spirale | **violet** · écusson-bouclier (déontologie / missions EC) | indispensable pour le **7 novembre** | 605 g | 18,50 € |
+| 5 | V4_Deontologie.pdf | 44 | 22 | spirale | **rose** · écusson-bouclier (déontologie) | indispensable pour le **31 octobre** | 110 g | 6,60 € |
+| 6 | V5_Referentiel_OEC.pdf | 241 | 121 | spirale | **rose** · écusson-bouclier (déontologie / missions EC) | indispensable pour le **7 novembre** | 605 g | 18,50 € |
 | 7 | V7_Annales.pdf | 310 | 155 | spirale | **gris** · rond pointillé-chrono (hors code PLAN) ; un onglet par session | pour **mai 2027** (voir les extraits à tirer tout de suite ci-dessous) | 775 g | 22,60 € |
 | 8 | V8_Fiscal_choisi.pdf | 65 | 33 | spirale | **vert** · rond-pourcent (fiscal) | indispensable pour le **7 novembre** | 165 g | 7,20 € |
 | | **Total** | **1 141** | **573** | 8 spirales | | | **≈ 2,9 kg** | **≈ 100 €** |
