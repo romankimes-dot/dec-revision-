@@ -2,7 +2,7 @@
 
 DEC, épreuve n° 2 du 10 novembre 2026 (documentation papier autorisée). Dossier assemblé le 28/10/2026. **8 PDF à imprimer** (V1 à V8) et un index des corrigés (Corriges_index.md, à ne pas imprimer). Les fichiers sont prêts : ne rien retoucher.
 
-## Lot à imprimer : 696 pages au lieu de 1 167 (mis à jour le 31/10/2026)
+## Lot à imprimer : 688 pages au lieu de 1 167 (mis à jour le 31/10/2026)
 
 Imprimer seulement ceci pour le 10 novembre. Les pages retirées ne sont citées ni par l'index, ni par les fiches, ni par les sommaires ; chaque page garde son folio d'origine. Les NEP sont complètes ; le PCG garde tout le livre I et les modèles d'annexe, parce que les immobilisations reviennent dans 12 sujets sur 16.
 
@@ -15,7 +15,7 @@ Imprimer seulement ceci pour le 10 novembre. Les pages retirées ne sont citées
 | V8_Fiscal_choisi.pdf | 65 | complet : 52 articles du CGI et du LPF en vigueur au 29/10/2026 (base LEGI), en attendant le Mémento Fiscal |
 | V1_NEP.pdf | 141 | complet (les 40 NEP) |
 | essentiel/V3_PCG_essentiel.pdf | 82 | Livre I complet (principes, actif, passif, charges et produits), pages 82-83, Livre III (modèles et annexe) |
-| essentiel/V5_Referentiel_OEC_essentiel.pdf | 129 | page de garde, préface et cadre de référence (V5 · 6-19), NPLAB (20-59), NP 2300 (60-77), NP 2400 (78-99), NP 3100 (152-185) ; la page de garde reste inchangée |
+| essentiel/V5_Referentiel_OEC_essentiel.pdf | 121 | volume complet (V5 · 1-241) : page de garde inchangée en p. 1 (portrait), puis 2 pages par face en A4 paysage ; reliure spirale sur le petit côté |
 | essentiel/V7_Annales_essentiel.pdf | 47 | les deux annales des 31 octobre (mai 2025) et 7 novembre (nov. 2025), à la maison |
 
 Les volumes complets restent disponibles pour mai 2027.
