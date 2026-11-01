@@ -110,6 +110,20 @@ function home() {
   return apres(d, ph);
 }
 
+// Pont vers Ernest (app d'organisation) : la journée du parcours en lien profond.
+const ERNEST_URL = 'https://romankimes-dot.github.io/Ernest/';
+function ernestLink(j) {
+  const d = today();
+  const jours = D.parcours.jours;
+  const payload = {
+    v: 1, src: 'revision',
+    things: j.h || j.horsBudget ? [{ title: `Épreuve 2 · ${j.titre}`.slice(0, 120), cat: 'revision', est: Math.round((j.h || j.horsBudget || 1) * 60), link: location.href.split('#')[0], day: j.date, note: (j.taches || []).join(' · ') }] : [],
+    goals: [{ title: 'Épreuve 2 · Révision légale (test du 10 novembre)', cat: 'revision', due: '2026-11-10', milestones: jours.filter((x) => x.annale || x.jourJ).map((x) => ({ text: x.titre, due: x.date, done: jourFait(x) })) }],
+    history: jours.filter((x) => x.date < d && jourFait(x)).map((x) => ({ day: x.date, n: Math.min(3, Math.ceil((x.h || 1) / 2)) })),
+  };
+  const b64 = btoa(String.fromCharCode(...new TextEncoder().encode(JSON.stringify(payload)))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+  return `${ERNEST_URL}#import=${b64}`;
+}
 function sprint(d) {
   const jours = D.parcours.jours;
   const def = jours.find((j) => j.date === d) || (d < jours[0].date ? jours[0] : jours[jours.length - 1]);
@@ -140,7 +154,7 @@ function sprint(d) {
     <h3>${esc(j.titre)}</h3>
     <ul class="checks">${j.taches.map((t, i) => `<li><label><input type="checkbox" data-task="${j.date}|${i}" ${st.taches && st.taches[i] ? 'checked' : ''}><span>${esc(t)}</span></label></li>`).join('')}</ul>
     <div class="meta"><b>À la fin de la journée :</b> ${j.livrables.map(esc).join(' · ')}</div>
-    <div class="row" style="margin-top:10px">${(j.outils || []).map(toolBtn).join('')}</div>
+    <div class="row" style="margin-top:10px">${(j.outils || []).map(toolBtn).join('')}<a class="btn sm" href="${ernestLink(j)}" target="_blank" rel="noopener">🌱 Envoyer à Ernest</a></div>
   </section>
   <details class="card sec">
     <summary><h2>Ta stratégie, en clair</h2></summary>
