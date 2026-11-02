@@ -10,6 +10,11 @@ import * as AI from './claude.js';
 import { openReader } from './reader.js';
 
 const $ = (s, r = document) => r.querySelector(s);
+document.addEventListener('click', (e) => {
+  const b = e.target.closest('[data-ernest]'); if (!b) return;
+  const link = b.dataset.ernest, done = () => toast('Plan copié pour Ernest. Ouvre Ernest et touche « Coller depuis une app de révision ».');
+  if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(link).then(done, () => window.open(link, '_blank')); else window.open(link, '_blank');
+});
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const famB = (f, size = 18) => (f ? `<span class="famb">${badge(f, size)}</span>` : '');
 const nl2br = (s) => esc(s).replace(/\n/g, '<br>');
@@ -154,7 +159,7 @@ function sprint(d) {
     <h3>${esc(j.titre)}</h3>
     <ul class="checks">${j.taches.map((t, i) => `<li><label><input type="checkbox" data-task="${j.date}|${i}" ${st.taches && st.taches[i] ? 'checked' : ''}><span>${esc(t)}</span></label></li>`).join('')}</ul>
     <div class="meta"><b>À la fin de la journée :</b> ${j.livrables.map(esc).join(' · ')}</div>
-    <div class="row" style="margin-top:10px">${(j.outils || []).map(toolBtn).join('')}<a class="btn sm" href="${ernestLink(j)}" target="_blank" rel="noopener">🌱 Envoyer à Ernest</a></div>
+    <div class="row" style="margin-top:10px">${(j.outils || []).map(toolBtn).join('')}<button class="btn sm" data-ernest="${esc(ernestLink(j))}">🌱 Copier pour Ernest</button></div>
   </section>
   <details class="card sec">
     <summary><h2>Ta stratégie, en clair</h2></summary>
