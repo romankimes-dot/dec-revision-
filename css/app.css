@@ -210,6 +210,7 @@ details.tech { margin-top: 10px; } details.tech summary { font-size: 13px; color
 table.tbl, table.print { width: 100%; border-collapse: collapse; font-size: 14px; }
 table.tbl th { text-align: left; font-size: 12px; font-weight: 700; color: var(--faint); text-transform: uppercase; letter-spacing: .04em; padding: 6px 4px; }
 table.tbl td, table.print td, table.print th { border-top: 1px solid var(--line); padding: 8px 4px; text-align: left; }
+table.tbl tr.sel td { background: var(--tint); }
 
 /* Matériel : documents */
 ul.docs { list-style: none; padding: 0; margin: 4px 0 12px; }
