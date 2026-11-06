@@ -1,6 +1,6 @@
 import { load, save, exportJSON, importJSON, defaultState } from './store.js';
 import {
-  ymd, hm, jalons, STRUCTURES, normeMots, phaseFor, decision, nextBox, isDue, addDays, INTERVALS,
+  ymd, hm, jalons, STRUCTURES, normeMots, phaseFor, decision, e2Requis, nextBox, isDue, addDays, INTERVALS,
   sameRef, median, priorites, causes, CAUSES,
 } from './core.js';
 import { icon } from './icons.js';
@@ -443,15 +443,36 @@ function decisionView() {
   const v = S.decision;
   const has = v.e2 !== '' && v.e2 != null;
   const r = has ? decision(v.e1 === 'blanche' ? 'blanche' : (v.e1 === '' ? 'blanche' : Number(v.e1)), Number(v.e2), Number(v.e3)) : null;
-  const rows = [[12, 11], [10, 11], [12, 12], [10, 12], [12, 13], [14, 12]].map(([e1, e3]) => `<tr><td>${e1}</td><td>${e3}</td><td><b>${Math.max(6, Math.ceil(((80 - e1 - 4 * e3) / 3) * 2) / 2)}</b></td></tr>`).join('');
   return `<button class="link" data-back="1">${icon('back')}S'entraîner</button><h2 class="h">Décision de janvier</h2>
   <section class="card"><p class="intro">Le diplôme s'obtient avec : épreuve 1 + 3 × épreuve 2 + 4 × mémoire ≥ 80 points, sans note éliminatoire (moins de 6 aux écrits, moins de 10 au mémoire). Entre tes notes de novembre et ce calcul.</p>
     <label class="lbl">Épreuve 1 (novembre)<input id="deE1" type="text" inputmode="decimal" placeholder="note, ou « blanche »" value="${esc(v.e1)}"></label>
     <label class="lbl">Épreuve 2 (novembre)<input id="deE2" type="number" step="0.25" min="0" max="20" value="${esc(v.e2)}"></label>
-    <label class="lbl">Hypothèse mémoire : <b id="deE3v">${esc(v.e3)}</b><input id="deE3" type="range" min="10" max="16" step="0.5" value="${esc(v.e3)}"></label>
+    <label class="lbl">Note de mémoire envisagée : <b id="deE3v">${esc(String(v.e3).replace('.', ','))}</b><input id="deE3" type="range" min="10" max="16" step="0.5" value="${esc(v.e3)}"></label>
     <button class="btn primary" id="deGo">Calculer</button></section>
   ${r ? `<section class="card hero2"><h2>${esc(r.verdict)}</h2><ul class="plain">${r.actions.map((a) => `<li>${esc(a)}</li>`).join('')}</ul>${r.S !== null ? `<p class="muted">Points acquis aux écrits : ${r.S} ; note de mémoire nécessaire : ${r.e3Requis}.</p>` : ''}${r.alertes.map((a) => `<p class="warnline">${esc(a)}</p>`).join('')}</section>` : ''}
-  <section class="card"><h3>Ce que l'épreuve 2 doit rapporter</h3><table class="tbl"><thead><tr><th>Épreuve 1</th><th>Mémoire</th><th>Épreuve 2 nécessaire</th></tr></thead><tbody>${rows}</tbody></table><p class="muted">8 est le plancher, 10 la cible.</p></section>`;
+  <section class="card" id="deTbl">${e2TableHTML(v.e1, v.e3)}</section>`;
+}
+
+// Tableau « quelle note faut-il à l'épreuve 2 », recalculé avec l'épreuve 1 saisie et la note de mémoire choisie.
+function e2TableHTML(e1raw, e3raw) {
+  const fr = (x) => String(x).replace('.', ',');
+  const n = Number(String(e1raw ?? '').replace(',', '.'));
+  const saisie = String(e1raw ?? '').trim() !== '' && !/blanch/i.test(e1raw) && Number.isFinite(n);
+  const compte = saisie && n >= 6;
+  const e1 = compte ? n : 10;
+  const e3 = Number(e3raw) || 11;
+  const base = compte
+    ? `Avec <b>${fr(e1)}</b> à l'épreuve 1, voici la note minimale à obtenir à l'épreuve 2 pour avoir le diplôme, selon ta note de mémoire.`
+    : `${saisie ? `Une épreuve 1 sous 6 est éliminatoire : elle se repasse en mai.` : `Épreuve 1 non saisie ou copie blanche : elle se repasse en mai.`} Le tableau suppose <b>10</b> à l'épreuve 1 de mai.`;
+  const rows = [10, 11, 12, 13, 14].map((m) => {
+    const r = e2Requis(e1, m);
+    return `<tr${m === Math.round(e3) ? ' class="sel"' : ''}><td>${m}</td><td><b>${fr(r)}</b>${r === 6 ? ' <small class="muted">(minimum absolu)</small>' : ''}</td></tr>`;
+  }).join('');
+  const r = e2Requis(e1, e3);
+  return `<h3>Quelle note faut-il à l'épreuve 2 ?</h3><p class="muted">${base}</p>
+  <table class="tbl"><thead><tr><th>Si le mémoire vaut</th><th>L'épreuve 2 doit valoir au moins</th></tr></thead><tbody>${rows}</tbody></table>
+  <p>Exemple, avec ${fr(e3)} au mémoire : ${fr(e1)} + 3 × ${fr(r)} + 4 × ${fr(e3)} = ${fr(e1 + 3 * r + 4 * e3)} points (il en faut 80).</p>
+  <p class="muted">En dessous de 6, l'épreuve 2 est éliminatoire quoi qu'il arrive. Le mémoire moyen est autour de 11. Viser 10 : avec au moins 10 aux deux écrits, un simple 10 au mémoire suffit.</p>`;
 }
 
 // ---------- carte ----------
@@ -819,7 +840,9 @@ function bindCommon(m) {
     draft = null; persist(); toast('Débrief enregistré : priorités recalculées'); render();
   };
   // décision
-  if ($('#deE3', m)) $('#deE3').oninput = () => { $('#deE3v').textContent = $('#deE3').value; };
+  const deTbl = () => { $('#deTbl').innerHTML = e2TableHTML($('#deE1').value, $('#deE3').value); };
+  if ($('#deE3', m)) $('#deE3').oninput = () => { $('#deE3v').textContent = $('#deE3').value.replace('.', ','); deTbl(); };
+  if ($('#deE1', m)) $('#deE1').oninput = deTbl;
   if ($('#deGo', m)) $('#deGo').onclick = () => {
     const e1 = $('#deE1').value.trim().toLowerCase();
     S.decision = { e1: /blanch/.test(e1) ? 'blanche' : e1.replace(',', '.'), e2: $('#deE2').value, e3: $('#deE3').value }; persist(); render();

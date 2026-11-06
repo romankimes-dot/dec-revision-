@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { jalons, hm, STRUCTURES, normeMots, phaseFor, decision, sameRef, normRef, priorites, causes, nextBox, addDays, median } from '../js/core.js';
+import { jalons, hm, STRUCTURES, normeMots, phaseFor, decision, e2Requis, sameRef, normRef, priorites, causes, nextBox, addDays, median } from '../js/core.js';
 import { readFileSync } from 'node:fs';
 const phases = JSON.parse(readFileSync(new URL('../data/phases.json', import.meta.url))).phases;
 
@@ -101,4 +101,12 @@ test('débrief : priorités et causes', () => {
   assert.ok(p.find((x) => x.id === 'a').s > 0);
   const c = causes(db);
   assert.equal(c.reduce((a, x) => a + x.part, 0), 100);
+});
+
+test('épreuve 2 requise : 80 points, au quart de point, jamais sous 6', () => {
+  assert.equal(e2Requis(12, 11), 8);
+  assert.equal(e2Requis(10, 11), 8.75);
+  assert.equal(e2Requis(10, 12), 7.5);
+  assert.equal(e2Requis(14, 12), 6);
+  assert.equal(e2Requis(16, 14), 6);
 });

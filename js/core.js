@@ -101,6 +101,11 @@ export function decision(e1raw, e2, e3 = 11) {
   return res;
 }
 
+// Note minimale à l'épreuve 2 pour atteindre 80 points : (80 − E1 − 4·mémoire) / 3, au quart de point supérieur, jamais sous 6 (éliminatoire).
+export function e2Requis(e1, e3) {
+  return Math.max(6, Math.ceil(((80 - e1 - 4 * e3) / 3) * 4) / 4);
+}
+
 // Répétition espacée simple (boîtes de Leitner) pour le drill d'index et la récitation.
 export const INTERVALS = [0, 1, 3, 7, 14, 30]; // jours
 export function nextBox(box, ok) { return ok ? Math.min((box || 0) + 1, INTERVALS.length - 1) : 0; }
