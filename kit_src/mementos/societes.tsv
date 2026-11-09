@@ -521,18 +521,18 @@ C	2	Les actions
 S	67500	Caractéristiques des actions
 S	67700	Droits et obligations attachés aux actions
 R	67700	Droits des actionnaires
-L	67700	Droits attachés aux actions ordinaires
+L	67701	Droits attachés aux actions ordinaires
 L	67780	Actions de préférence
 R	67910	Obligations des actionnaires
 L	67910	Libération des actions
-L	67910	Autres obligations des actionnaires
-S	68040	Exercice des droits attachés aux actions
-S	68200	Transmission des actions
+L	68040	Autres obligations des actionnaires
+S	68200	Exercice des droits attachés aux actions
+S	68400	Transmission des actions
 R	68400	Cession des actions entre vifs
 L	68400	Cession d'actions : règles générales
-L	68400	Clauses d'agrément et de préemption (libre cessibilité)
-R	68460	Transmission des actions par décès et liquidation de communauté
-R	68750	Rachat par la société de ses propres actions
+L	68460	Clauses d'agrément et de préemption (libre cessibilité)
+R	68750	Transmission des actions par décès et liquidation de communauté
+R	68830	Rachat par la société de ses propres actions
 L	68830	Opérations interdites (autodétention)
 L	68910	Achat par une société de ses propres actions (programmes de rachat)
 S	69100	Pactes d'actionnaires
@@ -662,16 +662,16 @@ L	79390	Financement des prises de participation par la cible (assistance financi
 L	79500	Compatibilité avec la libre concurrence (concentrations)
 S	79700	Règles diverses concernant les groupes
 L	79700	Obligations d'information liées à l'existence d'un groupe
-L	79700	Règles concernant les dirigeants (groupe)
-L	79930	Règles concernant les actionnaires (participations réciproques, autocontrôle)
-L	80140	Règles concernant les salariés des sociétés du groupe
-L	80280	Responsabilité pour dommage environnemental ou minier
-L	80495	Contrôle Urssaf (groupe)
+L	79930	Règles concernant les dirigeants (groupe)
+L	80140	Règles concernant les actionnaires (participations réciproques, autocontrôle)
+L	80280	Règles concernant les salariés des sociétés du groupe
+L	80495	Responsabilité pour dommage environnemental ou minier
+L	80499	Contrôle Urssaf (groupe)
 S	80500	Contrats entre sociétés du groupe
 L	80500	Conventions réglementées (groupe)
-L	80500	Droit de la concurrence (groupe)
-L	80550	Risque pénal (abus de biens sociaux, intérêt de groupe)
-L	80570	Contrats usuels du groupe (management fees, trésorerie)
+L	80550	Droit de la concurrence (groupe)
+L	80570	Risque pénal (abus de biens sociaux, intérêt de groupe)
+L	80600	Contrats usuels du groupe (management fees, trésorerie)
 S	81100	Règlement du passif des sociétés du groupe
 L	81100	Droits des créanciers à l'égard des sociétés du groupe
 L	81150	Garanties au sein du groupe (lettre de confort)

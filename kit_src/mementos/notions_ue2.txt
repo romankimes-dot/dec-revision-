@@ -46,7 +46,7 @@ Délit d'entrave (obstacle à la mission du CAC) | AUD 9400* | k110 k087 k080
 Assurance responsabilité professionnelle du CAC | AUD 15800* |
 Responsabilité des dirigeants (civile, fiscale) | SOC 13940* 13950 14300 14790 ; ASSO 15260 |
 Responsabilité pénale de la personne morale, de l'employeur | SOC 4590* ; SCL 67000 |
-Abus de biens sociaux | SOC 80550 | k002 k097
+Abus de biens sociaux | SOC 80570 | k002 k097
 
 ## Révélation, irrégularités, LCB-FT
 Révélation des faits délictueux au procureur | AUD 6100* 6150 6250 6315 6390 | k215 k141 k125
@@ -113,7 +113,7 @@ Conventions réglementées en SARL | AUD 52750* ; SOC 31910 | k067
 Conventions réglementées en SAS | AUD 52850* ; SOC 60430 | k068
 Conventions réglementées : associations, personnes morales non commerçantes | AUD 53000* ; ASSO 74610 | k065
 Conventions interdites | SOC 52510* 31910 | k064
-Conventions intragroupe (prestations, trésorerie) | SOC 80500* 80570 |
+Conventions intragroupe (prestations, trésorerie) | SOC 80500* 80600 |
 
 ## Assemblées, approbation et dépôt des comptes
 Assemblée de SA : convocation, délais, sanctions | SOC 46010* 46140 46370 |
@@ -164,7 +164,7 @@ Société en participation, société créée de fait | SOC 94002* 95510 ; CPT 7
 GIE | SOC 96500* 96900 ; CPT 73570 |
 Société à mission, raison d'être | SOC 918 ; AUD 71000* 72100 |
 Pacte d'actionnaires | SOC 69100* 69105 |
-Actions : cession, clauses d'agrément et de préemption | SOC 68200* 68400 |
+Actions : cession, clauses d'agrément et de préemption | SOC 68400* 68460 |
 Exclusion et retrait d'un associé | SOC 8070* 8140 |
 Usufruit et nue-propriété de droits sociaux | SOC 6100* |
 Compte courant d'associé | CPT 42530* ; FISC 97140 |
@@ -182,7 +182,7 @@ Augmentation de capital par incorporation de réserves | SOC 51140* |
 Augmentation de capital réservée aux salariés (PEE) | AUD 57300* 57310 ; SOC 70440 | k028
 Réduction de capital (motifs, créanciers, rapport du CAC) | SOC 51700* 51860 51920 ; AUD 57500* 57680 | k204
 Coup d'accordéon (réduction sous le minimum légal) | SOC 52160* |
-Rachat par la société de ses propres actions | SOC 68750* 68910 ; AUD 57800 |
+Rachat par la société de ses propres actions | SOC 68830* 68910 ; AUD 57800 |
 Actions de préférence | SOC 67780* ; AUD 56880 56990 |
 Valeurs mobilières donnant accès au capital (OCA, BSA, ORA) | SOC 74010* 74145 ; AUD 57150 ; CPT 41255 38180 |
 Stock-options, actions gratuites, BSPCE | SOC 69980* 69410 70410 ; AUD 57340 57370 57400 ; CPT 55700 ; FISC 88400 |
@@ -233,7 +233,7 @@ Déclaration de créances : visa du CAC | AUD 63100* 63195 63450 |
 CSE : demande d'information au CAC | AUD 63300* 63370 |
 
 ## Groupes, consolidation
-Groupe : définition, contrôle, prises de participation | SOC 79005* 79200 79930 |
+Groupe : définition, contrôle, prises de participation | SOC 79005* 79200 80140 |
 Comptes consolidés : obligation, exemptions, seuils | AUD 45010* 45055 45090 ; SOC 81400 | k055 k129 k054
 Audit des comptes consolidés (NEP 600) | AUD 45300* 45510 45550 46090 46450 | k027
 Intégration fiscale | FISC 40150* ; CPT 52745 | k142

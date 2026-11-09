@@ -116,7 +116,7 @@ Responsabilité des dirigeants (civile, fiscale)	SOC 14790	Responsabilité fisca
 Responsabilité des dirigeants (civile, fiscale)	ASSO 15260	Responsabilité des dirigeants de l'association
 Responsabilité pénale de la personne morale, de l'employeur	SOC 4590	Responsabilité pénale de la personne morale
 Responsabilité pénale de la personne morale, de l'employeur	SCL 67000	Conditions de la responsabilité pénale de l'employeur
-Abus de biens sociaux	SOC 80550	Risque pénal (abus de biens sociaux, intérêt de groupe)
+Abus de biens sociaux	SOC 80570	Risque pénal (abus de biens sociaux, intérêt de groupe)
 Révélation des faits délictueux au procureur	AUD 6100	Révélation des faits délictueux
 Révélation des faits délictueux au procureur	AUD 6150	Révélation : champ d'application
 Révélation des faits délictueux au procureur	AUD 6250	Mise en œuvre de la révélation des faits délictueux
@@ -275,7 +275,7 @@ Conventions réglementées : associations, personnes morales non commerçantes	A
 Conventions interdites	SOC 52510	Conventions interdites (SA)
 Conventions interdites	SOC 31910	SARL : conventions réglementées et interdites (L. 223-19)
 Conventions intragroupe (prestations, trésorerie)	SOC 80500	Contrats entre sociétés du groupe
-Conventions intragroupe (prestations, trésorerie)	SOC 80570	Contrats usuels du groupe (management fees, trésorerie)
+Conventions intragroupe (prestations, trésorerie)	SOC 80600	Contrats usuels du groupe (management fees, trésorerie)
 Assemblée de SA : convocation, délais, sanctions	SOC 46010	Règles communes à toutes les assemblées
 Assemblée de SA : convocation, délais, sanctions	SOC 46140	Formalités de convocation (délais)
 Assemblée de SA : convocation, délais, sanctions	SOC 46370	Sanctions relatives à la convocation
@@ -418,8 +418,8 @@ Société à mission, raison d'être	AUD 71000	Sociétés à mission
 Société à mission, raison d'être	AUD 72100	Société à mission : le CAC
 Pacte d'actionnaires	SOC 69100	Pactes d'actionnaires
 Pacte d'actionnaires	SOC 69105	Pacte d'actionnaires : contenu
-Actions : cession, clauses d'agrément et de préemption	SOC 68200	Transmission des actions
-Actions : cession, clauses d'agrément et de préemption	SOC 68400	Cession des actions entre vifs
+Actions : cession, clauses d'agrément et de préemption	SOC 68400	Transmission des actions
+Actions : cession, clauses d'agrément et de préemption	SOC 68460	Clauses d'agrément et de préemption (libre cessibilité)
 Exclusion et retrait d'un associé	SOC 8070	Exclusion d'un associé
 Exclusion et retrait d'un associé	SOC 8140	Droit de se retirer de la société
 Usufruit et nue-propriété de droits sociaux	SOC 6100	Nu-propriétaire et usufruitier de droits sociaux
@@ -458,7 +458,7 @@ Réduction de capital (motifs, créanciers, rapport du CAC)	SOC 51920	Réduction
 Réduction de capital (motifs, créanciers, rapport du CAC)	AUD 57500	Réduction du capital
 Réduction de capital (motifs, créanciers, rapport du CAC)	AUD 57680	Réduction du capital : intervention du CAC
 Coup d'accordéon (réduction sous le minimum légal)	SOC 52160	Réduction du capital sous le minimum légal (coup d'accordéon)
-Rachat par la société de ses propres actions	SOC 68750	Rachat par la société de ses propres actions
+Rachat par la société de ses propres actions	SOC 68830	Rachat par la société de ses propres actions
 Rachat par la société de ses propres actions	SOC 68910	Achat par une société de ses propres actions (programmes de rachat)
 Rachat par la société de ses propres actions	AUD 57800	Rachat d'actions (art. L 225-209-2 C. com.)
 Actions de préférence	SOC 67780	Actions de préférence
@@ -603,7 +603,7 @@ CSE : demande d'information au CAC	AUD 63300	Demande d'information du CSE au CAC
 CSE : demande d'information au CAC	AUD 63370	Demande d'information du CSE : mission du CAC
 Groupe : définition, contrôle, prises de participation	SOC 79005	Critères distinctifs du groupe (contrôle, L. 233-3)
 Groupe : définition, contrôle, prises de participation	SOC 79200	Constitution du groupe
-Groupe : définition, contrôle, prises de participation	SOC 79930	Règles concernant les actionnaires (participations réciproques, autocontrôle)
+Groupe : définition, contrôle, prises de participation	SOC 80140	Règles concernant les actionnaires (participations réciproques, autocontrôle)
 Comptes consolidés : obligation, exemptions, seuils	AUD 45010	Comptes consolidés : environnement légal et réglementaire
 Comptes consolidés : obligation, exemptions, seuils	AUD 45055	Exemptions légales de consolidation
 Comptes consolidés : obligation, exemptions, seuils	AUD 45090	Exemption : non-dépassement de certains seuils
