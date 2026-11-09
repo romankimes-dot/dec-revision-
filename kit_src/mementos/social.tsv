@@ -1,0 +1,534 @@
+C	-	Accidents du travail et maladies professionnelles
+R	200	AT/MP : effet sur le contrat de travail
+L	220	AT/MP : champ d'application de la protection
+L	255	AT/MP : suspension du contrat de travail
+L	300	AT/MP : réintégration du salarié
+L	320	Rupture du contrat pour inaptitude (AT/MP)
+R	540	AT/MP : sécurité sociale
+L	560	AT/MP : bénéficiaires
+L	590	AT/MP : risques couverts
+L	720	AT/MP : formalités (déclaration)
+L	800	AT/MP : instruction du dossier par la CPAM
+L	905	AT/MP : décision de la CPAM
+L	950	AT/MP : prestations
+L	1280	AT/MP : réparations complémentaires (faute inexcusable)
+L	1380	AT/MP : fonds d'indemnisation
+C	-	Activité partielle
+L	1402	Activité partielle : régime de droit commun
+L	1500	Activité partielle : régimes particuliers
+L	1650	Garantie d'une rémunération mensuelle minimale
+C	-	Aides à l'emploi
+R	1720	Création ou reprise d'entreprise (aides)
+L	1740	Exonération de début d'activité (ACRE)
+L	1790	Autres aides à la création d'entreprise
+R	1875	Allègements de cotisations patronales
+L	1880	Réduction générale dégressive unique (RGDU)
+L	2015	Zones de revitalisation rurale
+L	2070	Jeunes entreprises innovantes
+R	2160	Aides à la sauvegarde des emplois
+R	2300	Aides à l'embauche et au retour à l'emploi
+R	2500	Tableau récapitulatif des aides à l'emploi
+C	-	Apprentissage
+L	3160	Entrée en apprentissage
+L	3350	Déroulement de l'apprentissage
+L	3580	Fin de l'apprentissage
+C	-	Assujettissement au régime général de la sécurité sociale
+L	4200	Présentation du régime général
+L	4260	Assujettissement des salariés et assimilés
+L	4520	Assujettissement des travailleurs indépendants
+C	-	Assurance volontaire
+L	5100	Assurance volontaire : bénéficiaires
+L	5160	Assurance volontaire accidents du travail-maladies professionnelles
+L	5220	Assurance volontaire invalidité-vieillesse
+L	5260	Assurance volontaire des expatriés
+C	-	Capital décès
+S	6000	Capital décès
+C	-	Chômage
+R	6300	Assurance chômage
+L	6300	Assurance chômage : organisation (France Travail, Unédic)
+L	6330	Assurance chômage : champ d'application
+L	6340	Assurance chômage : affiliation
+L	6350	Assurance chômage : cotisation
+L	6480	Allocations de chômage (ARE)
+L	6930	Accompagnement des allocataires
+L	6970	Remboursement des allocations indues
+L	6980	Sanctions des allocataires
+R	7040	Allocation de solidarité spécifique (ASS)
+R	7120	Chômeurs : protection sociale
+C	-	Comité social et économique et conseil d'entreprise
+S	8500	Le comité social et économique (CSE)
+R	8500	CSE : mise en place
+L	8620	CSE : niveaux de mise en place
+L	8670	Élection de la délégation du personnel au CSE
+R	8840	Composition du CSE
+L	8840	CSE : présidence
+L	8845	CSE : délégation du personnel
+L	8850	CSE : représentant syndical
+R	8900	CSE : statut des membres
+R	8960	CSE : fonctionnement
+L	8961	CSE : fonctionnement entreprises de moins de 50 salariés
+L	8970	CSE : fonctionnement entreprises d'au moins 50 salariés
+R	9180	CSE : attributions
+L	9185	CSE : attributions entreprises de moins de 50 salariés
+L	9200	CSE : attributions entreprises d'au moins 50 salariés (consultations, information)
+R	9470	CSE dans les entreprises à établissements distincts
+L	9470	Mise en place et périmètre des établissements distincts
+L	9510	CSE d'établissement
+L	9530	CSE central d'entreprise
+S	9700	Conseil d'entreprise
+S	9800	Comité de groupe
+C	-	Concierges et employés d'immeubles d'habitation
+L	10000	Concierges : cadre général d'exercice de la fonction
+L	10040	Concierges : statut professionnel
+L	10120	Concierges : protection sociale
+C	-	Conflits collectifs
+L	10700	Grève
+L	11500	Lock-out
+L	11600	Règlement des conflits collectifs
+C	-	Congés
+L	11930	Congés pour raisons familiales
+L	12040	Congé parental d'éducation
+L	12160	Congé pour création d'entreprise
+L	12260	Congé sabbatique
+L	12300	Mobilité volontaire sécurisée
+L	12340	Congé de formation économique, sociale, environnementale et syndicale
+L	12380	Congé d'enseignement et de recherche
+L	12420	Congé de formation des cadres et animateurs pour la jeunesse
+L	12480	Exercice de fonctions publiques, sociales ou professionnelles
+C	-	Congés payés
+L	13100	Congés payés : droit au congé
+L	13300	Acquisition des congés payés
+L	13410	Prise des congés payés
+L	13610	Rémunération des congés payés (indemnité)
+L	13840	Caisses de congés payés
+C	-	Conseils de prud'hommes
+L	14400	Prud'hommes : organisation et fonctionnement
+L	14470	Conseillers prud'hommes
+L	14610	Prud'hommes : compétence
+L	14740	Procédure prud'homale
+C	-	Contentieux de la sécurité sociale
+L	15440	Contentieux de la sécurité sociale : champ d'application
+L	15460	Contentieux hors tarification des accidents du travail
+L	15590	Contentieux de la tarification des accidents du travail
+C	-	Contrat de travail
+L	16360	Contrat de travail : définition (lien de subordination)
+L	16500	Conclusion du contrat de travail
+L	16550	Contenu du contrat de travail (clauses)
+L	16620	Information du salarié
+L	16700	Période d'essai
+L	16900	Droits et obligations des parties au contrat de travail
+L	17300	Modification du contrat ou des conditions de travail
+L	17550	Accords de performance collective
+C	-	Contrat de travail à durée déterminée (CDD)
+R	19550	CDD : conclusion du contrat
+L	19550	CDD : cas de recours
+L	19700	CDD : forme et contenu
+L	19770	CDD : terme et durée
+R	19900	CDD : exécution du contrat
+R	20050	CDD : cessation du contrat
+L	20060	CDD : cessation à l'échéance du terme (indemnité de précarité)
+L	20100	CDD : rupture anticipée
+R	20230	CDD : poursuite des relations à l'échéance du terme (requalification)
+R	20250	CDD : contrats successifs (délai de carence)
+R	20320	CDD : sanctions
+C	-	Contrats d'insertion
+L	20715	Contrat de professionnalisation
+L	20790	Contrat unique d'insertion
+L	20930	Autres contrats d'insertion
+C	-	Cotisations de sécurité sociale des salariés
+R	22320	Rémunérations assujetties (assiette des cotisations)
+L	22360	Salaires et assimilés (cotisations)
+L	22480	Avantages en nature
+L	22600	Remboursement de frais professionnels
+L	22820	Sommes versées à l'occasion de la rupture du contrat de travail (régime social)
+L	23040	Prestations sociales (cotisations)
+R	23250	Calcul des cotisations
+L	23300	Cotisations : assiette
+L	23520	Cotisations : taux
+L	23590	Cotisations : période de calcul
+L	23680	Exonérations et régimes particuliers de cotisations
+R	23860	Paiement et déclarations des cotisations
+L	23860	Fait générateur de l'obligation de cotiser
+L	23870	Parties au paiement des cotisations
+L	23910	Date de paiement des cotisations
+L	23970	Mode de paiement des cotisations
+L	24000	Formalités déclaratives (DSN)
+L	24050	Cotisations : sanctions (majorations de retard)
+L	24090	Remboursement des cotisations indues
+R	24200	Contrôle Urssaf
+L	24210	Contrôle Urssaf : cadre juridique
+L	24260	Contrôle Urssaf : étendue du contrôle
+L	24278	Contrôle Urssaf : déroulement du contrôle
+L	24345	Contrôle Urssaf : clôture et mise en recouvrement
+L	24410	Contrôle Urssaf : suites du contrôle
+R	24460	Droits des cotisants (rescrit social)
+R	24560	Transaction (Urssaf)
+R	24600	Recouvrement contentieux des cotisations
+L	24600	Mise en demeure (Urssaf)
+L	24630	Recouvrement forcé (contrainte)
+C	-	CSG et CRDS sur revenus d'activité et de remplacement
+L	25000	CSG-CRDS : caractères généraux
+L	25100	CSG-CRDS : salaires et assimilés
+L	25200	CSG-CRDS : revenus professionnels non salariés
+L	25260	CSG-CRDS : revenus de remplacement
+C	-	Dirigeants de sociétés
+R	28070	Cumul du contrat de travail et du mandat social
+L	28070	Conditions du cumul contrat de travail / mandat social
+L	28260	Conséquences du cumul
+L	28280	Sort du contrat de travail en cas de non-cumul
+L	28310	Contrat de travail succédant à un mandat social
+R	28435	Dirigeants : protection sociale
+L	28435	Dirigeants : sécurité sociale (assimilés salariés, gérant majoritaire)
+L	28605	Dirigeants : retraite complémentaire
+L	28640	Dirigeants : assurance chômage
+C	-	Durée du travail
+R	29400	Durée et organisation du temps de travail
+L	29400	Durée du travail : champ d'application de la réglementation
+L	29430	Durée du travail : textes applicables
+L	29520	Durée légale et durées maximales
+L	29600	Notion de travail effectif
+L	29740	Durée du travail : décompte et contrôle
+L	29800	Horaire et répartition
+L	30100	Aménagement du temps de travail
+L	30400	Modes particuliers d'organisation du travail
+L	30500	Récupération des heures perdues
+L	30590	Conventions de forfait (forfait jours)
+R	30800	Compte épargne-temps (CET)
+R	30860	Repos hebdomadaire
+L	30860	Repos hebdomadaire : principe
+L	30875	Repos hebdomadaire : dérogations (travail du dimanche)
+L	31020	Fermeture obligatoire des établissements
+L	31030	Repos hebdomadaire : contrôle
+R	31100	Jours fériés
+L	31105	Jours fériés ordinaires
+L	31130	1er mai
+L	31160	Négociation sur les jours fériés
+R	31250	Journée de solidarité
+L	31260	Travail d'une journée supplémentaire
+L	31290	Contribution solidarité autonomie (CSA)
+C	-	Effectif de l'entreprise
+L	31540	Calcul de l'effectif
+L	31700	Seuils d'effectifs
+C	-	Égalité professionnelle et non-discrimination
+L	32000	Égalité professionnelle : sources
+L	32050	Égalité entre tous les salariés (non-discrimination)
+L	32180	Égalité entre les femmes et les hommes (index)
+L	32260	Égalité : contrôle, recours et sanctions
+C	-	Embauche et mise à disposition
+L	32900	Filières de recrutement
+L	33100	Choix du futur salarié
+L	33220	Formalités liées à l'embauche (DPAE)
+C	-	Emplois familiaux
+L	33300	Emplois familiaux : statut des salariés
+L	33495	Emplois familiaux : aides à l'embauche ou à l'emploi
+C	-	Épargne salariale et actionnariat salarié
+L	33730	Participation des salariés aux résultats de l'entreprise
+L	34100	Intéressement
+L	34400	Plans d'épargne (PEE, PERCO, PER collectif)
+L	34650	Actionnariat des salariés
+L	34800	Partage de la valeur
+C	-	Étrangers
+L	35560	Recrutement et emploi des étrangers
+L	35950	Statut du salarié étranger
+L	36160	Détachement en France
+C	-	Expression des salariés dans l'entreprise
+L	36800	Expression des salariés : champ d'application
+L	36960	Expression des salariés : mise en place
+L	37040	Expression des salariés : modalités d'exercice
+C	-	Formation professionnelle
+R	38000	Définition de la formation professionnelle
+R	38050	Formation des salariés
+L	38100	Plan de développement des compétences
+L	38200	Compte personnel de formation (CPF)
+L	38300	Congés de formation
+L	38500	Période de reconversion
+R	38600	Participation financière des employeurs à la formation
+L	38610	Formation : règles d'assujettissement
+L	38650	Formation : régime des contributions
+L	39010	Formation : recouvrement des contributions
+C	-	Handicap
+L	40000	Obligation d'emploi des travailleurs handicapés (OETH)
+L	40180	Handicap : conditions d'emploi
+L	40320	Handicap : prestations sociales
+C	-	Heures supplémentaires
+L	40900	Heures supplémentaires : cadre général d'exécution
+L	40990	Calcul des heures supplémentaires
+L	41030	Contingent annuel d'heures supplémentaires
+L	41105	Rémunération des heures supplémentaires (majorations)
+L	41150	Repos compensateur de remplacement
+L	41180	Contrepartie obligatoire en repos
+L	41260	Heures supplémentaires : sanctions
+L	41300	Heures supplémentaires : allègements de cotisations
+C	-	Inspection du travail
+L	43660	Inspection du travail : organisation
+L	43720	Inspection du travail : pouvoir de contrôle
+L	43770	Constatation des infractions
+L	43800	Inspection du travail : autres missions
+L	43940	Communication de documents à l'inspection du travail
+C	-	Invalidité
+L	44500	Invalidité : droit à pension
+L	44660	Montant de la pension d'invalidité
+L	44675	Service de la pension d'invalidité
+L	44820	Invalidité : protection sociale
+C	-	Jeunes
+L	45400	Jeunes titulaires d'un contrat de travail
+L	46020	Jeunes en stage en entreprise (stagiaires, gratification)
+L	46100	Jeunes : contrats spéciaux
+C	-	Journalistes
+L	46200	Journalistes : définitions
+L	46250	Journalistes : statut professionnel
+L	46450	Journalistes : protection sociale
+L	46500	Pigistes
+C	-	Licenciement économique
+S	47040	Motif économique de licenciement
+S	47150	Ordre des licenciements
+S	47200	Obligation de reclassement préalable
+S	47250	Procédure de licenciement pour motif économique
+R	47270	Licenciement économique individuel
+R	47320	Licenciement économique collectif
+L	47320	Détermination de la procédure applicable
+L	47350	Licenciement de moins de 10 salariés sur 30 jours
+L	47400	Licenciement d'au moins 10 salariés sur 30 jours (PSE)
+L	47760	Licenciement en cas de sauvegarde, redressement ou liquidation judiciaire
+S	47840	Retour à l'emploi
+L	47840	Contrat de sécurisation professionnelle (CSP)
+L	47900	Congé de reclassement
+L	47930	Revitalisation du bassin d'emploi
+L	47950	Priorité de réembauche
+S	48000	Licenciement économique : recours et sanctions
+L	48020	Contestation d'un licenciement sans PSE
+L	48080	Contestation d'un licenciement avec PSE
+C	-	Licenciement pour motif personnel
+R	48540	Motif du licenciement
+L	48540	Cause réelle et sérieuse
+L	48560	Faute du salarié (faute grave, lourde)
+L	48590	Autres motifs personnels (insuffisance professionnelle)
+R	48650	Procédure de licenciement
+L	48660	Entretien préalable
+L	48770	Notification du licenciement
+R	48900	Indemnité de licenciement
+L	48910	Indemnité légale de licenciement
+L	48960	Indemnité conventionnelle de licenciement
+L	49030	Versement de l'indemnité de licenciement
+R	49100	Licenciement : contrôle et sanctions
+L	49100	Exercice du recours (prescription)
+L	49120	Licenciement : procédure contentieuse
+L	49180	Licenciement : sanctions (barème Macron)
+C	-	Maladie
+R	49700	Maladie : effet sur le contrat de travail
+L	49740	Suspension du contrat de travail (maladie)
+L	49960	Inaptitude du salarié
+R	50100	Assurance maladie
+L	50120	Prise en charge des frais de santé
+L	50300	Indemnités journalières
+C	-	Maternité et paternité
+L	51200	Maternité et paternité : contrat de travail
+L	51500	Assurance maternité
+C	-	Négociation collective
+R	51860	Négociation d'entreprise, de groupe ou interentreprises
+L	51870	Négociation et conclusion des accords
+L	51980	Négociations obligatoires (NAO)
+L	52050	Révision des accords
+L	52080	Dénonciation des accords
+R	52130	Application des accords dans l'entreprise et le groupe
+L	52130	Salariés concernés par les accords
+L	52135	Détermination des accords applicables (articulation)
+L	52280	Information des salariés et de leurs représentants
+L	52300	Accords : contrôle et contentieux
+C	-	Organismes de sécurité sociale
+L	54700	Garanties des usagers
+L	54730	Régime général (organismes)
+L	54900	Régimes particuliers ou spéciaux
+C	-	Plateformes de mise en relation électronique
+L	55500	Plateformes : définition et travailleurs concernés
+L	55510	Plateformes : règles générales
+L	55530	Plateformes de la mobilité
+C	-	Pouvoir disciplinaire
+L	56000	Contrôle et surveillance des salariés
+L	56070	Alertes professionnelles (lanceurs d'alerte)
+L	56100	Droit disciplinaire (sanctions)
+C	-	Préretraites
+L	57270	Préretraite amiante
+L	57285	Préretraite d'entreprise
+C	-	Prestations familiales
+L	57900	Prestations familiales : règles communes
+L	58090	Prestations familiales : règles spécifiques
+C	-	Protection sociale complémentaire en entreprise
+R	58820	Acte juridique fondant les garanties
+L	58820	Adoption, révision ou dénonciation (DUE, accord, référendum)
+L	58850	Contenu de l'acte juridique
+L	58880	Protection sociale complémentaire : rôle du CSE
+L	58890	Information des assurés
+R	58930	Contrat avec un organisme assureur ou un gestionnaire d'actifs
+L	58930	Différents types d'organismes
+L	58960	Choix de l'organisme
+L	58970	Relations entre entreprise et gestionnaire
+R	59090	Contenu des garanties
+L	59090	Prévoyance
+L	59260	Retraite supplémentaire
+R	59370	Protection sociale complémentaire : régime social et fiscal
+L	59370	Contributions patronales (exonération)
+L	59620	Prestations (régime social et fiscal)
+C	-	Règlement intérieur
+L	59840	Règlement intérieur : champ d'application
+L	59880	Contenu du règlement intérieur
+L	60010	Procédure d'établissement du règlement intérieur
+L	60100	Portée du règlement intérieur
+L	60140	Règlement intérieur : contrôle et sanctions
+C	-	Représentants de commerce (VRP)
+L	60850	Statut de VRP
+L	60970	Contrat de VRP
+L	61110	VRP : rémunération
+L	61300	VRP : rupture du contrat
+L	61580	VRP : protection sociale
+C	-	Représentation du personnel
+R	62260	Représentation du personnel : champ d'application
+L	62260	Champ d'application professionnel et territorial
+L	62290	Condition d'effectif (IRP)
+L	62403	Représentation spécifique aux TPE
+L	62420	Représentation des salariés dans les sociétés anonymes
+R	62485	Mandat des représentants du personnel
+L	62485	Durée et cumul des mandats
+L	62565	Heures de délégation
+L	62635	Déplacements (représentants)
+L	62670	Suspension du contrat (représentants)
+L	62675	Accident du travail (représentants)
+L	62680	Déroulement de carrière (représentants)
+R	62700	Délit d'entrave
+R	63200	Protection des représentants du personnel (salariés protégés)
+L	63200	Bénéficiaires de la protection
+L	63270	Exécution du contrat de travail (salarié protégé)
+L	63300	Rupture du contrat de travail (salarié protégé, autorisation inspecteur)
+C	-	Responsabilité pénale de l'employeur
+L	67000	Conditions de la responsabilité pénale de l'employeur
+L	67100	Détermination de la personne responsable (délégation de pouvoirs)
+L	67200	Mise en œuvre de la responsabilité pénale
+L	67260	Sanctions pénales (employeur)
+L	67340	Action civile
+C	-	Retraites des salariés
+S	67500	Retraite : régime général de la sécurité sociale
+R	67510	Droits de l'assuré (retraite)
+L	67510	Retraite à l'âge légal
+L	67730	Retraite avant l'âge légal (carrières longues)
+L	67760	Retraite progressive
+L	67782	Cumul emploi-retraite
+R	67800	Droits du conjoint survivant
+L	67805	Pension de réversion
+L	67855	Allocation de veuvage
+R	67865	Droits des orphelins
+S	67900	Retraite complémentaire (Agirc-Arrco)
+R	67905	Retraite complémentaire : champ d'application
+R	67940	Retraite complémentaire : adhésion, affiliation, radiation
+R	67960	Retraite complémentaire : cotisations
+R	68100	Retraite complémentaire : prestations
+L	68105	Pension de retraite complémentaire
+L	68200	Droits de réversion (complémentaire)
+R	68270	Retraite complémentaire : contentieux
+R	68285	Retraite complémentaire : situations particulières
+S	68350	Protection sociale des retraités
+C	-	Rupture du contrat de travail
+L	69000	Modes de rupture (démission, rupture conventionnelle, retraite)
+L	69210	Préavis
+L	69450	Formalités de rupture (certificat de travail, solde de tout compte)
+L	69560	Transaction
+L	69620	Clause de non-concurrence
+C	-	Salaire
+L	70400	Éléments de rémunération
+L	70550	Fixation du salaire (Smic, minima)
+L	70720	Paiement du salaire (bulletin de paie)
+L	70870	Protection du salaire (saisie, AGS)
+C	-	Santé et sécurité au travail
+L	71200	Prévention des risques professionnels (DUERP)
+L	71670	Procédures d'urgence (droit de retrait)
+L	71760	Santé-sécurité : infractions
+L	72200	Médecine du travail
+C	-	Syndicats dans l'entreprise
+L	73000	Liberté syndicale
+L	73135	Représentativité des syndicats
+L	73240	Action syndicale dans l'entreprise (délégué syndical, section)
+L	73700	Actions en justice des syndicats
+C	-	Télétravail et travail à domicile
+L	73900	Télétravail
+L	74100	Travail à domicile
+C	-	Transfert d'entreprise
+L	74550	Transfert des contrats de travail (L. 1224-1)
+L	74770	Transfert : statut collectif
+L	74840	Répartition des obligations entre les employeurs successifs
+L	74900	Transfert : représentation du personnel
+L	75020	Transfert : cas particuliers
+C	-	Travail à temps partiel
+L	77060	Temps partiel : champ d'application et définition
+L	77110	Mise en place et passage à temps partiel
+L	77170	Temps partiel : durée et organisation du temps de travail
+L	77280	Temps partiel : contrat de travail
+L	77360	Statut du salarié à temps partiel
+L	77460	Temps partiel : protection sociale
+C	-	Travail hors de France
+L	78240	Travail hors de France : relations de travail (expatriation, détachement)
+L	78650	Travail hors de France : protection sociale
+C	-	Travail illégal
+L	79040	Infractions relevant du travail illégal (travail dissimulé)
+L	79400	Contrôle du travail illégal
+L	79480	Sanctions du travail illégal
+C	-	Travail indépendant : protection sociale
+S	79700	Personnes assujetties (travailleurs indépendants)
+R	79720	Professions visées
+R	79760	Critères distinctifs de chaque régime
+R	79800	Situations ou activités particulières
+L	79810	Collaborateurs libéraux
+L	79820	Conjoints collaborateurs
+L	79870	Pluralité d'activités (« pluriactifs »)
+L	79900	Pensionnés actifs
+L	79910	Professions ou activités diverses
+R	79980	Affiliation et radiation (indépendants)
+S	80100	Cotisations et contributions sociales des indépendants
+R	80110	Assiette (indépendants)
+L	80110	Cotisations de sécurité sociale (indépendants)
+L	80140	CSG et CRDS (indépendants)
+L	80200	Année de référence
+L	80220	Déclaration annuelle de revenus (indépendants)
+R	80270	Calcul des cotisations des indépendants
+L	80290	Cotisations provisionnelles et régularisation
+L	80340	Règles spécifiques à chaque cotisation
+R	80630	Paiement, contrôle et recouvrement (indépendants)
+L	80640	Modalités de paiement (indépendants)
+L	80670	Sanctions (indépendants)
+L	80690	Vérification et contrôle (indépendants)
+L	80720	Recouvrement et contentieux (indépendants)
+R	80760	Début et fin d'activité (indépendants)
+R	80830	Micro-social (micro-entrepreneur)
+R	80900	Barèmes (indépendants)
+S	81000	Prestations des indépendants
+R	81020	Assurance maladie-maternité (indépendants)
+L	81040	Prise en charge des frais de santé (indépendants)
+L	81070	Prestations en espèces (indépendants)
+R	81250	Assurance vieillesse (indépendants)
+L	81270	Retraite de base (indépendants)
+L	81560	Retraite complémentaire et invalidité-décès (indépendants)
+R	81630	Allocation forfaitaire « chômage » (ATI)
+S	81750	Régimes particuliers (indépendants)
+R	81750	Retraite complémentaire et invalidité-décès des professionnels libéraux (CIPAV, CAVEC)
+R	81860	Régime de la CNBF (avocats)
+C	-	Travail temporaire
+L	82000	Travail temporaire : définition
+L	82050	Travail temporaire : conditions de recours
+L	82220	Exécution du contrat de mission
+L	82480	Fin du contrat de mission
+L	82570	Poursuite du travail dans l'entreprise utilisatrice
+L	82600	Protection sociale du salarié temporaire
+L	82670	Relations entre l'entreprise utilisatrice et l'ETT
+L	82720	Travail temporaire : sanctions
+C	-	Versements additionnels aux cotisations de sécurité sociale
+L	84000	Versement mobilité
+L	84200	Fnal
+L	84300	Forfait social
+L	84400	Contribution au dialogue social
+L	84500	Contribution sur certaines indemnités de rupture
+C	-	Vieillesse
+L	85005	Allocation de solidarité aux personnes âgées (ASPA)
+L	85060	Allocation supplémentaire d'invalidité
+L	85080	Avantages sociaux et fiscaux des allocataires
+P	A	Annexes
+X	90010	Annexe : paie
+X	90060	Annexe : représentation du personnel
+X	90080	Annexe : formalités des entreprises

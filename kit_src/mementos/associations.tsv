@@ -1,0 +1,856 @@
+P	1	Régime juridique des associations
+C	0	Introduction
+X	50	Définition de l'association
+X	90	Association et autres groupements
+X	170	Législation sur les associations
+X	210	Liberté d'association
+X	250	Organismes consultatifs
+X	285	Structures de soutien
+X	320	Importance pratique des associations
+T	I	Notions fondamentales sur les associations
+C	1	Constitution et reconnaissance de la personnalité juridique des associations
+S	670	Contrat d'association
+L	670	Formation du contrat d'association
+L	1090	Statuts et règlement intérieur
+S	1320	Association constituée et non déclarée ou non publiée
+S	1400	Personnalité juridique
+L	1400	Acquisition de la personnalité juridique
+L	1700	Inscription au répertoire Sirene
+L	1750	Durée de l'association
+S	1900	Modification des statuts ou d'un règlement intérieur
+L	1900	Modification des statuts
+L	2110	Modification d'un règlement intérieur
+X	2130	Annexe (constitution)
+C	2	Attributs de la personnalité morale
+S	2550	Dénomination de l'association
+L	2610	Choix de la dénomination
+L	2710	Protection de la dénomination
+L	2800	Changement de la dénomination
+L	2860	Cession de la dénomination
+S	2970	Siège de l'association
+S	3110	Nationalité de l'association
+S	3250	Droits de la personnalité
+L	3250	Protection de la personnalité
+L	3310	Abus de la personnalité
+C	3	Membres de l'association
+S	3860	Acquisition de la qualité de membre
+L	3860	Liberté d'adhésion
+L	3980	Conditions de l'adhésion
+L	4070	Preuve de l'adhésion
+L	4140	Durée de l'adhésion
+S	4250	Statut des membres
+L	4310	Droits des membres
+L	4380	Obligations disciplinaires
+S	4800	Suspension et perte de la qualité de membre
+L	4800	Suspension de la qualité de membre
+L	4850	Perte définitive de la qualité de membre
+C	4	Organes d'une association
+S	5550	Organes de gestion
+L	5600	Accès aux fonctions de dirigeant
+L	5850	Statut des dirigeants
+L	6120	Cessation des fonctions des dirigeants
+L	6370	Organisation de la direction
+L	6620	Pouvoirs des dirigeants
+L	6710	Contrôle de la gestion
+L	6810	Administrateur provisoire
+S	7000	Assemblées générales
+L	7000	Existence d'assemblées générales
+L	7060	Attributions des assemblées générales
+L	7120	Composition des assemblées générales
+L	7210	Convocation de l'assemblée générale
+L	7350	Tenue des assemblées générales
+L	7520	Irrégularités affectant les assemblées générales
+C	5	Patrimoine de l'association
+S	7950	Ressources de l'association
+R	8020	Fonds propres
+L	8020	Droits d'entrée
+L	8080	Apports
+L	8200	Cotisations
+L	8320	Subventions publiques
+L	8380	Libéralités
+R	8780	Dettes
+L	8780	Emprunts obligataires
+L	9040	Emprunts
+R	9280	Produits de placements ou d'activités
+R	9410	Ressources diverses
+S	9520	Immeubles de l'association
+L	9530	Propriété
+L	9630	Jouissance
+L	9710	Occupation privative d'un immeuble d'une personne publique
+S	9900	Marques de l'association
+C	6	Activités de l'association
+S	10240	Activités réglementées
+L	10240	Publicité
+L	10300	Lobbying
+L	10350	Élaboration et vente de forfaits touristiques ou de services de voyage
+L	10360	Accueil collectif de mineurs à caractère éducatif
+L	10370	Achat de livres
+L	10400	Parents d'élèves
+L	10520	Musées de France
+L	10590	Fonds régionaux d'art contemporain
+L	10630	Spectacles
+L	10690	Microcrédit
+L	10820	Prestations de services juridiques et assimilées
+L	11250	Autres activités supposant une qualification
+S	11290	Activités lucratives
+L	11310	Activité économique
+L	11390	Activité professionnelle
+L	11450	Activité artisanale
+L	11520	Activité commerciale
+L	11600	Paracommercialisme
+L	11670	Absence de partage de bénéfices
+S	11780	Activités agréées
+S	11900	Activités de service public
+L	11960	Conditions
+L	12260	Régime juridique
+L	12400	Association transparente ou para-administrative
+L	12500	Association « municipalisée »
+C	7	Actions en justice
+S	12860	Arbitrage
+S	12930	Compétence juridictionnelle
+L	12930	Compétence d'attribution
+L	13010	Compétence territoriale
+L	13050	Cour européenne des droits de l'Homme
+S	13130	Qualité pour agir
+R	13130	Défense des intérêts personnels de l'association
+R	13240	Défense des intérêts collectifs des membres de l'association
+L	13240	Actions judiciaires (intérêts collectifs des membres)
+L	13290	Recours administratifs (intérêts collectifs des membres)
+R	13400	Défense d'intérêts collectifs de portée générale
+L	13400	Actions judiciaires (intérêts de portée générale)
+L	13650	Recours administratifs (intérêts de portée générale)
+R	13700	Actions de groupe
+L	13710	Introduction de l'action de groupe
+L	13790	Procédure de l'action de groupe
+L	13890	Médiation dans le cadre d'une action de groupe
+L	13906	Action de groupe transfrontière
+L	13920	Sanction civile en cas de faute dolosive ayant causé des dommages sériels
+R	13940	Action en reconnaissance de droits
+S	13960	Exercice de l'action
+L	13960	Organe habilité à agir
+L	14040	Aide juridictionnelle
+L	14070	Association poursuivie devant une juridiction judiciaire
+C	8	Responsabilités et assurances
+S	14470	Responsabilités liées au fonctionnement d'une association
+R	14470	Responsabilité de l'association
+L	14470	Responsabilité civile de l'association
+L	14860	Responsabilité pénale de l'association
+R	15260	Responsabilité des dirigeants de l'association
+L	15260	Responsabilité civile des dirigeants
+L	15440	Responsabilité financière des dirigeants
+L	15510	Responsabilité pénale des dirigeants
+L	15550	Responsabilité fiscale des dirigeants
+L	15590	Responsabilité pour gestion de fonds publics
+R	15710	Responsabilité des membres de l'association
+S	15880	Assurances de l'association
+L	15880	Assurances de responsabilité
+L	15980	Assurances de personnes
+L	16050	Défaut d'assurances non obligatoires
+C	9	Associations en difficultés financières
+S	16405	Prévention des difficultés financières des associations
+L	16405	Demande de délais de grâce par l'association
+L	16410	Détection des difficultés de l'association
+L	16460	Mandat ad hoc pour négocier avec les créanciers
+L	16480	Conciliation avec les créanciers
+S	16600	Procédures collectives de traitement des difficultés de l'association
+R	16620	Ouverture d'une procédure collective
+L	16620	Difficultés de l'association justifiant l'ouverture d'une procédure collective
+L	16700	Extension d'une procédure collective à l'association
+L	16720	Procédure d'ouverture
+R	16800	Conséquences de l'ouverture d'une procédure collective
+L	16800	Conséquences pour l'association
+L	17000	Conséquences pour les dirigeants de l'association
+C	10	Disparition des associations
+S	17640	Dissolution
+L	17640	Causes de dissolution
+L	17760	Effets de la dissolution
+L	17890	Publicité de la dissolution
+S	18000	Fusion, scission ou apport partiel d'actifs
+R	18010	Modalités de l'opération
+L	18010	Modalités préalables
+L	18110	Adoption de la décision
+R	18150	Effets de l'opération
+L	18150	Régime juridique (fusion, scission, APA)
+L	18200	Régime fiscal (fusion, scission, APA)
+S	18300	Transformation d'une association
+T	II	Règles propres à chaque type d'association
+C	1	Associations reconnues d'utilité publique
+L	19120	Reconnaissance d'utilité publique
+L	19438	Modifications des statuts (ARUP)
+L	19520	Capacité spécifique des associations reconnues d'utilité publique
+L	19800	Fonctionnement des associations reconnues d'utilité publique
+L	19900	Disparition d'une association reconnue d'utilité publique
+X	19990	Annexe (ARUP)
+C	2	Associations sportives
+L	20100	Constitution des associations sportives
+L	20200	Aides publiques aux associations sportives
+L	20330	Responsabilités nées de l'activité des associations sportives
+L	20790	Responsabilités disciplinaires des associations sportives
+L	20880	Dispositions spécifiques applicables aux associations sportives
+L	20950	Associations de « hooligans »
+C	3	Associations communales de chasse agréées (Acca)
+S	21260	Constitution d'une Acca
+L	21300	Qui peut demander la constitution d'une Acca ?
+L	21340	Modalités de constitution d'une Acca
+L	21520	Agrément d'une Acca
+S	21620	Territoire d'une Acca
+L	21620	Territoire initial
+L	21670	Agrandissement du territoire d'une Acca
+L	21730	Réduction du territoire d'une Acca
+S	21840	Membres d'une Acca
+S	21930	Fonctionnement d'une Acca
+S	21975	Disparition d'une Acca
+S	22030	Associations intercommunales de chasse agréées (AICA)
+C	4	Associations de tourisme
+L	22450	Immatriculation des associations de tourisme
+L	22700	Contrat de vente de forfaits touristiques ou de services de voyage
+L	22800	Responsabilité de l'association de tourisme
+L	22860	Office de tourisme
+C	5	Associations de défense des consommateurs agréées
+L	23210	Agrément des associations de consommateurs
+L	23300	« Superagrément » des associations de consommateurs
+L	23345	Actions en justice des associations de consommateurs
+L	23580	Consultations juridiques
+L	23610	Actions des associations de consommateurs auprès des pouvoirs publics
+C	6	Associations de défense des investisseurs en titres financiers
+L	23930	Associations agréées de défense des investisseurs
+L	24100	Associations de défense d'actionnaires d'une société « cotée »
+C	7	Associations de protection de l'environnement
+L	24420	Associations de protection de l'environnement agréées
+L	24780	Associations de protection de l'environnement non agréées
+L	24870	Conservatoires régionaux d'espaces naturels agréés
+C	8	Associations cultuelles et associations dites « mixtes »
+S	25010	Associations à objet exclusivement cultuel
+L	25010	Définition et législation applicable aux associations exclusivement cultuelles
+L	25050	Éléments constitutifs des associations exclusivement cultuelles
+L	25180	Fonctionnement des associations exclusivement cultuelles
+L	25420	Lieux du culte
+L	25560	Unions d'associations exclusivement cultuelles
+L	25600	Associations diocésaines
+S	25650	Associations dites « mixtes » à objet non exclusivement cultuel
+L	25660	Éléments constitutifs des associations dites « mixtes »
+L	25675	Fonctionnement des associations dites « mixtes »
+L	25740	Police des cultes
+C	9	Associations sectaires
+S	25900	Associations sectaires
+C	10	Associations de jeunesse ou d'éducation populaire, accueils collectifs de mineurs
+L	26350	Associations de jeunesse ou d'éducation populaire
+L	26480	Accueils collectifs de mineurs à caractère éducatif
+C	11	Associations de financement électorales et associations de financement d'un parti ou groupement politique
+L	26850	Associations de financement électorales
+L	26940	Associations de financement d'un parti ou groupement politique
+C	12	Associations dites « de la loi du 10 janvier 1936 »
+L	27350	Associations concernées (loi 1936)
+L	27450	Dissolution (loi 1936)
+L	27570	Maintien ou reconstitution d'associations dissoutes
+C	13	Associations étrangères en France et associations dites « internationales »
+L	27950	Associations étrangères
+L	28130	Associations dites « internationales »
+P	2	Régime fiscal des associations
+T	I	Critères de non-lucrativité et activités commerciales accessoires
+C	1	Critères de non-lucrativité des associations
+S	30090	Caractère intéressé ou désintéressé de la gestion de l'association
+L	30140	Gestion à titre bénévole
+L	30410	Distribution de bénéfices
+L	30480	Attribution de l'actif
+S	30590	Examen de la concurrence
+L	30650	Existence d'une situation de concurrence
+L	30720	Appréciation des modalités de la concurrence (règle des 4P)
+S	30990	Entretien de relations privilégiées avec des entreprises
+S	31050	Consultation de l'administration sur la situation fiscale de l'association (rescrit)
+C	2	Activités commerciales accessoires : franchise, sectorisation et filialisation
+S	31460	Franchise des activités lucratives accessoires
+L	31520	Conditions d'application de la franchise
+L	31580	Modalités d'application de la franchise
+L	31660	Non-respect des conditions de la franchise
+S	31780	Sectorisation et filialisation des activités lucratives
+L	31840	Sectorisation des activités lucratives
+L	32080	Filialisation des activités lucratives
+T	II	Taxe sur la valeur ajoutée
+C	1	Exonérations de TVA
+S	33300	Exonérations spécifiques au secteur non lucratif
+L	33390	Associations sportives, culturelles ou socio-éducatives
+L	33520	Organismes philosophiques, religieux, politiques, syndicaux, etc.
+L	33640	Œuvres à caractère social ou philanthropique
+L	33760	Manifestations de bienfaisance ou de soutien
+L	34050	Mise à disposition de personnel
+L	34055	Services d'aide à la personne
+S	34160	Principales exonérations « générales » intéressant le secteur non lucratif
+L	34230	Remboursements de frais par les membres d'un groupement
+L	34300	Établissements de soins
+L	34330	Lieux de vie et d'accueil
+L	34370	Enseignement et formation professionnelle continue
+L	34460	Locations de terrains et locaux nus
+L	34530	Locations meublées
+L	34600	Opérations d'assurance et de réassurance
+C	2	Règles d'imposition et obligations TVA
+S	35060	Territorialité
+L	35120	Lieu d'imposition des prestations de services
+L	35190	Lieu d'imposition des livraisons de biens
+L	35250	Lieu d'imposition des acquisitions intracommunautaires
+L	35270	État récapitulatif des clients
+L	35310	Exportations
+L	35330	Importations
+L	35370	Acquisitions en franchise
+S	35490	Base d'imposition, exigibilité
+L	35550	Base d'imposition à la TVA
+L	35770	Fait générateur et exigibilité
+S	35890	Règles de déduction
+L	36000	Détermination du montant de la taxe déductible
+L	36200	Régularisations de TVA
+L	36700	Conditions d'exercice du droit à déduction
+L	36800	Modalités de récupération de la taxe déductible
+S	37000	Obligations des associations taxables au moins partiellement
+L	37010	Obligations relatives aux factures
+L	37075	Obligations de transmission d'informations (« e-reporting »)
+L	37100	Obligations comptables (TVA)
+L	37200	Obligations déclaratives (TVA)
+T	III	Impôt sur les sociétés et contribution économique territoriale
+C	1	Associations sans activité lucrative
+S	38080	Nature des revenus imposables des associations sans activité lucrative
+L	38100	Revenus tirés de la location d'immeubles
+L	38210	Bénéfices des exploitations agricoles ou forestières
+L	38310	Revenus mobiliers
+L	38460	Détermination de la base d'imposition aux taux réduits d'IS
+S	38570	Obligations des associations soumises à l'IS aux taux réduits
+C	2	Associations se livrant à une exploitation ou à des opérations lucratives
+S	38960	Critères d'assujettissement à l'IS de droit commun et à la CET
+L	38960	Rappel des textes
+L	39020	Solutions doctrinales et jurisprudentielles
+S	39160	Exonérations légales d'IS de droit commun et de CET
+L	39220	Exonérations communes à l'IS et à la CET
+L	39280	Exonérations spécifiques à l'IS
+L	39350	Exonérations spécifiques à la CET
+S	39500	Modalités d'imposition des activités lucratives à l'IS
+L	39500	Détermination du résultat imposable à l'IS de droit commun
+L	39810	Obligations des associations soumises à l'IS de droit commun
+S	40040	Modalités d'imposition des activités lucratives à la CET
+L	40044	Cotisation foncière des entreprises (CFE)
+L	40200	Cotisation sur la valeur ajoutée des entreprises (CVAE)
+L	40230	Dégrèvement de CET
+T	IV	Autres questions fiscales
+C	1	Droits d'enregistrement
+L	41100	Libéralités (droits d'enregistrement)
+L	41260	Apports (droits d'enregistrement)
+L	41420	Acquisitions d'immeubles
+C	2	Taxes, obligations et impôts divers
+S	41710	Obligations liées au versement des salaires, honoraires, commissions et autres rémunérations
+S	41820	Taxes et participations assises sur les salaires
+L	41830	Taxe sur les salaires
+L	42430	Participation-construction
+S	42600	Autres taxes et versements
+L	42660	Taxes et redevances d'urbanisme
+L	42745	Taxes sur les véhicules de tourisme affectés à des fins économiques
+L	42800	Contribution sur les revenus locatifs
+L	42825	Taxe sur les logements vacants
+C	3	Taxes foncières, taxe d'habitation
+S	43260	Taxes foncières
+L	43300	Taxe foncière sur les propriétés bâties
+L	43490	Taxe foncière sur les propriétés non bâties
+S	43730	Taxe d'habitation
+S	43810	Taxes annexes
+C	4	Taxes annuelles sur les bureaux en Île-de-France et en Provence-Côte d'Azur
+L	44102	Taxe annuelle sur les bureaux en Île-de-France
+L	44135	Taxe annuelle sur les bureaux en Provence-Côte d'Azur
+C	5	Le contrôle fiscal et ses suites
+S	44800	Contrôle fiscal
+L	44830	Délai d'action de l'administration
+L	44900	Exercice du contrôle
+S	45350	Sanctions fiscales
+L	45350	Pénalités fiscales
+L	45460	Sanctions pénales (fiscal)
+S	45650	Recours des contribuables
+L	45700	Recours contentieux
+L	46125	Recours gracieux
+L	46195	Dégrèvements et restitution d'office
+L	46245	Annexes (recours)
+S	46400	Recouvrement forcé de l'impôt
+L	46450	Actes préalables aux poursuites
+L	46500	Poursuites
+L	46600	Privilège et hypothèque légale du Trésor
+P	3	Les associations et leurs collaborateurs
+T	I	Collaborateurs non salariés
+C	1	Indépendants rémunérés
+S	49080	Dispositions légales sur l'existence d'un contrat de travail
+S	49140	Décisions jurisprudentielles et administratives
+L	49145	Personne au profit de laquelle l'activité est exercée
+L	49155	Existence d'un lien de subordination
+L	49220	Versement d'une rémunération
+S	49260	Incidences d'une requalification de la collaboration
+C	2	Dirigeants de l'association
+S	50010	Statut social des dirigeants d'association
+L	50010	Régime social de la rémunération du dirigeant d'association
+L	50025	Protection sociale du dirigeant d'association
+S	50100	Responsabilité des dirigeants d'association dans le domaine social
+L	50105	Responsabilité pénale du dirigeant employeur
+L	50130	Responsabilité civile du dirigeant employeur
+X	50230	Annexe (dirigeants)
+C	3	Collaborateurs mis à disposition
+S	50650	Cadre légal et dispositions communes
+S	50710	Travail temporaire
+L	50730	Conditions de recours (intérim)
+L	50810	Relations de l'association avec l'entreprise de travail temporaire
+L	50880	Relations de l'association avec l'intérimaire
+L	50970	Sanctions (travail temporaire)
+S	51080	Groupement d'employeurs
+L	51100	Constitution du groupement
+L	51180	Embauche de salariés par le groupement
+L	51240	Appartenance de l'association au groupement
+L	51310	Mise à disposition des salariés (groupement)
+S	51440	Association intermédiaire
+L	51460	Statut des salariés de l'association intermédiaire
+L	51550	Mise à disposition des salariés (association intermédiaire)
+S	51670	Association de services aux personnes
+C	4	Collaborateurs fonctionnaires
+S	52050	Collaboration de fonctionnaires à titre principal
+L	52050	Mise à disposition de fonctionnaires au sein de l'association
+L	52130	Détachement de fonctionnaires au sein de l'association
+S	52250	Collaboration salariée d'un fonctionnaire à titre accessoire
+C	5	Collaborateurs divers
+S	52500	Volontariat
+L	52501	Service civique
+L	52650	Volontariat de solidarité internationale
+S	52950	Travail d'intérêt général
+L	52960	Habilitation de l'association (TIG)
+L	52980	Inscription sur la liste des travaux
+L	53020	Prononcé de la peine
+L	53070	Exécution du travail d'intérêt général
+S	53095	Permanences d'accueil de personnes
+L	53100	Personnel occasionnel d'animation et de direction
+L	53135	Éducateurs et aides familiaux
+L	53150	Permanents des lieux de vie et d'accueil
+S	53200	Stagiaires
+T	II	Collaborateurs salariés
+C	1	Embauche
+S	54030	Choix du salarié
+L	54030	Modes de recrutement
+L	54105	Décision d'embauche
+L	54150	Période d'essai
+S	54310	Choix du contrat
+L	54350	Contrat à durée indéterminée (CDI)
+L	54450	Contrat à durée déterminée (CDD)
+L	54590	Contrat prévoyant un travail à distance (télétravail)
+L	54610	Contrats d'insertion et de réinsertion
+S	54870	Dispositifs d'aide à l'embauche
+L	54875	Dispositifs ouverts à toutes les associations
+L	54895	Dispositifs réservés à certaines associations
+S	55000	Formalités d'embauche
+L	55000	Formalités administratives
+L	55050	Information du salarié
+L	55100	Visite d'information et de prévention médicale
+C	2	Contrat de travail
+S	55560	Droits et obligations de l'employeur
+L	55560	Pouvoir disciplinaire
+L	55675	Règlement intérieur (salariés)
+L	55770	Obligations de l'employeur
+S	55980	Droits et obligations du salarié
+L	55980	Droits du salarié
+L	56050	Obligations du salarié
+S	56190	Circonstances affectant l'exécution du contrat
+L	56190	Maladie non professionnelle
+L	56270	Accidents du travail et maladies professionnelles
+L	56300	Inaptitude du salarié
+L	56350	Maternité, adoption et paternité
+L	56530	Congés et absences
+L	56970	Modification des conditions d'emploi
+L	57070	Modification de la situation juridique de l'association (L. 1224-1)
+C	3	Cessation du contrat de travail
+S	57460	Cessation du contrat à durée indéterminée
+R	57460	Démission
+R	57520	Prise d'acte de la rupture
+R	57630	Licenciement
+L	57630	Motifs de licenciement
+L	57700	Indemnité de licenciement
+L	57740	Procédures de licenciement
+R	58100	Rupture amiable
+L	58100	Rupture conventionnelle individuelle
+L	58130	Rupture conventionnelle collective
+L	58135	Départ négocié
+L	58140	Congé de mobilité
+R	58170	Départ et mise à la retraite
+R	58250	Autres modes de rupture
+L	58250	Force majeure
+L	58300	Résiliation judiciaire
+R	58320	Obligations consécutives à la rupture du contrat de travail
+L	58320	Préavis
+L	58470	Clause de non-concurrence
+L	58660	Formalités consécutives à la rupture du contrat de travail
+S	58840	Cessation du contrat à durée déterminée
+C	4	Conditions de travail et de formation
+S	59250	Durée du travail
+L	59270	Durées légale, maximale et effective du travail
+L	59370	Horaire de travail
+L	59460	Heures supplémentaires
+L	59560	Aménagement du temps de travail
+L	59700	Activité partielle
+L	59790	Repos hebdomadaire et dominical
+L	59870	Jours fériés
+L	59930	Compte épargne-temps (CET)
+L	59950	Travail à temps partiel
+S	60050	Congés payés annuels
+L	60050	Droit au congé
+L	60130	Durée du congé
+L	60210	Prise des congés
+L	60280	Indemnités de congés payés et compensatrice de congés payés
+L	60350	Sanctions (congés payés)
+S	60480	Santé et sécurité
+L	60480	Mesures d'hygiène
+L	60550	Règles de sécurité
+L	60710	Sanctions (santé et sécurité)
+S	60820	Services de prévention et de santé au travail (SPST)
+L	60880	Organisation (SPST)
+L	60940	Rôle du médecin du travail
+L	61000	Visites et examens médicaux
+S	61120	Formation professionnelle continue
+L	61150	Plan de développement des compétences de l'association
+L	61210	Congés de formation
+L	61290	Compte personnel de formation (CPF)
+L	61350	Période de reconversion
+C	5	Salaire
+S	61920	Éléments de la rémunération
+L	61920	Éléments ayant le caractère d'un salaire
+L	61980	Éléments n'ayant pas le caractère d'un salaire
+S	62110	Fixation du salaire
+L	62130	Smic
+L	62240	Salaire minimum conventionnel
+L	62310	Égalité de rémunération
+S	62440	Paiement du salaire
+S	62580	Cotisations de sécurité sociale
+L	62580	Assiette des cotisations
+L	62860	Calcul des cotisations
+L	63110	Paiement des cotisations
+S	63200	Autres prélèvements
+L	63200	Prélèvement à la source de l'impôt sur le revenu
+L	63250	CSG et CRDS
+L	63320	Contribution d'aide au logement
+L	63380	Versement mobilité
+L	63460	Contributions sur certaines indemnités de rupture
+L	63510	Assurance chômage
+L	63570	Contribution solidarité autonomie (CSA)
+L	63630	Retraite complémentaire
+L	63700	Forfait social
+L	63705	Contributions à la formation professionnelle et à l'alternance
+S	63750	Régime fiscal des sommes versées aux salariés
+X	63810	Annexes (salaire)
+C	6	Représentation du personnel, droit syndical et négociation collective
+S	64330	Notions communes à toutes les instances représentatives
+L	64330	Mise en place des IRP
+L	64420	Heures de délégation et liberté de circulation
+L	64490	Protection des représentants du personnel
+S	64570	Comité social et économique (CSE)
+L	64574	Élections de la délégation du personnel du CSE
+L	64580	Fonctionnement du CSE
+L	64600	Attributions du CSE
+L	64618	Conseil d'entreprise
+S	64900	Exercice du droit syndical dans l'association
+L	64900	Représentativité syndicale
+L	64910	Section syndicale
+L	64970	Délégué syndical
+S	65040	Négociation collective au sein de l'association
+L	65045	Articulation entre accord d'entreprise et accord de niveau supérieur
+L	65060	Modalités de la négociation
+L	65075	Dépôt des accords et information
+L	65120	Négociations obligatoires
+L	65170	Révision et dénonciation des conventions et accords collectifs
+X	65310	Annexe (négociation)
+C	7	Contrôle et contentieux
+S	65710	Inspection du travail
+S	65790	Conseil de prud'hommes
+S	65900	Contrôle Urssaf
+L	65900	Champ d'application du contrôle Urssaf
+L	65920	Déroulement du contrôle Urssaf
+L	65965	Suites du contrôle Urssaf
+T	III	Règles sociales spécifiques à certains secteurs d'activité associative
+C	1	Synthèse des principales conventions collectives applicables aux associations
+S	66000	Conventions collectives applicables aux associations
+C	2	Associations sportives (social)
+L	66102	Statut des intervenants des associations sportives
+L	66150	Particularités du droit du travail (sport)
+L	66600	Cotisations sociales dues pour les salariés des associations sportives
+P	4	Comptabilité des associations
+C	1	Obligations comptables des associations
+S	68020	Dispositions générales
+L	68020	Identification des obligations comptables des associations
+L	68040	Champ d'application du règlement ANC 2018-06
+S	68120	Dispositions particulières à certains types d'associations
+L	68180	Associations ayant une activité économique
+L	68290	Associations agréées par une autorité publique
+L	68510	Organismes paritaires agréés
+L	68610	Associations reconnues d'utilité publique (comptabilité)
+L	68680	Associations gérant des établissements du secteur sanitaire et du secteur social et médico-social
+L	68790	Associations sportives (comptabilité)
+L	68900	Associations cultuelles (comptabilité)
+L	68985	Autres associations soumises à la réglementation comptable
+L	69090	Association recevant des dons ouvrant droit à un avantage fiscal
+L	69110	Associations sans réglementation comptable
+S	69235	Associations bénéficiant de subventions publiques
+L	69290	Ensemble des associations bénéficiaires de subventions publiques
+L	69360	Associations bénéficiant d'une subvention annuelle supérieure à 23 000 €
+L	69420	Associations bénéficiant d'une subvention annuelle comprise entre 75 000 et 153 000 €
+L	69500	Associations bénéficiant d'une subvention annuelle supérieure à 153 000 €
+L	69600	Associations bénéficiant d'une subvention pluriannuelle
+S	69740	Associations recevant des ressources de l'étranger
+S	69780	Conséquences du non-établissement des comptes
+C	2	Mise en œuvre d'une comptabilité
+S	70140	Conditions de forme de la comptabilité
+L	70140	Organisation de la comptabilité
+L	70200	Plan de comptes des associations
+L	70230	Récapitulatif des plans comptables particuliers
+L	70235	Comptabilité informatisée
+S	70340	Principes, méthodes et enregistrement comptables
+L	70370	Principes comptables et méthodes générales d'évaluation
+L	70400	Conséquences des changements opérés par le règlement ANC 2022-06 applicable depuis le 1er janvier 2025
+L	70450	Détermination et affectation du résultat
+L	70560	Comptabilisation des autres opérations spécifiques aux associations
+L	71280	Particularités des associations à activités et/ou établissements multiples
+L	71345	Associations faisant appel à la générosité du public (CER, CROD)
+C	3	Information financière
+S	71830	Comptes annuels
+L	71830	Principes généraux (comptes annuels)
+L	71940	Bilan
+L	72020	Compte de résultat
+L	72090	Modèles de documents de synthèse
+L	72250	Annexe (comptes annuels)
+L	72530	Autres informations financières
+S	72600	Comptes de groupe
+L	72600	Comptes consolidés
+L	72620	Comptes combinés
+S	72690	Documents prévisionnels
+L	72750	Conception générale du budget
+L	72970	Modèles particuliers imposés à certaines associations
+L	73000	Documents liés à la prévention des difficultés des entreprises
+L	73080	Information financière en matière de durabilité
+S	73140	Diffusion de l'information financière
+L	73140	Publication des comptes et du rapport du commissaire aux comptes
+L	73230	Destinataires de l'information financière
+C	4	Comptabilité des petites associations
+L	73650	Associations concernées (petites associations)
+L	73710	Comptabilité de trésorerie en partie simple
+L	73830	Comptabilité de trésorerie en partie double
+L	73980	Liste de comptes super simplifiée
+L	74010	Exemple récapitulatif
+L	74020	Information financière (petites associations)
+L	74025	Contrôles (petites associations)
+C	5	Commissariat aux comptes
+R	74300	Associations concernées (nomination CAC, seuils)
+R	74450	Missions du commissaire aux comptes
+L	74450	Principes directeurs
+L	74520	Déroulement de la mission de contrôle légal
+L	74610	Vérifications spécifiques
+L	74720	Autres interventions
+R	74930	Exercice de la profession de commissaire aux comptes
+L	74930	Modalités d'exercice
+L	75075	Responsabilité, secret professionnel
+R	75300	Éléments de synthèse de la mission du commissaire aux comptes
+L	75300	Principes généraux
+L	75390	Rapports du CAC
+L	75480	Normes de contrôle et recommandations
+P	5	Fondations
+C	1	Fondations d'utilité publique
+S	77100	Régime juridique des fondations reconnues d'utilité publique
+L	77100	Éléments constitutifs de la fondation
+L	77400	Reconnaissance d'utilité publique de la fondation
+L	77640	Dénomination, siège et nationalité de la fondation
+L	77870	Fonctionnement de la fondation
+L	78450	Modifications des statuts de la fondation
+L	78500	Restructuration de la fondation
+L	78570	Disparition de la fondation
+L	78600	Cas particuliers (fondations)
+X	79250	Annexes (FRUP)
+S	78680	Régime fiscal (FRUP)
+S	78820	Comptabilité (FRUP)
+L	78880	Obligations comptables applicables aux fondations RUP
+L	78970	Mise en œuvre de la comptabilité (FRUP)
+L	79050	Information financière (FRUP)
+L	79170	Commissariat aux comptes (FRUP)
+C	2	Fondations d'entreprise
+L	79660	Régime juridique des fondations d'entreprise
+L	80120	Régime fiscal des fondations d'entreprise
+L	80290	Comptabilité des fondations d'entreprise
+P	6	Dossiers thématiques
+C	1	Fonds de dotation
+S	80550	Régime juridique (fonds de dotation)
+L	80550	Éléments constitutifs du fonds de dotation
+L	80650	Déclaration et publication du fonds de dotation
+L	80710	Dénomination, siège et durée du fonds de dotation
+L	80750	Fonctionnement du fonds de dotation
+L	80870	Adoption et déclaration des modifications affectant un fonds de dotation
+L	80900	Disparition du fonds de dotation
+S	81000	Régime fiscal (fonds de dotation)
+L	81010	Revenus des fonds de dotation
+L	81080	Versements aux fonds de dotation
+S	81500	Comptabilité (fonds de dotation)
+L	81510	Obligations comptables des fonds de dotation
+L	81540	Mise en œuvre de la comptabilité des fonds de dotation
+L	81590	Information financière (fonds de dotation)
+L	81620	Commissariat aux comptes (fonds de dotation)
+C	2	Mécénat et parrainage (sponsoring)
+S	82040	Régime juridique du mécénat et du parrainage
+L	82040	Contrat de mécénat ou de parrainage
+L	82290	Limites du contrat de mécénat ou de parrainage
+S	82430	Régime fiscal du mécénat et du parrainage
+R	82490	Dons effectués par les particuliers
+L	82550	Dons ouvrant droit à réduction d'impôt sur le revenu
+L	82850	Dons ouvrant droit à une imputation sur l'IFI
+L	82910	Dons effectués par les bénéficiaires d'une succession
+L	82990	Donation d'usufruit temporaire
+L	83070	Financement des campagnes électorales et des partis politiques
+R	83310	Opérations de mécénat et de parrainage effectuées par les entreprises
+L	83330	Dons ouvrant droit au régime du mécénat d'entreprise
+L	83480	Dépenses de parrainage (sponsoring)
+X	83645	Annexes (mécénat)
+C	3	Subventions aux associations
+S	84150	Régime juridique des subventions
+L	84175	Associations subventionnables
+L	84240	Aides attribuables
+L	84550	Demande de subvention
+L	84770	Attribution d'une subvention
+L	84950	Annulation d'une subvention
+L	85020	Versement d'une subvention
+L	85120	Restitution d'une subvention
+L	85210	Contrôles (subventions)
+L	85440	Évaluation des projets subventionnés
+L	85450	Obligations des associations subventionnées : tableau récapitulatif
+S	85550	Régime fiscal des subventions publiques
+L	85610	Impôt sur les sociétés (subventions)
+L	85710	TVA (subventions)
+S	85880	Régime comptable des subventions publiques
+L	85940	Principes de comptabilisation des subventions
+L	86010	Caractéristiques propres à chaque catégorie de subventions
+L	86090	Suivi des subventions
+C	4	Statut des bénévoles
+S	86550	Notion de bénévolat
+S	86650	Régime social du bénévolat
+L	86670	Exercice d'une activité bénévole par un salarié, un retraité ou un chômeur
+L	86800	Couverture des risques d'accident encourus par les bénévoles
+S	87220	Régime fiscal du bénévolat
+S	87290	Régime comptable du bénévolat
+L	87290	Valorisation du bénévolat
+L	87420	Modalités de comptabilisation des contributions volontaires
+L	87480	Contrôle du commissaire aux comptes (bénévolat)
+C	5	Filialisation des activités lucratives d'une association
+L	87820	Régime juridique de la filialisation
+L	87920	Conséquences fiscales de la filialisation
+L	87990	Avantages et inconvénients de la filialisation
+C	6	Association locataire de locaux privés
+L	88300	Principe (bail)
+L	88320	Dérogations légales (bail)
+L	88370	Dérogations conventionnelles (bail)
+C	7	Fichiers des associations
+L	88650	Conditions de validité des fichiers
+L	88800	Obligations des associations détentrices de fichiers (RGPD)
+L	88900	Droits des personnes fichées
+L	89010	Contrôles de la Cnil
+C	8	Presse associative
+S	89550	Régime juridique (presse)
+L	89600	Choix et protection du titre
+L	89800	Formalités légales (presse)
+S	89970	Régime fiscal (presse)
+L	90030	Régime spécial de TVA (presse)
+L	90350	Impôt sur les sociétés (presse)
+L	90450	Impôts locaux (presse)
+S	90560	Statut des collaborateurs du journal
+L	90630	Définition du journaliste professionnel
+L	90830	Statut du journaliste professionnel
+L	91150	Cotisations sociales dues pour l'emploi de journalistes
+X	91220	Annexe (presse)
+C	9	Manifestations publiques
+S	91620	Régime juridique des manifestations publiques
+L	91640	Manifestations sur la voie publique
+L	91780	Manifestations sportives, récréatives ou culturelles à but lucratif
+L	91800	Foires à tout
+L	91860	Kermesses
+L	91900	Ventes de muguet le 1er mai
+L	91960	Rassemblements festifs à caractère musical
+L	91970	Spectacles pyrotechniques
+L	91990	Spectacles vivants
+L	92080	Spectacles cinématographiques
+L	92120	Loteries (lotos, tombolas, etc.)
+L	92205	Buvettes temporaires
+L	92440	Manifestations musicales
+S	92670	Régime fiscal des manifestations publiques
+L	92670	Imposition des recettes des manifestations publiques
+L	92800	Crédit d'impôt pour dépenses de production de spectacles vivants
+L	92820	Crédit d'impôt en faveur des représentations théâtrales d'œuvres dramatiques ou de cirque
+L	92900	Taxe sur les spectacles vivants
+S	92940	Aspects sociaux des manifestations publiques
+C	10	Associations soumises au droit local d'Alsace-Moselle
+S	93015	Régime juridique des associations soumises au droit local
+L	93090	Constitution et reconnaissance de la personnalité juridique (Alsace-Moselle)
+L	93440	Fonctionnement de l'association (Alsace-Moselle)
+L	93680	Restructuration de l'association (Alsace-Moselle)
+L	93770	Transformation de l'association (Alsace-Moselle)
+L	93800	Radiation du registre des associations inscrites
+L	93925	Associations inscrites à objet cultuel
+S	94000	Régime fiscal (Alsace-Moselle)
+L	94000	Règles de droit commun (Alsace-Moselle)
+L	94030	Règles spécifiques (Alsace-Moselle)
+S	94140	Aspects sociaux (Alsace-Moselle)
+L	94200	Protection sociale (Alsace-Moselle)
+L	94270	Droit du travail (Alsace-Moselle)
+X	94350	Annexe (Alsace-Moselle)
+C	11	Congrégations
+S	94710	Définition et législation applicable aux congrégations
+S	94780	Régime juridique des congrégations
+L	94840	Conditions de la reconnaissance légale d'une congrégation
+L	95140	Procédure de reconnaissance légale d'une congrégation
+L	95210	Modifications des statuts d'une congrégation
+L	95290	Droits et obligations d'une congrégation
+L	95420	Dissolution d'une congrégation
+L	95480	Fusion de congrégations
+S	95670	Régime fiscal des congrégations
+L	95670	Règles de droit commun (congrégations)
+L	95730	Règles spécifiques (congrégations)
+S	95900	Aspects sociaux des congrégations
+L	95965	Régimes de sécurité sociale applicables
+L	96070	Chômage (congrégations)
+S	96190	Régime comptable des congrégations
+L	96190	Obligations comptables des congrégations
+L	96260	Mise en œuvre de la comptabilité dans les congrégations
+L	96330	Information financière des congrégations
+L	96390	Congrégations et commissariat aux comptes
+P	A	Annexes
+X	98000	Loi du 1er juillet 1901 relative au contrat d'association
+X	98005	Décret du 16 août 1901 portant règlement d'administration publique pour l'exécution de la loi de 1901
+X	98020	Contrat d'engagement républicain des associations et fondations bénéficiant de subventions publiques ou d'un agrément de l'État (décret 2021-1947)
+P	N	Principales nouveautés de l'édition 2026
+N	5750	Déclaration des bénéficiaires effectifs : nouvelle étude
+N	8800	Radiation d'office du RCS des associations n'ayant pas déclaré leurs bénéficiaires effectifs
+N	8803	Nouvelle amende pour les associations émettant des obligations non inscrites au RNE
+N	9295	Prêts et opérations de trésorerie entre OSBL : les nouvelles règles
+N	13700	Réforme des actions de groupe
+N	13920	Sanction civile en cas de faute dolosive ayant causé des dommages sériels
+N	19120	Nouvelles procédures applicables aux associations reconnues d'utilité publique
+N	23390	Actions en cessation d'agissements illicites des associations de consommateurs après la loi du 30 avril 2025
+N	24570	Préjudice écologique : action en réparation contre l'État recevable devant les juridictions administratives
+N	24815	Censure du Conseil constitutionnel : article L 600-1-1 C. urb. (loi du 26 novembre 2025)
+N	25000	Fermeture temporaire de lieux de culte par le préfet (art. 36-3 loi 1905) conforme à la Constitution
+N	27350	Dissolution administrative d'une association ou d'un groupement de fait : jurisprudence
+N	30090	Gestion désintéressée : jurisprudence sur rémunérations et avantages des dirigeants de fait
+N	33100	Transfert des dispositions TVA dans le Code des impositions sur les biens et services
+N	37060	Facturation électronique : obligation de réception au 1er septembre 2026 pour les associations assujetties, LF 2026
+N	41330	Transformation d'une association en FRUP : droit fixe de 125 €
+N	43367	Reports des révisions des valeurs locatives des locaux professionnels et d'habitation (aussi n° 43377)
+N	54593	Télétravailleurs : droit aux titres-restaurant
+N	54685	Contrat de valorisation de l'expérience (chômeur d'au moins 60 ans)
+N	55850	Entretien de parcours professionnel remplace l'entretien professionnel
+N	56400	Congé supplémentaire de naissance
+N	56770	Droits renforcés des salariés candidats ou élus locaux
+N	58210	Réforme du cumul emploi-retraite au 1er janvier 2027
+N	60222	Salarié malade pendant ses congés payés : report possible
+N	61350	Période de reconversion (mobilité professionnelle)
+N	63708	OSBL soumis à la taxe d'apprentissage
+N	65125	Emploi des seniors : thème de négociation obligatoire
+N	65815	Contribution de 50 € en cas d'instance aux prud'hommes
+N	68760	Règles comptables des communautés professionnelles territoriales de santé (CPTS)
+N	70860	Date de comptabilisation des legs : précisions
+N	71870	Passage d'une comptabilité de trésorerie à une comptabilité d'engagement
+N	72545	Contenu du rapport de gestion depuis la loi du 30 avril 2025
+N	74680	Prêts ou trésorerie entre OSBL : rôle du commissaire aux comptes
+N	77357	Nouvelles procédures applicables aux fondations reconnues d'utilité publique
+N	78370	Bénéficiaires effectifs des FRUP et fondations d'entreprise (aussi n° 79915)
+N	80510	Nouvelles procédures applicables aux fonds de dotation
+N	80850	Bénéficiaires effectifs des fonds de dotation
+N	82805	Mécénat : doublement du plafond des versements ouvrant droit à la réduction d'impôt à 75 %
+N	84810	Nouvelles règles sur la prise illégale d'intérêts
+N	90180	Presse associative : exigence de contenu journalistique clarifiée

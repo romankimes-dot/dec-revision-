@@ -1,0 +1,816 @@
+C	0	Qu'est-ce qu'une société commerciale ?
+L	10	Catégories de sociétés
+L	30	Société et autres groupements
+L	50	Cadre législatif et réglementaire des sociétés commerciales
+L	86	Conditions de validité du contrat de société (affectio societatis)
+L	150	Société : personne morale commerçante
+L	180	Quel type de société choisir ?
+P	1	Création d'une société
+C	1	Qui peut participer à une société ?
+L	310	Associé mineur ou majeur protégé
+L	450	Associés époux (couples)
+L	580	Membres d'une profession réglementée
+L	610	Personnes morales associées
+L	650	Associés étrangers
+L	710	Personnes soumises à une procédure collective
+C	2	Constitution d'une société
+S	850	Caractéristiques de la société
+R	850	Objet social
+L	860	Détermination de l'objet social
+L	890	Caractéristiques de l'objet social
+L	910	Objet social : sanctions des irrégularités
+R	918	Raison d'être de la société
+R	925	Forme de la société
+R	950	Durée de la société
+R	1000	Désignation de la société
+L	1015	Choix de la dénomination sociale
+L	1100	Protection de la dénomination sociale
+R	1150	Capital social (constitution)
+R	1200	Lieu d'activité de la société
+R	1300	Siège social
+L	1310	Choix du siège social (domiciliation)
+L	1360	Siège social fictif
+R	1400	Nationalité de la société
+S	1500	Pourparlers et promesse de société
+L	1550	Promesse de société
+S	1600	Statuts de la société
+L	1620	Établissement des statuts
+L	1670	Actes complétant les statuts (pacte, règlement intérieur)
+L	1690	Signature des statuts
+S	1900	Apports
+L	1920	Apports d'un bien (pleine propriété, usufruit, jouissance)
+L	2280	Règles communes aux apports d'un bien (évaluation)
+L	2400	Apports en industrie
+S	2500	Société en formation
+L	2500	Notion de société en formation
+L	2550	Période de formation de la société
+L	2580	Rapports entre les associés (société en formation)
+L	2660	Actes passés pour le compte de la société en formation (reprise des engagements)
+S	2930	Responsabilité des fondateurs
+L	2930	Responsabilité des fondateurs : cas
+L	2980	Responsabilité des fondateurs : mise en cause de la société
+S	3040	Publicité de la constitution
+L	3060	Avis de constitution dans un support d'annonces légales
+L	3100	Immatriculation de la société au RCS
+L	3315	Immatriculation de la société au RNE
+L	3340	Avis au Bodacc
+L	3350	Information sur les bénéficiaires effectifs (RBE)
+C	3	La société personne morale
+S	4005	Personnalité morale de la société
+L	4005	Naissance de la personnalité morale
+L	4018	Capacité de la personne morale
+L	4025	Autonomie de la personne morale
+L	4030	Société fictive (abus de la personnalité morale)
+S	4060	Droits de la société
+L	4060	Droits patrimoniaux de la société
+L	4090	Droits de la personnalité (société)
+L	4200	Actions en justice de la société
+S	4520	Responsabilité de la société
+L	4520	Responsabilité civile de la société
+L	4590	Responsabilité pénale de la personne morale
+P	2	Les associés et les organes de gestion
+T	I	Les associés
+C	1	Qualité d'associé
+L	6010	Indivisaires (droits sociaux)
+L	6020	Couples (qualité d'associé)
+L	6100	Nu-propriétaire et usufruitier de droits sociaux
+L	6120	Acquéreur de droits sociaux
+L	6130	Locataire de droits sociaux
+L	6140	Croupier
+L	6160	Prête-nom
+C	2	Consentement des associés
+L	6500	Existence du consentement
+L	6570	Intégrité du consentement (vices)
+C	3	Droits et obligations des associés
+S	7000	Partage des bénéfices et des pertes (clauses léonines)
+S	7100	Égalité entre associés
+S	7200	Augmentation des engagements des associés (unanimité)
+S	7400	Participation à la vie sociale
+L	7400	Droit d'information des associés
+L	7500	Droit de participer aux décisions collectives
+L	7670	Droit de vote
+S	7850	Responsabilité des associés
+S	7960	Droit d'agir en justice (action sociale ut singuli)
+S	8070	Exclusion d'un associé
+S	8140	Droit de se retirer de la société
+T	II	Les organes de gestion
+C	1	Détermination des organes de gestion
+L	10020	Dirigeants de droit
+L	10100	Dirigeant de fait
+L	10150	Mandataire apparent
+L	10200	Administrateur judiciaire ou mandataire ad hoc
+C	2	Choix des membres des organes de gestion
+L	11110	Dirigeant mineur ou majeur protégé
+L	11140	Couples (dirigeants)
+L	11170	Interdiction de gérer
+L	11220	Fonctions incompatibles avec un mandat social
+L	11320	Dirigeants étrangers
+L	11350	Dirigeants d'une société exerçant une activité réglementée
+L	11400	Cumul de mandats sociaux
+C	3	Cumul d'un contrat de travail et d'un mandat social
+S	11500	Conditions de validité du cumul
+L	11510	Fonctions techniques distinctes
+L	11540	Rémunération distincte
+L	11570	Lien de subordination (cumul)
+L	11600	Absence de fraude à la loi (cumul)
+S	11680	Preuve du cumul
+S	11740	Conséquences du cumul
+L	11750	Exécution du contrat de travail (cumul)
+L	11830	Cessation du contrat de travail (cumul)
+L	11860	Cessation du mandat social (cumul)
+S	11940	Sort du contrat de travail en cas de non-cumul
+L	11950	Suspension du contrat de travail pendant le mandat
+L	11980	Cessation du contrat de travail (non-cumul)
+L	12010	Nullité du contrat de travail
+S	12090	Contrat de travail succédant à un mandat social
+C	4	Cessation des fonctions des dirigeants
+S	12400	Cas de cessation des fonctions
+L	12400	Arrivée du terme (mandat)
+L	12440	Empêchement personnel du dirigeant
+L	12480	Révocation des dirigeants (juste motif, ad nutum)
+L	12620	Démission du dirigeant
+L	12700	Modification dans la situation de la société
+S	12760	Conséquences de la cessation des fonctions
+C	5	Publicité des nominations et cessations de dirigeants
+S	13000	Publicité des nominations et cessations de fonctions
+C	6	Pouvoirs des organes de gestion
+S	13210	Conditions d'exercice des pouvoirs
+S	13280	Pouvoir d'engager la société à l'égard des tiers
+L	13300	Actes entrant dans l'objet social
+L	13350	Actes relevant de la compétence des associés
+L	13380	Actes passés au nom de la société
+S	13470	Limitation des pouvoirs des dirigeants (inopposabilité aux tiers)
+S	13530	Délégation de pouvoirs
+L	13550	Délégation : conditions d'efficacité
+L	13590	Délégation : durée
+L	13640	Délégation : exonération de responsabilité du dirigeant
+L	13750	Modèle de délégation de pouvoirs
+C	7	Responsabilité des dirigeants
+S	13940	Responsabilité civile des dirigeants
+L	13950	Responsabilité envers la société ou les associés (faute de gestion)
+L	14300	Responsabilité à l'égard des tiers (faute séparable)
+L	14460	Assurance responsabilité civile des dirigeants
+S	14790	Responsabilité fiscale des dirigeants
+S	14850	Infractions à la législation de sécurité sociale
+C	8	Cautionnement des dettes sociales
+L	15010	Conclusion du cautionnement des dettes sociales (autorisation)
+L	15030	Mise en œuvre du cautionnement
+L	15070	« Cautionnement » réel des dettes sociales
+P	3	Opérations sur les parts ou actions
+C	1	Cession de parts ou d'actions
+S	16010	Cession de droits sociaux : généralités
+L	16010	Nature de la cession
+L	16090	Contentieux de la cession
+S	16300	Conclusion de la cession
+L	16300	Cession : négociations préalables
+L	16375	Cession : consentement des parties
+L	16570	Cession : capacité des parties
+L	16660	Cession : objet
+L	16750	Prix de cession (détermination)
+L	16860	Cession sous condition
+L	16950	Promesse de cession
+S	17100	Réalisation et effets de la cession
+S	17300	Garanties dues par le cédant (garantie d'actif et de passif)
+S	17500	Annulation de la cession
+S	17700	Cession de contrôle
+L	17710	Cession de contrôle : autorisations préalables
+L	17840	Cession de contrôle : engagements du cédant (non-concurrence)
+L	17940	Cession de contrôle : engagements de l'acquéreur
+L	18030	Cession de contrôle : autres particularités
+C	2	Saisies et mesures conservatoires
+L	19000	Saisie et vente de droits sociaux
+L	19110	Mesures conservatoires sur droits sociaux
+C	3	Location de parts ou d'actions
+L	20020	Location de droits sociaux : règles communes
+L	20130	Location de titres de sociétés par actions
+L	20190	Location de parts de SARL
+P	4	Modification des caractéristiques de la société
+C	1	Modification de l'objet social
+S	20500	Modification de l'objet social
+C	2	Transfert du siège social
+L	20520	Transfert du siège : réalisation
+L	20555	Transfert du siège : publicité
+C	3	Changement de dénomination sociale
+S	20600	Changement de dénomination sociale
+C	4	Transformation de la société
+L	20620	Transformation : définition
+L	20640	Transformation : conditions
+L	20700	Transformation : publicité
+L	20710	Transformation : effets
+C	5	Prorogation de la durée
+S	20800	Prorogation de la durée de la société
+P	5	Règles propres à chaque type de société
+T	I	SNC et SCS
+C	1	La société en nom collectif (SNC)
+S	21000	Constitution d'une SNC
+L	21000	SNC : caractéristiques et intérêt
+L	21090	SNC : conditions de fond
+L	21260	SNC : forme et publicité
+S	22000	Fonctionnement de la SNC
+R	22000	Gérance de la SNC
+L	22000	SNC : nomination des gérants
+L	22110	SNC : cessation des fonctions du gérant
+L	22220	SNC : pouvoirs du gérant
+L	22440	SNC : rémunération du gérant
+L	22520	SNC : responsabilité du gérant
+R	23000	SNC : décisions collectives
+L	23000	SNC : mode de consultation des associés
+L	23150	SNC : régime des décisions collectives
+L	23240	SNC : transformation
+S	24000	Associés de SNC
+L	24010	SNC : droits et obligations des associés (responsabilité indéfinie et solidaire)
+L	24300	Parts de SNC (cession, agrément unanime)
+S	25500	Dissolution de la SNC
+C	2	La société en commandite simple (SCS)
+L	26000	SCS : constitution
+L	27000	SCS : fonctionnement
+L	28000	SCS : associés (commandités, commanditaires)
+L	29000	SCS : dissolution
+T	II	La société à responsabilité limitée (SARL)
+C	1	Constitution d'une SARL
+L	30000	SARL : caractéristiques et intérêt
+L	30090	SARL : conditions de fond de constitution
+L	30300	SARL : forme et publicité de la constitution
+C	2	Fonctionnement de la SARL
+S	31000	Gérance de la SARL
+L	31000	SARL : nomination des gérants
+L	31130	SARL : cessation des fonctions du gérant (révocation)
+L	31240	SARL : pouvoirs du gérant
+L	31530	SARL : rémunération du gérant
+L	31640	SARL : responsabilité du gérant
+S	31900	SARL : contrôle de la gestion
+L	31910	SARL : conventions réglementées et interdites (L. 223-19)
+L	32180	SARL : expertise de gestion
+S	32300	SARL : décisions collectives
+R	32300	SARL : dispositions générales sur les décisions
+L	32310	SARL : assemblée des associés
+L	32650	SARL : consultation écrite des associés
+L	32720	SARL : acte constatant le consentement des associés
+R	32780	SARL : décisions collectives ordinaires (approbation des comptes)
+R	32860	SARL : décisions collectives extraordinaires
+L	32860	SARL : décisions extraordinaires, règles générales (quorum, majorité)
+L	32930	SARL : principales décisions extraordinaires
+L	33280	SARL : publicité des décisions
+C	3	Les associés de SARL
+S	34005	Droits et obligations des associés de SARL
+L	34005	SARL : droits des associés
+L	34080	SARL : obligations des associés
+L	34150	SARL : responsabilité des associés
+S	34300	Parts de SARL
+R	34310	Droits sur les parts de SARL
+R	34410	Transmission des parts de SARL
+L	34410	Cession de parts de SARL entre vifs (agrément)
+L	34530	Transmission de parts de SARL par décès et liquidation de communauté
+R	34620	Nantissement des parts de SARL
+C	4	Dissolution de la SARL
+S	35000	Dissolution de la SARL
+C	5	L'EURL
+S	35600	Création de l'EURL
+L	35605	Constitution d'une EURL
+L	35690	Réunion de toutes les parts de SARL en une même main
+S	35800	Fonctionnement de l'EURL
+S	36000	Droits et obligations de l'associé unique
+S	36200	Dissolution de l'EURL (transmission universelle de patrimoine)
+S	36400	Statuts types d'EURL
+T	III	La société anonyme (SA)
+C	1	Intérêt et caractéristiques de la SA
+R	37010	Intérêt de la SA
+R	37070	Caractéristiques de la SA
+L	37080	SA : actionnaires (nombre minimal)
+L	37140	SA : gestion (formes de direction)
+L	37200	SA : cumul de mandats sociaux
+C	2	Constitution d'une SA
+S	37500	SA : conditions de fond de constitution
+S	37800	SA : forme et publicité de la constitution
+R	37800	Constitution de SA sans offre au public
+L	37820	SA : établissement du projet de statuts
+L	37890	SA : formation du capital (libération)
+L	37990	SA : dépôt des fonds et liste des souscripteurs
+L	38070	SA : certificat de dépôt des fonds
+L	38130	SA : signature des statuts
+L	38250	SA : désignation des premiers dirigeants
+L	38320	SA : publicité de la constitution
+L	38380	SA : retrait des fonds
+R	38450	Constitution de SA avec offre au public
+R	38700	Suspension des droits en cas de violation des règles de constitution
+C	3	Conseil d'administration
+S	39010	Les administrateurs
+R	39010	Nombre d'administrateurs
+R	39100	Nomination des administrateurs
+L	39100	Administrateurs : conditions de nomination (âge, cumul, actions)
+L	39470	Administrateurs : mode de nomination (cooptation)
+L	39630	Administrateurs : publicité des nominations
+R	39690	Durée des fonctions des administrateurs
+R	39790	Administrateurs : cas particuliers
+L	39790	Personne morale administrateur (représentant permanent)
+L	39930	Administrateurs représentant les salariés
+L	40040	Administrateurs représentant les salariés actionnaires
+L	40140	SA à participation publique
+L	40200	SA du secteur public
+S	40500	Fonctionnement du conseil d'administration
+L	40510	Président du conseil d'administration
+L	40645	Délibérations du conseil d'administration
+L	40840	Pouvoirs du conseil d'administration
+L	41030	Rémunération des administrateurs
+L	41150	Évaluation du conseil et formation des membres
+S	42000	Responsabilité des administrateurs
+L	42000	Administrateurs : responsabilité civile
+L	42270	Administrateurs : responsabilité pénale
+S	42500	Organes de direction de la SA
+L	42501	Directeur général
+L	42640	Directeur général délégué
+S	42750	Organes d'assistance du conseil d'administration
+L	42780	Comités d'études
+L	42860	Comité d'audit (SA à CA)
+L	42980	Collège de censeurs
+C	4	Directoire et conseil de surveillance
+S	43510	Le directoire
+R	43510	Membres du directoire
+L	43510	Directoire : nombre de membres
+L	43570	Directoire : nomination des membres
+L	43660	Directoire : durée des fonctions
+R	43750	Fonctionnement du directoire
+L	43750	Directoire : délibérations
+L	43810	Directoire : rôle
+L	43910	Directoire : rémunération des membres
+R	44050	Directoire : responsabilité des membres
+S	44200	Le conseil de surveillance
+R	44210	Membres du conseil de surveillance
+L	44210	Conseil de surveillance : nombre de membres
+L	44270	Conseil de surveillance : nomination des membres
+L	44490	Conseil de surveillance : durée des fonctions
+L	44570	Conseil de surveillance : cas particuliers
+R	44640	Fonctionnement du conseil de surveillance
+L	44650	Conseil de surveillance : délibérations
+L	44810	Mission du conseil de surveillance
+L	44900	Conseil de surveillance : rémunération des membres
+R	45040	Conseil de surveillance : responsabilité des membres
+S	45200	Comité d'audit (SA à directoire)
+C	5	Les assemblées d'actionnaires
+S	46010	Règles communes à toutes les assemblées
+R	46010	Convocation des actionnaires
+L	46010	Droit de convoquer l'assemblée
+L	46140	Formalités de convocation (délais)
+L	46370	Sanctions relatives à la convocation
+R	46440	Droit de communication des actionnaires
+L	46450	Droit de communication préalable
+L	46620	Droit de communication permanent
+R	46730	Droit de communication du commissaire aux comptes
+R	46790	Participation à l'assemblée
+L	46792	Détermination de la qualité d'actionnaire
+L	46870	Représentation des actionnaires (pouvoirs)
+L	47040	Justification de la qualité d'actionnaire
+L	47110	Restrictions au droit d'accès à l'assemblée
+L	47180	Rémunération des actionnaires
+L	47240	Admission de non-actionnaires
+L	47350	Vote à distance préalable (vote par correspondance)
+L	47460	Participation par visioconférence (télécommunication)
+R	47520	Formalités préliminaires aux débats (feuille de présence, bureau)
+R	47600	Débats et vote des résolutions
+L	47620	Débats en assemblée (questions écrites)
+L	47690	Vote des résolutions
+R	47980	Clôture de la séance et procès-verbal
+S	48100	Règles particulières à certaines assemblées
+R	48100	Assemblées générales ordinaires (AGO)
+L	48100	AGO : compétence
+L	48170	AGO : documents soumis à l'assemblée annuelle
+L	48350	AGO : quorum et majorité
+L	48440	AGO : publicité des décisions
+R	48510	Assemblées générales extraordinaires (AGE)
+L	48510	AGE : compétence
+L	48580	AGE : délibérations (quorum, majorité)
+L	48650	AGE : publicité des décisions
+R	48710	Assemblées spéciales
+L	48710	Assemblées spéciales : compétence
+L	48800	Assemblées spéciales : délibérations
+R	48910	Assemblées mixtes
+C	6	Les modifications du capital dans les SA
+S	49500	Augmentation du capital de la SA
+R	49500	Augmentation de capital : règles générales
+L	49500	Procédés d'augmentation du capital
+L	49570	Décision d'augmenter le capital (délégation de compétence)
+L	49720	Modalités d'émission des actions nouvelles
+L	49800	Conséquences de l'augmentation de capital
+L	49910	Augmentation de capital : sanctions des irrégularités
+R	49980	Augmentation du capital en numéraire
+L	49980	Augmentation en numéraire : conditions préalables (libération du capital)
+L	50060	Droit préférentiel de souscription (DPS)
+L	50550	Réalisation de l'augmentation en numéraire
+R	50950	Augmentation du capital par apports en nature
+L	50950	Apports en nature : conditions préalables (commissaire aux apports)
+L	51010	Apports en nature : réalisation
+R	51140	Augmentation du capital par incorporation de réserves
+L	51150	Incorporation de réserves : conditions préalables
+L	51210	Incorporation de réserves : réalisation
+R	51370	Augmentation de capital : modalités diverses
+S	51500	Amortissement du capital de la SA
+S	51700	Réduction du capital de la SA
+L	51700	Motifs de réduction du capital (pertes)
+L	51790	Décision de réduire le capital
+L	51860	Réduction du capital : intervention des CAC
+L	51920	Réduction du capital : protection des créanciers (opposition)
+L	52000	Modalités de la réduction du capital
+L	52160	Réduction du capital sous le minimum légal (coup d'accordéon)
+L	52230	Publicité de la réduction du capital
+L	52300	Régime fiscal de la réduction du capital
+C	7	Le contrôle des SA
+S	52500	SA : conventions interdites et conventions réglementées
+L	52505	Conventions réglementées : SA visées
+L	52510	Conventions interdites (SA)
+L	52550	Conventions réglementées (SA, L. 225-38)
+S	53000	Expertise de gestion (SA)
+L	53005	Expertise de gestion : conditions de recevabilité
+L	53020	Expertise de gestion : nomination des experts
+L	53030	Expertise de gestion : mission des experts
+S	53040	Say on pay (rémunérations des dirigeants de SA cotées)
+L	53040	Say on pay : domaine d'application
+L	53075	Politique de rémunération des dirigeants (vote ex ante)
+L	53105	Vote ex post sur les rémunérations de l'exercice clos
+C	8	Transformation des SA
+L	53510	Transformation de la SA : décision
+L	53610	Transformation de la SA : conditions liées à la nouvelle forme
+C	9	Dissolution des SA
+S	54500	Dissolution des SA (capitaux propres < moitié du capital)
+T	IV	La société en commandite par actions (SCA)
+C	1	Constitution d'une SCA
+S	55500	SCA : caractéristiques et intérêt
+S	55580	SCA : conditions de fond de constitution
+S	55800	SCA : forme et publicité de la constitution
+C	2	Fonctionnement de la SCA
+S	56500	SCA : gérance
+L	56500	SCA : nomination des gérants
+L	56610	SCA : cessation des fonctions des gérants
+L	56700	SCA : pouvoirs et mission des gérants
+L	56770	SCA : rémunération des gérants
+L	56840	SCA : responsabilité des gérants
+S	57000	SCA : contrôle de la gestion
+L	57000	SCA : conventions réglementées et interdites
+L	57090	SCA : commissaires aux comptes et OTI
+L	57150	SCA : conseil de surveillance
+L	57310	SCA : comité d'audit
+S	57500	SCA : décisions collectives
+C	3	Associés de SCA
+L	58000	SCA : associés commandités
+L	58070	SCA : associés commanditaires
+C	4	Dissolution de la SCA
+S	59000	Dissolution de la SCA
+T	V	La société par actions simplifiée (SAS)
+C	1	Caractéristiques et intérêt de la SAS
+S	60000	SAS : caractéristiques et intérêt
+C	2	SAS pluripersonnelle
+S	60090	Constitution de la SAS
+L	60090	SAS : conditions de fond
+L	60190	SAS : forme et publicité
+L	60235	SAS : sanctions de la violation des règles de constitution
+S	60310	Fonctionnement de la SAS
+L	60310	SAS : direction (président, DG)
+L	60430	SAS : contrôle de la direction
+L	60490	SAS : décisions collectives
+L	60600	SAS : clauses statutaires de nullité
+S	60620	Associés de la SAS
+L	60620	SAS : droits et obligations des associés
+L	60680	SAS : admission et sortie des associés (agrément, exclusion, inaliénabilité)
+L	60770	SAS : action de concert entre associés
+S	60850	Dissolution de la SAS
+C	3	SAS unipersonnelle (SASU)
+S	61002	Création de la SASU
+L	61002	SASU : constitution
+L	61050	SASU : réunion de toutes les actions en une seule main
+S	61130	SASU : fonctionnement
+S	61230	SASU : dissolution
+P	6	Les valeurs mobilières
+C	1	Valeurs mobilières : règles générales
+S	62100	Dématérialisation des valeurs mobilières
+L	62100	Forme des valeurs mobilières (nominatif, porteur)
+L	62170	Inscription des titres en compte
+L	62230	Tenue de compte-conservation
+S	62500	Opérations sur titres financiers
+L	62500	Cession de titres financiers (ordre de mouvement)
+L	62610	Nantissement de comptes-titres
+L	62720	Autres opérations sur titres
+S	63000	Offre au public de titres financiers
+S	63150	Placement de titres financiers
+L	63160	Placement : intervenants
+L	63290	Procédés de placement
+S	63800	Règles particulières aux titres cotés
+R	63800	Identification des propriétaires de titres (TPI)
+R	63900	Organisation des marchés financiers
+R	64160	Action de concert
+R	64290	Franchissements de seuils de participation
+L	64290	Franchissements de seuils : obligation légale d'information
+L	64420	Franchissements de seuils : obligation statutaire
+L	64470	Déclaration d'intention
+R	64760	Offres publiques d'acquisition (OPA)
+L	64800	Offres publiques volontaires
+L	65390	Mesures anti-OPA
+L	65630	Offres publiques obligatoires (seuil 30 %)
+L	65880	Offre publique obligatoire sur Euronext Growth
+L	65970	Offres publiques de retrait (OPR)
+L	66070	Retrait obligatoire des minoritaires
+L	66180	Procédure d'acquisition ordonnée (titres de créance)
+R	66240	Règles d'information (sociétés cotées)
+L	66240	Information réglementée des émetteurs
+L	66303	Obligations d'information particulières
+R	66310	Répression des abus de marché
+L	66310	Délits d'abus de marché (initié, manipulation)
+L	66350	Manquements d'abus de marché (AMF)
+L	66400	Cumul de poursuites administratives et pénales
+L	66410	Abus de marché : sanctions civiles
+L	66420	Mesures préventives des abus de marché
+C	2	Les actions
+S	67500	Caractéristiques des actions
+S	67700	Droits et obligations attachés aux actions
+R	67700	Droits des actionnaires
+L	67701	Droits attachés aux actions ordinaires
+L	67780	Actions de préférence
+R	67910	Obligations des actionnaires
+L	67910	Libération des actions
+L	68040	Autres obligations des actionnaires
+S	68200	Exercice des droits attachés aux actions
+S	68400	Transmission des actions
+R	68400	Cession des actions entre vifs
+L	68400	Cession d'actions : règles générales
+L	68460	Clauses d'agrément et de préemption (libre cessibilité)
+R	68750	Transmission des actions par décès et liquidation de communauté
+R	68830	Rachat par la société de ses propres actions
+L	68830	Opérations interdites (autodétention)
+L	68910	Achat par une société de ses propres actions (programmes de rachat)
+S	69100	Pactes d'actionnaires
+L	69100	Pacte d'actionnaires : conclusion
+L	69105	Pacte d'actionnaires : contenu
+L	69300	Pacte d'actionnaires : inexécution
+S	69400	Actionnariat des salariés et dirigeants
+R	69410	Stock-options (options de souscription ou d'achat)
+L	69420	Stock-options : règles générales
+L	69530	Stock-options : octroi
+L	69660	Stock-options : prix
+L	69750	Stock-options : levée
+R	69980	Attribution gratuite d'actions (AGA)
+L	69990	AGA : champ d'application
+L	70070	AGA : procédure d'autorisation
+L	70150	AGA : information des actionnaires
+L	70220	AGA : attribution (période d'acquisition)
+L	70300	AGA : acquisition des actions (période de conservation)
+L	70370	AGA : régimes fiscal et social
+R	70410	BSPCE (bons de souscription de parts de créateur d'entreprise)
+R	70425	Offre de titres de SAS aux salariés
+R	70440	Plan d'épargne d'entreprise (PEE)
+S	70600	Actions non réclamées ou en déshérence
+C	3	Les obligations
+S	71000	Caractéristiques des obligations
+S	71200	Émission des obligations
+L	71200	Émission d'obligations : conditions préalables
+L	71290	Émission d'obligations : réalisation
+S	71500	Représentation des obligataires
+R	71510	Masse légale et représentants de la masse
+L	71510	Désignation des représentants de la masse
+L	71610	Pouvoirs des représentants de la masse
+L	71700	Rémunération des représentants de la masse
+L	71760	Responsabilité des représentants de la masse
+L	71820	Cessation des fonctions des représentants de la masse
+R	71910	Décisions collectives des obligataires
+L	71920	Convocation des assemblées d'obligataires
+L	72040	Droit de communication des obligataires
+L	72130	Accès aux assemblées d'obligataires
+L	72220	Réunion des assemblées d'obligataires
+L	72340	Attributions des assemblées d'obligataires
+R	72370	Masse contractuelle
+R	72380	Représentation contractuelle des obligataires
+S	72500	Droits individuels des obligataires
+L	72500	Obligataires : droit d'information
+L	72570	Obligataires : droit au paiement des intérêts
+L	72610	Obligataires : droit au remboursement
+L	72750	Obligataires : droit d'aliéner
+S	72900	Procédure collective de la société débitrice (obligataires)
+S	73100	Obligations émises par les SARL
+C	4	Valeurs mobilières donnant accès au capital
+L	74010	Valeurs mobilières composées : principes
+L	74145	Émission des valeurs mobilières composées
+L	74250	Augmentation de capital différée
+L	74360	Protection des porteurs de valeurs mobilières donnant accès au capital
+P	7	Règles communes aux différents types de sociétés
+C	1	Les comptes sociaux
+S	76000	Établissement des comptes sociaux
+L	76000	Obligations comptables (sociétés)
+L	76005	Durée de l'exercice social
+L	76015	Établissement des comptes annuels (délais)
+L	76070	Documents de gestion prévisionnelle
+S	76200	Affectation des résultats
+L	76260	Constitution de réserves (réserve légale)
+L	76400	Distribution des bénéfices (dividendes, dividendes fictifs)
+L	76600	Sort des pertes sociales
+S	76800	Publicité des comptes sociaux
+L	76800	Dépôt des comptes et rapports annuels (confidentialité)
+L	76830	Publications des sociétés cotées
+C	2	Informations de durabilité (CSRD)
+S	76903	Sociétés tenues d'établir des informations de durabilité
+L	76903	Informations de durabilité individuelles
+L	76920	Informations de durabilité consolidées
+L	76930	Exemption des sociétés contrôlées
+L	76940	Régime transitoire : consolidation artificielle par une filiale européenne
+S	76950	Support et format des informations de durabilité (rapport de gestion, ESEF)
+S	76959	Contenu des informations de durabilité
+L	76959	Teneur des informations de durabilité (ESRS)
+L	76990	Périmètre et sélection des informations (double matérialité)
+S	77000	Certification des informations de durabilité
+L	77003	Choix des vérificateurs (CAC ou OTI)
+L	77040	Désignation des vérificateurs
+L	77052	Durée et prise des fonctions des vérificateurs
+L	77054	Défaut de nomination d'un vérificateur
+L	77060	Cessation des fonctions des vérificateurs
+L	77092	Mission de certification (durabilité)
+L	77128	Rémunération des vérificateurs
+L	77132	Responsabilité des vérificateurs
+S	77300	Contrôle parallèle des informations de durabilité
+S	77305	Information et consultation du CSE (durabilité)
+S	77330	Sanctions du non-respect de l'obligation (durabilité)
+C	3	Contrôle par les commissaires aux comptes
+S	77511	Nomination des commissaires aux comptes
+L	77511	Nomination du CAC par les associés
+L	77533	Nomination du CAC par le juge
+L	77540	Nomination pour certifier les informations de durabilité
+L	77550	Nombre de commissaires aux comptes (co-commissariat)
+L	77570	Choix des commissaires aux comptes
+L	77625	CAC : durée et prise des fonctions (6 exercices)
+L	77640	CAC : défaut de nomination
+L	77650	CAC : sanctions des règles de nomination
+S	77700	Cessation des fonctions des CAC
+L	77700	CAC : arrivée du terme
+L	77710	CAC : récusation
+L	77720	CAC : démission
+L	77730	CAC : empêchement
+L	77750	CAC : relèvement judiciaire
+L	77760	CAC : autres causes de cessation
+L	77780	CAC : conséquences de la cessation des fonctions
+S	77830	Mission des commissaires aux comptes (sociétés)
+L	77840	Obligations des commissaires aux comptes
+L	77980	Droits des commissaires aux comptes
+S	78060	Rémunération des commissaires aux comptes
+L	78070	Rémunération pour le contrôle des comptes
+L	78085	Rémunération pour la certification de durabilité
+L	78086	Information sur la rémunération des CAC
+L	78090	Litiges sur la rémunération des CAC
+S	78140	Responsabilité des CAC et des sociétés contrôlées
+L	78145	CAC : responsabilité civile
+L	78160	CAC : responsabilité pénale
+L	78180	CAC : sanctions administratives
+C	4	Les groupes de sociétés
+S	79005	Critères distinctifs du groupe (contrôle, L. 233-3)
+S	79200	Constitution du groupe
+L	79200	Prises de participation
+L	79390	Financement des prises de participation par la cible (assistance financière)
+L	79500	Compatibilité avec la libre concurrence (concentrations)
+S	79700	Règles diverses concernant les groupes
+L	79700	Obligations d'information liées à l'existence d'un groupe
+L	79930	Règles concernant les dirigeants (groupe)
+L	80140	Règles concernant les actionnaires (participations réciproques, autocontrôle)
+L	80280	Règles concernant les salariés des sociétés du groupe
+L	80495	Responsabilité pour dommage environnemental ou minier
+L	80499	Contrôle Urssaf (groupe)
+S	80500	Contrats entre sociétés du groupe
+L	80500	Conventions réglementées (groupe)
+L	80550	Droit de la concurrence (groupe)
+L	80570	Risque pénal (abus de biens sociaux, intérêt de groupe)
+L	80600	Contrats usuels du groupe (management fees, trésorerie)
+S	81100	Règlement du passif des sociétés du groupe
+L	81100	Droits des créanciers à l'égard des sociétés du groupe
+L	81150	Garanties au sein du groupe (lettre de confort)
+L	81270	Procédures collectives dans le groupe
+S	81400	Régime comptable des groupes de sociétés
+L	81400	Consolidation des comptes (obligation)
+L	81465	Évaluation par équivalence des titres de participation
+S	81500	Régime fiscal des groupes de sociétés
+C	5	Fusions, scissions et apports partiels d'actifs
+S	82510	Fusions : règles générales
+L	82510	Fusion : définitions
+L	82580	Fusion : caractéristiques
+L	82660	Fusion : conditions de validité
+S	82900	Réalisation des fusions, scissions et APA
+R	82900	Préparation des opérations
+L	82910	Fusion : conditions financières
+L	82960	Fusion : conditions d'échange des titres (parité)
+L	83080	Projet de fusion, de scission ou d'apport
+R	83140	Exécution des opérations
+L	83140	Exécution des fusions (commissaire à la fusion, AGE)
+L	83450	Exécution des scissions
+L	83620	Exécution des apports partiels d'actifs
+S	83800	Conséquences des fusions, scissions et APA
+L	83800	Transmission universelle de patrimoine
+L	83870	Date d'effet de la fusion (rétroactivité)
+L	83930	Protection des créanciers non obligataires (opposition)
+L	83980	Protection des obligataires (fusion)
+L	84025	Fusion : conséquences diverses
+S	84200	Fusions : sanctions des irrégularités
+S	84400	Régime fiscal des fusions, scissions et APA
+S	84600	Fusions transfrontalières dans l'UE
+L	84600	Fusions transfrontalières : règles générales
+L	84650	Fusions transfrontalières : réalisation
+L	84710	Fusions transfrontalières : participation des salariés
+L	84750	Fusions transfrontalières : régime fiscal
+C	6	Formalités de publicité au cours de la vie sociale
+L	85540	Avis modificatif dans un support d'annonces légales
+L	85620	Inscription modificative au RCS
+L	85700	Inscription modificative au registre des bénéficiaires effectifs
+L	85720	Dépôt d'actes au greffe
+L	85760	Inscription et dépôt au RNE (guichet unique)
+L	85780	Avis modificatif au Bodacc
+L	85810	Opposabilité des actes soumis à publicité
+C	7	Dissolution, liquidation et partage des sociétés commerciales
+S	86000	Dissolution des sociétés
+L	86000	Causes de dissolution (mésentente, réunion des parts)
+L	86200	Régime de la dissolution
+S	86500	Liquidation des sociétés
+R	86505	Condition juridique de la société en liquidation
+L	86505	Maintien de la personnalité morale (besoins de la liquidation)
+L	86630	Disparition de la personnalité morale
+R	86800	Liquidation légale
+L	86800	Liquidation légale : domaine
+L	86860	Liquidateurs
+L	87050	Liquidation : organes de contrôle
+L	87120	Liquidation : droits des associés
+L	87210	Clôture de la liquidation
+R	87400	Liquidation conventionnelle
+S	87600	Partage (sociétés)
+L	87610	Partage : réglementation applicable
+L	87670	Partage : mise en œuvre
+L	87750	Partage : réalisation
+L	87840	Partage : effets
+L	87900	Partage : sanctions
+L	87960	Partage : régime fiscal
+S	88100	Prescription des actions contre les associés
+C	8	Sanctions civiles des irrégularités
+S	89100	Nullités
+R	89110	Causes de nullité
+L	89120	Nullité de la société
+L	89200	Nullité des décisions sociales
+R	89420	Action en nullité
+L	89420	Droit d'agir en nullité
+L	89450	Prescription de l'action en nullité
+L	89460	Régularisation (nullité)
+L	89480	Prononcé de la nullité
+R	89550	Effets de la nullité
+S	89800	Sanctions autres que la nullité (injonction de faire)
+C	9	Entreprises en difficulté
+S	90505	Prévention des difficultés des entreprises
+R	90505	Procédure d'alerte (sociétés)
+L	90511	Alerte par le commissaire aux comptes
+L	90530	Alerte par les associés
+L	90540	Alerte économique par le CSE
+L	90560	Alerte par le président du tribunal de commerce
+R	90590	Mandat ad hoc (sociétés)
+R	90620	Procédure de conciliation (sociétés)
+S	90800	Procédure collective (sociétés)
+R	90820	Ouverture d'une procédure collective
+L	90820	Procédure collective : sociétés visées
+L	90900	Difficultés justifiant l'ouverture (cessation des paiements)
+L	90970	Procédure collective : tribunal compétent
+L	90980	Demande d'ouverture de la procédure
+L	91040	Ouverture de la procédure collective
+R	91130	Conséquences de l'ouverture d'une procédure collective
+L	91130	Procédure collective : conséquences pour la société
+L	91300	Procédure collective : conséquences pour les associés
+L	91370	Procédure collective : conséquences pour les dirigeants (insuffisance d'actif)
+C	10	Sociétés étrangères
+S	92500	Sociétés étrangères et sociétés françaises à participations étrangères
+P	8	Sociétés et groupements particuliers
+C	1	Société en participation (SEP)
+L	94002	SEP : caractéristiques et intérêt
+L	94100	SEP : constitution
+L	94400	SEP : fonctionnement
+L	94700	SEP : dissolution
+L	94800	SEP : régime des nullités
+C	2	Société créée de fait
+L	95510	Société créée de fait : conditions d'existence
+L	95600	Société créée de fait : liquidation
+C	3	Groupement d'intérêt économique (GIE)
+S	96500	GIE : caractéristiques et intérêt
+S	96580	Constitution d'un GIE
+L	96580	GIE : conditions de fond
+L	96680	GIE : forme et publicité
+L	96740	GIE : régime fiscal
+L	96770	Transformation d'une société ou d'une association en GIE
+S	96900	Fonctionnement du GIE
+L	96900	GIE : administration
+L	96970	GIE : assemblées
+L	97030	GIE : contrôle de la gestion et des comptes
+L	97090	GIE : responsabilité pénale
+S	97200	Membres du GIE
+L	97200	GIE : admission et retrait des membres
+L	97270	GIE : droits des membres
+L	97320	GIE : obligations des membres (responsabilité solidaire)
+L	97370	GIE : régime fiscal des membres
+L	97400	GIE : régime social des membres
+S	97600	Transformation, dissolution et liquidation du GIE
+L	97600	GIE : transformation
+L	97640	GIE : dissolution
+L	97680	GIE : liquidation
+S	97800	GIE : régime des nullités
+L	97805	GIE : causes de nullité
+L	97840	GIE : action en nullité
+L	97870	GIE : effets de la nullité
+C	4	Société européenne (SE)
+S	98520	Constitution de la SE
+S	99100	Fonctionnement de la SE
+S	99600	Clauses relatives à l'actionnariat de la SE
+P	A	Annexes
+X	99900	Liste des modèles (actes, PV, statuts)

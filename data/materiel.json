@@ -34,6 +34,15 @@
      "note": ""
     },
     {
+     "id": "k6",
+     "t": "K6 — Table des notions UE 2 : 318 notions → n° de paragraphe dans les 6 Mémentos + folio V1 à V8",
+     "pdf": "imprimer/K6_Table_des_notions_UE2.pdf",
+     "court": "K6 · Table des notions (Mémentos + volumes)",
+     "pages": 13,
+     "onglet": "sur la table, à côté du K3",
+     "note": "A4 paysage, recto verso bord court"
+    },
+    {
      "id": "k4",
      "t": "K4 — Trames de réponse par type de question",
      "pdf": "imprimer/K4_Trames_de_reponse.pdf",
@@ -41,6 +50,15 @@
      "pages": 6,
      "onglet": "à relire avant chaque annale",
      "note": ""
+    },
+    {
+     "id": "k5",
+     "t": "K5 — Index complet des plans des 6 Mémentos (secours)",
+     "pdf": "imprimer/K5_Index_Mementos.pdf",
+     "court": "K5 · Index complet des Mémentos",
+     "pages": 92,
+     "onglet": "secours, si une notion manque au K6",
+     "note": "2 pages par face"
     }
    ]
   },
