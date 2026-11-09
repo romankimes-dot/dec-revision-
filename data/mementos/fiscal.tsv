@@ -1,0 +1,384 @@
+P	1	Impôt sur le revenu
+C	1	IR : règles générales
+S	100	IR : personnes imposables
+L	300	IR : personnes physiques (foyer fiscal)
+L	420	Territorialité de l'impôt sur le revenu (domicile fiscal)
+S	700	IR : base d'imposition
+L	725	IR : notions générales (revenu global)
+L	780	Détermination des revenus nets catégoriels
+L	800	Imputation des déficits (revenu global)
+L	1075	Charges déductibles du revenu global
+L	1480	Abattements sur le revenu global
+S	1600	Calcul de l'impôt sur le revenu
+L	1700	Quotient familial
+L	2090	Calcul de l'IR (barème, décote)
+L	2500	Réductions et crédits d'impôt
+S	3540	IR : modalités de perception
+L	3650	Établissement de l'IR (déclaration, avis)
+L	3740	Prélèvement à la source de l'IR
+S	4020	IR : régimes spéciaux
+L	4150	Revenus exceptionnels ou différés (quotient)
+L	4220	Taxation forfaitaire d'après les signes extérieurs
+L	4280	Imposition des non-résidents
+L	4685	IR : autres dispositions spéciales
+S	4840	Plafonnement global des niches fiscales
+S	5100	Contribution exceptionnelle sur les hauts revenus (CEHR)
+S	5200	Contribution différentielle sur les hauts revenus
+C	2	Bénéfices industriels et commerciaux (BIC)
+S	7010	BIC : définition
+S	7250	BIC : détermination du bénéfice imposable
+L	7250	BIC : règles générales
+L	7675	BIC : stocks et productions en cours
+L	7850	BIC : produits
+L	8140	BIC : charges déductibles
+L	9090	BIC : amortissements
+L	9660	BIC : provisions
+S	10250	BIC : régimes spéciaux (micro-BIC, régime simplifié)
+S	10780	BIC : règles d'imposition du résultat
+S	11400	BIC : situation en fin d'exploitation (cessation)
+C	3	Bénéfices non commerciaux (BNC)
+L	13150	BNC : définition
+L	13245	BNC : détermination du résultat (recettes-dépenses)
+L	13450	BNC : modalités d'imposition
+L	13715	BNC : régimes spéciaux (micro-BNC)
+L	13855	Sociétés spécifiques aux professions libérales (SEL, SCP)
+C	4	Bénéfices agricoles (BA)
+S	15155	BA : définition
+S	15300	BA : régimes d'imposition
+L	15500	BA : champ d'application des régimes
+L	15700	Régime micro-BA
+L	15790	BA : régimes réels
+L	16100	BA : changement de régime
+S	16225	BA : régimes spéciaux
+S	16425	Sociétés et groupements agricoles
+C	5	Plus-values et moins-values professionnelles
+L	17700	Plus-values professionnelles : notions générales (court terme, long terme)
+L	17870	Plus-values professionnelles : entreprises à l'IR
+L	18650	Plus-values professionnelles : entreprises à l'IS
+L	19285	Plus-values professionnelles : régimes spéciaux (exonérations 151 septies, 238 quindecies)
+L	19490	Plus-values : transmissions d'entreprises
+C	6	Traitements, salaires, pensions et rentes viagères
+S	21200	Traitements et salaires
+L	21350	Définition des salaires imposables
+L	21800	Salaires : montant imposable (frais réels, 10 %)
+L	22180	Obligations des employeurs (fiscal)
+L	22250	Salaires : cas particuliers
+S	22340	Pensions et rentes viagères
+C	7	Rémunérations des dirigeants
+L	23550	Rémunération des dirigeants par catégorie de sociétés (art. 62)
+L	23690	Contrôle des rémunérations des dirigeants (déductibilité)
+L	23760	Règlement de dettes sociales par le dirigeant
+C	8	Revenus de capitaux mobiliers (RCM)
+S	24155	RCM : règles générales (PFU)
+S	24265	Dividendes et autres distributions
+L	24450	Distributions régulières
+L	24740	Autres distributions (revenus réputés distribués)
+L	24845	Distributions à des non-résidents ou dans un ETNC
+S	24980	Produits de placements à revenu fixe (intérêts)
+L	25100	Placements à revenu fixe : règles générales
+L	25550	Placements à revenu fixe : règles par catégorie
+S	26000	RCM : régimes spéciaux (PEA, assurance-vie)
+S	26700	RCM : mesures de contrôle
+C	9	Revenus fonciers
+L	27065	Revenus fonciers : champ d'application
+L	27120	Revenus fonciers : revenu imposable (micro-foncier, réel)
+L	27530	Déficits fonciers
+L	27585	Revenus fonciers : obligations déclaratives et contrôle
+L	27620	Revenus fonciers : régimes spéciaux
+C	10	Fiscalité immobilière
+L	30150	Profits immobiliers (marchands de biens)
+L	30480	Organismes de placement collectif immobilier (OPCI)
+L	30700	Sociétés immobilières (SCI)
+L	31030	Bail à construction
+L	31090	Taxes d'urbanisme
+L	31380	Taxes annuelles sur les bureaux (IDF, PACA)
+L	31430	Taxe sur les cessions de terrains devenus constructibles
+C	11	Plus-values réalisées par les particuliers
+L	32000	Plus-values immobilières des particuliers
+L	32740	Plus-values sur biens meubles
+L	32805	Plus-values sur valeurs mobilières et droits sociaux
+L	33400	Profits sur instruments financiers à terme
+L	33600	Plus-values de cession d'actifs numériques (crypto)
+C	12	CSG et autres prélèvements sociaux
+L	34350	CSG et CRDS sur revenus d'activité et de remplacement
+L	34430	Prélèvements sociaux sur les revenus du capital
+P	2	Impôts sur les bénéfices des sociétés
+C	1	Impôt sur les sociétés (IS)
+L	35600	IS : champ d'application
+L	35800	IS : détermination du bénéfice imposable
+L	35890	Report déficitaire (en avant, en arrière)
+L	35990	Calcul de l'IS (taux réduit PME)
+L	36200	Établissement de l'IS (liasse)
+L	36460	Paiement de l'IS (acomptes)
+L	36690	Contribution sociale sur l'IS
+L	36800	Contribution exceptionnelle des grandes entreprises
+L	36950	IS : régimes particuliers
+C	2	Sociétés de personnes et assimilées (art. 8)
+L	37565	Sociétés de personnes : champ d'application
+L	37600	Sociétés de personnes : imposition des bénéfices sociaux
+L	37715	Sociétés de personnes : cessions de droits sociaux
+L	37775	Sociétés de personnes : particularités
+C	3	Transformations, changements d'activité ou de régime fiscal
+S	38500	Transformation de sociétés (conséquences fiscales, cessation)
+C	4	Régime spécial des fusions (art. 210 A)
+L	39200	Fusions : conditions du régime spécial
+L	39340	Fusions : portée du régime spécial
+C	5	Groupes de sociétés
+R	40150	Intégration fiscale
+R	40850	Régime des sociétés mères et filiales
+R	41100	Pilier 2 : imposition minimale mondiale des groupes
+L	41130	Pilier 2 : champ d'application
+L	41170	Pilier 2 : taux effectif d'imposition
+L	41320	Pilier 2 : impôt complémentaire
+L	41350	Pilier 2 : collecte de l'impôt complémentaire
+L	41400	Pilier 2 : règles transitoires
+L	41440	Pilier 2 : obligations déclaratives et sanctions
+P	3	Impôts directs locaux
+C	1	Taxes foncières
+L	41650	Taxes foncières : règles communes
+L	41900	Taxe foncière sur les propriétés bâties
+L	42500	Taxe foncière sur les propriétés non bâties
+C	2	Taxe d'habitation
+S	43000	Taxe d'habitation (résidences secondaires)
+C	3	Contribution économique territoriale (CET)
+S	43520	Cotisation foncière des entreprises (CFE)
+L	43520	CFE : champ d'application
+L	43660	CFE : base d'imposition
+L	43710	CFE : montant
+L	43740	CFE : établissement
+L	43770	CFE : paiement
+L	43800	CFE : contrôle et contentieux
+S	43850	Cotisation sur la valeur ajoutée des entreprises (CVAE)
+L	43855	CVAE : champ d'application
+L	43885	CVAE : montant
+L	44030	CVAE : établissement et paiement
+L	44060	CVAE : contrôle et contentieux
+S	44100	Plafonnement de la CET en fonction de la valeur ajoutée
+C	4	Taxes assimilées
+S	45500	Taxes assimilées (impôts locaux)
+P	4	Taxe sur la valeur ajoutée (TVA)
+C	1	TVA : champ d'application
+S	46300	TVA : règles générales
+L	46450	Opérations imposables à titre onéreux par un assujetti
+L	46560	Opérations imposables en vertu d'une disposition spéciale (livraisons à soi-même)
+L	46580	Opérations exonérées de TVA
+L	46600	Opérations imposées sur option
+S	46680	TVA : exposés catégoriels
+C	2	TVA : territorialité
+S	48900	Territorialité : livraisons de biens
+L	48950	Biens : cas d'imposition en France
+L	49030	Échanges intracommunautaires de biens (LIC, AIC)
+L	49460	Échanges extracommunautaires de biens (importations, exportations)
+L	49760	Ventes à distance de biens (VAD, guichet OSS)
+S	49840	Territorialité : prestations de services (B2B, B2C)
+L	49845	Services : cas d'imposition en France
+L	50110	Services liés aux échanges extracommunautaires
+L	50180	Transports internationaux
+S	50400	Territorialité : dispositions diverses
+C	3	Calcul et paiement de la TVA
+S	52200	Base d'imposition de la TVA
+S	52500	Fait générateur et exigibilité de la TVA
+S	52760	Taux de TVA
+L	52900	Taux normal (20 %)
+L	52930	Taux réduits
+L	53050	Taux intermédiaire (10 %)
+S	53320	Obligations des assujettis et paiement de la TVA
+L	53385	TVA : déclarations administratives et numéro d'identification
+L	53440	TVA : obligations comptables
+L	53500	TVA : facturation (facturation électronique)
+L	53680	E-reporting (transmission de données)
+L	53700	TVA : déclaration des opérations et paiement (CA3, CA12)
+L	54400	Récupération de la TVA sur impayés et opérations annulées
+C	4	Déductions de TVA
+S	55200	TVA : principes généraux de déduction
+S	55360	Détermination de la TVA déductible (coefficient de déduction)
+L	55500	Coefficient d'assujettissement
+L	55540	Coefficient de taxation
+L	55860	Coefficient d'admission (exclusions)
+L	56030	Secteurs d'activité distincts
+S	56250	Conditions d'exercice du droit à déduction
+S	56480	Modalités de récupération de la TVA (crédit de TVA, remboursement)
+S	56800	Régularisations de TVA
+L	56950	Régularisations des immobilisations
+L	57490	Régularisations des autres biens et services
+C	5	TVA : régimes particuliers
+S	58700	TVA immobilière
+S	59420	TVA agricole
+L	59550	Régime de la TVA dans l'agriculture
+L	60040	Remboursement forfaitaire agricole
+S	60300	TVA : opérations bancaires et financières
+L	60300	Opérations bancaires : champ d'application
+L	60415	Opérations bancaires : modalités de taxation
+S	60540	Biens d'occasion, œuvres d'art, objets de collection (régime de la marge)
+S	61250	TVA : autres régimes particuliers (franchise en base)
+P	5	Droits d'enregistrement
+C	1	Droits d'enregistrement : réglementation générale
+L	63550	Formalité de l'enregistrement
+L	63865	Calcul et paiement des droits d'enregistrement
+C	2	Baux (enregistrement)
+S	65000	Baux : droits d'enregistrement
+C	3	Cessions de fonds de commerce et opérations assimilées
+L	65485	Cessions de fonds de commerce et de clientèles (droits)
+L	65580	Conventions de successeur
+L	65610	Cessions de droit au bail
+L	65665	Cessions d'offices publics ou ministériels
+C	4	Ventes d'immeubles (droits de mutation)
+L	66150	Ventes d'immeubles : champ d'application
+L	66185	Calcul du droit de vente d'immeuble
+L	66260	Ventes d'immeubles : régimes de faveur
+C	5	Droits d'enregistrement intéressant les sociétés
+L	66500	Droits des sociétés : caractéristiques communes
+L	66710	Droits exigibles à la constitution (apports purs et simples, à titre onéreux)
+L	66970	Droits exigibles durant l'existence (augmentation de capital)
+L	67060	Droits exigibles en fin de société (partage)
+L	67130	Droits sur les cessions de droits sociaux (actions, parts)
+L	67190	Droits des sociétés : régimes spéciaux
+L	67240	Tableau récapitulatif des droits intéressant les sociétés
+C	6	Droits de succession et de donation
+S	67700	Successions
+L	67700	Succession : actif successoral taxable
+L	67850	Succession : assiette et calcul
+L	68290	Succession : déclaration et paiement
+S	68700	Donations
+S	69040	Donations (pacte Dutreil, abattements)
+C	7	Conventions diverses
+L	70250	Partages (droit de partage)
+L	70500	Échanges (enregistrement)
+P	6	Impôt sur la fortune immobilière (IFI)
+C	1	IFI : champ d'application
+L	71085	IFI : personnes imposables
+L	71140	IFI : actifs imposables
+L	71400	IFI : exonérations
+C	2	IFI : assiette et calcul
+L	71750	IFI : évaluation des actifs
+L	71810	IFI : déduction du passif
+L	71840	IFI : calcul de l'impôt
+C	3	IFI : déclaration et paiement
+C	4	IFI : actifs professionnels
+L	72650	IFI : actifs affectés à une exploitation individuelle
+L	72730	IFI : actifs affectés à l'activité d'une société
+P	7	Taxes diverses
+C	1	Taxes et participations sur les salaires
+S	73350	Taxe sur les salaires
+L	73350	Taxe sur les salaires : personnes imposables
+L	73465	Taxe sur les salaires : calcul
+L	73530	Taxe sur les salaires : paiement
+S	74300	Participation à l'effort de construction
+C	2	Contribution sur les revenus locatifs
+S	74800	Contribution sur les revenus locatifs (CRL)
+C	3	Contribution sociale de solidarité des sociétés
+S	75000	C3S (contribution sociale de solidarité des sociétés)
+C	4	Taxes sur les véhicules
+S	75100	Taxes sur l'affectation des véhicules à des fins économiques (ex-TVS)
+C	5	TGAP
+S	75200	Taxe générale sur les activités polluantes (TGAP)
+C	6	Autres taxes
+S	75900	Autres taxes
+P	8	Dispositions communes
+C	1	Paiement et recouvrement de l'impôt
+L	76515	Créance du Trésor
+L	76650	Paiement de l'impôt
+L	76900	Poursuites en recouvrement
+L	77080	Garanties de recouvrement du Trésor (privilège, hypothèque)
+C	2	Contrôle de l'impôt
+S	77700	Délai d'action de l'administration (prescription)
+L	77710	Délais de reprise
+L	77760	Prorogation des délais de reprise
+L	77780	Interruption de la prescription
+S	77860	Modalités d'exercice du contrôle fiscal
+L	78000	Demandes d'éclaircissements ou de justifications
+L	78030	Droit de communication
+L	78090	Examen contradictoire de la situation fiscale personnelle (ESFP)
+L	78110	Vérification de comptabilité
+L	78190	Examen de comptabilité
+L	78210	Mesures particulières de contrôle (droit de visite, flagrance)
+S	78480	Procédures de rectification
+L	78600	Procédure de rectification contradictoire
+L	78920	Procédure d'imposition d'office (taxation d'office)
+L	79175	Procédures spéciales (abus de droit)
+S	79280	Droits et garanties des contribuables
+L	79370	Rescrit fiscal
+L	79380	Garanties en cas de contrôle sur pièces
+L	79400	Garanties en cas de vérification (charte du contribuable)
+L	79530	Garantie contre les changements de doctrine (L. 80 A LPF)
+L	79590	Déduction en cascade (fiscal)
+S	79700	Sanctions fiscales
+L	79850	Pénalités fiscales (intérêt de retard, majorations)
+L	80250	Sanctions pénales (fraude fiscale)
+L	80310	Sanctions particulières (fiscal)
+C	3	Recours des contribuables
+R	81650	Recours contentieux (fiscal)
+L	81800	Réclamations préalables
+L	81990	Saisine du juge de l'impôt
+R	82270	Recours gracieux (fiscal)
+R	82310	Dégrèvements et restitutions d'office
+R	82340	Recours : modèles pratiques
+C	4	Conventions fiscales internationales
+L	82600	Lecture des conventions fiscales
+L	82700	Contenu des conventions fiscales
+L	83300	Conventions fiscales : tableaux pratiques
+P	9	Régimes spéciaux
+C	1	Auto-entrepreneur
+S	85100	Régime de l'auto-entrepreneur (micro-entrepreneur, versement libératoire)
+C	2	Entrepreneurs individuels
+S	87200	Entrepreneur individuel : option pour l'IS et apport en société
+C	3	Direction des grandes entreprises
+S	87400	Direction des grandes entreprises (DGE)
+C	4	Participation financière et actionnariat
+S	88400	Participation, intéressement et actionnariat des salariés et dirigeants (fiscal)
+C	5	Associations et organismes sans but lucratif
+L	89400	OSBL : exonération des impôts commerciaux (non-lucrativité)
+L	89615	OSBL : imposition des activités lucratives
+L	89700	OSBL : imposition des revenus patrimoniaux
+C	6	Autres régimes
+S	90200	Agréments fiscaux
+S	90420	Location en meublé (LMNP, LMP)
+L	90485	Location meublée : impôts directs
+L	90615	Location meublée : TVA
+L	90670	Location meublée : autres impôts
+S	90780	Fiducie (fiscal)
+L	90800	Fiducie : IR et IS
+L	90920	Fiducie : droits d'enregistrement et IFI
+L	91045	Fiducie : TVA
+L	91140	Fiducie : impôts directs locaux
+L	91180	Fiducie : contrôle fiscal
+S	91280	Outre-mer
+L	91450	Outre-mer : régime fiscal
+L	91710	Investissements outre-mer
+S	92140	Corse
+L	92260	Corse : impôts directs
+L	92360	Corse : TVA
+L	92430	Corse : droits d'enregistrement
+S	92540	Aménagement du territoire (zones prioritaires : ZFU, ZRR)
+S	92605	Réglementation européenne des aides d'État (de minimis)
+P	10	Dossiers thématiques
+X	95010	Création d'une entreprise (fiscal)
+X	95500	Achat d'une entreprise individuelle
+X	95550	Mise en société d'une entreprise individuelle
+X	95800	Création de succursales ou de filiales
+X	95950	Location-gérance d'une entreprise
+X	96150	Transmission d'une entreprise : préparation et conséquences fiscales
+X	96450	Vente d'une entreprise individuelle
+X	96580	Plans d'épargne retraite (PER)
+P	A	Annexes
+X	97100	Tableaux de calcul de l'impôt (revenus 2025)
+X	97110	Prélèvement à la source : grilles de taux
+X	97120	Cours des monnaies étrangères
+X	97140	Intérêts déductibles des comptes d'associés (taux)
+X	97165	Barèmes des frais de carburant
+X	97200	Barèmes kilométriques
+X	97220	Avantage en nature logement
+X	97230	Taux d'abattements sur les plus-values immobilières des particuliers
+X	97240	Taux horaire du Smic
+X	97260	Plafond de la sécurité sociale
+X	97280	Médecins conventionnés
+X	97290	Droits départementaux de vente d'immeubles
+X	97320	Exonérations facultatives de droits d'enregistrement
+X	97350	Contribution de sécurité immobilière
+X	97370	Tarifs réglementés des notaires
+X	97430	Majoration des rentes viagères
+X	97470	Coefficients de réévaluation des immobilisations
+X	97490	Régime fiscal et social des salaires et retraites
+X	97510	Règles d'arrondissement des impôts
+X	97550	Tableau récapitulatif des impôts, droits et taxes
+X	97560	Tableau des déclarations fiscales
