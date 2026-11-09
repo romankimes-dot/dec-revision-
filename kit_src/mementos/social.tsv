@@ -284,13 +284,13 @@ S	47040	Motif économique de licenciement
 S	47150	Ordre des licenciements
 S	47200	Obligation de reclassement préalable
 S	47250	Procédure de licenciement pour motif économique
-R	47250	Licenciement économique individuel
-R	47270	Licenciement économique collectif
+R	47270	Licenciement économique individuel
+R	47320	Licenciement économique collectif
 L	47320	Détermination de la procédure applicable
-L	47320	Licenciement de moins de 10 salariés sur 30 jours
-L	47350	Licenciement d'au moins 10 salariés sur 30 jours (PSE)
-L	47400	Licenciement en cas de sauvegarde, redressement ou liquidation judiciaire
-S	47760	Retour à l'emploi
+L	47350	Licenciement de moins de 10 salariés sur 30 jours
+L	47400	Licenciement d'au moins 10 salariés sur 30 jours (PSE)
+L	47760	Licenciement en cas de sauvegarde, redressement ou liquidation judiciaire
+S	47840	Retour à l'emploi
 L	47840	Contrat de sécurisation professionnelle (CSP)
 L	47900	Congé de reclassement
 L	47930	Revitalisation du bassin d'emploi

@@ -181,11 +181,11 @@ L	26990	Amortissement des immobilisations
 L	27715	Dépréciation des immobilisations
 L	27875	Provisions liées aux immobilisations
 R	28100	Sortie des immobilisations corporelles
-L	28100	Valeur nette comptable (sortie)
-L	28120	Prix de cession (immobilisations)
-L	28170	Sortie des immobilisations : cas particuliers
-R	28220	Réévaluations des immobilisations
-S	28445	Immobilisations acquises par contrat de location
+L	28120	Valeur nette comptable (sortie)
+L	28170	Prix de cession (immobilisations)
+L	28220	Sortie des immobilisations : cas particuliers
+R	28445	Réévaluations des immobilisations
+S	28450	Immobilisations acquises par contrat de location
 R	28450	Contrat de location : définition et comptabilisation
 R	28650	Dépenses engagées sur des immobilisations louées
 R	28735	Provisions liées aux immobilisations louées
@@ -222,6 +222,7 @@ L	31750	Amortissement des immobilisations incorporelles (fonds commercial)
 L	31825	Dépréciation des immobilisations incorporelles
 L	31885	Immobilisations incorporelles : cas particuliers (amortissement, dépréciation)
 R	32140	Sortie des immobilisations incorporelles
+L	32145	Sortie des immobilisations incorporelles : cas particuliers
 S	32265	Crédit-bail (immobilisations acquises par contrat de crédit-bail)
 S	32375	Immobilisations incorporelles : schémas usuels de comptabilisation
 R	32375	Immobilisations incorporelles : acquisition et production
@@ -273,9 +274,9 @@ L	36865	Dépréciation financière des titres
 L	36915	Cession de titres
 R	37025	Éléments communs à plusieurs catégories de titres
 L	37025	Titres présentant des caractéristiques particulières
-L	37025	Opérations sur titres
-L	37130	Portage et autres engagements sur titres de capital
-R	37355	Actions (comptabilisation)
+L	37130	Opérations sur titres
+L	37355	Portage et autres engagements sur titres de capital
+R	37455	Actions (comptabilisation)
 L	37455	Actions présentant des caractéristiques particulières
 L	37460	Parts ou actions d'OPC
 L	37560	Opérations sur actions
@@ -393,7 +394,7 @@ S	52005	Résultats : généralités
 R	52005	Résultat : définitions et éléments constitutifs
 R	52115	Soldes intermédiaires de gestion (SIG)
 S	52305	Règles de détermination du résultat de l'exercice
-R	52305	Événements postérieurs à la clôture
+R	52310	Événements postérieurs à la clôture
 L	52310	Événements postérieurs : comptabilisation et information
 L	52395	Événements postérieurs dans le rapport de gestion
 R	52520	Éventualités
@@ -426,9 +427,9 @@ R	54440	Résultats : autres informations
 C	15	Les fonds propres
 S	55005	Fonds propres : définitions et éléments constitutifs
 R	55005	Fonds propres (notion)
-R	55005	Capitaux propres
+R	55025	Capitaux propres
 L	55025	Capitaux propres avant répartition
-L	55025	Capitaux propres après répartition (situation nette)
+L	55095	Capitaux propres après répartition (situation nette)
 R	55100	Autres fonds propres (TSDI, avances conditionnées)
 S	55225	Fonds propres : réglementation et schémas de comptabilisation
 R	55225	Capital et primes
@@ -545,6 +546,7 @@ R	72780	Marchés de partenariat : caractéristiques générales
 R	72860	Marchés de partenariat : schémas de comptabilisation
 S	72965	Franchisage
 R	72965	Franchise : caractéristiques générales
+R	73050	Franchise : schémas de comptabilisation
 L	73050	Comptabilisation chez le franchiseur
 L	73120	Comptabilisation chez le franchisé
 R	73195	Franchise : aspects complémentaires

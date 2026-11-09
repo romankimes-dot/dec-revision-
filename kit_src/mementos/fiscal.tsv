@@ -236,10 +236,9 @@ L	67190	Droits des sociétés : régimes spéciaux
 L	67240	Tableau récapitulatif des droits intéressant les sociétés
 C	6	Droits de succession et de donation
 S	67700	Successions
-L	67700	Succession : actif successoral taxable
-L	67850	Succession : assiette et calcul
-L	68290	Succession : déclaration et paiement
-S	68700	Donations
+L	67850	Succession : actif successoral taxable
+L	68290	Succession : assiette et calcul
+L	68700	Succession : déclaration et paiement
 S	69040	Donations (pacte Dutreil, abattements)
 C	7	Conventions diverses
 L	70250	Partages (droit de partage)

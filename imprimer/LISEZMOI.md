@@ -28,6 +28,8 @@ Les volumes complets restent disponibles pour mai 2027.
 | K2_Fiches_de_synthese.pdf | 12 | 12 fiches (seuils, nomination, rapports, révélation, alerte, déontologie, conventions, commissariats, capital, fiscalité, démarche d'audit), vérifiées ligne par ligne (kit_src/K2_verification.md) |
 | K3_Index_prerempli.pdf | 4 | 250 notions → volume → folio (230 folios contrôlés, 20 pages de Mémentos à compléter) |
 | K4_Trames_de_reponse.pdf | 6 | trames et réponses modèles par famille de questions |
+| K6_Table_des_notions_UE2.pdf | 13 | **à garder sur la table** : 313 notions de l'UE 2 → n° de paragraphe dans chacun des 6 Mémentos (Audit, Sociétés, Comptable, Fiscal, Social, Associations) + folio V1 à V8 ; A4 paysage, recto-verso bord court (ajouté le 09/11/2026) |
+| K5_Index_Mementos.pdf | 92 | secours : index alphabétique complet des plans des 6 Mémentos (3 600 entrées), relu contre les photos ; à imprimer 2 pages par face |
 
 K1 en recto seul, pages 2 à 9 en couleur ; recto-verso pour le reste. **Chaque page des volumes V1 à V8 porte désormais un folio « Vx · n » en haut, côté extérieur : c'est le numéro cité par l'index, les fiches et les sommaires.**
 

@@ -478,15 +478,15 @@ L	58660	Formalités consécutives à la rupture du contrat de travail
 S	58840	Cessation du contrat à durée déterminée
 C	4	Conditions de travail et de formation
 S	59250	Durée du travail
-L	59250	Durées légale, maximale et effective du travail
-L	59270	Horaire de travail
-L	59370	Heures supplémentaires
-L	59460	Aménagement du temps de travail
-L	59560	Activité partielle
-L	59700	Repos hebdomadaire et dominical
-L	59790	Jours fériés
-L	59870	Compte épargne-temps (CET)
-L	59930	Travail à temps partiel
+L	59270	Durées légale, maximale et effective du travail
+L	59370	Horaire de travail
+L	59460	Heures supplémentaires
+L	59560	Aménagement du temps de travail
+L	59700	Activité partielle
+L	59790	Repos hebdomadaire et dominical
+L	59870	Jours fériés
+L	59930	Compte épargne-temps (CET)
+L	59950	Travail à temps partiel
 S	60050	Congés payés annuels
 L	60050	Droit au congé
 L	60130	Durée du congé
@@ -743,12 +743,12 @@ L	88900	Droits des personnes fichées
 L	89010	Contrôles de la Cnil
 C	8	Presse associative
 S	89550	Régime juridique (presse)
-L	89550	Choix et protection du titre
-L	89600	Formalités légales (presse)
-S	89800	Régime fiscal (presse)
-L	89970	Régime spécial de TVA (presse)
-L	90030	Impôt sur les sociétés (presse)
-L	90350	Impôts locaux (presse)
+L	89600	Choix et protection du titre
+L	89800	Formalités légales (presse)
+S	89970	Régime fiscal (presse)
+L	90030	Régime spécial de TVA (presse)
+L	90350	Impôt sur les sociétés (presse)
+L	90450	Impôts locaux (presse)
 S	90560	Statut des collaborateurs du journal
 L	90630	Définition du journaliste professionnel
 L	90830	Statut du journaliste professionnel
@@ -830,7 +830,7 @@ N	30090	Gestion désintéressée : jurisprudence sur rémunérations et avantage
 N	33100	Transfert des dispositions TVA dans le Code des impositions sur les biens et services
 N	37060	Facturation électronique : obligation de réception au 1er septembre 2026 pour les associations assujetties, LF 2026
 N	41330	Transformation d'une association en FRUP : droit fixe de 125 €
-N	43367	Reports des révisions des valeurs locatives des locaux professionnels et d'habitation
+N	43367	Reports des révisions des valeurs locatives des locaux professionnels et d'habitation (aussi n° 43377)
 N	54593	Télétravailleurs : droit aux titres-restaurant
 N	54685	Contrat de valorisation de l'expérience (chômeur d'au moins 60 ans)
 N	55850	Entretien de parcours professionnel remplace l'entretien professionnel

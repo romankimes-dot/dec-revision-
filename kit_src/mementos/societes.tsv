@@ -32,6 +32,7 @@ L	1310	Choix du siège social (domiciliation)
 L	1360	Siège social fictif
 R	1400	Nationalité de la société
 S	1500	Pourparlers et promesse de société
+L	1550	Promesse de société
 S	1600	Statuts de la société
 L	1620	Établissement des statuts
 L	1670	Actes complétant les statuts (pacte, règlement intérieur)
@@ -242,11 +243,11 @@ L	31910	SARL : conventions réglementées et interdites (L. 223-19)
 L	32180	SARL : expertise de gestion
 S	32300	SARL : décisions collectives
 R	32300	SARL : dispositions générales sur les décisions
-L	32300	SARL : assemblée des associés
-L	32310	SARL : consultation écrite des associés
-L	32650	SARL : acte constatant le consentement des associés
-R	32720	SARL : décisions collectives ordinaires (approbation des comptes)
-R	32780	SARL : décisions collectives extraordinaires
+L	32310	SARL : assemblée des associés
+L	32650	SARL : consultation écrite des associés
+L	32720	SARL : acte constatant le consentement des associés
+R	32780	SARL : décisions collectives ordinaires (approbation des comptes)
+R	32860	SARL : décisions collectives extraordinaires
 L	32860	SARL : décisions extraordinaires, règles générales (quorum, majorité)
 L	32930	SARL : principales décisions extraordinaires
 L	33280	SARL : publicité des décisions

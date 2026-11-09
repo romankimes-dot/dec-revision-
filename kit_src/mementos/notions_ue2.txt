@@ -1,0 +1,347 @@
+# Table des notions UE 2 -> références. Une ligne = une notion.
+# Format : libellé [|| alias] | AUD n* n ; SOC n ; CPT n ; FISC n ; SCL n ; ASSO n | k-ids de index_prerempli.json
+# n = n° de paragraphe présent dans kit_src/mementos/<memento>.tsv (contrôlé par scripts/table_notions.py) ; * = point d'entrée conseillé.
+
+## CAC : nomination, mandat
+CAC : nomination, seuils (5 M€ / 10 M€ / 50) || Seuils de nomination du CAC || Nomination du CAC : seuils | AUD 1870* 1871 2100 ; SOC 77511 ; CPT 85005 | k232 k218 k221 k223 k233 k104
+CAC : nomination, modalités (AG, statuts, justice) | AUD 2230* 2120 ; SOC 77511 77533 77570 | k164 k081
+CAC : nomination irrégulière, défaut de nomination | AUD 2310* ; SOC 77640 77650 | k081 k170 k080
+CAC : suppléant | AUD 2100 ; SOC 77511 | k238 k164
+Co-commissariat (nombre de CAC, répartition des travaux) | AUD 45330* ; SOC 77550 | k041 k042 k054
+Petit groupe : CAC, filiales significatives | AUD 1871* 47100 ; SOC 77511 | k180 k181 k120
+EIP : nomination, rotation, services interdits | AUD 2350* 3760 3781 ; SOC 77625 | k106 k107 k229
+CAC : inscription sur la liste | AUD 900* 1000 1080 |
+H2A (Haute autorité de l'audit), CNCC, CRCC | AUD 520* 525 650 760 ; CPT 85100 |
+Société de commissaires aux comptes, modes d'exercice | AUD 1610* 1260 1440 |
+CAC : durée du mandat (6 exercices, 3 exercices) || Mandat du CAC : durée, expiration | AUD 2120 47050 ; SOC 77625* | k103 k117 k157 k158
+ALPE : mandat de 3 exercices, NEP 911 et 912 || Audit légal des petites entreprises (ALPE) | AUD 47000* 47100 47400 47700 | k007 k158 k157
+ALPE : rapport sur les risques, diligences dispensées | AUD 48050* 48350 48450 | k008 k201
+CAC : cessation des fonctions (terme, démission, empêchement) || Démission du CAC | AUD 2445* 2450 2645 ; SOC 77700 77720 77780 | k088 k117
+CAC : récusation, relèvement judiciaire || Récusation et relèvement du CAC | AUD 2450* ; SOC 77710 77750 | k203 k208
+Succession entre confrères, dossier de travail | AUD 25780* 5360 98500 | k237
+
+## Déontologie, indépendance
+Indépendance du CAC : principes, risques et sauvegardes | AUD 3530* 3550 3755 4295 | k138 k216 k166 k167 k134 k143
+Incompatibilités générales du CAC | AUD 3710* | k136 k116
+Incompatibilités : liens personnels, financiers, professionnels | AUD 3730* | k153 k154 k155
+Services interdits au CAC et à son réseau | AUD 3739* 3781 | k230 k229 k219
+Rotation des signataires, délai de viduité | AUD 3760* 3759 | k217 k084 k085
+Cadeaux, sollicitations, publicité du CAC | AUD 3725* 5900 5905 5920 |
+Monopoles des autres professions (consultation juridique, maniement de fonds) | AUD 3726* 75320 | k163
+Indépendance et déontologie de l'expert-comptable | | k051 k137 k094 k095
+Honoraires du CAC (barème, budget, litiges, recouvrement) | AUD 9750* 9940 10075 10175 3787 ; SOC 78060 78070 78090 | k132 k133
+Honoraires de l'expert-comptable | | k131
+Secret professionnel du CAC : principe, violation | AUD 4995* 5050 5090 5124 | k227 k228
+Secret professionnel du CAC : levée (organes, associés, CSE, confrères, justice) | AUD 5190* 5250 5285 5300 5360 5640 | k227
+Secret professionnel de l'expert-comptable | | k226 k095
+Contrôle qualité (H2A), gestion de la qualité du cabinet | AUD 10500* 10550 11000 |
+Lettre de mission (CAC, expert-comptable) | | k152 k151 k168
+Acceptation de la mission, maintien | AUD 6520 | k003 k004
+
+## Responsabilités
+Responsabilité civile du CAC (faute, préjudice, prescription) | AUD 12100* 12250 12800 13000 ; SOC 78145 | k213 k186
+Responsabilité pénale du CAC (infractions) | AUD 13500* 13595 13650 ; SOC 78160 | k141 k116
+Responsabilité disciplinaire et administrative du CAC (H2A) | AUD 15000* 15350 15520 15765 ; SOC 78180 | k220
+Délit d'entrave (obstacle à la mission du CAC) | AUD 9400* | k110 k087 k080
+Assurance responsabilité professionnelle du CAC | AUD 15800* |
+Responsabilité des dirigeants (civile, fiscale) | SOC 13940* 13950 14300 14790 ; ASSO 15260 |
+Responsabilité pénale de la personne morale, de l'employeur | SOC 4590* ; SCL 67000 |
+Abus de biens sociaux | SOC 80550 | k002 k097
+
+## Révélation, irrégularités, LCB-FT
+Révélation des faits délictueux au procureur | AUD 6100* 6150 6250 6315 6390 | k215 k141 k125
+Irrégularités et inexactitudes : signalement à l'AG | AUD 5930* | k145
+Fraude : prise en compte dans l'audit | AUD 98530 25310 | k124 k125
+LCB-FT : vigilance (identification du client, bénéficiaire effectif) || Blanchiment : obligations de vigilance | AUD 6470* 6520 6530 6620 6650 6910 | k149 k024 k029 k250 k115 k169
+LCB-FT : déclaration de soupçon à Tracfin || Tracfin : déclaration de soupçon | AUD 6800* | k078 k079
+Bénéficiaires effectifs (registre) | SOC 3350* 85700 ; ASSO 5750 | k029
+
+## Mission et démarche d'audit
+Mission du CAC : contenu, obligation de moyens, non-immixtion | AUD 7100* 7350 7650 7750 ; SOC 77830 77840 | k083 k248
+Pouvoirs d'investigation et droit d'information du CAC | AUD 9100* 9150 9250 ; SOC 77980 ; CPT 80385 | k185
+Approche par les risques, risque d'audit | AUD 25310* 25320 25590 27480 | k189
+Assertions d'audit | AUD 25370* 25420 | k020
+Seuil de signification (caractère significatif) | AUD 25460* | k032 k231
+Prise de connaissance de l'entité, plan de mission, programme de travail | AUD 27101* 27140 27450 | k189
+Contrôle interne : évaluation, tests de procédures | AUD 27700* 28450 28750 27250 ; CPT 8745 | k060
+Faiblesses du contrôle interne : communication | AUD 26489* | k118
+Éléments probants, techniques de contrôle | AUD 25705* 26150 | k108 k242
+Procédures analytiques | AUD 26200* 30100 | k193
+Confirmation des tiers (circularisation) || Circularisation | AUD 26260* 30270 | k056
+Inventaire physique des stocks (observation physique) | AUD 29300* 26240 32570 ; CPT 22330 |
+Sondages | AUD 26300* |
+Documentation des travaux, dossier de travail | AUD 25780* 98500 |
+Utilisation des travaux d'experts, d'autres auditeurs, de l'audit interne | AUD 25980* 46090 45490 |
+Parties liées | AUD 29500* 29700 29860 | k014
+Événements postérieurs à la clôture | AUD 30530* ; CPT 52305* 52310 52395 | k111 k112
+Lettre d'affirmation (déclarations de la direction) | AUD 30780* | k150
+Continuité d'exploitation | AUD 30890* 98522 ; CPT 61045* | k058 k057
+Bilan d'ouverture, premier exercice certifié | | k030
+Communication avec les organes de gouvernance, comité d'audit (L. 821-63) | AUD 26450* 26479 26500 | k049 k050
+Contrôles de substance, finalisation, synthèse | AUD 30000* 30510 30820 |
+Audit par cycle : achats / fournisseurs | AUD 31200* ; CPT 15005 |
+Audit par cycle : ventes / clients | AUD 32000* ; CPT 10005 |
+Audit par cycle : stocks et en-cours | AUD 32350* ; CPT 20105 |
+Audit par cycle : immobilisations (corporelles, incorporelles, financières) | AUD 31600* 31920 ; CPT 25105 |
+Audit par cycle : trésorerie, emprunts, fonds propres, provisions | AUD 32700* 33350 33750 33940 |
+Audit par cycle : personnel, impôts et taxes | AUD 34000* 34350 |
+Examen limité | AUD 49710* 49750 49810 49900 | k113 k114
+
+## Rapports du CAC
+Rapport du CAC sur les comptes : structure, forme | AUD 30850* 30851 30936 | k198 k033
+Opinion : certification, réserve, refus, impossibilité de certifier || Réserve, refus de certifier, impossibilité de certifier | AUD 30858* 30876 | k172 k211 k212 k206 k135
+Observations dans le rapport du CAC | AUD 30900* | k171
+Justification des appréciations, points clés de l'audit | AUD 30909* | k147 k148 k033
+Rapport sur les comptes consolidés | AUD 46450* |
+
+## Vérifications spécifiques
+Vérifications spécifiques : notions, mise en œuvre | AUD 50150* 50250 50403 30928 | k248 k249
+Rapport de gestion : contenu, mission du CAC | AUD 54150* 54185 54255 ; SOC 76015 ; CPT 64960 ; ASSO 72545 | k249
+Rapport sur le gouvernement d'entreprise | AUD 55800* 55810 55900 | k200
+Documents adressés aux actionnaires, droit de communication | AUD 54390* 54530 ; SOC 46440 46450 46620 |
+Égalité entre actionnaires | AUD 55000* 55035 ; SOC 7100 | k105
+Prises de participation et de contrôle : information | AUD 55400* 55640 ; SOC 79200 |
+Délais de paiement : information, attestation du CAC | AUD 56518* 56526 |
+Attestation des rémunérations les plus élevées | AUD 56230* 56320 |
+Actions détenues par les administrateurs | AUD 56060* 56150 |
+Documents prévisionnels, prévention des difficultés (documents) | AUD 54650* 54655 54865 ; SOC 76070 ; CPT 65695 65855 66165 66280 | k140
+
+## Conventions réglementées
+Conventions réglementées : procédure, rapport spécial du CAC | AUD 52110* 52200 52350 | k070 k199 k062
+Conventions réglementées en SA (autorisation, conventions courantes) | AUD 52550* ; SOC 52500 52550 | k066 k063 k070
+Conventions réglementées en SARL | AUD 52750* ; SOC 31910 | k067
+Conventions réglementées en SAS | AUD 52850* ; SOC 60430 | k068
+Conventions réglementées : associations, personnes morales non commerçantes | AUD 53000* ; ASSO 74610 | k065
+Conventions interdites | SOC 52510* 31910 | k064
+Conventions intragroupe (prestations, trésorerie) | SOC 80500* 80570 |
+
+## Assemblées, approbation et dépôt des comptes
+Assemblée de SA : convocation, délais, sanctions | SOC 46010* 46140 46370 |
+Assemblée de SA : AGO (compétence, quorum, majorité) | SOC 48100* 48170 48350 | k018
+Assemblée de SA : AGE | SOC 48510* 48580 |
+Assemblée : pouvoirs, vote à distance, visioconférence, procès-verbal | SOC 46870 47350 47460 47980 |
+SARL : décisions collectives (assemblée, consultation écrite, majorités) | SOC 32300* 32310 32650 32780 32860 | k019
+SAS : décisions collectives | SOC 60490* | k077
+Convocation du CAC à l'AG et au conseil | SOC 77980 46730 | k073 k074 k080
+Convocation de l'AG par le CAC (carence des dirigeants) | AUD 62800* 62810 62915 |
+Approbation des comptes : délai de 6 mois | SOC 76015* 48170 32780 ; CPT 64280 | k018 k019 k077
+Dépôt des comptes au greffe, confidentialité, sanctions || Publicité des comptes | SOC 76800* ; CPT 64282 80660 ; ASSO 73140 | k091 k092 k165 k090
+Nullité de la société et des décisions sociales | SOC 89100* 89200 89420 89450 | k170
+Droits des associés (information, vote, participation) | SOC 7400* 7500 7670 |
+
+## Dirigeants et organes
+Dirigeants : nomination, incompatibilités, interdiction de gérer, cumul de mandats | SOC 11400* 11110 11170 11220 |
+Dirigeants : révocation, démission, cessation des fonctions | SOC 12400* 12480 12620 12760 |
+Dirigeant de fait | SOC 10100* |
+Cumul contrat de travail et mandat social | SOC 11500* 11940 12090 ; SCL 28070* 28260 |
+Dirigeants : protection sociale (sécurité sociale, chômage) | SCL 28435* 28640 |
+Rémunération des dirigeants (droit des sociétés, fiscal) | SOC 31530 41030 53040 ; FISC 23550* 23690 |
+Délégation de pouvoirs | SOC 13530* 13550 ; SCL 67100 |
+Pouvoirs des dirigeants à l'égard des tiers, objet social | SOC 13280* 13300 13470 |
+Cautions, avals et garanties ; cautionnement des dettes sociales | SOC 15010* ; CPT 50360 |
+SA : conseil d'administration (administrateurs, président, pouvoirs) | SOC 39010* 39100 40500 40510 40840 |
+SA : directeur général, directeurs généraux délégués | SOC 42500* 42501 42640 |
+SA : directoire et conseil de surveillance | SOC 43510* 44200 44810 |
+Comité d'audit | SOC 42860* 45200 ; AUD 26500 3781 93500 |
+SARL : gérance (nomination, révocation, pouvoirs, rémunération) | SOC 31000* 31130 31240 31530 31640 |
+SAS : président, direction, contrôle | SOC 60310* 60430 |
+Expertise de gestion | SOC 53000* 32180 |
+
+## Formes de sociétés, vie sociale
+Choix de la forme de société | SOC 180* |
+Constitution d'une société : statuts, objet, siège, capital | SOC 850* 1150 1300 1600 |
+Société en formation : reprise des engagements | SOC 2500* 2660 ; CPT 60230 |
+Immatriculation et formalités (RCS, RNE, annonces légales) | SOC 3040* 3100 3315 85540 85620 ; CPT 60005 |
+SARL : constitution, caractéristiques | SOC 30000* 30090 30300 |
+SARL : parts sociales, cession, agrément | SOC 34300* 34410 34530 |
+EURL | SOC 35600* 35800 36000 36200 |
+SA : constitution, caractéristiques | SOC 37500* 37010 37800 |
+SAS : constitution, statuts, clauses (agrément, exclusion) | SOC 60000* 60090 60620 60680 | k222
+SASU | SOC 61002* 61130 |
+SNC | SOC 21000* 22000 24010 24300 | k233
+Sociétés en commandite (SCS, SCA) | SOC 26000 55500 |
+Société en participation, société créée de fait | SOC 94002* 95510 ; CPT 73775 |
+GIE | SOC 96500* 96900 ; CPT 73570 |
+Société à mission, raison d'être | SOC 918 ; AUD 71000* 72100 |
+Pacte d'actionnaires | SOC 69100* 69105 |
+Actions : cession, clauses d'agrément et de préemption | SOC 68200* 68400 |
+Exclusion et retrait d'un associé | SOC 8070* 8140 |
+Usufruit et nue-propriété de droits sociaux | SOC 6100* |
+Compte courant d'associé | CPT 42530* ; FISC 97140 |
+Modification des statuts : objet, siège, dénomination, durée | SOC 20500* 20520 20600 20800 |
+
+## Apports et opérations sur le capital
+Apports en nature, commissaire aux apports (constitution) | SOC 1920 2280* 30090 37500 | k045 k048 k017 k222
+Apport en industrie | SOC 2400* |
+Augmentation de capital : procédés, décision, délégation | SOC 49500* 49570 |
+Augmentation de capital en numéraire, droit préférentiel de souscription || DPS (droit préférentiel de souscription) | SOC 49980* 50060 50550 ; AUD 56730 | k100
+Suppression du DPS : rapport du CAC | AUD 56730* 56790 ; SOC 50060 | k239
+Augmentation de capital par compensation de créances | AUD 56610* 56620 56680 |
+Augmentation de capital par apports en nature | SOC 50950* 51010 | k047
+Augmentation de capital par incorporation de réserves | SOC 51140* |
+Augmentation de capital réservée aux salariés (PEE) | AUD 57300* 57310 ; SOC 70440 | k028
+Réduction de capital (motifs, créanciers, rapport du CAC) | SOC 51700* 51860 51920 ; AUD 57500* 57680 | k204
+Coup d'accordéon (réduction sous le minimum légal) | SOC 52160* |
+Rachat par la société de ses propres actions | SOC 68750* 68910 ; AUD 57800 |
+Actions de préférence | SOC 67780* ; AUD 56880 56990 |
+Valeurs mobilières donnant accès au capital (OCA, BSA, ORA) | SOC 74010* 74145 ; AUD 57150 ; CPT 41255 38180 |
+Stock-options, actions gratuites, BSPCE | SOC 69980* 69410 70410 ; AUD 57340 57370 57400 ; CPT 55700 ; FISC 88400 |
+Obligations : émission, masse des obligataires | SOC 71000* 71200 71500 ; CPT 41080 |
+Perte de la moitié du capital | SOC 54500 35000 | k176 k177 k178 k179
+Capitaux propres, réserves, report à nouveau | CPT 55005* 56080 57230 |
+
+## Dividendes, résultat
+Dividendes : distribution, bénéfice distribuable | SOC 76400* 76200 ; CPT 53950 53955 ; FISC 24265 | k209 k097
+Acompte sur dividendes | AUD 58550* 58555 58750 ; SOC 76400 ; CPT 36315 | k005 k006
+Paiement du dividende en actions | AUD 59000* 59300 |
+Réserve légale, affectation du résultat | SOC 76260* 76200 ; CPT 53950 56080 | k210
+Dividendes : fiscalité (PFU, abattement de 40 %) | FISC 24155* 24450 | k182
+Régime mère-fille | FISC 40850* | k207
+
+## Transformation
+Transformation : conditions, effets | SOC 20620* 20640 20710 ; AUD 60100 ; CPT 60625 ; FISC 38500 |
+Transformation en société par actions : commissaire à la transformation | AUD 60200* 60300 60350 | k044 k245
+Transformation d'une SARL | AUD 60500* 60640 | k244
+Transformation d'une SA, d'une société par actions | AUD 60730* 60910 ; SOC 53510 |
+
+## Fusions, scissions, apports
+Fusion : régime juridique, projet, procédure | SOC 82510* 82900 83080 83140 | k127
+Commissaire à la fusion, commissaire aux apports | CPT 76360* 76435 ; SOC 83140 | k043
+Fusion : comptabilisation, valeur des apports, mali et boni | CPT 75005* 75120 75225 75460 75625 75855 | k128
+Fusion : rétroactivité, date d'effet | CPT 76195* 76255 ; SOC 83870 |
+Fusion : régime fiscal de faveur (210 A) | FISC 39200* 39340 ; SOC 84400 | k126
+TUP (transmission universelle de patrimoine) | SOC 83800* 36200 86000 |
+Scission, apport partiel d'actif | SOC 83450 83620 ; CPT 75910 76015 |
+Fusion : protection des créanciers | SOC 83930* |
+
+## Cession, transmission
+Cession de droits sociaux : prix, garantie de passif, cession de contrôle | SOC 16010* 16750 17300 17700 |
+Cession de droits sociaux et de fonds de commerce : droits d'enregistrement | FISC 67130* 65485 66500 | k102 k101
+Prestations de cession / acquisition (due diligence, data room) | AUD 65000* 65060 65910 66400 |
+Plus-values professionnelles (court et long terme, exonérations) | FISC 17700* 17870 18650 19285 | k184 k089 k183 k246
+Plus-values sur titres des particuliers (départ à la retraite, apport-cession) | FISC 32805* | k001 k015
+Plus-values immobilières des particuliers | FISC 32000* 97230 |
+Transmission d'entreprise, pacte Dutreil | FISC 96150* 19490 69040 | k174 k246
+
+## Dissolution, entreprises en difficulté
+Dissolution, liquidation, partage | SOC 86000* 86500 86800 87600 ; CPT 61805 62020 |
+Procédure d'alerte du CAC | AUD 62200* 62360 62420 62540 62682 ; SOC 90511 ; CPT 60805 | k190 k191 k192 k058
+Alerte par les associés, le CSE, le président du tribunal | SOC 90505* 90530 90540 90560 |
+Mandat ad hoc, conciliation | SOC 90590* 90620 ; CPT 61195 61270 ; ASSO 16460 |
+Sauvegarde, redressement, liquidation judiciaire || Procédures collectives | SOC 90800* 90900 91130 91370 ; CPT 61370 61575 ; ASSO 16600 |
+Déclaration de créances : visa du CAC | AUD 63100* 63195 63450 |
+CSE : demande d'information au CAC | AUD 63300* 63370 |
+
+## Groupes, consolidation
+Groupe : définition, contrôle, prises de participation | SOC 79005* 79200 79930 |
+Comptes consolidés : obligation, exemptions, seuils | AUD 45010* 45055 45090 ; SOC 81400 | k055 k129 k054
+Audit des comptes consolidés (NEP 600) | AUD 45300* 45510 45550 46090 46450 | k027
+Intégration fiscale | FISC 40150* ; CPT 52745 | k142
+Franchissements de seuils de participation | SOC 64290* ; CPT 39015 |
+
+## SACC, autres missions, durabilité
+SACC : cadre, attestations | AUD 68100* 49010 75750 | k219 k025
+Constats à l'issue de procédures convenues | AUD 68200* | k194
+Consultations, lettres de confort | AUD 68400* 68600 |
+Audit contractuel, prestations hors mandat de certification | AUD 75510* 75100 75200 | k026
+Missions de l'expert-comptable (présentation, examen limité, compilation) | | k031 k187 k114 k052 k163
+Durabilité (CSRD) : obligations de la société | SOC 76903* 76950 76959 ; CPT 85015 |
+Durabilité : certification par le CAC ou un OTI | AUD 92020* 91100 91400 92140 93000 ; SOC 77000 77003 77092 |
+DPEF, organisme tiers indépendant (OTI) | AUD 70000* 70200 |
+
+## Comptabilité
+Principes comptables, image fidèle | CPT 3535* 8245 8250 | k188
+Changements de méthode, d'estimation, correction d'erreur | CPT 8455* 8590 | k038 k037 k039 k036 k075 k011 k175 k040
+Immobilisations corporelles : définition, coût d'entrée | CPT 26170* 25105 26175 26580 | k076
+Composants, dépenses ultérieures, démantèlement | CPT 25705* 25885 26030 | k053
+Amortissements | CPT 26990* 29035 31750 | k009 k010 k121
+Dépréciation des immobilisations | CPT 27715* 29160 31825 | k093 k139
+Cession et sortie d'immobilisations | CPT 28100* 29290 |
+Immobilisations incorporelles, fonds commercial, logiciels | CPT 30105* 30355 30465 31750 | k121
+Frais de développement | CPT 30840* 31420 | k122
+Crédit-bail, contrats de location | CPT 32265* 28450 |
+Réévaluation | CPT 28445* 56665 |
+Titres (participation, VMP) : classement, évaluation, dépréciation | CPT 35150* 35155 35695 35925 36865 |
+Stocks : coût d'entrée, dépréciation | CPT 20715* 20720 21055 21705 |
+Créances clients, clients douteux | CPT 12215* 11340 |
+Chiffre d'affaires, fait générateur des produits, contrats à long terme | CPT 10350* 10195 10760 |
+Charges : rattachement, factures non parvenues, charges constatées d'avance | CPT 15430* 15075 45265 45330 |
+Provisions (passif) : conditions, évaluation | CPT 48110* 48200 48435 17385 | k196 k195
+Engagements de retraite (IFC) | CPT 17590* 17685 17965 | k109
+Engagements hors bilan | CPT 50005* 50305 50680 | k012
+Subventions (investissement, exploitation) | CPT 56435* 12045 | k236
+Provisions réglementées, amortissements dérogatoires | CPT 56305* 29035 |
+Emprunts, créances et dettes en devises | CPT 40940* 40945 40295 40370 |
+Instruments financiers à terme, couverture | CPT 41565* 41430 |
+Abandon de créance | CPT 42220* |
+Impôt sur les résultats et impôts différés (comptabilisation) | CPT 52595* 52890 52950 |
+Redressement fiscal ou Urssaf : comptabilisation | CPT 53090* 53230 |
+Participation des salariés (réserve spéciale) | CPT 53545* 53595 ; SCL 33730 |
+Annexe : contenu, insuffisance | CPT 64525* 64625 64835 ; AUD 30480 | k013 k012 k014
+Comptes annuels : établissement, présentation simplifiée, petites entreprises | CPT 64105* 64110 64180 8035 | k162
+Tableau de financement, flux de trésorerie, SIG | CPT 65855 66075 52115 |
+Comptes intermédiaires, comptes prévisionnels | CPT 65385* 65475 |
+Tenue de comptabilité : livres, pièces, conservation, comptabilité informatisée (FEC) | CPT 7010* 7080 7225 7435 7520 ; FISC 78110 |
+Valeur probante, rejet de comptabilité, examen de conformité fiscale | CPT 8640* 8645 8670 |
+TVA : comptabilisation | CPT 46480* 46570 |
+Frais d'établissement, charges à répartir | CPT 45005* 45110 |
+Plan de comptes (PCG), modèles de bilan et de compte de résultat | CPT 96195* 95505 |
+Durée de l'exercice, date de clôture | CPT 7940* ; SOC 76005 |
+
+## Fiscalité
+IS : champ, bénéfice imposable, taux, déficits, paiement | FISC 35600* 35800 35890 35990 36460 | k146 k082
+BIC : produits, charges déductibles, amortissements, provisions | FISC 7250* 7850 8140 9090 9660 |
+BNC | FISC 13150* 13245 13715 |
+Micro-entreprise (micro-BIC, micro-BNC, auto-entrepreneur) | FISC 85100* 10250 13715 ; SCL 80830 | k160 k161
+IR : base, calcul, réductions et crédits d'impôt | FISC 700 1600* 2500 | k144
+Sociétés de personnes (art. 8), sociétés immobilières (SCI) | FISC 37565* 37600 30700 | k224
+Sociétés des professions libérales (SEL, SCP, SCM) | FISC 13855* | k225
+TVA : champ d'application, territorialité | FISC 46300* 48900 49840 |
+TVA : base, fait générateur, exigibilité, taux | FISC 52200 52500* 52760 |
+TVA : déduction, coefficient de déduction, régularisations | FISC 55200* 55360 56800 |
+TVA : franchise en base, facturation électronique, déclarations | FISC 61250 53500 53680 53700 | k123
+TVA immobilière | FISC 58700* |
+Location meublée (LMNP, LMP) | FISC 90420* 90485 | k156
+Revenus fonciers, déficit foncier | FISC 27065* 27120 27530 |
+Droits d'enregistrement : apports, actes de sociétés | FISC 66500* 66710 66970 |
+Successions, donations, IFI | FISC 67700 69040 71085 |
+Contrôle fiscal : délais de reprise, vérification, rectification | FISC 77700* 78110 78600 79280 | k059
+Sanctions fiscales, pénalités, rescrit | FISC 79700* 79850 79370 |
+CFE, CVAE (contribution économique territoriale) | FISC 43520 43850 |
+Taxe sur les salaires | FISC 73350* |
+Taxes sur les bureaux | FISC 31380* | k241
+Entrepreneur individuel : option pour l'IS, mise en société | FISC 87200* 95550 ; CPT 60330 |
+Barèmes pratiques (kilométrique, Smic, plafond de sécurité sociale) | FISC 97200 97240 97260 |
+
+## Social
+Contrat de travail : conclusion, clauses, période d'essai, modification | SCL 16360* 16500 16700 17300 |
+CDD | SCL 19550* 20050 20230 |
+Licenciement pour motif personnel : motif, procédure, indemnités | SCL 48540* 48650 48900 49180 |
+Licenciement économique | SCL 47040* 47250 |
+Rupture du contrat : démission, rupture conventionnelle, préavis, transaction | SCL 69000* 69210 69560 |
+Transfert d'entreprise (L. 1224-1) | SCL 74550* |
+Durée du travail, heures supplémentaires, forfait jours | SCL 40900* 29400 30590 |
+Congés payés | SCL 13100* |
+Cotisations sociales : assiette, avantages en nature, frais professionnels | SCL 22320* 22480 22600 22820 |
+Contrôle Urssaf, redressement, rescrit social | SCL 24200* 24278 24460 | k061
+Travail dissimulé | SCL 79040* |
+CSE : mise en place, attributions, consultations | SCL 8500* 9180 9200 |
+Épargne salariale : participation, intéressement, PEE | SCL 33730* 34100 34400 |
+Travailleurs indépendants : cotisations, protection sociale | SCL 80100* 79700 81000 |
+Effectif de l'entreprise : calcul, seuils | SCL 31540* 31700 | k104
+Activité partielle, télétravail | SCL 1402 73900 |
+
+## Associations, secteur non lucratif
+CAC dans les associations et fondations (seuil de 153 000 €) || Associations : nomination et mission du CAC | AUD 85055* 85120 84250 ; ASSO 74300* 74450 69500 | k021 k023 k235
+Association : audit du secteur (cycles, ressources, fonds propres) | AUD 84050* 85650 85830 86000 |
+Association : constitution, statuts, personnalité juridique | ASSO 670* 1090 1400 |
+Association : dirigeants, assemblées générales | ASSO 5550* 7000 |
+Association : obligations comptables (règlement ANC 2018-06) | ASSO 68020* 68040 70340 ; AUD 84800 |
+Association : subventions publiques (seuils, obligations, comptabilisation) | ASSO 84150* 69235 69500 85450 85880 | k235 k023
+Association : opérations spécifiques (fonds dédiés, legs), bénévolat, générosité du public | ASSO 70560* 71345 87290 |
+Association : non-lucrativité, impôts commerciaux, gestion désintéressée || Non-lucrativité (associations) | ASSO 30090* 30590 30720 ; FISC 89400 89615 | k022
+Association : activités lucratives (franchise, sectorisation, filialisation) | ASSO 31460* 31780 87820 |
+Association : publication des comptes | ASSO 73140* |
+Association en difficulté, dissolution, fusion | ASSO 16405 17640 18000 |
+Fondations, fonds de dotation | ASSO 77100* 79660 80550 81620 |
+Mécénat, dons (réduction d'impôt, attestation du CAC) | ASSO 82430* 82550 83330 82805 ; AUD 56400 56460 | k159 k098

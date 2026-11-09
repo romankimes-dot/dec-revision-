@@ -1,6 +1,6 @@
 """Index transversal des Mémentos Francis Lefebvre.
 
-Lit data/mementos/*.tsv (TYPE, NUM, TITRE) et produit
+Lit kit_src/mementos/*.tsv (TYPE, NUM, TITRE) et produit
 imprimer/Index_Mementos.html : index alphabétique unique (notion -> Mémento -> n°),
 puis le plan condensé de chaque Mémento.
 """
@@ -10,7 +10,7 @@ import re
 import unicodedata
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-SRC = ROOT / "data" / "mementos"
+SRC = ROOT / "kit_src" / "mementos"
 OUT = ROOT / "imprimer" / "Index_Mementos.html"
 
 NOMS = {
