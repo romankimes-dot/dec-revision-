@@ -1,0 +1,641 @@
+T	I	Règles de base de la comptabilité
+C	1	Structures et problématiques comptables
+S	1020	Évolution du rôle de la comptabilité
+S	1120	Structures comptables fondamentales
+C	2	La réglementation comptable
+S	2605	Origines du droit de la comptabilité
+S	2740	Application des différentes sources de réglementation
+R	2740	Hiérarchie des sources comptables
+R	2850	Conséquences de la hiérarchie des sources
+S	2940	Portée générale de chacune des sources de droit comptable
+R	2940	Sources comptables législatives et réglementaires françaises
+L	2940	Code de commerce (sources comptables)
+L	2990	Règlements de l'Autorité des normes comptables (ANC)
+R	3295	Sources comptables jurisprudentielles et doctrinales
+L	3295	Jurisprudence (comptable)
+L	3315	Doctrine française (comptable)
+R	3405	Sources comptables européennes
+R	3435	Sources comptables internationales (IFRS)
+S	3535	Principes comptables
+C	3	Les obligations générales permanentes
+S	7010	Tenue de la comptabilité : conditions de forme
+R	7010	Tenue de la comptabilité : principes généraux
+R	7080	Livres obligatoires
+L	7100	Contenu des livres obligatoires
+L	7155	Forme, authentification et tenue des livres obligatoires
+L	7225	Conservation des livres obligatoires
+L	7280	Tenue irrégulière : sanctions et conséquences
+R	7385	Organisation de la comptabilité
+L	7435	Pièces justificatives de la comptabilité
+L	7520	Comptabilité informatisée (environnement informatique)
+L	7685	Inventaire
+L	7745	Plan de comptes de l'entreprise
+L	7840	Document décrivant les procédures et l'organisation comptables
+L	7940	Durée des exercices comptables et date de clôture
+R	8035	Obligations comptables des petits commerçants (régime simplifié, micro-entreprises)
+L	8055	Petits commerçants personnes morales
+L	8110	Petits commerçants personnes physiques
+R	8220	Obligations comptables : autres conditions
+L	8220	Commerçants membres d'un centre de gestion agréé
+L	8240	Sociétés membres d'un groupe international
+S	8245	Qualité des comptes
+R	8245	Régularité, sincérité, image fidèle
+L	8250	Notions de régularité, de sincérité et d'image fidèle
+L	8355	Choix offerts par les règles, dérogations aux règles
+L	8455	Changements comptables (méthodes, estimations, erreurs)
+L	8590	Changements de référentiel comptable
+R	8640	Valeur probante de la comptabilité en matière fiscale
+L	8645	Examen de conformité fiscale (ECF)
+L	8670	Rejet de la comptabilité
+R	8745	Contrôle interne (comptabilité)
+S	9095	Règles de base : compléments pratiques
+T	II	L'activité courante de l'entreprise
+C	4	Les produits et créances d'exploitation
+S	10005	Produits d'exploitation : généralités et définitions
+L	10005	Notion d'activité
+L	10065	Notion de ventes
+L	10140	Notion de produits d'exploitation
+L	10195	Notion de chiffre d'affaires
+L	10245	Notion de créances d'exploitation
+S	10350	Enregistrement et évaluation des créances et produits d'exploitation
+R	10350	Produits d'exploitation : règles générales d'enregistrement (fait générateur)
+R	10485	Évaluation des créances et produits d'exploitation
+R	10575	Produits d'exploitation : cas particuliers
+L	10575	Prestations de services échelonnées sur plusieurs exercices
+L	10695	Ventes à livrer
+L	10760	Contrats à long terme (avancement, achèvement)
+L	11020	Ventes comportant des conditions particulières (réserve de propriété, retour)
+L	11250	Autres produits d'exploitation
+L	11340	Créances d'exploitation : cas particuliers
+L	11530	Provisions liées aux ventes (garanties, retours)
+S	11740	Produits : schémas usuels de comptabilisation
+R	11740	Régularisation des créances et produits en fin d'exercice (FAE, PCA)
+R	11825	Produits d'exploitation : comptabilisation
+L	11825	Ventes et produits des activités annexes (compte 70)
+L	11935	Production stockée (compte 71)
+L	11995	Production immobilisée (compte 72)
+L	12045	Subventions d'exploitation (compte 74)
+L	12115	Autres produits de gestion courante (compte 75)
+R	12215	Créances d'exploitation : comptabilisation (clients douteux, effets)
+S	12365	Produits : valeur probante de la comptabilité
+R	12365	Produits : pièces justificatives
+L	12365	Établissement des factures
+L	12480	Ventes au comptant
+R	12555	Produits : obligations de forme
+R	12645	Tenue des comptes clients
+R	12715	Produits : contrôle externe
+S	12825	Produits : présentation des comptes annuels
+L	12830	Produits : bilan et compte de résultat
+L	12880	Produits : annexe
+R	13010	Produits : autres informations comptables et financières
+C	5	Les charges et les dettes d'exploitation
+S	15005	Charges d'exploitation : définitions et éléments constitutifs
+L	15010	Notion de charges d'exploitation
+L	15070	Notion de dettes d'exploitation
+S	15075	Enregistrement et évaluation des charges et dettes d'exploitation
+R	15075	Charges : règles d'enregistrement
+L	15080	Charges : règles générales d'enregistrement
+L	15205	Charges : cas particuliers et difficultés d'application
+R	15315	Charges : règles d'évaluation
+S	15430	Charges : schémas usuels de comptabilisation
+R	15430	Régularisation des charges et dettes en fin d'exercice (FNP, CCA)
+R	15545	Charges d'exploitation : comptabilisation
+L	15545	Achats (compte 60)
+L	15660	Autres charges externes (comptes 61/62)
+L	16225	Impôts, taxes et versements assimilés (compte 63)
+L	16595	Charges de personnel (compte 64)
+L	17275	Autres charges de gestion courante (compte 65)
+L	17350	Remboursement de dépenses par des tiers
+R	17385	Provisions pour risques et charges d'exploitation
+R	17520	Dettes d'exploitation : comptabilisation
+R	17590	Engagements de retraite et avantages postérieurs à l'emploi
+L	17685	Provision ou évaluation en annexe des engagements de retraite (prestations définies)
+L	17965	Engagements de retraite : informations en annexe
+S	18085	Charges : valeur probante de la comptabilité
+R	18085	Charges : pièces et documents justificatifs
+R	18165	Déclarations faites à partir de la comptabilité et de la paie
+S	18295	Charges : présentation des comptes annuels
+L	18305	Charges : bilan et compte de résultat
+L	18365	Charges : annexe
+R	18535	Charges : autres informations comptables et financières
+S	18740	Charges : compléments pratiques
+C	6	Les stocks et en-cours de production
+S	20105	Stocks : définition et éléments constitutifs
+R	20105	Stocks : critères de définition et de comptabilisation
+R	20195	Éléments constitutifs des stocks et en-cours
+L	20195	Stocks : principe général de comptabilisation
+L	20200	Stocks : conséquences pratiques
+R	20330	Classement comptable des stocks
+R	20400	Distinction entre stocks et immobilisations
+R	20560	Stocks particuliers
+S	20715	Évaluation des stocks et en-cours
+R	20720	Stocks : coût d'entrée
+L	20720	Stocks : règle générale d'évaluation du coût d'entrée
+L	20780	Stocks : modalités générales d'évaluation (CMUP, FIFO)
+L	20900	Coût d'acquisition des stocks (approvisionnements, marchandises)
+L	21055	Coût de production des stocks (produits, en-cours)
+L	21250	Stocks : cas particuliers d'évaluation (sous-activité)
+R	21415	Stocks : valeur d'inventaire
+L	21415	Stocks : règle générale (valeur d'inventaire)
+L	21470	Stocks : modalités d'évaluation (valeur d'inventaire)
+L	21615	Stocks : cas particuliers (valeur d'inventaire)
+R	21705	Stocks : valeur au bilan (dépréciations)
+L	21705	Dépréciation des stocks : règle générale
+L	21765	Dépréciation des stocks : modalités d'évaluation
+L	21840	Dépréciation des stocks : cas particuliers
+R	21945	Stocks : opérations particulières
+L	21945	Provisions réglementées relatives aux stocks (hausse des prix)
+L	22020	Réévaluations et stocks
+S	22120	Stocks : schémas usuels de comptabilisation
+L	22120	Comptabilisation des stocks et en-cours (inventaire permanent, intermittent)
+L	22215	Stocks : cas particuliers de comptabilisation
+S	22330	Stocks : valeur probante et contrôle
+R	22330	Obligations d'inventaire des stocks
+R	22435	Détermination pratique des coûts – comptabilité analytique
+R	22570	Stocks : contrôle externe
+S	22685	Stocks : présentation des comptes annuels
+L	22690	Stocks : bilan et compte de résultat
+L	22745	Stocks : annexe
+C	7	Les immobilisations corporelles
+S	25105	Immobilisations corporelles : définition et éléments constitutifs
+R	25105	Immobilisations corporelles : critères de définition et de comptabilisation
+R	25240	Immobilisations corporelles : éléments constitutifs
+L	25240	Immobilisations corporelles : principe général de comptabilisation
+L	25245	Immobilisations corporelles : conséquences pratiques
+L	25395	Immobilisations corporelles : exceptions au principe
+R	25510	Immobilisations corporelles : classement comptable
+R	25635	Distinction immobilisations corporelles / stocks
+R	25705	Décomposition des immobilisations corporelles (composants)
+R	25885	Dépenses ultérieures, démantèlement et remise en état
+L	25885	Dépenses ultérieures (immobilisations)
+L	26030	Coûts de démantèlement et de remise en état de site
+S	26170	Évaluation des immobilisations corporelles
+R	26170	Immobilisations corporelles : coût d'entrée
+L	26170	Immobilisations corporelles : règle générale du coût d'entrée
+L	26175	Coût d'acquisition des immobilisations corporelles
+L	26580	Coût de production des immobilisations corporelles
+L	26710	Immobilisations corporelles : autres modalités d'évaluation (apport, échange)
+R	26855	Immobilisations corporelles : valeur d'inventaire
+R	26985	Immobilisations corporelles : valeur au bilan
+L	26990	Amortissement des immobilisations
+L	27715	Dépréciation des immobilisations
+L	27875	Provisions liées aux immobilisations
+R	28100	Sortie des immobilisations corporelles
+L	28100	Valeur nette comptable (sortie)
+L	28120	Prix de cession (immobilisations)
+L	28170	Sortie des immobilisations : cas particuliers
+R	28220	Réévaluations des immobilisations
+S	28445	Immobilisations acquises par contrat de location
+R	28450	Contrat de location : définition et comptabilisation
+R	28650	Dépenses engagées sur des immobilisations louées
+R	28735	Provisions liées aux immobilisations louées
+R	28805	Immobilisations louées : présentation des comptes
+S	28935	Immobilisations corporelles : schémas usuels de comptabilisation
+R	28935	Acquisition et production d'immobilisations
+R	29035	Amortissements des immobilisations : comptabilisation (dérogatoire)
+R	29160	Dépréciations des immobilisations : comptabilisation
+R	29290	Sortie d'immobilisations : comptabilisation
+S	29535	Immobilisations corporelles : présentation des comptes annuels
+L	29540	Immobilisations corporelles : bilan et compte de résultat
+L	29590	Immobilisations corporelles : annexe
+R	29765	Immobilisations corporelles : autres informations
+C	8	Les immobilisations incorporelles
+S	30105	Immobilisations incorporelles : définition et éléments constitutifs
+R	30105	Immobilisations incorporelles : critères de définition et de comptabilisation
+R	30255	Immobilisations incorporelles : éléments constitutifs
+L	30255	Immobilisations incorporelles : principe général de comptabilisation
+L	30355	Solutions informatiques (logiciels, sites internet)
+L	30465	Acquisition d'un fonds de commerce
+L	30550	Éléments incorporels acquis séparément
+L	30840	Frais de développement (incorporels générés en interne)
+R	31035	Immobilisations incorporelles : classement comptable
+R	31150	Immobilisations incorporelles : dépenses ultérieures
+S	31270	Évaluation des immobilisations incorporelles
+R	31275	Immobilisations incorporelles : coût d'entrée
+L	31275	Immobilisations incorporelles : règle générale du coût d'entrée
+L	31280	Coût d'acquisition des immobilisations incorporelles
+L	31420	Coût de production des immobilisations incorporelles créées en interne
+L	31600	Immobilisations incorporelles : autres modalités d'évaluation
+R	31675	Immobilisations incorporelles : valeur d'inventaire
+R	31745	Immobilisations incorporelles : valeur au bilan
+L	31750	Amortissement des immobilisations incorporelles (fonds commercial)
+L	31825	Dépréciation des immobilisations incorporelles
+L	31885	Immobilisations incorporelles : cas particuliers (amortissement, dépréciation)
+R	32140	Sortie des immobilisations incorporelles
+S	32265	Crédit-bail (immobilisations acquises par contrat de crédit-bail)
+S	32375	Immobilisations incorporelles : schémas usuels de comptabilisation
+R	32375	Immobilisations incorporelles : acquisition et production
+R	32465	Amortissement des immobilisations incorporelles : comptabilisation
+R	32540	Dépréciation des immobilisations incorporelles : comptabilisation
+R	32610	Sortie d'immobilisations incorporelles : comptabilisation
+S	32745	Immobilisations incorporelles : présentation des comptes annuels
+L	32750	Immobilisations incorporelles : bilan et compte de résultat
+L	32800	Immobilisations incorporelles : annexe
+R	32965	Immobilisations incorporelles : autres informations
+C	9	Le portefeuille-titres
+S	35010	Portefeuille-titres : définition et éléments constitutifs
+R	35010	Portefeuille-titres : notions générales
+R	35150	Les 4 catégories de titres en comptabilité
+L	35155	Titres de participation
+L	35225	Titres immobilisés de l'activité de portefeuille (Tiap)
+L	35275	Autres titres immobilisés
+L	35325	Valeurs mobilières de placement (VMP)
+L	35385	Lien entre classement comptable et fiscal des titres
+R	35390	Classement comptable du portefeuille-titres (PCG)
+S	35535	Évaluation des titres
+R	35540	Titres : coût d'entrée
+L	35540	Titres : dispositions générales sur le coût d'entrée (frais d'acquisition)
+L	35600	Coût d'acquisition des titres acquis à titre onéreux
+R	35695	Titres : valeur d'inventaire
+L	35700	Titres de participation : valeur d'inventaire (valeur d'utilité)
+L	35785	Tiap : valeur d'inventaire
+L	35840	Autres titres immobilisés et VMP : valeur d'inventaire
+R	35925	Titres : valeur au bilan (dépréciation)
+L	35980	Titres de participation : valeur au bilan
+L	36030	Tiap : valeur au bilan
+L	36080	Autres titres immobilisés : valeur au bilan
+L	36135	VMP : valeur au bilan
+L	36205	Synthèse des règles d'évaluation des titres à la clôture
+R	36210	Évaluation par équivalence (comptes sociaux)
+R	36300	Revenus des titres (dividendes, parts de résultat, intérêts)
+L	36315	Dividendes et acomptes sur dividendes (comptabilisation)
+L	36430	Revenus de filiales soumises à l'IS : cas particuliers
+L	36480	Parts de résultat dans une société de personnes
+L	36580	Intérêts des obligations et bons
+R	36700	Titres : évaluation lors de la sortie du patrimoine
+L	36700	Cession de titres de sociétés soumises à l'IS
+L	36785	Cession de parts de sociétés de personnes non soumises à l'IS
+R	36805	Tableau comparatif des règles comptables des titres
+S	36810	Titres : schémas usuels et problèmes de comptabilisation
+R	36810	Titres : opérations courantes
+L	36810	Souscription ou acquisition de titres
+L	36865	Dépréciation financière des titres
+L	36915	Cession de titres
+R	37025	Éléments communs à plusieurs catégories de titres
+L	37025	Titres présentant des caractéristiques particulières
+L	37025	Opérations sur titres
+L	37130	Portage et autres engagements sur titres de capital
+R	37355	Actions (comptabilisation)
+L	37455	Actions présentant des caractéristiques particulières
+L	37460	Parts ou actions d'OPC
+L	37560	Opérations sur actions
+L	37755	Opérations décidées par la société émettrice (augmentation, réduction de capital)
+L	37855	Événements particuliers chez la société émettrice
+R	37945	Obligations (titres détenus)
+L	37945	Obligations simples
+L	38030	Opérations sur obligations
+R	38105	Titres participatifs
+R	38175	Valeurs mobilières composées (détenues)
+L	38180	Valeurs mobilières composées donnant accès au capital (ORA, OCA)
+L	38260	Valeurs mobilières composées donnant droit à des titres de créance
+R	38340	Autres formes de participation
+R	38465	Créances rattachées aux participations
+S	38595	Portefeuille-titres : valeur probante et contrôle
+R	38595	Obligations concernant le portefeuille-titres
+R	38685	Portefeuille-titres : contrôle externe
+S	38690	Portefeuille-titres : présentation des comptes annuels
+L	38700	Portefeuille-titres : bilan et compte de résultat
+L	38755	Portefeuille-titres : annexe (tableau des filiales et participations)
+R	38940	Portefeuille-titres : autres informations
+L	38940	Informations à la clôture (titres)
+L	39015	Informations durant l'exercice (franchissements de seuils)
+C	10	Les opérations financières
+S	40005	Opérations financières : définitions et éléments constitutifs
+L	40005	Opérations financières : généralités
+L	40075	Classement comptable des opérations financières
+S	40080	Créances et dettes : enregistrement et évaluation
+R	40080	Créances et dettes : règles d'enregistrement
+R	40085	Créances et dettes en monnaie nationale : évaluation
+L	40085	Créances et dettes en monnaie nationale : règles générales
+L	40165	Créances et dettes en monnaie nationale : cas particuliers
+R	40295	Créances et dettes en monnaies étrangères (écarts de conversion)
+L	40295	Devises : valeur d'entrée
+L	40370	Devises : valeur au bilan (écarts de conversion, provision pour perte de change)
+L	40515	Devises : cas particuliers
+R	40600	Dettes remboursables en jetons (crypto-actifs)
+L	40605	Jetons : valeur d'entrée
+L	40610	Jetons : valeur au bilan
+S	40650	Opérations financières : schémas usuels de comptabilisation
+R	40650	Opérations financières courantes (trésorerie, banque)
+R	40940	Emprunts et prêts
+L	40945	Emprunts : règles générales de comptabilisation (frais d'émission, primes)
+L	41080	Emprunts obligataires simples
+L	41190	Emprunts obligataires perpétuels
+L	41255	Valeurs mobilières composées émises (OCA, ORA, OBSA)
+L	41390	Autres prêts et emprunts
+R	41430	Instruments financiers à terme
+R	41565	Opérations de couverture (comptabilité de couverture)
+L	41570	Notion comptable de couverture
+L	41665	Positions symétriques (notion fiscale)
+L	41730	Principes généraux de la comptabilité de couverture
+L	41950	Traitement de chaque stratégie de couverture
+R	42115	Instruments financiers à terme en position ouverte isolée
+R	42220	Abandons de créances et renonciations à des recettes
+R	42410	Opérations Bpifrance Assurance Export
+R	42530	Opérations entre associés et sociétés apparentées (comptes courants)
+R	42600	Émission de jetons (ICO)
+R	42665	Autres placements de trésorerie
+R	42795	Opérations financières diverses
+R	42960	Charges et produits financiers
+S	43145	Opérations financières : valeur probante et contrôle
+R	43145	Obligations en matière de trésorerie
+R	43150	Opérations financières : contrôle externe
+S	43260	Opérations financières : présentation des comptes annuels
+L	43260	Opérations financières : bilan et compte de résultat
+L	43330	Opérations financières : annexe
+R	43495	Opérations financières : autres informations
+C	11	Opérations de régularisation, exceptionnelles et diverses
+S	45005	Opérations de régularisation
+R	45005	Dépenses pouvant être portées à l'actif (charges à répartir)
+L	45005	Options de comptabilisation des charges à l'actif
+L	45060	Conditions de comptabilisation des charges à l'actif
+L	45110	Frais d'établissement
+R	45265	Comptes de régularisation et d'attente
+L	45265	Comptes de rattachement
+L	45330	Comptes de régularisation (CCA, PCA)
+L	45395	Comptes transitoires et d'attente
+R	45500	Réaffectation des dépenses en fin d'exercice (transferts de charges)
+R	45600	Opérations relatives aux exercices antérieurs
+S	45780	Opérations exceptionnelles
+S	46225	Emballages
+R	46225	Emballages : définitions
+R	46310	Consignation des emballages
+S	46480	TVA (comptabilisation)
+R	46480	TVA : généralités
+R	46570	Comptabilisation de la TVA
+L	46625	TVA afférente aux immobilisations
+L	46675	TVA : opérations de gestion
+L	46845	TVA : opérations intracommunautaires sur des biens
+L	46975	Déclarations de chiffre d'affaires (CA3)
+L	47000	TVA : cas particuliers
+C	12	Les provisions autres que réglementées
+S	48110	Provisions : définitions et éléments constitutifs (passif)
+S	48200	Provisions : règles de constitution et d'évaluation
+S	48435	Provisions : enregistrement et schémas de comptabilisation
+S	48545	Provisions : contrôle externe
+S	48645	Provisions : présentation des comptes annuels
+L	48645	Provisions : bilan et compte de résultat
+L	48700	Provisions : annexe
+C	13	Les engagements et opérations « hors bilan »
+S	50005	Engagements hors bilan : généralités
+L	50005	Engagements : définitions et éléments constitutifs
+L	50110	Distinction entre bilan et engagements
+L	50200	Opérations « hors bilan » : définition
+S	50305	Réglementation des engagements
+L	50305	Date de constatation des engagements
+L	50310	Évaluation des engagements
+L	50360	Autorisation des engagements (cautions, avals, garanties)
+S	50475	Engagements : schémas usuels de comptabilisation
+S	50580	Engagements : contrôle externe
+S	50680	Engagements : information et présentation en annexe
+C	14	Les résultats
+S	52005	Résultats : généralités
+R	52005	Résultat : définitions et éléments constitutifs
+R	52115	Soldes intermédiaires de gestion (SIG)
+S	52305	Règles de détermination du résultat de l'exercice
+R	52305	Événements postérieurs à la clôture
+L	52310	Événements postérieurs : comptabilisation et information
+L	52395	Événements postérieurs dans le rapport de gestion
+R	52520	Éventualités
+R	52590	Résultat comptable et résultat fiscal
+S	52595	Résultats : problèmes particuliers de comptabilisation
+R	52595	Comptabilisation des impôts sur les résultats
+L	52595	Impôt sur les sociétés (comptabilisation)
+L	52745	Intégration fiscale (comptabilisation)
+L	52830	Pilier 2 – GloBE (règles globales anti-érosion de la base)
+R	52890	Situation fiscale différée ou latente
+L	52890	Impôts différés : différentes approches
+L	52950	Comptabilisation des impôts différés
+R	53090	Rectifications fiscales et redressements Urssaf
+L	53090	Rectifications définitives acceptées
+L	53230	Rectifications contestées ou probables
+L	53340	Déduction en cascade
+R	53545	Participation des salariés (comptabilisation)
+L	53595	Calcul de la réserve spéciale de participation
+L	53790	Comptabilisation de la participation des salariés
+R	53950	Affectation et distribution des résultats
+L	53955	Affectation et distribution des résultats d'une société
+L	54100	Affectation des résultats d'une entreprise individuelle
+S	54180	Résultats : contrôle
+R	54180	Résultats : problèmes de forme
+R	54255	Résultats : contrôle externe
+S	54260	Résultats : présentation des comptes annuels
+L	54260	Résultats : bilan et compte de résultat
+L	54315	Résultats : annexe
+R	54440	Résultats : autres informations
+C	15	Les fonds propres
+S	55005	Fonds propres : définitions et éléments constitutifs
+R	55005	Fonds propres (notion)
+R	55005	Capitaux propres
+L	55025	Capitaux propres avant répartition
+L	55025	Capitaux propres après répartition (situation nette)
+R	55100	Autres fonds propres (TSDI, avances conditionnées)
+S	55225	Fonds propres : réglementation et schémas de comptabilisation
+R	55225	Capital et primes
+L	55225	Capital : sociétés et groupements
+L	55700	Rémunérations par remise d'instruments de capitaux propres (stock-options, AGA)
+L	55745	Actionnariat salarié (comptabilisation)
+L	56005	Entreprises individuelles (capital, compte de l'exploitant)
+R	56080	Réserves et report à nouveau
+L	56080	Fonctionnement des comptes de réserves
+L	56155	Réserve spéciale des plus-values nettes à long terme (RSPVLT)
+L	56225	Autres réserves spéciales
+R	56305	Provisions réglementées (amortissements dérogatoires)
+R	56435	Subventions d'investissement
+R	56595	Provisions susceptibles d'avoir le caractère de réserves
+R	56665	Réévaluations après 1983 : régime actuel (écart de réévaluation)
+R	56940	Autres fonds propres (comptabilisation)
+R	57040	Dématérialisation des valeurs mobilières
+S	57155	Fonds propres : valeur probante et contrôle
+R	57155	Conformité aux décisions des assemblées
+R	57230	Variations des capitaux propres
+L	57235	Variations régulières des capitaux propres
+L	57295	Variations irrégulières des capitaux propres
+S	57585	Fonds propres : présentation des comptes annuels
+L	57585	Fonds propres : bilan
+L	57590	Fonds propres : annexe
+R	57710	Fonds propres : autres informations
+C	16	Création, transformation et liquidation de l'entreprise
+S	60005	Création de l'entreprise
+R	60005	Formalités d'immatriculation
+R	60120	Création d'une société
+L	60130	Souscription et libération du capital social
+L	60230	Opérations faites pour le compte de la société en formation (reprise des engagements)
+R	60255	Création d'une entreprise individuelle
+L	60255	Entreprise individuelle : principes généraux
+L	60265	Constitution du patrimoine de l'entreprise individuelle
+L	60330	Option de l'exploitant individuel pour l'assimilation à une EURL (IS)
+S	60515	Changement d'objet social ou d'activité
+S	60625	Transformation d'une société
+L	60630	Transformation : aspects juridiques et de contrôle
+L	60725	Transformation : aspects fiscaux
+L	60800	Transformation : aspects comptables
+S	60805	Difficultés des entreprises : prévention et continuité d'exploitation
+R	60805	Procédures d'alerte (comptable)
+R	61045	Incertitude sur la continuité de l'exploitation
+S	61190	Règlement des difficultés des entreprises
+R	61195	Mandat ad hoc
+R	61270	Procédure de conciliation
+R	61370	Procédures de sauvegarde
+L	61380	Sauvegarde de droit commun
+L	61475	Sauvegarde accélérée
+R	61575	Redressement judiciaire
+R	61685	Rétablissement professionnel
+S	61805	Liquidation de l'entreprise
+R	61805	Liquidation et partage d'une société
+L	61805	Liquidation : généralités
+L	61895	Liquidation : obligations comptables
+L	62020	Écritures de liquidation
+L	62090	Écritures de partage
+R	62190	Liquidation d'une entreprise individuelle
+C	17	Documents de synthèse – États financiers
+S	64105	Comptes annuels
+R	64105	Comptes annuels : généralités
+L	64105	Comptes annuels : définitions et éléments constitutifs
+L	64110	Obligations d'établissement des comptes annuels
+L	64180	Présentation des comptes annuels (systèmes, dispenses)
+L	64280	Approbation des comptes annuels et délais
+L	64282	Dépôt des comptes annuels (confidentialité)
+R	64285	Bilan et compte de résultat
+L	64285	Bilan et compte de résultat : règles d'établissement et de présentation
+L	64450	Bilan et compte de résultat : contrôle
+R	64525	Annexe
+L	64525	Annexe : objectifs et conséquences
+L	64625	Annexe : liste des informations prescrites
+L	64690	Lien entre l'annexe et d'autres documents
+L	64835	Insuffisance ou absence d'annexe : incidence sur la certification
+S	64940	Documents liés aux comptes annuels
+R	64960	Rapport de gestion (comptable)
+R	65165	Bilan social
+R	65245	Autres documents liés aux comptes annuels
+S	65385	Comptes intermédiaires et prévisionnels
+R	65385	Comptes intermédiaires (situations)
+R	65475	Comptes prévisionnels
+S	65585	Informations semestrielles et trimestrielles
+R	65585	Rapport financier semestriel
+R	65690	Information trimestrielle (Euronext)
+S	65695	Documents liés à la prévention des difficultés des entreprises
+R	65715	Documents de prévention : généralités
+R	65855	Tableau de financement et rapport joint
+L	65855	Tableau de financement : établissement, présentation et contrôle
+L	65925	Tableau des emplois et des ressources
+L	66075	Tableau des flux de trésorerie
+R	66165	Situation de l'actif réalisable et disponible et du passif exigible (SARD)
+R	66280	Compte de résultat prévisionnel et rapport joint
+R	66435	Plan de financement prévisionnel et rapport joint
+S	66500	Sanctions en matière d'information comptable
+T	III	Extension et coopération
+C	18	Les établissements multiples
+S	70125	Établissements français d'une entreprise française
+R	70130	Comptabilité autonome de l'établissement (comptes de liaison)
+R	70265	Comptabilité non autonome de l'établissement
+S	70370	Établissements étrangers d'une entreprise française (succursales)
+S	70580	Établissements français d'une entreprise étrangère
+S	70710	Établissements multiples : contrôle externe
+C	19	Les opérations de coopération
+S	72125	Concession de service public
+R	72125	Concession : caractéristiques générales
+R	72245	Immobilisations mises en concession (comptabilité du concessionnaire)
+L	72250	Biens mis dans la concession par le concédant
+L	72355	Biens mis dans la concession par le concessionnaire (amortissement de caducité)
+R	72495	Concession : autres opérations
+R	72670	Concession : aspects complémentaires
+S	72780	Marchés de partenariat
+R	72780	Marchés de partenariat : caractéristiques générales
+R	72860	Marchés de partenariat : schémas de comptabilisation
+S	72965	Franchisage
+R	72965	Franchise : caractéristiques générales
+L	73050	Comptabilisation chez le franchiseur
+L	73120	Comptabilisation chez le franchisé
+R	73195	Franchise : aspects complémentaires
+S	73300	Opérations faites pour le compte de tiers
+R	73305	Intermédiaire agissant en qualité de mandataire (au nom du tiers)
+R	73415	Intermédiaire agissant en son nom seul (commissionnaire)
+S	73570	Groupement d'intérêt économique (GIE)
+R	73570	GIE : caractéristiques générales
+R	73645	GIE : schémas de comptabilisation
+R	73770	GIE : contrôle
+S	73775	Société en participation (SEP)
+R	73775	SEP : caractéristiques générales
+R	73905	SEP : schémas de comptabilisation
+L	73965	SEP : apports
+L	74105	SEP : acquisition ou création de biens
+L	74220	SEP : opérations d'exploitation et partage du résultat
+L	74290	SEP : documents de synthèse
+L	74350	SEP : contrôle
+S	74360	Fiducie
+R	74360	Fiducie : caractéristiques générales
+R	74450	Fiducie : schémas de comptabilisation
+L	74470	Fiducie : chez le constituant
+L	74545	Fiducie : dans la fiducie
+C	20	Fusions et opérations assimilées
+S	75005	Fusions : règles comptables et fiscales spécifiques (règlement ANC 2017-01)
+S	75120	Valorisation des apports (fusion)
+R	75120	Lien entre rapport d'échange (parité) et valorisation des apports
+R	75225	Principes de valorisation des apports
+L	75225	Valorisation des apports : principe général
+L	75280	Notion de contrôle (fusion)
+L	75335	Sens de l'opération (fusion à l'envers)
+L	75385	Dérogations au principe de valorisation des apports
+R	75460	Détermination des valeurs d'apport
+L	75460	Apports à la valeur réelle
+L	75465	Apports en valeur comptable
+S	75470	Comptabilisation des opérations de fusion
+R	75475	Fusion : comptabilisation chez l'absorbée
+R	75540	Fusion : comptabilisation chez l'absorbante
+R	75625	Mali de fusion
+L	75625	Mali de fusion : définitions
+L	75685	Comptabilisation du mali de fusion
+L	75740	Affectation du mali de fusion
+L	75790	Mali technique après la fusion
+L	75855	Boni de fusion
+R	75905	Fusion : comptabilisation chez les associés de l'absorbée
+S	75910	Scission (comptabilisation)
+S	76015	Apport partiel d'actif (comptabilisation)
+R	76015	Apport partiel d'actif : chez l'apporteuse
+R	76050	Apport partiel d'actif : chez les actionnaires de l'apporteuse
+R	76090	Apport partiel d'actif : chez la bénéficiaire
+S	76195	Rétroactivité : incidences comptables et fiscales
+R	76195	Date d'effet comptable (fusion)
+R	76200	Date d'effet rétroactif : conséquences pratiques
+L	76200	Opérations de la période intercalaire
+L	76255	Perte de rétroactivité (période intercalaire)
+S	76360	Commissaires à la fusion et aux apports
+R	76360	Intervention du commissaire à la fusion et aux apports
+R	76435	Missions du commissaire à la fusion et aux apports
+S	76440	Fusion : information comptable et financière
+T	IV	Information et contrôle
+C	21	L'information comptable et financière à la charge de l'entreprise
+S	80025	Information à la charge de toutes les entreprises
+S	80135	Information complémentaire des sociétés commerciales
+R	80135	Information des associés
+R	80280	Information du CSE (comptable)
+R	80385	Information des commissaires aux comptes
+R	80535	Information des administrateurs et du conseil de surveillance
+R	80605	Information à la disposition du public
+L	80605	Statuts (SA)
+L	80660	Dépôt au greffe
+R	80780	Sociétés émettant des titres de créances négociables
+S	80900	Sociétés cotées : informations complémentaires
+R	80900	Plate-forme de négociation (notion)
+R	81040	Offre au public de titres financiers
+R	81380	Information réglementée
+R	81480	Information permanente
+R	81680	Information périodique (cotées)
+L	81680	Récapitulatif des publications périodiques
+L	81745	Publications annuelles des sociétés cotées sur marché réglementé
+L	81950	Publications annuelles Euronext Growth / Access
+R	82025	Information à l'occasion d'opérations particulières
+L	82025	Admission et offre au public de titres financiers (prospectus)
+L	82210	Information lors d'autres opérations
+S	82500	Sanctions en matière d'information financière
+R	82500	Manquements aux règles de l'AMF
+R	82575	Délits boursiers
+C	22	Audit financier et de durabilité
+S	85005	Désignation des CAC dans les sociétés commerciales (seuils)
+S	85015	Mission de certification de l'état de durabilité
+S	85100	La H2A, régulateur de la profession
+P	A	Appendices
+X	95505	Modèles de bilan et compte de résultat : système de base
+X	95605	Modèles de bilan et compte de résultat : système abrégé
+X	96195	Liste des comptes du PCG
