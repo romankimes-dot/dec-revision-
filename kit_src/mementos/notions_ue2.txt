@@ -16,9 +16,9 @@ Société de commissaires aux comptes, modes d'exercice | AUD 1610* 1260 1440 |
 CAC : durée du mandat (6 exercices, 3 exercices) || Mandat du CAC : durée, expiration | AUD 2120 47050 ; SOC 77625* | k103 k117 k157 k158
 ALPE : mandat de 3 exercices, NEP 911 et 912 || Audit légal des petites entreprises (ALPE) | AUD 47000* 47100 47400 47700 | k007 k158 k157
 ALPE : rapport sur les risques, diligences dispensées | AUD 48050* 48350 48450 | k008 k201
-CAC : cessation des fonctions (terme, démission, empêchement) || Démission du CAC | AUD 2445* 2450 2645 ; SOC 77700 77720 77780 | k088 k117
+CAC : cessation des fonctions (terme, démission, empêchement) || Démission du CAC | AUD 2445* 2450 2645 ; SOC 77700 77720 77780 77730 | k088 k117
 CAC : récusation, relèvement judiciaire || Récusation et relèvement du CAC | AUD 2450* ; SOC 77710 77750 | k203 k208
-Succession entre confrères, dossier de travail | AUD 25780* 5360 98500 | k237
+Succession entre confrères, dossier de travail | AUD 5360* 25780 98500 2645 | k237
 
 ## Déontologie, indépendance
 Indépendance du CAC : principes, risques et sauvegardes | AUD 3530* 3550 3755 4295 | k138 k216 k166 k167 k134 k143
@@ -46,12 +46,12 @@ Délit d'entrave (obstacle à la mission du CAC) | AUD 9400* | k110 k087 k080
 Assurance responsabilité professionnelle du CAC | AUD 15800* |
 Responsabilité des dirigeants (civile, fiscale) | SOC 13940* 13950 14300 14790 ; ASSO 15260 |
 Responsabilité pénale de la personne morale, de l'employeur | SOC 4590* ; SCL 67000 |
-Abus de biens sociaux | SOC 80570 | k002 k097
+Abus de biens sociaux | SOC 80570 42270 | k002 k097
 
 ## Révélation, irrégularités, LCB-FT
 Révélation des faits délictueux au procureur | AUD 6100* 6150 6250 6315 6390 | k215 k141 k125
 Irrégularités et inexactitudes : signalement à l'AG | AUD 5930* | k145
-Fraude : prise en compte dans l'audit | AUD 98530 25310 | k124 k125
+Fraude : prise en compte dans l'audit | AUD 25310* 98530 | k124 k125
 LCB-FT : vigilance (identification du client, bénéficiaire effectif) || Blanchiment : obligations de vigilance | AUD 6470* 6520 6530 6620 6650 6910 | k149 k024 k029 k250 k115 k169
 LCB-FT : déclaration de soupçon à Tracfin || Tracfin : déclaration de soupçon | AUD 6800* | k078 k079
 Bénéficiaires effectifs (registre) | SOC 3350* 85700 ; ASSO 5750 | k029
@@ -142,7 +142,7 @@ Cautions, avals et garanties ; cautionnement des dettes sociales | SOC 15010* ; 
 SA : conseil d'administration (administrateurs, président, pouvoirs) | SOC 39010* 39100 40500 40510 40840 |
 SA : directeur général, directeurs généraux délégués | SOC 42500* 42501 42640 |
 SA : directoire et conseil de surveillance | SOC 43510* 44200 44810 |
-Comité d'audit | SOC 42860* 45200 ; AUD 26500 3781 93500 |
+Comité d'audit | SOC 42860* 45200 ; AUD 26500 3781 |
 SARL : gérance (nomination, révocation, pouvoirs, rémunération) | SOC 31000* 31130 31240 31530 31640 |
 SAS : président, direction, contrôle | SOC 60310* 60430 |
 Expertise de gestion | SOC 53000* 32180 |
@@ -187,7 +187,7 @@ Actions de préférence | SOC 67780* ; AUD 56880 56990 |
 Valeurs mobilières donnant accès au capital (OCA, BSA, ORA) | SOC 74010* 74145 ; AUD 57150 ; CPT 41255 38180 |
 Stock-options, actions gratuites, BSPCE | SOC 69980* 69410 70410 ; AUD 57340 57370 57400 ; CPT 55700 ; FISC 88400 |
 Obligations : émission, masse des obligataires | SOC 71000* 71200 71500 ; CPT 41080 |
-Perte de la moitié du capital | SOC 54500 35000 | k176 k177 k178 k179
+Perte de la moitié du capital | SOC 54500 35000 76600 | k176 k177 k178 k179
 Capitaux propres, réserves, report à nouveau | CPT 55005* 56080 57230 |
 
 ## Dividendes, résultat
@@ -274,7 +274,7 @@ Provisions réglementées, amortissements dérogatoires | CPT 56305* 29035 |
 Emprunts, créances et dettes en devises | CPT 40940* 40945 40295 40370 |
 Instruments financiers à terme, couverture | CPT 41565* 41430 |
 Abandon de créance | CPT 42220* |
-Impôt sur les résultats et impôts différés (comptabilisation) | CPT 52595* 52890 52950 |
+Impôt sur les résultats et impôts différés (comptabilisation) | CPT 52950* 52595 52890 |
 Redressement fiscal ou Urssaf : comptabilisation | CPT 53090* 53230 |
 Participation des salariés (réserve spéciale) | CPT 53545* 53595 ; SCL 33730 |
 Annexe : contenu, insuffisance | CPT 64525* 64625 64835 ; AUD 30480 | k013 k012 k014
@@ -284,7 +284,7 @@ Comptes intermédiaires, comptes prévisionnels | CPT 65385* 65475 |
 Tenue de comptabilité : livres, pièces, conservation, comptabilité informatisée (FEC) | CPT 7010* 7080 7225 7435 7520 ; FISC 78110 |
 Valeur probante, rejet de comptabilité, examen de conformité fiscale | CPT 8640* 8645 8670 |
 TVA : comptabilisation | CPT 46480* 46570 |
-Frais d'établissement, charges à répartir | CPT 45005* 45110 |
+Frais d'établissement, charges à répartir | CPT 45110* 45005 |
 Plan de comptes (PCG), modèles de bilan et de compte de résultat | CPT 96195* 95505 |
 Durée de l'exercice, date de clôture | CPT 7940* ; SOC 76005 |
 
@@ -320,7 +320,7 @@ Licenciement pour motif personnel : motif, procédure, indemnités | SCL 48540* 
 Licenciement économique | SCL 47040* 47250 |
 Rupture du contrat : démission, rupture conventionnelle, préavis, transaction | SCL 69000* 69210 69560 |
 Transfert d'entreprise (L. 1224-1) | SCL 74550* |
-Durée du travail, heures supplémentaires, forfait jours | SCL 40900* 29400 30590 |
+Durée du travail, heures supplémentaires, forfait jours | SCL 29400* 40900 30590 |
 Congés payés | SCL 13100* |
 Cotisations sociales : assiette, avantages en nature, frais professionnels | SCL 22320* 22480 22600 22820 |
 Contrôle Urssaf, redressement, rescrit social | SCL 24200* 24278 24460 | k061

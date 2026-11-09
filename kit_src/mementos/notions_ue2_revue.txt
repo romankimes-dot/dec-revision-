@@ -49,12 +49,14 @@ CAC : cessation des fonctions (terme, démission, empêchement) 	AUD 2645	Cessat
 CAC : cessation des fonctions (terme, démission, empêchement) 	SOC 77700	Cessation des fonctions des CAC
 CAC : cessation des fonctions (terme, démission, empêchement) 	SOC 77720	CAC : démission
 CAC : cessation des fonctions (terme, démission, empêchement) 	SOC 77780	CAC : conséquences de la cessation des fonctions
+CAC : cessation des fonctions (terme, démission, empêchement) 	SOC 77730	CAC : empêchement
 CAC : récusation, relèvement judiciaire 	AUD 2450	Causes de cessation des fonctions (démission, récusation, relèvement)
 CAC : récusation, relèvement judiciaire 	SOC 77710	CAC : récusation
 CAC : récusation, relèvement judiciaire 	SOC 77750	CAC : relèvement judiciaire
-Succession entre confrères, dossier de travail	AUD 25780	Documentation des travaux (dossier de travail)
 Succession entre confrères, dossier de travail	AUD 5360	Levée du secret : confrères, collaborateurs et experts
+Succession entre confrères, dossier de travail	AUD 25780	Documentation des travaux (dossier de travail)
 Succession entre confrères, dossier de travail	AUD 98500	Structure de dossier type
+Succession entre confrères, dossier de travail	AUD 2645	Cessation des fonctions : modalités de mise en œuvre
 Indépendance du CAC : principes, risques et sauvegardes	AUD 3530	Indépendance du CAC
 Indépendance du CAC : principes, risques et sauvegardes	AUD 3550	Indépendance : notions générales
 Indépendance du CAC : principes, risques et sauvegardes	AUD 3755	Situations à risque et mesures de sauvegarde
@@ -117,14 +119,15 @@ Responsabilité des dirigeants (civile, fiscale)	ASSO 15260	Responsabilité des 
 Responsabilité pénale de la personne morale, de l'employeur	SOC 4590	Responsabilité pénale de la personne morale
 Responsabilité pénale de la personne morale, de l'employeur	SCL 67000	Conditions de la responsabilité pénale de l'employeur
 Abus de biens sociaux	SOC 80570	Risque pénal (abus de biens sociaux, intérêt de groupe)
+Abus de biens sociaux	SOC 42270	Administrateurs : responsabilité pénale
 Révélation des faits délictueux au procureur	AUD 6100	Révélation des faits délictueux
 Révélation des faits délictueux au procureur	AUD 6150	Révélation : champ d'application
 Révélation des faits délictueux au procureur	AUD 6250	Mise en œuvre de la révélation des faits délictueux
 Révélation des faits délictueux au procureur	AUD 6315	Modalités de la révélation (procureur de la République)
 Révélation des faits délictueux au procureur	AUD 6390	Conséquences de la révélation
 Irrégularités et inexactitudes : signalement à l'AG	AUD 5930	Irrégularités et inexactitudes (signalement)
-Fraude : prise en compte dans l'audit	AUD 98530	Questionnaire d'identification des risques de fraude
 Fraude : prise en compte dans l'audit	AUD 25310	Approche par les risques
+Fraude : prise en compte dans l'audit	AUD 98530	Questionnaire d'identification des risques de fraude
 LCB-FT : vigilance (identification du client, bénéficiaire effectif) 	AUD 6470	Blanchiment des capitaux et financement du terrorisme (LCB-FT)
 LCB-FT : vigilance (identification du client, bénéficiaire effectif) 	AUD 6520	LCB-FT : vigilance avant d'accepter la relation d'affaires
 LCB-FT : vigilance (identification du client, bénéficiaire effectif) 	AUD 6530	LCB-FT : mesures de vigilance
@@ -358,7 +361,6 @@ Comité d'audit	SOC 42860	Comité d'audit (SA à CA)
 Comité d'audit	SOC 45200	Comité d'audit (SA à directoire)
 Comité d'audit	AUD 26500	Rapport complémentaire au comité d'audit
 Comité d'audit	AUD 3781	Approbation par le comité d'audit des services fournis (EIP)
-Comité d'audit	AUD 93500	Durabilité : extension du rôle du comité d'audit
 SARL : gérance (nomination, révocation, pouvoirs, rémunération)	SOC 31000	Gérance de la SARL
 SARL : gérance (nomination, révocation, pouvoirs, rémunération)	SOC 31130	SARL : cessation des fonctions du gérant (révocation)
 SARL : gérance (nomination, révocation, pouvoirs, rémunération)	SOC 31240	SARL : pouvoirs du gérant
@@ -483,6 +485,7 @@ Obligations : émission, masse des obligataires	SOC 71500	Représentation des ob
 Obligations : émission, masse des obligataires	CPT 41080	Emprunts obligataires simples
 Perte de la moitié du capital	SOC 54500	Dissolution des SA (capitaux propres < moitié du capital)
 Perte de la moitié du capital	SOC 35000	Dissolution de la SARL
+Perte de la moitié du capital	SOC 76600	Sort des pertes sociales
 Capitaux propres, réserves, report à nouveau	CPT 55005	Fonds propres : définitions et éléments constitutifs
 Capitaux propres, réserves, report à nouveau	CPT 56080	Réserves et report à nouveau
 Capitaux propres, réserves, report à nouveau	CPT 57230	Variations des capitaux propres
@@ -709,9 +712,9 @@ Emprunts, créances et dettes en devises	CPT 40370	Devises : valeur au bilan (é
 Instruments financiers à terme, couverture	CPT 41565	Opérations de couverture (comptabilité de couverture)
 Instruments financiers à terme, couverture	CPT 41430	Instruments financiers à terme
 Abandon de créance	CPT 42220	Abandons de créances et renonciations à des recettes
+Impôt sur les résultats et impôts différés (comptabilisation)	CPT 52950	Comptabilisation des impôts différés
 Impôt sur les résultats et impôts différés (comptabilisation)	CPT 52595	Résultats : problèmes particuliers de comptabilisation
 Impôt sur les résultats et impôts différés (comptabilisation)	CPT 52890	Situation fiscale différée ou latente
-Impôt sur les résultats et impôts différés (comptabilisation)	CPT 52950	Comptabilisation des impôts différés
 Redressement fiscal ou Urssaf : comptabilisation	CPT 53090	Rectifications fiscales et redressements Urssaf
 Redressement fiscal ou Urssaf : comptabilisation	CPT 53230	Rectifications contestées ou probables
 Participation des salariés (réserve spéciale)	CPT 53545	Participation des salariés (comptabilisation)
@@ -741,8 +744,8 @@ Valeur probante, rejet de comptabilité, examen de conformité fiscale	CPT 8645	
 Valeur probante, rejet de comptabilité, examen de conformité fiscale	CPT 8670	Rejet de la comptabilité
 TVA : comptabilisation	CPT 46480	TVA (comptabilisation)
 TVA : comptabilisation	CPT 46570	Comptabilisation de la TVA
-Frais d'établissement, charges à répartir	CPT 45005	Opérations de régularisation
 Frais d'établissement, charges à répartir	CPT 45110	Frais d'établissement
+Frais d'établissement, charges à répartir	CPT 45005	Opérations de régularisation
 Plan de comptes (PCG), modèles de bilan et de compte de résultat	CPT 96195	Liste des comptes du PCG
 Plan de comptes (PCG), modèles de bilan et de compte de résultat	CPT 95505	Modèles de bilan et compte de résultat : système de base
 Durée de l'exercice, date de clôture	CPT 7940	Durée des exercices comptables et date de clôture
@@ -830,8 +833,8 @@ Rupture du contrat : démission, rupture conventionnelle, préavis, transaction	
 Rupture du contrat : démission, rupture conventionnelle, préavis, transaction	SCL 69210	Préavis
 Rupture du contrat : démission, rupture conventionnelle, préavis, transaction	SCL 69560	Transaction
 Transfert d'entreprise (L. 1224-1)	SCL 74550	Transfert des contrats de travail (L. 1224-1)
-Durée du travail, heures supplémentaires, forfait jours	SCL 40900	Heures supplémentaires : cadre général d'exécution
 Durée du travail, heures supplémentaires, forfait jours	SCL 29400	Durée et organisation du temps de travail
+Durée du travail, heures supplémentaires, forfait jours	SCL 40900	Heures supplémentaires : cadre général d'exécution
 Durée du travail, heures supplémentaires, forfait jours	SCL 30590	Conventions de forfait (forfait jours)
 Congés payés	SCL 13100	Congés payés : droit au congé
 Cotisations sociales : assiette, avantages en nature, frais professionnels	SCL 22320	Rémunérations assujetties (assiette des cotisations)
