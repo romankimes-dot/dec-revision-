@@ -904,3 +904,19 @@ Mécénat, dons (réduction d'impôt, attestation du CAC)	ASSO 83330	Dons ouvran
 Mécénat, dons (réduction d'impôt, attestation du CAC)	ASSO 82805	Mécénat : doublement du plafond des versements ouvrant droit à la réduction d'impôt à 75 %
 Mécénat, dons (réduction d'impôt, attestation du CAC)	AUD 56400	Attestation mécénat : montant ouvrant droit à réduction d'impôt (CGI art. 238 bis)
 Mécénat, dons (réduction d'impôt, attestation du CAC)	AUD 56460	Attestation mécénat : mission du CAC
+IFRS, normes internationales, transition	CPT 3435	Sources comptables internationales (IFRS)
+IFRS, normes internationales, transition	AUD 46500	Transition vers les normes IFRS (audit des consolidés)
+Crypto-actifs, jetons (comptabilisation, plus-values)	CPT 40600	Dettes remboursables en jetons (crypto-actifs)
+Crypto-actifs, jetons (comptabilisation, plus-values)	CPT 42600	Émission de jetons (ICO)
+Crypto-actifs, jetons (comptabilisation, plus-values)	FISC 33600	Plus-values de cession d'actifs numériques (crypto)
+International : conventions fiscales, sociétés étrangères, travail à l'étranger	FISC 82600	Lecture des conventions fiscales
+International : conventions fiscales, sociétés étrangères, travail à l'étranger	FISC 82700	Contenu des conventions fiscales
+International : conventions fiscales, sociétés étrangères, travail à l'étranger	SOC 92500	Sociétés étrangères et sociétés françaises à participations étrangères
+International : conventions fiscales, sociétés étrangères, travail à l'étranger	SCL 78240	Travail hors de France : relations de travail (expatriation, détachement)
+International : conventions fiscales, sociétés étrangères, travail à l'étranger	CPT 70370	Établissements étrangers d'une entreprise française (succursales)
+International : conventions fiscales, sociétés étrangères, travail à l'étranger	CPT 70580	Établissements français d'une entreprise étrangère
+Consolidation : périmètre, méthodes, éliminations	AUD 45550	Examen du périmètre et des méthodes de consolidation
+Consolidation : périmètre, méthodes, éliminations	AUD 45700	Méthodes spécifiques à la consolidation
+Consolidation : périmètre, méthodes, éliminations	AUD 46110	Élimination des transactions intragroupe
+Consolidation : périmètre, méthodes, éliminations	AUD 46140	Élimination des titres et des capitaux propres
+Consolidation : périmètre, méthodes, éliminations	AUD 46150	Entreprises mises en équivalence

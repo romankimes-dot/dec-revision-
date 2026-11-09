@@ -345,3 +345,10 @@ Association : publication des comptes | ASSO 73140* |
 Association en difficulté, dissolution, fusion | ASSO 16405 17640 18000 |
 Fondations, fonds de dotation | ASSO 77100* 79660 80550 81620 |
 Mécénat, dons (réduction d'impôt, attestation du CAC) | ASSO 82430* 82550 83330 82805 ; AUD 56400 56460 | k159 k098
+
+## Ajouts (contrôle de couverture des thèmes des sujets)
+Concordance Livre VIII : ancien / nouveau numéro (L. 82x -> L. 821-x) | | k240
+IFRS, normes internationales, transition | CPT 3435* ; AUD 46500 |
+Crypto-actifs, jetons (comptabilisation, plus-values) | CPT 40600* 42600 ; FISC 33600 |
+International : conventions fiscales, sociétés étrangères, travail à l'étranger | FISC 82600* 82700 ; SOC 92500 ; SCL 78240 ; CPT 70370 70580 |
+Consolidation : périmètre, méthodes, éliminations | AUD 45550* 45700 46110 46140 46150 |
